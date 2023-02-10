@@ -1,6 +1,10 @@
 ---
 title: "Start"
 page: true
+menu:
+  main:
+    name: "Start"
+    weight: 1
 ---
 
 # Our local scout group

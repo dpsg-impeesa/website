@@ -2,13 +2,17 @@ baseurl = "https://dpsg-radolfzell.de"
 title = "DPSG Stamm Impeesa"
 languageCode = "de"
 DefaultContentLanguage = "de"
-paginate = "10" # Number of posts per page
-theme = "hugo-dpsg"
+paginate = "5" # Number of posts per page
+theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-easy-gallery"]
 
-[Author] # Used in authorbox
-  name = "Scout Master"
-  bio = "The Scout Master is the leader of this local scout group"
-  avatar = "img/avatar.png"
+[permalinks]
+  post = "/:year/:slug/"
+  page = "/:slug/"
+
+# [Author] # Used in authorbox
+#   name = "Scout Master"
+#   bio = "The Scout Master is the leader of this local scout group"
+#   avatar = "img/avatar.png"
 
 [Params]
   description = "Welcome to our scout group!" # Site description. Used in meta description
@@ -16,11 +20,11 @@ theme = "hugo-dpsg"
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = false # Enable Twitter Cards if true
-  readmore = false # Show "Read more" button in list if true
+  readmore = true # Show "Read more" button in list if true
   authorbox = false # Show authorbox at bottom of pages if true
   toc = false # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
-  indexPager = true # Show pager navigation on index page
+  indexPager = false # Show pager navigation on index page
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
   mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "02.01.2006" # Change the format of dates
@@ -29,15 +33,15 @@ theme = "hugo-dpsg"
   highlightColor = "#003056" # Override main theme color
 
 [Params.logo]
-  image = "img/placeholder.png" # Logo image. Path relative to "static"
-  header = "img/header.jpg" # Header image. Path relative to "static"
+  image = "/img/aufnaeher.webp" # Logo image. Path relative to "static"
+  header = "/img/header.webp" # Header image. Path relative to "static"
   title = "DPSG Stamm Impeesa" # Logo title, otherwise will use site title
   subtitle = "Radolfzell/Markelfingen" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
@@ -51,19 +55,8 @@ theme = "hugo-dpsg"
   text = "[Impressum und Datenschutz](/impressum)" # Extra text in footer row, understands markdown
   # right = "Donate!" # Right-aligned text in footer row, understands markdown
 
-# Custom menu items, normally controlled via front matter in /content files
-[menu]
-  [[menu.main]]
-    identifier = "start"
-    name = "Start"
-    url = "/"
-    weight = 1
+  
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
 
 [Params.widgets.social]
   # Enable parts of social widget
@@ -75,4 +68,23 @@ theme = "hugo-dpsg"
   # github = "dpsg-impeesa"
   # gitlab = "username"
   # bitbucket = "username"
-  email = "stamm@dpsg-radolfzell.de"
+  # email = "info@dpsg-radolfzell.de"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
