@@ -1,0 +1,51 @@
+
+<script src='/js/fullcalendar/index.global.js'></script>
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        
+      locale : 'de',
+
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'listYear,dayGridMonth,dayGridWeek'
+      },
+
+      // customize the button names,
+      // otherwise they'd all just say "list"
+      views: {
+        listYear: { buttonText: 'liste' },
+        listdayGridMonth: { buttonText: 'Monat' },
+        dayGridWeek: { buttonText: 'Woche' }
+      },
+
+      initialView: 'listYear',
+      initialDate: '2023-01-12',
+      navLinks: true, // can click day/week names to navigate views
+      editable: true,
+      dayMaxEvents: true, // allow "more" link when too many events
+      
+      events: "https://www.dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/BmnSo2YZeZH7BK8m?export&accept=jcal"
+
+    });
+
+    calendar.render();
+  });
+
+</script>
+<style>
+
+  #calendar {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+</style>
+
+<div id='calendar'></div>
+
