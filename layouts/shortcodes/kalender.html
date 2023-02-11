@@ -24,13 +24,18 @@
         dayGridWeek: { buttonText: 'Woche' }
       },
 
-      initialView: 'listYear',
-      initialDate: '2023-01-12',
+      initialView: 'dayGridMonth',
+      //initialDate: '2023-01-12',
       navLinks: true, // can click day/week names to navigate views
       editable: true,
       dayMaxEvents: true, // allow "more" link when too many events
       
-      events: "https://www.dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/BmnSo2YZeZH7BK8m?export&accept=jcal"
+      eventSources: [
+        
+        {{ range os.ReadDir "/data/events" }}
+          {{ .Name | printf "/data/events/%s" | readFile | safeJS }},
+        {{ end }}
+      ]
 
     });
 
