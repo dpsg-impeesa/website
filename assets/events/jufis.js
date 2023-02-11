@@ -1,4 +1,3 @@
-
   // Jufi Termine
   {
     events: [ // put the array in the `events` property
@@ -12,4 +11,3 @@
     color: "blue",     // an option!
     textColor: "black" // an option!
   }
-

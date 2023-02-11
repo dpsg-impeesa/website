@@ -31,8 +31,8 @@
 
       eventSources: [
         
-        {{ range os.ReadDir "/data/events" }}
-          {{ .Name | printf "/data/events/%s" | readFile | safeJS }},
+        {{ range os.ReadDir "/assets/events" }}
+          {{ .Name | printf "/assets/events/%s" | readFile | safeJS }},
         {{ end }}
       ]
 
