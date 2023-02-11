@@ -13,21 +13,41 @@
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'listYear,dayGridMonth,dayGridWeek'
+        right: 'listYear,dayGridMonth,timeGridWeek'
       },
 
       // customize the button names,
       // otherwise they'd all just say "list"
       views: {
         listYear: { buttonText: 'liste' },
-        listdayGridMonth: { buttonText: 'Monat' },
-        dayGridWeek: { buttonText: 'Woche' }
+        dayGridMonth: { buttonText: 'Monat' },
+        timeGridWeek: { buttonText: 'Woche' }
       },
 
       initialView: 'dayGridMonth',
       //initialDate: '2023-01-12',
       navLinks: true, // can click day/week names to navigate views
       dayMaxEvents: true, // allow "more" link when too many events
+      dayMaxEventRows : true, // allow "more" link when too many events
+      selectable : true, // allow selecting events
+      selectMirror : true, // show selection on mirror
+      nowIndicator : true, // show current time
+
+      // show description in title text 
+      eventDidMount: function(info) {
+        if (info.event.extendedProps.description) {
+          info.el.setAttribute('title', info.event.extendedProps.description);
+        }
+      },
+
+      // go to url on click
+      eventClick: function(info) {
+        if (info.event.url) {
+          window.open(info.event.url);
+        }
+      },
+
+
 
       eventSources: [
         

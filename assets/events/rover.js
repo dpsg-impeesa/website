@@ -7,6 +7,7 @@
         start  : "2023-05-05",
         end    : "2023-05-08",
         allDay : true,
+        description : "24h Postenlauf",
       },
       {
         title  : "Rover stürmt den See",
@@ -16,6 +17,7 @@
       },
     ],
     color: "red",     // an option!
-    textColor: "black" // an option!
+    textColor: "black", // an option!
+
   }
 
