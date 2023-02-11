@@ -6,6 +6,7 @@ menu:
   main:
     name: "Kalender"
     weight: 4
+sidebar: false
 ---
 
 
