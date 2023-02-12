@@ -1,5 +1,6 @@
 ---
 title: 'Adventsfenster 2018'
+slug: adventsfenster
 date: Thu, 06 Dec 2018 05:44:20 +0000
 draft: false
 tags: ['Jungpfadfinder', 'Nachrichten', 'Wölflinge']

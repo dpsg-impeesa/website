@@ -1,5 +1,7 @@
 ---
 title: 'Spendenlauf - Jahresaktion 2022'
+slug: spendenlauf
+aliases: ['spendenlauf']
 date: Mon, 16 May 2022 21:09:50 +0000
 draft: false
 tags: ['Allgemein', 'Nachrichten', 'Stamm']

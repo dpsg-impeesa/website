@@ -1,5 +1,6 @@
 ---
 title: 'Überarbeitetes Infektionsschutzkonzept ab 14.09.2020'
+slug: infektionsschutzkonzept-v2
 date: Sun, 13 Sep 2020 21:15:57 +0000
 draft: false
 tags: ['Allgemein', 'Nachrichten', 'Stamm']

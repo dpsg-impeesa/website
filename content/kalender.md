@@ -1,5 +1,6 @@
 ---
 title: "Kalender"
+slug: kalender
 date: 2023-02-09T11:18:43+01:00
 page: true
 menu:

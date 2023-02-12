@@ -1,5 +1,9 @@
 ---
 title: 'Vorstellung Jufitrupp'
+slug: jufis
+aliases: 
+    - /jufis/
+    - /jufitrupp/
 date: Sun, 04 Jul 2021 19:02:49 +0000
 draft: false
 tags: ['Jungpfadfinder', 'Jungpfadfindervorstellung', 'Stammes/Truppvorstellungen']

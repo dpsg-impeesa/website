@@ -1,5 +1,6 @@
 ---
 title: 'Eine weitere überarbeitetes Infektionsschutzkonzept ab 28.09.20'
+slug: infektionsschutzkonzept-v3
 date: Sun, 27 Sep 2020 19:43:06 +0000
 draft: false
 tags: ['Allgemein', 'Nachrichten', 'Stamm']

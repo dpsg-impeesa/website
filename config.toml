@@ -6,9 +6,8 @@ paginate = "5" # Number of posts per page
 theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-easy-gallery"]
 
 [permalinks]
-  post = "/:year/:slug/"
-  page = "/:slug/"
-
+  news = "/:year/:slugorfilename/"
+ 
 # [Author] # Used in authorbox
 #   name = "Scout Master"
 #   bio = "The Scout Master is the leader of this local scout group"

@@ -1,5 +1,6 @@
 ---
 title: '72 Stunden Aktion 2019'
+slug: 72-stunden
 date: Thu, 01 Aug 2019 10:40:48 +0000
 draft: false
 tags: ['Allgemein', 'Nachrichten', 'Stamm']

@@ -1,5 +1,8 @@
 ---
 title: 'Vorstellung Wölflingsmeute'
+slug: woelflinge
+aliases: 
+    - /woelflinge/
 date: Mon, 28 Jun 2021 08:55:56 +0000
 draft: false
 tags: ['Stammes/Truppvorstellungen', 'Wölflinge', 'Wölflingsvorstellung']

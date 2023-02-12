@@ -1,5 +1,6 @@
 ---
 title: 'Über Uns'
+slug: ueber-uns
 page: true
 menu:
   main:

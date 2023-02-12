@@ -1,5 +1,6 @@
 ---
 title: 'Friedenslicht 2018'
+slug: friedenslicht
 date: Sat, 17 Nov 2018 11:36:09 +0000
 draft: false
 tags: ['Allgemein', 'Nachrichten', 'Rover', 'Stamm']

@@ -1,6 +1,7 @@
 ---
 title: 'Kontakt'
 page: true
+slug: kontakt
 menu:
   main:
     name: 'Kontakt'

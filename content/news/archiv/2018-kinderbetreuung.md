@@ -1,5 +1,6 @@
 ---
 title: 'Kinderbetreuung  an Heiligabend durch die Rover'
+slug: kinderbetreuung-rover
 date: Sun, 18 Nov 2018 10:58:52 +0000
 draft: false
 tags: ['Nachrichten', 'Rover']
