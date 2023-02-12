@@ -1,6 +1,5 @@
 ---
 title: 'Weblinks'
-date: Mon, 27 Mar 2017 16:50:51 +0000
 page: true
 ---
 
