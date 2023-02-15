@@ -13,15 +13,15 @@
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'listYear,dayGridMonth,timeGridWeek'
+        right: 'listYear,dayGridMonth'
       },
 
       // customize the button names,
       // otherwise they'd all just say "list"
       views: {
-        listYear: { buttonText: 'liste' },
+        listYear: { buttonText: 'Liste' },
         dayGridMonth: { buttonText: 'Monat' },
-        timeGridWeek: { buttonText: 'Woche' }
+        // timeGridWeek: { buttonText: 'Woche' }
       },
 
       initialView: 'dayGridMonth',
@@ -62,10 +62,22 @@
   });
 
 </script>
-<style>
-  #calendar {
+
+
+
+<style type='text/css'>
+
+	#calendar {
     z-index: 0;
-  }
+		width: 100%;
+    max-width: 900px;
+    height: 70vh;
+    max-height: 1000px;
+		margin: 0 auto;
+		}
+  
+
+ 
 
 </style>
 
