@@ -4,6 +4,9 @@
 {{ $width := .Get "width" | default (.Get 3) | default 600 }}
 {{ $height := .Get "height" | default (.Get 4) | default 450 }}
 
+{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
+{{- $accentColor := .Site.Params.style.vars.accentColor | default (.Site.Params.accentColor | default "#810a1a") -}}
+
 <div id="karte">
 
     <div id="cookie-notice">
@@ -31,22 +34,44 @@
 
 <style>
     #cookie-notice {
-        background-color: #635c5c;
+        background-color: {{$highlightColor}};
         color: white;
-        padding: 10px;
+        padding: 1px;
+        padding: 0.5rem;
         display: none;
     }
     #cookie-notice a {
         color: white;
         margin-left: 10px;
+        margin-left: 0.5rem;
         
     }
     #karte {
-        border: 3px solid black;
+        border: 3px solid {{$highlightColor}};
+        border: 0.2rem solid {{$highlightColor}};
         border-radius: 5px;
-        width: {{ $width | add 6 }}px;
-        height: {{ $height | add 6 }}px;
+        border-radius: 0.3rem;
+        width: {{$width}}px;
+        max-width: 100%;
+        height: {{$height | add 6 }}px;
     }
+
+    /* style a tag with btn class */
+    #cookie-notice a.btn {
+        background-color: {{$accentColor}};
+        border-radius: 5px;
+        border-radius: 0.3rem;
+        padding: 0.3rem;
+        margin: 0.3rem;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+        
 
     #karte-content {
         text-align: center;
@@ -99,7 +124,7 @@
         iframe.marginheight = "0";
         iframe.marginwidth = "0";
         iframe.src = "https://www.openstreetmap.org/export/embed.html?bbox={{ $lon | add -0.005}},{{ $lat | add -0.005 }},{{ $lon | add 0.005}},{{ $lat | add 0.005 }}&layer=mapnik&marker={{ $lat }},{{ $lon}}";
-        iframe.style = "border: 1px solid black";
+        iframe.style = "border: 0px";
         div.parentNode.replaceChild(iframe, div);
 
 
