@@ -37,6 +37,7 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
   header = "/img/header.webp" # Header image. Path relative to "static"
   title = "DPSG Stamm Impeesa" # Logo title, otherwise will use site title
   subtitle = "Radolfzell/Markelfingen" # Logo subtitle
+  image_alt = "DPSG Stamm Impeesa logo" # Logo alt text
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
