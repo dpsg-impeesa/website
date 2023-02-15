@@ -14,12 +14,11 @@ Wir laden alle Motivierten, egal ob Sportskanonen, Hobbysportler oder Sportmuffe
 
 Mehr Infos zu Sicuani findest Du [hier](/images/upload/2022/Infos-Sicuani.pdf).
 
-**Wie funktioniert das genau?**
--------------------------------
+## Wie funktioniert das genau?
 
 Teilnehmen kannst Du ganz einfach:
 
-### **1\. Melde Dich an**
+### 1. Melde Dich an
 
 Fülle kurz das Anmeldefeld aus und zeige uns damit, dass Du dabei bist.
 
@@ -27,13 +26,13 @@ Diese Anmeldung dient der besseren Planung und ist unverbindlich.
 
 <!-- \[contact-form-7 id="2000" title="Anmeldung Spendenlauf"\] -->
 
-### 2\. Anmeldeformular ausdrucken und ausfüllen
+### 2. Anmeldeformular ausdrucken und ausfüllen
 
 Drucke das [Anmeldeformular](/images/upload/2022/Anmeldung-Laeufer.pdf) aus und fülle es aus. Suche geeignete Sponsoren, die Dich pro gelaufene Runde mit einem Geldbetrag unterstützen. Hier haben Deine Sponsoren auch die Möglichkeit einen Maximalbetrag anzugeben.
 
-### 3\. Komm vorbei
+### 3. Komm vorbei
 
-Komm am **25\. Juni ab 10 Uhr** mit Deiner Anmeldung ans [Pfarrheim in Markelfingen](https://goo.gl/maps/UcybzeuPwHQyy5vFA). Dort gibst Du die Anmeldung ab und erhältst im Gegenzug Deine Laufkarte. Jetzt kann es los gehen!
+Komm am **25. Juni ab 10 Uhr** mit Deiner Anmeldung ans [Pfarrheim in Markelfingen](https://goo.gl/maps/UcybzeuPwHQyy5vFA). Dort gibst Du die Anmeldung ab und erhältst im Gegenzug Deine Laufkarte. Jetzt kann es los gehen!
 
 Das Großartige an der Sache ist, dass Du nicht die ganze Zeit durchlaufen musst. Du kannst jederzeit auf die Pfarrwiese abbiegen und dort bei Getränken, Essen und Unterhaltung verschnaufen. Wenn Du dann wieder Kräfte gesammelt hast, geht es einfach in eine neue Runde.
 
@@ -41,14 +40,13 @@ Wenn Du nicht mehr weiterlaufen willst oder es bereits 13 Uhr ist, gibst Du b
 
 Genieße den Mittag auf der Pfarrwiese bei Getränken, Essen, musikalischer Begleitung und weiteren Highlights.
 
-### 4\. Überweise die Spenden
+### 4. Überweise die Spenden
 
 Sammle die Spenden von Deinen Sponsoren ein und überweise uns die erlaufene Gesamtsumme.
 
 Die Spenden werden von uns dann auf direktem Weg an unsere Partnergemeine Sicuani übermittelt.
 
-**Du möchtest nicht mitlaufen, würdest aber trotzdem gerne etwas Gutes tun?**
------------------------------------------------------------------------------
+## Du möchtest nicht mitlaufen, würdest aber trotzdem gerne etwas Gutes tun?
 
 Kein Problem, wir freuen uns auch, wenn Du einfach zur Pfarrwiese kommst und dort gemütlich mit uns den Tag verbringst. Der Erlös der verschiedenen Stände geht ebenfalls an unsere Partnergemeinde.
 
@@ -58,7 +56,6 @@ Bei weiteren Fragen kannst Du Dich gerne jederzeit bei allen Leitern des Stamm
 
 Wir freuen uns auf Dich
 
-Mit freundlicher Unterstützung von:
------------------------------------
+## Mit freundlicher Unterstützung von:
 
 {{< gallery dir="/images/upload/2022/sponsoren-logos" caption-position="none" />}}

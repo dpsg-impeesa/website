@@ -5,7 +5,7 @@ menu:
   main:
     name: "Galerie"
     weight: 4
-pager: false
+pageFeed: false
 ---
 
 {{< gallery caption-effect="none">}}

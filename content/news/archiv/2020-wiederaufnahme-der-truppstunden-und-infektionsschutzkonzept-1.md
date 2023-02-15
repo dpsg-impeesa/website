@@ -3,7 +3,7 @@ title: 'Wiederaufnahme der Truppstunden und Beachtung unseres Infektionsschutzko
 slug: infektionsschutzkonzept-v1
 date: Sun, 05 Jul 2020 20:22:30 +0000
 draft: false
-tags: ['Allgemein', 'Jungpfadfinder', 'Nachrichten', 'Pfadfinder', 'Rover', 'Stamm', 'Wölflinge']
+tags: ['Allgemein',  'Nachrichten', 'Stamm']
 ---
 
 Wie freuen uns sehr, dass wir wieder unsere Gruppenstunden aufnehmen können!
