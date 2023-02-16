@@ -71,6 +71,7 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
   # gitlab = "username"
   # bitbucket = "username"
   # email = "info@dpsg-radolfzell.de"
+  rss = true
 
 [markup]
   [markup.goldmark]
