@@ -1,8 +1,9 @@
 ---
 title: "Kalender"
-slug: kalender
+slug: nc-kalender
 page: true
 sidebar: false
+
 ---
 
 {{< nc-kalender >}}
