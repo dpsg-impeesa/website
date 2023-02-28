@@ -31,6 +31,7 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
   progressive_webapp = false # Enable Progressive Web App if true
   customPartial = "plausible.html" # Custom partial to include in head
   expanded_menu = false # always show menu items in expanded mode on mobile
+  start_button = true # show dpsg logo button in menu bar that links to the index page
 
 [Params.style.vars]
   highlightColor = "#003056" # Override main theme color
