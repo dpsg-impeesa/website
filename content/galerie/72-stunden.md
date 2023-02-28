@@ -1,6 +1,11 @@
 ---
 title: "72 Stunden Aktion"
 page: true
+menu:
+  main:
+    name: "72 Stunden Aktion"
+    parent: "galerie"
+    weight: 72
 ---
 
 {{< load-photoswipe >}}

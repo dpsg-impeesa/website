@@ -4,6 +4,7 @@ page: true
 menu:
   main:
     name: "Galerie"
+    identifier: "galerie"
     weight: 4
 pageFeed: false
 ---

@@ -1,6 +1,11 @@
 ---
 title: "Rover-Stufe"
 page: true
+menu:
+  main:
+    name: "Rover"
+    parent: "galerie"
+    weight: 4
 ---
 
 {{< load-photoswipe >}}

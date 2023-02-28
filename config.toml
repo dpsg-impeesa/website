@@ -30,6 +30,7 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
   selfHosted = true # Use self-hosted fonts/js/css if true
   progressive_webapp = false # Enable Progressive Web App if true
   customPartial = "plausible.html" # Custom partial to include in head
+  expanded_menu = false # always show menu items in expanded mode on mobile
 
 [Params.style.vars]
   highlightColor = "#003056" # Override main theme color
@@ -71,7 +72,7 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
   # gitlab = "username"
   # bitbucket = "username"
   # email = "info@dpsg-radolfzell.de"
-  rss = "news"
+  rss = "/news/index.xml"
 
 [markup]
   [markup.goldmark]

@@ -1,6 +1,11 @@
 ---
 title: "Wölflings-Stufe"
 page: true
+menu:
+  main:
+    name: "Wölflinge"
+    parent: "galerie"
+    weight: 1
 ---
 
 {{< load-photoswipe >}}

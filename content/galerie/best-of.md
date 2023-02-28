@@ -2,6 +2,11 @@
 title: "Best of"
 slug: "best-of"
 page: true
+menu:
+  main:
+    name: "Best of"
+    parent: "galerie"
+    weight: 1
 ---
 
 {{< load-photoswipe >}}
