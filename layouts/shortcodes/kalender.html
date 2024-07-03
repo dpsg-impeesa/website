@@ -46,15 +46,18 @@
           window.open(info.event.url);
         }
       },
+      events: {
+      	url: 'https://cloud.dpsg-bodensee.de/remote.php/dav/public-calendars/2TEopJmk2yQrBWQ9/?export',
+      	format: 'ics'
+      }
 
 
-
-      eventSources: [
+      // eventSources: [
         
-        {{ range os.ReadDir "/assets/events" }}
-          {{ .Name | printf "/assets/events/%s" | readFile | safeJS }},
-        {{ end }}
-      ]
+      //   {{ range os.ReadDir "/assets/events" }}
+      //     {{ .Name | printf "/assets/events/%s" | readFile | safeJS }},
+      //   {{ end }}
+      // ]
 
     });
 
