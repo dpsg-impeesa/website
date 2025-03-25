@@ -2,7 +2,6 @@ baseurl = "https://impeesa.steinr.eu/"
 title = "DPSG Stamm Impeesa"
 languageCode = "de"
 DefaultContentLanguage = "de"
-paginate = "5" # Number of posts per page
 theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
 
 [permalinks]
@@ -12,6 +11,9 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
 #   name = "Scout Master"
 #   bio = "The Scout Master is the leader of this local scout group"
 #   avatar = "img/avatar.png"
+
+[pagination]
+  pagerSize  = "5" # Number of posts per page
 
 [Params]
   description = "Welcome to our scout group!" # Site description. Used in meta description
@@ -87,7 +89,7 @@ theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
     disable = true
   [privacy.instagram]
     disable = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
   [privacy.vimeo]
     disable = true
