@@ -1,2 +1,5 @@
-/wordpress/* /:splat
-/cloud https://dpsg-radolfzell-cloud.de 301
+/wordpress      /                                   301
+/wordpress/*    /:splat                             301
+/category/nachrichten/:tag/ /tags/:tag/             301
+/tags/woelflinge/ /tags/wölflinge/                     
+/cloud          https://dpsg-radolfzell-cloud.de    301
