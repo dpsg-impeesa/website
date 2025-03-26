@@ -1,6 +1,8 @@
 ---
 title: "Best of"
 slug: "best-of"
+aliases:
+- "/galerie/galerie-best-of"
 page: true
 menu:
   main:
