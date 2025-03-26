@@ -41,11 +41,11 @@ theme = []
   highlightColor = "#003056" # Override main theme color
 
 [Params.logo]
-  image = "/img/aufnaeher.webp" # Logo image. Path relative to "static"
+  image = "/img/logo.png" # Logo image. Path relative to "static"
   header = "/img/header.webp" # Header image. Path relative to "static"
   title = "DPSG Stamm Impeesa" # Logo title, otherwise will use site title
   subtitle = "Radolfzell/Markelfingen" # Logo subtitle
-  image_alt = "DPSG Stamm Impeesa logo" # Logo alt text
+  image_alt = "DPSG Stamm Impeesa Radolfzell e.V. logo" # Logo alt text
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
