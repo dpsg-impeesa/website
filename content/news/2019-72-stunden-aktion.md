@@ -1,11 +1,12 @@
 ---
 title: '72 Stunden Aktion 2019'
-slug: 72-stunden
+slug: 72h-aktion
 date: Thu, 01 Aug 2019 10:40:48 +0000
 draft: false
-tags: ['Allgemein', 'Nachrichten', 'Stamm']
+tags: ['jahresaktion','stamm']
 thumbnail: /images/upload/2019/logo-72-stunden-aktion-datum-gruen.webp
 thumbnail_hide_post: true
+summary: "Die Diesjährige 72 Stunden Aktion war ein voller Erfolg. In kürzester Zeit bauten wir eine Schutzhütte auf dem Kohlplatz in Markelfingen. Vom 23.5.-26.5. hatten wir dafür Zeit."
 ---
 
 {{< load-photoswipe >}}

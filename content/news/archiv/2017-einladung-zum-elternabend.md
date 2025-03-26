@@ -2,7 +2,7 @@
 title: 'Einladung zum Gesamt Elternabend am 06.04.2017'
 slug: einladung-zum-gesamtelternabend
 date: Wed, 29 Mar 2017 18:41:25 +0000
-draft: false
+draft: true 
 tags: ['Allgemein', 'Nachrichten']
 ---
 

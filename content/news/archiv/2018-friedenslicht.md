@@ -2,7 +2,7 @@
 title: 'Friedenslicht 2018'
 slug: friedenslicht
 date: Sat, 17 Nov 2018 11:36:09 +0000
-draft: false
+draft: true
 tags: ['Allgemein', 'Nachrichten', 'Rover', 'Stamm']
 thumbnail: /images/upload/2018/Friedenslicht_LogoBlock_Web.webp
 ---

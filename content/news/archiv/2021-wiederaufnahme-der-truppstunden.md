@@ -2,7 +2,7 @@
 title: 'Wiederaufnahme der Truppstunden'
 slug: infektionsschutzkonzept-v4
 date: Sun, 13 Jun 2021 21:04:47 +0000
-draft: false
+draft: true
 tags: ['Allgemein', 'Nachrichten', 'Stamm']
 ---
 

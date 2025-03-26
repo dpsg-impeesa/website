@@ -2,7 +2,7 @@
 title: 'Wiederaufnahme der Truppstunden und Beachtung unseres Infektionsschutzkonzepts'
 slug: infektionsschutzkonzept-v1
 date: Sun, 05 Jul 2020 20:22:30 +0000
-draft: false
+draft: true
 tags: ['Allgemein',  'Nachrichten', 'Stamm']
 ---
 

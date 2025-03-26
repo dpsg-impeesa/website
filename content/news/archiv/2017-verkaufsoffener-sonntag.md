@@ -2,7 +2,7 @@
 title: 'Verkaufsoffener Sonntag'
 slug: verkaufsoffener-sonntag
 date: Wed, 29 Mar 2017 18:53:56 +0000
-draft: false
+draft: true 
 tags: ['Allgemein', 'Nachrichten']
 ---
 
