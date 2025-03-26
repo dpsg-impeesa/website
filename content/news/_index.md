@@ -7,6 +7,6 @@ aliases:
 menu:
   main:
     name: "Nachrichten"
-    weight: 3
+    weight: 1
 pageFeed: true
 ---
