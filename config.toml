@@ -2,7 +2,7 @@ baseurl = "https://impeesa.steinr.eu/"
 title = "DPSG Stamm Impeesa"
 languageCode = "de"
 DefaultContentLanguage = "de"
-theme = [ "hugo-dpsg", "hugo-photoswipe-gallery"]
+theme = []
 
 [permalinks]
   news = "/news/:slug-:year"
@@ -98,3 +98,9 @@ theme = [ "hugo-dpsg", "hugo-photoswipe-gallery"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[module]
+[[module.imports]]
+    path = 'github.com/emhl/hugo-dpsg'
+[[module.imports]]
+    path = 'github.com/emhl/hugo-photoswipe-gallery'
