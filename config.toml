@@ -14,6 +14,8 @@ theme = []
 
 [pagination]
   pagerSize  = "5" # Number of posts per page
+  disableAliases = false
+  path = ''
 
 [Params]
   description = "Welcome to our scout group!" # Site description. Used in meta description
@@ -95,6 +97,8 @@ theme = []
     disable = true
   [privacy.youtube]
     disable = true
+
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
