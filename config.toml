@@ -2,7 +2,7 @@ baseurl = "https://impeesa.steinr.eu/"
 title = "DPSG Stamm Impeesa"
 languageCode = "de"
 DefaultContentLanguage = "de"
-theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
+theme = [ "hugo-dpsg", "hugo-photoswipe-gallery"]
 
 [permalinks]
   news = "/news/:slug-:year"
