@@ -1,9 +1,9 @@
 ---
-title: "Neuigkeiten"
+title: "Nachrichten"
 page: true
 menu:
   main:
-    name: "News"
+    name: "Nachrichten"
     weight: 3
 pageFeed: true
 ---

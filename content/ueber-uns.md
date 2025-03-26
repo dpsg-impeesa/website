@@ -15,30 +15,32 @@ Wir wurden am 3. April 1956 in Radolfzell gegründet. Der Gründungsname unseres
 ### Wölflinge (2.-4. Klasse)
 
 Dienstag 18:00-19:30  
-Leiter: Samuel, Friedemann, Helen, David und Eliana  
+Leiter: Samuel, Friedemann, David, Louisa, Lotta und Silas  
 Kontakt: {{< cloakemail "woelflinge@dpsg-radolfzell.de" >}}
 
 ### Jungpfadfinder (5.-7. Klasse)
 
 Montag 18:15-19:45  
-Leiter: Ann-ky, Domi, Steffen, Julia, Frederik und Jakob  
+Leiter: Frederik, Jakob, Helen, Mathis und Enya  
 Kontakt: {{< cloakemail "jufis@dpsg-radolfzell.de" >}}
 
-### Pfadfinder (8.-10. Klasse)
+### Pfadis (8.-10. Klasse)
 
 Montag 20:00-21:30  
-Leiter: Eliana & Emil  
+Leiter: Steffen und Emil  
 Kontakt: {{< cloakemail "pfadis@dpsg-radolfzell.de" >}}
 
 ### Rover (ab 11. Klasse)
 
 Freitags ab 20:00 Uhr  
 Kontakt: {{< cloakemail "rover@dpsg-radolfzell.de" >}}
+instagram [@rover_impeesa](https://instagram.com/rover_impeesa)
 
 ### Vorstand:
 
-Thomas  
+Thomas und David  
 Kontakt: {{< cloakemail "vorstand@dpsg-radolfzell.de" >}}
+
 
 ## Wo wir zu finden sind
 
