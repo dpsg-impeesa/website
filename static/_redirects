@@ -1,3 +1,2 @@
-/home / 301
-/cloud https://www.dpsg-radolfzell-cloud.de 301
-/spendenlauf /news/spendenlauf-2023 307
+/wordpress/* /:splat
+/cloud https://dpsg-radolfzell-cloud.de 301
