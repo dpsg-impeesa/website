@@ -5,7 +5,7 @@ DefaultContentLanguage = "de"
 theme = ["hugo-cloak-email", "hugo-dpsg", "hugo-photoswipe-gallery"]
 
 [permalinks]
-  news = "/:year/:slug/"
+  news = "/news/:slug-:year"
  
 # [Author] # Used in authorbox
 #   name = "Scout Master"
