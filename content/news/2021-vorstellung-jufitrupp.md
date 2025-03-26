@@ -1,12 +1,12 @@
 ---
 title: 'Vorstellung Jufitrupp'
-slug: jufis
+slug: jufi-vorstellung
 aliases: 
     - /jufis/
     - /jufitrupp/
 date: Sun, 04 Jul 2021 19:02:49 +0000
 draft: false
-tags: ['Jungpfadfinder', 'Stammes/Truppvorstellungen']
+tags: ['Vorstellungen', 'Jungpfadfinder' ]
 thumbnail: /images/upload/2021/WhatsApp-Image-2021-07-06-at-20.20.04.jpeg
 ---
 
