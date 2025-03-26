@@ -61,7 +61,7 @@ theme = []
   tags_counter = false # Enable counter for each tag in "Tags" widget
 
 [Params.footer]
-  text = "[Impressum und Datenschutz](/impressum)" # Extra text in footer row, understands markdown
+  text = "[Impressum und Datenschutz](/impressum/)" # Extra text in footer row, understands markdown
   # right = "Donate!" # Right-aligned text in footer row, understands markdown
 
 
