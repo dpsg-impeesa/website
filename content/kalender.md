@@ -10,4 +10,4 @@ sidebar: false
 ---
 
 
-{{< kalender >}}
+{{< nc-kalender >}}
