@@ -2,6 +2,9 @@
 title: 'Impresum/Datenschutz'
 page: true
 slug: impressum
+aliases:
+  - /kontakt-impressum
+  - /kontaktimpressum
 ---
 
 Das nachfolgende Impressum und die nachfolgende Datenschutzerklärung gelten für [www.dpsg-radolfzell.de](https://www.dpsg-radolfzell.de) / [www.dpsg-radolfzell.com](https://dpsg-radolfzell.com) sowie unsere Social Media Präsenzen:  

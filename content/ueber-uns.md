@@ -2,6 +2,9 @@
 title: 'Über Uns'
 slug: ueber-uns
 page: true
+aliases:
+  - /uber-uns
+  - /über-uns
 menu:
   main:
     name: 'Über Uns'
@@ -9,6 +12,10 @@ menu:
 ---
 
 Wir wurden am 3. April 1956 in Radolfzell gegründet. Der Gründungsname unseres Stammes war Siedlung Wiking,  wurde dann sehr viel später  in Stamm Impeesa geändert. _Impeesa_ war ein Spitzname des Gründers der Pfadfinder, Lord Baden-Powell und heißt übersetzt „der Wolf der nie schläft“.
+
+## [Anmeldung/Warteliste](anmeldung-warteliste)
+
+Um Mitglied zu werden, oder sich auf die Warteliste setzen zu lassen können sie sich [hier](/anmeldung-warteliste) an unsere Mitgliederverwaltung wenden.
 
 ## Wann ist Gruppenstunde?
 

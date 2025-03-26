@@ -2,4 +2,11 @@
 /wordpress/*    /:splat                             301
 /category/nachrichten/:tag/ /tags/:tag/             301
 /tags/woelflinge/ /tags/wölflinge/                     
+
 /cloud          https://dpsg-radolfzell-cloud.de    301
+/rosskur-anmeldung https://dpsg-freiburg.de/service/veranstaltungen/rosskur-2025/
+/rosskur-trailer https://youtu.be/c1hPXJ-CM34
+/karte-wl24 https://umap.openstreetmap.de/de/map/wanderlager-2024_75885
+/imp33sa-clan https://youtu.be/dxWlBO98Duc
+/qr-pfadis https://www.instagram.com/pfadistufe_impeesa
+
