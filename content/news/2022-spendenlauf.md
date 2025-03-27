@@ -2,7 +2,8 @@
 title: 'Spendenlauf - Jahresaktion 2022'
 slug: spendenlauf
 aliases: ['spendenlauf']
-date: Mon, 16 May 2022 21:09:50 +0000
+date: 2022-05-16 21:09:50
+type: post
 draft: false
 tags: [ 'Stamm', 'fest', 'jahresaktion']
 thumbnail: /images/upload/2022/0001.webp

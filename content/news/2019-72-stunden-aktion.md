@@ -1,8 +1,9 @@
 ---
 title: '72 Stunden Aktion 2019'
 slug: 72h-aktion
-date: Thu, 01 Aug 2019 10:40:48 +0000
+date: 2019-08-01 10:40:48
 draft: false
+type: post
 tags: ['jahresaktion','stamm']
 thumbnail: /images/upload/2019/logo-72-stunden-aktion-datum-gruen.webp
 thumbnail_hide_post: true

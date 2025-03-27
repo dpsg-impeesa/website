@@ -3,8 +3,9 @@ title: 'Vorstellung Wölflingsmeute'
 slug: woelflinge-vorstellung
 aliases: 
     - /woelflinge
-date: Mon, 28 Jun 2021 08:55:56 +0000
+date: 2021-06-28 08:55:56
 draft: false
+type: post
 tags: ['Vorstellungen', 'Wölflinge' ]
 thumbnail: /images/upload/2021/IMG-20210628-WA0001.webp
 ---
