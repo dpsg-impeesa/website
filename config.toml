@@ -23,7 +23,7 @@ theme = []
   images = ["/img/logo.png"]
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
-  twitter_cards = false # Enable Twitter Cards if true
+  twitter_cards = true # Enable Twitter Cards if true
   readmore = true # Show "Read more" button in list if true
   authorbox = false # Show authorbox at bottom of pages if true
   toc = false # Enable Table of Contents
@@ -43,7 +43,7 @@ theme = []
   highlightColor = "#003056" # Override main theme color
 
 [Params.logo]
-  image = "/img/logo.png" # Logo image. Path relative to "static"
+  image = "/img/banner.webp" # Logo image. Path relative to "static"
   header = "/img/header.webp" # Header image. Path relative to "static"
   title = "DPSG Stamm Impeesa" # Logo title, otherwise will use site title
   subtitle = "Radolfzell/Markelfingen" # Logo subtitle
