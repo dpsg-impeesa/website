@@ -98,7 +98,8 @@ theme = []
   [privacy.vimeo]
     disable = true
   [privacy.youtube]
-    disable = true
+    disable = false
+    privacyEnhanced = true
 
 
 
