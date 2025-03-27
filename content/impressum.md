@@ -5,6 +5,8 @@ slug: impressum
 aliases:
   - /kontakt-impressum
   - /kontaktimpressum
+noindex: true
+sitemap_hide: true
 ---
 
 Das nachfolgende Impressum und die nachfolgende Datenschutzerklärung gelten für [dpsg-radolfzell.de](https://dpsg-radolfzell.de) sowie unsere Social Media Präsenzen:  

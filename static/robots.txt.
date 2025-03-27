@@ -1,0 +1,4 @@
+User-agent: *	
+Disallow: /kontakt/
+Disallow: /impressum/
+Sitemap: https://impeesa.pages.dev/sitemap.xml
