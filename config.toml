@@ -20,6 +20,7 @@ theme = []
 [Params]
   description = "Die Seite die niemals schläft" # Site description. Used in meta description
   copyright = "DPSG Stamm Impeesa Radolfzell e.V" # Footer copyright holder, otherwise will use site title
+  images = ["/img/logo.png"]
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = false # Enable Twitter Cards if true
