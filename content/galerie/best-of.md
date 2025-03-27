@@ -1,5 +1,6 @@
 ---
 title: "Best of"
+description: "Gemischte Bilder aus verschiedenen Altersstufen und Aktionen"
 slug: "best-of"
 aliases:
 - "/galerie/galerie-best-of"

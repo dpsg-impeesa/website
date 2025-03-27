@@ -1,5 +1,6 @@
 ---
 title: "72 Stunden Aktion"
+description: "Eindrücke von der Sozialaktion des BDKJ aus mehreren Jahren."
 page: true
 slug: "72-stunden-aktion"
 menu:

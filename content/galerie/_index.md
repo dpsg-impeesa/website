@@ -1,5 +1,6 @@
 ---
 title: "Galerie"
+description: "Bilder von verschiedenen Sommerlagern, Aktionen und Veranstaltungen."
 page: true
 menu:
   main:

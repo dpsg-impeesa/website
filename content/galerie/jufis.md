@@ -1,5 +1,6 @@
 ---
 title: "Jufi-Stufe"
+description: "Bilder von Sommerlagern, Gruppenstunden und anderen Aktionen. der Jufis"
 page: true
 menu:
   main:

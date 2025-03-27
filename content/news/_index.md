@@ -1,5 +1,6 @@
 ---
 title: "Nachrichten"
+description: "Neuigkeiten und Aktuelles aus dem Stamm Impeesa Radolfzell e.V."
 page: true
 slug: news
 aliases:

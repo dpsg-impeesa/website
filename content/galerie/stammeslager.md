@@ -1,5 +1,6 @@
 ---
 title: "Stammeslager"
+description: "Bilder von verschiedenen Stammeslagern"
 page: true
 menu:
   main:

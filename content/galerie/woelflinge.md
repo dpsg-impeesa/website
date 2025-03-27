@@ -1,5 +1,6 @@
 ---
 title: "Wölflings-Stufe"
+description: "Bilder von Sommerlagern, Gruppenstunden und anderen Aktionen. der Wölflinge"
 page: true
 menu:
   main:

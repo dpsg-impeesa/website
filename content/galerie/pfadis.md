@@ -1,5 +1,6 @@
 ---
 title: "Pfadi-Stufe"
+description: "Bilder von Sommerlagern, Gruppenstunden und anderen Aktionen. der Pfadistufe"
 page: true
 menu:
   main:

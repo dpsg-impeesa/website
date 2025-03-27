@@ -1,5 +1,6 @@
 ---
 title: "Rover-Stufe"
+description: "Bilder von Sommerlagern, Gruppenstunden und anderen Aktionen. der Roverrunde"
 page: true
 menu:
   main:
