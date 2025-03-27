@@ -20,7 +20,7 @@ theme = []
 [Params]
   description = "Die Seite die niemals schläft" # Site description. Used in meta description
   copyright = "DPSG Stamm Impeesa Radolfzell e.V" # Footer copyright holder, otherwise will use site title
-  images = ["/img/logo.png"]
+  images = ["/img/banner.webp"]
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
@@ -43,7 +43,7 @@ theme = []
   highlightColor = "#003056" # Override main theme color
 
 [Params.logo]
-  image = "/img/banner.webp" # Logo image. Path relative to "static"
+  image = "/img/logo.png" # Logo image. Path relative to "static"
   header = "/img/header.webp" # Header image. Path relative to "static"
   title = "DPSG Stamm Impeesa" # Logo title, otherwise will use site title
   subtitle = "Radolfzell/Markelfingen" # Logo subtitle
