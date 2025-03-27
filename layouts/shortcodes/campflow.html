@@ -1,0 +1,6 @@
+{{- $event := .Get "event" | default (.Get 0) -}}
+{{- $organizer := .Get "organizer" | default (.Get 1) | default "dpsg-stamm-impeesa-radolfzell-ev" -}}
+<script 
+    src="https://embed.campflow.de" 
+    data-slug="{{ $organizer }}/{{ $event }}">
+</script>
