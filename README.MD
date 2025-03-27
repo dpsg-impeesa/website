@@ -4,10 +4,11 @@
 
 * [Git](https://git-scm.com/)
 * [Hugo](https://gohugo.io/)
+* [go](https://go.dev/)
 
 ## 2. Installation
 
-  1. Repository klonen: `git clone https://github.com/dpsg-impeesa/website.git --recurse-submodules impeesa-website`
+  1. Repository klonen: `git clone https://github.com/dpsg-impeesa/website.git impeesa-website`
   2. in das Verzeichnis wechseln: `cd impeesa-website`
   3. Website bauen: `hugo`
   4. Die Website befindet sich nun im Verzeichnis `public`
