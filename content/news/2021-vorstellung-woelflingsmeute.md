@@ -3,6 +3,7 @@ title: 'Vorstellung Wölflingsmeute'
 slug: woelflinge-vorstellung
 aliases: 
     - /woelflinge
+    - /vorstellung-woelflingsmeute
 date: 2021-06-28 08:55:56
 draft: false
 type: post

@@ -11,6 +11,7 @@ aliases:
   - /events
   - /calendar
   - /my-calendar
+  - /kalender/kalender-liste
 sidebar: false
 ---
 
