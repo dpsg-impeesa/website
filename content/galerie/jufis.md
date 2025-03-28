@@ -11,4 +11,4 @@ menu:
 
 {{< load-photoswipe >}}
 
-{{< gallery dir="/images/galerie/jufis" caption-position="none" />}}
+{{< gallery dir="images/galerie/jufis" caption-position="none" />}}

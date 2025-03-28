@@ -11,4 +11,4 @@ menu:
 
 {{< load-photoswipe >}}
 
-{{< gallery dir="/images/galerie/rover" caption-position="none" />}}
+{{< gallery dir="images/galerie/rover" caption-position="none" />}}

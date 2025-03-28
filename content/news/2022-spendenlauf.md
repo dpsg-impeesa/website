@@ -59,4 +59,4 @@ Wir freuen uns auf Dich
 
 ## Mit freundlicher Unterstützung von:
 
-{{< gallery dir="/images/upload/2022/sponsoren-logos" caption-position="none" />}}
+{{< gallery dir="images/upload/2022/sponsoren-logos" caption-position="none" />}}

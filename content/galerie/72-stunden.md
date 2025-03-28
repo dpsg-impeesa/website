@@ -12,4 +12,4 @@ menu:
 
 {{< load-photoswipe >}}
 
-{{< gallery dir="/images/galerie/72-stunden-aktion" caption-position="none" />}}
+{{< gallery dir="images/galerie/72-stunden-aktion" caption-position="none" />}}

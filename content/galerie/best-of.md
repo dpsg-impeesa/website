@@ -14,4 +14,4 @@ menu:
 
 {{< load-photoswipe >}}
 
-{{< gallery dir="/images/galerie/best-of" caption-position="none" />}}
+{{< gallery dir="images/galerie/best-of" caption-position="none" />}}
