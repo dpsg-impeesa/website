@@ -6,7 +6,7 @@ tags:
 title: Dorfgauditunier 2025
 type: post
 slug: dorfgauditunier
-thumbnail: /images/upload/2025/gauditunier.png
+thumbnail: /images/upload/2025/gauditunier.webp
 aliases:
   - /dorfgauditunier
 ---

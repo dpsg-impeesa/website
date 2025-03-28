@@ -7,7 +7,7 @@ title: Rosskur in Markelfingen
 type: post
 slug: rosskur
 summary: “Rover of the Carribean” ist das Motto der Rosskur, die dieses Jahr von uns organisiert wird. Doch wie kommt es dazu? Wer kann daran teilnehmen und was ist bitte eine Rosskur?."
-thumbnail: /images/upload/2025/Rosskur2025.png
+thumbnail: /images/upload/2025/Rosskur2025.webp
 thumbnail_hide_post: true
 draft: true
 ---
@@ -19,7 +19,7 @@ draft: true
 </style>
 
 <figure class="post__thumbnail">
-			<img src="/images/upload/2025/LogoRosskur.png" alt="Rover of the Carribean">
+			<img src="/images/upload/2025/LogoRosskur.webp" alt="Rover of the Carribean">
 </figure>
 
 _"Rover of the Carribean"_ ist das Motto der Rosskur, die dieses Jahr von uns organisiert wird. Doch wie kommt es dazu? Wer kann daran teilnehmen und was ist bitte eine _Rosskur_?

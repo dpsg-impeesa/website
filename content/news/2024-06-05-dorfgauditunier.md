@@ -5,7 +5,7 @@ tags:
 title: Dorfgauditunier
 type: post
 slug: dorfgauditunier
-thumbnail: /images/upload/2024/Dorfgauditurnier-Plakat.jpg
+thumbnail: /images/upload/2024/Dorfgauditurnier-Plakat.webp
 ---
 
 Am 29\. Juni 2024 findet in Markelfingen das Dorfgauditurnier statt. Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen Wasserbomben\-Volleyball, menschliches Tischkicker und Bubble\-Fußball gegeneinander antreten werden.

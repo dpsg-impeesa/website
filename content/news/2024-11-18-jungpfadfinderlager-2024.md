@@ -8,7 +8,7 @@ type: post
 slug: jufi-sommerlager
 summary: "Am Montag, den 26. August, machten sich die Jungpfadfinder aus Markelfingen auf den Weg zum diesjährigen Sommerlager.  Voller Vorfreude ging es morgens um 8 Uhr mit der Bahn los zum Lagerplatz. Und welch ein Glück, ohne Verspätungen erreichten alle pünktlich zum Mittagessen Gutenstein an der Donau.  Angekommen am Lagerplatz erwartete uns eine Überraschung. Halva, ein echter Wikinger, begrüßte die Kinder und gab ihnen eine Einführung zu ihrem neuen Wikingerdorf, in dem wir gemeinsam die nächsten zwei Wochen verbringen würden. Und natürlich darf dabei das Einrichten nicht fehlen!"
 readmore: true
-thumbnail: /images/upload/2024/P1050589.jpg
+thumbnail: /images/upload/2024/P1050589.webp
 ---
 
 Am Montag, den 26\. August, machten sich die Jungpfadfinder aus Markelfingen auf den Weg zum diesjährigen Sommerlager. 
