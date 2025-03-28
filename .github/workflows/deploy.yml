@@ -22,6 +22,9 @@ jobs:
       - name: Build website
         run: hugo --minify
 
+      - name: Setup IndexNow 
+        run: echo ${{ secrets.INDEXNOW_KEY }} > public/${{ secrets.INDEXNOW_KEY }}.txt
+
       - name: Copy website to host
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
@@ -31,3 +34,16 @@ jobs:
           protocol: ftps
           local-dir: './public/'
         
+      - name: Indexnow Sitemap
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: 'https://dpsg-radolfzell.de/sitemap.xml'
+          key: ${{ secrets.INDEXNOW_KEY }}
+          lastmod-required: false
+
+      - name: Indexnow RSS
+        uses: bojieyang/indexnow-action@v2
+        with:
+          sitemap-location: 'https://dpsg-radolfzell.de/index.xml'
+          key: ${{ secrets.INDEXNOW_KEY }}
+          lastmod-required: false
