@@ -7,14 +7,16 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
 RewriteCond %{HTTP:X-Forwarded-SSL} !https
 
-# old /wordpress links should get redirected
-Redirect 301 /wordpress /
-RewriteRule /wordpress/(.*)$ /$1 [R=301,L]
-RewriteRule /category/nachrichten/(.*)$ /tags/$1 [R=301,L]
+# trailing slashes
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 
+# old /wordpress links should get redirected
+Redirect 301 /wordpress/ /
+Redirect 301 /category/nachrichten/ /tags/
+Redirect 301 /tags/woelflinge/ /tags/wölflinge/
 
 # redirects to external sites
-
 Redirect 301 /cloud          https://dpsg-radolfzell-cloud.de 
 Redirect 301 /rosskur-anmeldung https://dpsg-freiburg.de/service/veranstaltungen/rosskur-2025/
 Redirect 301 /rosskur-trailer https://youtu.be/c1hPXJ-CM34
