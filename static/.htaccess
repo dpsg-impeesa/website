@@ -1,6 +1,9 @@
 # Turn on Rewrite Engine
 RewriteEngine On
 
+# custom 404 error page
+ErrorDocument 404 /404.html
+
 # Force HTTPS and remove WWW
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [OR,NC]
 RewriteCond %{HTTPS} off [OR] 
