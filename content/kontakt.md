@@ -14,7 +14,7 @@ Telefon: {{< cloakemail address="+497732821372" protocol=tel display=07732-82137
 
 Infos zu Zeit und Ort der Gruppenstunden finden sich im [FAQ](/ueber-uns/)
 
-## [Anmeldung/Warteliste](anmeldung-warteliste)
+## [Anmeldung/Warteliste](/anmeldung-warteliste)
 
 Um Mitglied zu werden, oder sich auf die Warteliste setzen zu lassen können sie sich [hier](/anmeldung-warteliste) an unsere Mitgliederverwaltung wenden.
 

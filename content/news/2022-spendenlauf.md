@@ -29,7 +29,7 @@ Diese Anmeldung dient der besseren Planung und ist unverbindlich.
 
 ### 2. Anmeldeformular ausdrucken und ausfüllen
 
-Drucke das [Anmeldeformular](/images/upload/2022/Anmeldung-Laeufer.pdf) aus und fülle es aus. Suche geeignete Sponsoren, die Dich pro gelaufene Runde mit einem Geldbetrag unterstützen. Hier haben Deine Sponsoren auch die Möglichkeit einen Maximalbetrag anzugeben.
+Drucke das [Anmeldeformular](/images/upload/2022/Anmeldung-Läufer.pdf) aus und fülle es aus. Suche geeignete Sponsoren, die Dich pro gelaufene Runde mit einem Geldbetrag unterstützen. Hier haben Deine Sponsoren auch die Möglichkeit einen Maximalbetrag anzugeben.
 
 ### 3. Komm vorbei
 
@@ -51,7 +51,7 @@ Die Spenden werden von uns dann auf direktem Weg an unsere Partnergemeine Sicuan
 
 Kein Problem, wir freuen uns auch, wenn Du einfach zur Pfarrwiese kommst und dort gemütlich mit uns den Tag verbringst. Der Erlös der verschiedenen Stände geht ebenfalls an unsere Partnergemeinde.
 
-Nähere Infos zu möglichen Unterstützungsmöglichkeiten findest Du [hier](/imagese/upload/2022/Anmeldung-Sponsor.pdf).
+Nähere Infos zu möglichen Unterstützungsmöglichkeiten findest Du [hier](/images/upload/2022/Anmeldung-Sponsor.pdf).
 
 Bei weiteren Fragen kannst Du Dich gerne jederzeit bei allen Leitern des Stammes melden oder direkt an [admin@dpsg-radolfzell.de](mailto:admin@dpsg-radolfzell.de) schreiben.
 
