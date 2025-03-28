@@ -14,13 +14,13 @@ Telefon: {{< cloakemail address="+497732821372" protocol=tel display=07732-82137
 
 Infos zu Zeit und Ort der Gruppenstunden finden sich im [FAQ](/ueber-uns/)
 
-## [Anmeldung/Warteliste](/anmeldung-warteliste)
+## [Anmeldung/Warteliste](/anmeldung-warteliste/)
 
-Um Mitglied zu werden, oder sich auf die Warteliste setzen zu lassen können sie sich [hier](/anmeldung-warteliste) an unsere Mitgliederverwaltung wenden.
+Um Mitglied zu werden, oder sich auf die Warteliste setzen zu lassen können sie sich [hier](/anmeldung-warteliste/) an unsere Mitgliederverwaltung wenden.
 
-## [Unterstützung](/foerdermitglied-werden)
+## [Unterstützung](/foerdermitglied-werden/)
 
-Falls sie uns finanziell unterstützen möchten, können sie eine [Fördermitgliedschaft abschließen](/foerdermitglied-werden).
+Falls sie uns finanziell unterstützen möchten, können sie eine [Fördermitgliedschaft abschließen](/foerdermitglied-werden/).
 Für einmalige finanzielle Zuwendungen besitzen wir auch ein Spendenkonto:
 
 ### Spendenkonto
