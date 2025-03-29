@@ -14,8 +14,11 @@ draft: true
 <!-- custom hintergrund -->
 <style>
     body {
-        background: url(/images/upload/2025/hintergrund_textur.webp) 100% / cover repeat;
-    }
+        background: url(/images/upload/2025/hintergrund_textur.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
 </style>
 
 <figure class="post__thumbnail">
@@ -33,7 +36,10 @@ Die Rosskur ist ein 24 Stunden andauernder Postenlauf. Heißt auf einem 40-70 km
 Der Twist bei dieser Aktion ist, dass die Gruppe welche am meisten Punkte sammelt, und somit die Rosskur gewinnt, diese im nächsten Jahr ausrichtet.
 
 Den Trailer zur Aktion kannst du hier anschauen:
-{{< youtube id=c1hPXJ-CM34 >}}
+
+{{< fake-youtube id="c1hPXJ-CM34" thumb="/images/upload/2025/rosskur-trailer.jpg" >}}
+
+</br>
 
 Wenn Du jetzt motiviert bist an der Rosskur teilzunehmen, dann schau doch mal auf der [Veranstaltungsseite des DV Freiburg](https://dpsg-freiburg.de/service/veranstaltungen/rosskur-2025/) vorbei, um dich und deine Gruppe als Teilnehmer anzumelden.
 
