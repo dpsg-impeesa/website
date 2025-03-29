@@ -1,0 +1,47 @@
+{{- $event := .Get "event" | default (.Get 0) -}} 
+{{- $organizer := .Get "organizer" | default (.Get 1) | default "dpsg-stamm-impeesa-radolfzell-ev" -}}
+
+<link rel="stylesheet" href="/css/iframemanager.css" />
+<script defer src="/js/iframemanager.js"></script>
+
+<div id ="formular"
+    data-service="campflow"
+    data-id="{{ $organizer }}/{{ $event }}"
+    style="width: 100%;"
+></div>
+
+<script>
+    window.addEventListener('message', function(event) {
+        var iframe = document.getElementById('{{ $event }}');
+        var parent = iframe.parentNode.parentNode; // set the size of the div 2 levels up
+        parent.style.height = event.data.height + 'px';
+    });
+    window.addEventListener('load', function(){
+
+        const im = iframemanager();
+
+        im.run({
+            currLang: 'de',
+            services : {
+                campflow : {
+                    embedUrl: "https://on.campflow.de/{data-id}?embed=1",
+                    iframe : {
+                        id : "{{ $event }}",
+                        width: "100%",
+                        height: "100%",
+                        frameborder: "none",
+                        scrolling: "no",
+                        style: "overflow: hidden; background-color: var(--background-color);",
+                    },
+                    languages : {
+                        de : {
+                            notice: 'Dieser Inhalt wird von einem Dritten gehostet. Durch die Anzeige der externen Inhalte erklärst du dich mit den <a rel="noreferrer noopener" href="https://campflow.de/datenschutz" target="_blank">Nutzungsbedingungen</a> von Campflow einverstanden.',
+                            loadBtn: 'Formular anzeigen',
+                            loadAllBtn: "nicht mehr fragen",
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
