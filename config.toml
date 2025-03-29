@@ -2,6 +2,7 @@ baseurl = "https://dpsg-radolfzell.de/"
 title = "DPSG Stamm Impeesa"
 languageCode = "de"
 DefaultContentLanguage = "de"
+enableGitInfo = true
 theme = []
 
 [permalinks]
