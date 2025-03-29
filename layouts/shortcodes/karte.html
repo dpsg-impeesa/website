@@ -11,7 +11,11 @@
 <div id ="karte"
     data-service="osm"
     data-id="{{ $lat }},{{ $lon }}"
-></div>
+>
+    <noscript style="color: var(--inverted-primary-color);">
+       wir würden hier gerne eine Karte einbinden. Um diese anzeigen zu können, musst du Javascript aktivieren.
+    </noscript>
+</div>
 <br />
 <small>
   <a href="https://www.openstreetmap.org/?mlat={{ $lat }}&mlon={{ $lon }}#map=17/{{ $lat }}/{{ $lon }}" >
