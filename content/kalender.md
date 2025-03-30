@@ -12,8 +12,8 @@ aliases:
   - /calendar
   - /my-calendar
   - /kalender/kalender-liste
-sidebar: false
+sidebar: true
 ---
 
 
-{{< nc-kalender >}}
+{{< js-kalender >}}
