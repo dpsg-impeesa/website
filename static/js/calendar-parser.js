@@ -343,13 +343,28 @@ function renderCalendarEvents(events) {
         
         time.textContent = timeText;
 
+        eventElement.appendChild(title);
+        eventElement.appendChild(time);
+
+        if (event.description) {
+          splitDescription = event.description.split('\n');
+          description = document.createElement('div');
+          description.className = 'event-description';
+          for (let i = 0; i < splitDescription.length; i++) {
+            const line = document.createElement('p');
+            line.className = 'event-description-line';
+            line.textContent = splitDescription[i];
+            description.appendChild(line);
+          }
+          eventElement.appendChild(description);
+        }
+
+        
+        
         const source = document.createElement('p');
         source.className = 'event-source';
         source.textContent = event.source.name;
         source.style.color = eventColor;
-        
-        eventElement.appendChild(title);
-        eventElement.appendChild(time);
         eventElement.appendChild(source);
         
         if (event.location) {
