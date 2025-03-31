@@ -21,6 +21,9 @@ jobs:
 
       - name: Build website
         run: hugo --minify
+      
+      - name: Update calendar
+        run: public/kalender/get-calendars.sh
 
       - name: Setup IndexNow 
         run: echo ${{ secrets.INDEXNOW_KEY }} > public/${{ secrets.INDEXNOW_KEY }}.txt
