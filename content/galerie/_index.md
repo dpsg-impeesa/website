@@ -17,5 +17,5 @@ pageFeed: false
   {{< figure src="/images/galerie/woelflinge/IMG-20210628-WA0001.webp" caption="Wölflinge" link="galerie/woelflinge/">}}
   {{< figure src="/images/galerie/jufis/2019-08-14-08-39-29-emil-fullhd.webp" caption="Jufis" link="galerie/jufis/">}}
   {{< figure src="/images/galerie/pfadis/2020-08-13-11-22-37-emil-fullhd.webp" caption="Pfadis" link="galerie/pfadis/">}}
-  {{< figure src="/images/galerie/rover/IMG-20190708-WA0004.webp" caption="Rover" link="galerie/rover/">}}
+  {{< figure src="/images/galerie/rover/006_IMG_0287.jpeg" caption="Rover" link="galerie/rover/">}}
 {{< /gallery >}}
