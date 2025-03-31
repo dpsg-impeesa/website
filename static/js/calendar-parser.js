@@ -16,7 +16,7 @@ async function parseCalendarFeeds(feeds, futureDateFilter = true) {
   try {
     // CORS proxy to handle cross-origin requests (if needed)
     // Replace with your preferred CORS proxy if required
-    const corsProxy = 'https://api.cors.lol/?url='; // e.g., 'https://proxy.cors.sh/'
+    const corsProxy = ''; // e.g., 'https://api.cors.lol/?url='
     
     // Get current date (start of day) for filtering
     const now = new Date();

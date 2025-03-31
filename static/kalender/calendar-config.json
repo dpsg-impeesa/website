@@ -2,27 +2,27 @@
   "feeds": [
     {
       "name": "Stamm",
-      "url": "https://dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/BmnSo2YZeZH7BK8m/?export",
+      "url": "/kalender/stamm.ics",
       "color": "Purple"
     },
     {
       "name": "Rover",
-      "url": "https://dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/sGbQKez8aCqTQHLT/?export",
+      "url": "/kalender/rover.ics",
       "color": "red"
     },
     {
       "name": "Pfadis",
-      "url": "https://dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/4wobNH9tjkCiZmZn/?export",
+      "url": "/kalender/pfadis.ics",
       "color": "green"
     },
     {
       "name": "Jufis",
-      "url": "https://dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/6QGzjM8nq2oEAM67/?export",
+      "url": "/kalender/jufis.ics", 
       "color": "blue"
     },
     {
       "name": "Wölflinge",
-      "url": "https://dpsg-radolfzell-cloud.de/remote.php/dav/public-calendars/WzwTkAFxM6Hs3aDw/?export",
+      "url": "/kalender/wös.ics",
       "color": "orange"
     }
   ]
