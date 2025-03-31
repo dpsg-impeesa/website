@@ -1,14 +1,19 @@
 
-<script src="/js/ical.es5.min.js" type="text/javascript"></script>
 
-<script src='/js/calendar-parser.js' type="text/javascript"></script>
+{{ $icalScript := resources.Get "js/kalender/ical.es5.min.js" | minify | fingerprint -}}
+<script src="{{ $icalScript.RelPermalink }}" {{ printf "integrity=%q" $icalScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 
+{{ $parserScript := resources.Get "js/kalender/calendar-parser.js" | minify | fingerprint -}}
+<script src="{{ $parserScript.RelPermalink }}" {{ printf "integrity=%q" $parserScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
+
+
+{{ $config := resources.Get "js/kalender/calendar-config.json" | minify | fingerprint -}}
 
 <script>
 // Start the calendar processing when the page loads
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize with default config file path
-  initCalendar('/kalender/calendar-config.json');
+  initCalendar("{{ $config.RelPermalink }}");
 });
 </script>
 

@@ -1,8 +1,11 @@
 {{- $event := .Get "event" | default (.Get 0) -}} 
 {{- $organizer := .Get "organizer" | default (.Get 1) | default "dpsg-stamm-impeesa-radolfzell-ev" -}}
 
-<link rel="stylesheet" href="/css/iframemanager.css" />
-<script defer src="/js/iframemanager.js"></script>
+{{ $style := resources.Get "css/iframemanager.css" | resources.ExecuteAsTemplate "css/iframemanager.css" . | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
+
+{{ $script := resources.Get "js/iframemanager.js" | minify | fingerprint -}}
+<script src="{{ $script.RelPermalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 
 <div id ="formular"
     data-service="campflow"

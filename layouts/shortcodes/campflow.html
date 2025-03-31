@@ -1,6 +1,11 @@
 {{- $event := .Get "event" | default (.Get 0) -}}
 {{- $organizer := .Get "organizer" | default (.Get 1) | default "dpsg-stamm-impeesa-radolfzell-ev" -}}
+
+{{ $script := resources.Get "js/campflow-embed.js" | minify | fingerprint -}}
 <script 
-    src="/js/campflow-embed.js"
-    data-slug="{{ $organizer }}/{{ $event }}">
+    src="{{ $script.RelPermalink }}" 
+    {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} 
+    type="text/javascript" 
+    data-slug="{{ $organizer }}/{{ $event }}"
+    >
 </script>
