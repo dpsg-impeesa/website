@@ -3,27 +3,38 @@
     {
       "name": "Stamm",
       "url": "/kalender/stamm.ics",
-      "color": "purple"
+      "color": "purple",
+      "checked": true
     },
     {
       "name": "Wölflinge",
       "url": "/kalender/wös.ics",
-      "color": "#ff6400"
+      "color": "#ff6400",
+      "checked": true
     },
     {
       "name": "Jufis",
       "url": "/kalender/jufis.ics", 
-      "color": "#2f53a7"
+      "color": "#2f53a7",
+      "checked": true
     },
     {
       "name": "Pfadis",
       "url": "/kalender/pfadis.ics",
-      "color": "#00823c"
+      "color": "#00823c",
+      "checked": true
     },
     {
       "name": "Rover",
       "url": "/kalender/rover.ics",
-      "color": "#cc1f2f"
+      "color": "#cc1f2f",
+      "checked": true
+    },
+    {
+      "name": "Leiter",
+      "url": "/kalender/leiter.ics",
+      "color": "#9d9d9c",
+      "checked": false
     }
   ]
 }
