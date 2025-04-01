@@ -43,6 +43,13 @@ document.addEventListener('DOMContentLoaded', () => {
     margin-right: 0.5rem;
   }
 
+  @media screen and (max-width: 500px) {
+    .calendar-toggle-label:nth-of-type(3)::after{
+      content: "\a";
+      white-space: pre;
+    }
+  }
+
   {{ range $data.feeds }}
   input.{{ .name }}[type="checkbox"]:not(:checked) ~ .calendar-event.{{ .name }}  {
     display: none;
