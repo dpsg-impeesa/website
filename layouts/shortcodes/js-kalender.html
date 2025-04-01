@@ -1,13 +1,11 @@
-
-
 {{ $icalScript := resources.Get "js/kalender/ical.es5.min.js" | minify | fingerprint -}}
 <script src="{{ $icalScript.RelPermalink }}" {{ printf "integrity=%q" $icalScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 
 {{ $parserScript := resources.Get "js/kalender/calendar-parser.js" | minify | fingerprint -}}
 <script src="{{ $parserScript.RelPermalink }}" {{ printf "integrity=%q" $parserScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 
-
 {{ $config := resources.Get "js/kalender/calendar-config.json" | minify | fingerprint -}}
+{{ $data := resources.Get "js/kalender/calendar-config.json" | transform.Unmarshal -}}
 
 <script>
 // Start the calendar processing when the page loads
@@ -40,7 +38,25 @@ document.addEventListener('DOMContentLoaded', () => {
   h3.event-title {
     margin-block-end: 0;
   }
+
+  .calendar-toggle-label {
+    margin-right: 0.5rem;
+  }
+
+  {{ range $data.feeds }}
+  input.{{ .name }}[type="checkbox"]:not(:checked) ~ .calendar-event.{{ .name }}  {
+    display: none;
+  }
+  {{ end }}
+
 </style>
 
-<div id='calendar-container'></div>
+
+<div id='calendar-container'>
+  {{ range $data.feeds }}
+  <input type="checkbox" class="calendar-toggle {{ .name }}" id="{{ .name }}-toggle" name="{{ .name }}" value="{{ .mame}}" checked>
+  <label class="calendar-toggle-label {{ .name }}" for="{{ .name }}-toggle" style="color: {{ .color }};">{{ .name }}</label>
+  {{ end }}
+  <br>
+</div>
 

@@ -212,7 +212,7 @@ function renderCalendarEvents(events) {
   const container = document.getElementById('calendar-container');
   if (!container) return;
   
-  container.innerHTML = '';
+  // container.innerHTML = '';
   
   if (events.length === 0) {
     const noEventsMsg = document.createElement('p');
@@ -289,7 +289,8 @@ function renderCalendarEvents(events) {
       // Add events for this day
       dayEvents.forEach(event => {
         const eventElement = document.createElement('div');
-        eventElement.className = 'calendar-event';
+        eventElement.className = `calendar-event ${event.source.name}`;
+      
         
         // Use the custom color if provided, otherwise generate one
         const eventColor = event.source.color || getColorForSource(event.source.name);
