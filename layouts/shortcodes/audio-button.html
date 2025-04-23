@@ -1,0 +1,35 @@
+{{- $src := .Get "src" | default (.Get 0) | default "https://ia902306.us.archive.org/20/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3" -}}
+{{- $title := .Get "title" | default (.Get 1) | default "PLAY " -}}
+
+{{- $id := md5 $src -}}
+
+<script>
+  function play() {
+    var audio = document.getElementById("{{ $id }}");
+      audio.play();
+  }
+</script>
+
+<div class="audio-button-wrapper">
+  <input type="button" class="audio-button" value="{{ $title }}" onclick="play()">
+  <audio id="{{ $id }}" src="{{ $src }}"></audio>
+</div>
+<style>
+  .audio-button {
+    background-color: var(--highlight-color);
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: bold;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    width: 50%;
+  }
+  .audio-button:hover {
+    background-color: var(--accent-color);
+}
+</style>
