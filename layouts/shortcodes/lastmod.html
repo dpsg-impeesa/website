@@ -1,0 +1,3 @@
+{{- $format := .Get "event" | default (.Get 0) | default .Site.Params.dateformat | default "January 02, 2006" -}}
+
+{{ .Page.Lastmod.Format  ( $format )  -}}
