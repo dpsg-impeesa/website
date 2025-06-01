@@ -1,4 +1,4 @@
-{{ $icalScript := resources.Get "js/kalender/ical.es5.min.js" | minify | fingerprint -}}
+{{ $icalScript := resources.Get "js/kalender/ical.es5.min.js" | fingerprint -}}
 <script src="{{ $icalScript.RelPermalink }}" {{ printf "integrity=%q" $icalScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 
 {{ $parserScript := resources.Get "js/kalender/calendar-parser.js" | minify | fingerprint -}}
