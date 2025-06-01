@@ -67,3 +67,31 @@ document.addEventListener('DOMContentLoaded', () => {
   <br>
 </div>
 
+
+<script>
+ function copyLink(event) {
+  event.preventDefault();
+  link = event.target.getAttribute('href');
+  alt = event.target.getAttribute('alt');
+  navigator.clipboard.writeText(link).then(() => {
+    alert( alt + " kopiert!\n\n" + link);
+  }, () => {
+    console.log("Link Kopieren fehlgeschlagen!");
+  });
+}
+</script>
+<div id='calendar-subscribe'>
+  Um die einzelnen Kalender zu abonnieren, können die folgenden Links verwendet werden:
+  <br>
+  {{ range $data.feeds }}
+  <a
+    href="{{ .url | absURL }}" 
+    onclick="copyLink(event)" 
+    style="color : {{ .color }};" 
+    alt="Link zum Abonnieren des {{ .name }}-Kalenders"
+    target="_blank"
+  >
+    {{ .name }}
+  </a>
+  {{ end }}
+</div>
