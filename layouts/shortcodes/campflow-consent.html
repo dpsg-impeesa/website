@@ -20,6 +20,7 @@
 <script>
     window.addEventListener('message', function(event) {
         var iframe = document.getElementById('{{ $event }}');
+        if (!iframe) { return; } // check if iframe is loaded yet
         var parent = iframe.parentNode.parentNode; // set the size of the div 2 levels up
         parent.style.height = event.data.height + 'px';
     });
