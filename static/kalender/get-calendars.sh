@@ -10,6 +10,7 @@ get_calendar() {
 	name=$2
 	echo "Downloading calendar $name"
 	curl -s -o "$DIR/$name.ics" "$NC_URL$id/?export"
+	sed -i 's/(Andreas)/(DPSG Stamm Impeesa)/' $DIR/$name.ics
 }
 
 get_calendar BmnSo2YZeZH7BK8m stamm
