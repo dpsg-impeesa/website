@@ -1,6 +1,9 @@
 {{ $icalScript := resources.Get "js/kalender/ical.es5.min.js" | fingerprint -}}
 <script src="{{ $icalScript.RelPermalink }}" {{ printf "integrity=%q" $icalScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 
+{{ $markdownScript := resources.Get "js/kalender/marked.min.js" | fingerprint -}}
+<script src="{{ $markdownScript.RelPermalink }}" {{ printf "integrity=%q" $markdownScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
+
 {{ $parserScript := resources.Get "js/kalender/calendar-parser.js" | minify | fingerprint -}}
 <script src="{{ $parserScript.RelPermalink }}" {{ printf "integrity=%q" $parserScript.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
 

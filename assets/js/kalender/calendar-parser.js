@@ -354,7 +354,7 @@ function renderCalendarEvents(events) {
           for (let i = 0; i < splitDescription.length; i++) {
             const line = document.createElement('p');
             line.className = 'event-description-line';
-            line.textContent = splitDescription[i];
+            line.innerHTML = marked.parseInline(splitDescription[i]);
             description.appendChild(line);
           }
           eventElement.appendChild(description);
