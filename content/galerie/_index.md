@@ -18,4 +18,6 @@ pageFeed: false
   {{< figure src="/images/galerie/jufis/004_2024-09-06_10-19-51_JuSoLa.jpg" caption="Jufis" link="galerie/jufis/">}}
   {{< figure src="/images/galerie/pfadis/2020-08-13-11-22-37-emil-fullhd.webp" caption="Pfadis" link="galerie/pfadis/">}}
   {{< figure src="/images/galerie/rover/006_IMG_0287.jpeg" caption="Rover" link="galerie/rover/">}}
+  {{< figure src="/images/galerie/rosskur/IMG_7889.webp" caption="Rosskur" link="galerie/rosskur/">}}
+
 {{< /gallery >}}
