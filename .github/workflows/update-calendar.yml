@@ -24,3 +24,6 @@ jobs:
           protocol: ftps
           local-dir: './static/kalender/'
           server-dir: 'kalender/'
+
+      - name: Update statichost.eu deployment
+        run: curl --request POST https://builder.statichost.eu/dpsg-impeesa

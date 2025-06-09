@@ -24,11 +24,14 @@ jobs:
 
       - name: Build website
         run: hugo  --gc --minify
-      
+
+      - name: deploy to statichost.eu
+        run: curl --request POST https://builder.statichost.eu/dpsg-impeesa
+
       - name: Update calendar
         run: public/kalender/get-calendars.sh
 
-      - name: Setup IndexNow 
+      - name: Setup IndexNow
         run: echo ${{ secrets.INDEXNOW_KEY }} > public/${{ secrets.INDEXNOW_KEY }}.txt
 
       - name: Copy website to host
@@ -39,7 +42,7 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           protocol: ftps
           local-dir: './public/'
-        
+
       - name: Indexnow Sitemap
         uses: bojieyang/indexnow-action@v2
         with:
