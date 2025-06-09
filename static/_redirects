@@ -1,11 +1,19 @@
 /cloud          https://dpsg-radolfzell-cloud.de    301
 /rosskur-anmeldung https://dpsg-freiburg.de/service/veranstaltungen/rosskur-2025/
 /rosskur-trailer https://youtu.be/c1hPXJ-CM34
+/rosskur-2025-trailer /rosskur-trailer
+/rosskur-bilder-upload/ https://dpsg-radolfzell-cloud.de/s/AKEA9YdMSkZ4WBp
+/rosskur-foto-task/ https://dpsg-radolfzell-cloud.de/s/DmWgbjKfwXyDe5B
+/rosskur-stationsvoting/ https://dpsg-radolfzell-cloud.de/apps/forms/s/EBNExxLFFYAT72SHkzrSsZ4r
+/rossqr https://www.instagram.com/rover_impeesa
+/nicht-aufgeben https://youtu.be/dQw4w9WgXcQ
 /karte-wl24 https://umap.openstreetmap.de/de/map/wanderlager-2024_75885
 /imp33sa-clan https://youtu.be/dxWlBO98Duc
 /qr-pfadis https://www.instagram.com/pfadistufe_impeesa
 
+
 /tags/woelflinge/ /tags/wölflinge/                     
 /wordpress      /                                   301
 /wordpress/*    /:splat                             301
-/category/nachrichten/:tag/ /tags/:tag/             301
+/category/nachrichten/*   /tags/:splat              301
+/category/stammestruppvorstellungen/ /tags/vorstellungen/ 301
