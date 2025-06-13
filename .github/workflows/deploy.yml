@@ -10,6 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: deploy to statichost.eu
+        run: curl --request POST https://builder.statichost.eu/dpsg-impeesa
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -25,23 +28,11 @@ jobs:
       - name: Build website
         run: hugo  --gc --minify
 
-      - name: deploy to statichost.eu
-        run: curl --request POST https://builder.statichost.eu/dpsg-impeesa
-
       - name: Update calendar
         run: public/kalender/get-calendars.sh
 
       - name: Setup IndexNow
         run: echo ${{ secrets.INDEXNOW_KEY }} > public/${{ secrets.INDEXNOW_KEY }}.txt
-
-      - name: Copy website to host
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASS }}
-          protocol: ftps
-          local-dir: './public/'
 
       - name: Indexnow Sitemap
         uses: bojieyang/indexnow-action@v2
