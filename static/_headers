@@ -5,7 +5,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=63072000; includeSubdomains
   Permissions-Policy: accelerometer=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), gamepad=(), geolocation=(), gyroscope=(), hid=(), identity-credentials-get=(), idle-detection=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-create=(), publickey-credentials-get=(), serial=(), storage-access=(), sync-xhr=(), usb=(), window-management=(), xr-spatial-tracking=()
-  Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; manifest-src 'self'; worker-src 'self'; form-action 'self'; connect-src 'self'; script-src 'self' 'unsafe-inline'; img-src 'self'; frame-src 'self' www.youtube-nocookie.com www.openstreetmap.org on.campflow.de ; media-src 'self' data: www.youtube-nocookie.com; font-src 'self' ; style-src 'self' 'unsafe-inline';
+  Content-Security-Policy: default-src 'none'; frame-ancestors 'self'; object-src 'self'; base-uri 'self'; manifest-src 'self'; worker-src 'self'; form-action 'self'; connect-src 'self'; script-src 'self' 'unsafe-inline'; img-src 'self'; frame-src 'self' www.youtube-nocookie.com www.openstreetmap.org on.campflow.de ; media-src 'self' data: www.youtube-nocookie.com; font-src 'self' ; style-src 'self' 'unsafe-inline';
 
 /css/*
   Cache-Control: public, max-age=604800, must-revalidate
