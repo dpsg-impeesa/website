@@ -4,3 +4,8 @@ image: hubci/hugo:0.145.0
 command: hugo --gc --minify && public/kalender/get-calendars.sh
 # Public directory
 public: public
+domains:
+  # Primary domain
+  - dpsg-radolfzell.de
+  # Domains that redirect to the primary
+  - www.dpsg-radolfzell.de
