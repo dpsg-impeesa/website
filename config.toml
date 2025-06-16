@@ -65,7 +65,7 @@ theme = []
 
 [Params.footer]
   # text = "[Impressum und Datenschutz](/impressum/)" # Extra text in footer row, understands markdown
-  right = "**[Impressum und Datenschutz](/impressum/)**" # Right-aligned text in footer row, understands markdown
+  right = "[Impressum](/impressum/) [Datenschutzerklärung](/datenschutz/)" # Right-aligned text in footer row, understands markdown
 
 
 
