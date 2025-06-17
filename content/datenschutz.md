@@ -45,6 +45,13 @@ Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr 
 **Bereitstellung vorgeschrieben oder erforderlich:**
 Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen.
 
+## Plausible Analytics
+
+Diese Website verwendet eine selbst gehostete Version von [Plausible Analytics](https://plausible.io/privacy) um statistische Auswertungen der Nutzung der Website zu erhalten.
+Diese Daten werden anonymisiert gespeichert und werden nicht mit anderen Daten zusammengeführt.
+es werden keine Cookies gesetzt oder personenbezogene Daten erhoben und gespeichert.
+
+Da keine Personenbezogenen Daten erfasst werden, ist die verwendung nicht einwilligungspflichtig, falls sie in ihrem Browser den [Do-Not-Track-Header](https://dnt.mozilla.org) oder [Global-Pricacy-Control-Header](https://globalprivacycontrol.org/) gesetzt haben, werden auch keine anonymisierten Nutzungsdaten von ihnen erfasst.
 
 ## Kontaktformular
 

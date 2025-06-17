@@ -1,1 +1,13 @@
-<script defer data-domain="impeesa.steinr.eu" src="https://stats.steinr.eu/js/script.js"></script>
+<script id="load-plausible">
+    if (navigator.doNotTrack || navigator.doNotTrack == "yes" || window.doNotTrack || navigator.globalPrivacyControl ) {
+        console.log("Do Not Track is enabled - Plausible will not be loaded");
+    }
+    else {
+        var plausible = document.createElement('script');
+        plausible.type = 'text/javascript';
+        plausible.defer = true;
+        plausible.dataset.domain = 'dpsg-radolfzell.de';
+        plausible.src = 'https://stats.dpsg-radolfzell.de/js/script.js';
+        document.head.appendChild(plausible);
+    }
+</script>
