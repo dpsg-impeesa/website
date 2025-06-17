@@ -14,8 +14,13 @@
 
     <input type="hidden" name="_subject" value="Neue Kontakt Anfrage">
     <input type="hidden" name="_next" value="https://dpsg-radolfzell.de/kontakt/">
+    <input type="hidden" name="_template" value="table">
+
     <input type="text" name="_honey" style="display:none">
 
+    <input type="checkbox" name="terms" required>
+    <label for="terms">Ich akzeptiere die <a href="https://formsubmit.co/privacy.pdf">Nutzungsbedingungen von formsubmit.co</a> *</label>
+    <br>
     <input type="submit" value="Absenden"></input>
 </form>
 
@@ -40,9 +45,6 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
     width: 50%;
   }
 
-label {
-  display: block;
-}
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -52,6 +54,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 0.5em;
 }
 
 label {
