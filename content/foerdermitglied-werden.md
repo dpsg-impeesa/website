@@ -12,4 +12,3 @@ menu:
 
 {{< foerdermitglied-form >}}
 
-> Das Formular ist leider gerade nicht verfügbar. du kannst uns aber auch gerne eine E-Mail an {{< cloakemail "info@dpsg-radolfzell.de"  >}} schicken.
