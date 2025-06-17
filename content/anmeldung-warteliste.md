@@ -1,5 +1,5 @@
 ---
-title: 'Anmeldung/Warteliste'
+title: 'Anmeldung/​Warteliste'
 page: true
 slug: anmeldung-warteliste
 menu:
