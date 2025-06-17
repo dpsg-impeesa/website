@@ -10,7 +10,7 @@ aliases:
 Hier gelangt Ihr zur unserer Halstuchchallenge 2020
 
 <video width="100%" controls>
-  <source src="https://dpsg-radolfzell.de/videos/Halstuchchallenge Stamm Impeesa.mp4" type="video/mp4">
+  <source src="https://cloud.dpsg-radolfzell.de/public.php/dav/files/halstuchchallenge/" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
