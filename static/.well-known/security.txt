@@ -1,0 +1,3 @@
+Contact: https://dpsg-radolfzell.de/kontakt/
+Expires: 2026-06-01T10:00:00.000Z
+Preferred-Languages: de,en
