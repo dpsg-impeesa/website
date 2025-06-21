@@ -3,13 +3,13 @@
         console.log("Do Not Track is enabled - Plausible will not be loaded");
     }
     else {
-        var plausible = document.createElement('script');
-        plausible.type = 'text/javascript';
-        plausible.defer = true;
-        plausible.dataset.domain = 'dpsg-radolfzell.de';
-	plausible.dataset.api = '/plausible/api/event';
-        plausible.src = '/plausible/js/script.js';
-        document.head.appendChild(plausible);
+        var plausible_main = document.createElement('script');
+        plausible_main.type = 'text/javascript';
+        plausible_main.defer = true;
+        plausible_main.dataset.domain = 'dpsg-radolfzell.de';
+	plausible_main.dataset.api = '/plausible/api/event';
+        plausible_main.src = '/plausible/js/script.js';
+        document.head.appendChild(plausible_main);
 
         var plausible_window = document.createElement('script');
         plausible_window.innerHTML = `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments)}`;
@@ -17,8 +17,9 @@
 
 	{{- if eq .Page.Kind "404" }}
 	var plausible_404 = document.createElement('script');
-        plausible_404.innerHTML = `plausible("404",{ props: { path: document.location.pathname } });`;
+        plausible_404.innerHTML = `plausible('404', { props: { path: document.location.pathname } });`;
         document.head.appendChild(plausible_404);
 	{{- end }}
     }
+    document.currentScript.remove();
 </script>
