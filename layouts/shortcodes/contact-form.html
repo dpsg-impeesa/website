@@ -1,7 +1,5 @@
-<form action="https://formsubmit.co/4a3e2a6b2fc06831abf07703fe304396" method="POST">
-    
+<form action="https://formsubmit.co/257b9e7f72d10974e597c60e80b58174" method="POST">
     <label for="name">Name *</label><input type="text" name="name" placeholder="Max Musterpfadi" required> 
-
     <div class="row">
         <div class="column">
             <label for="email">E-Mail *</label><input type="email" name="email" placeholder="name@domain.tld" required>
@@ -10,35 +8,24 @@
             <label for="phone">Telefon</label><input type="tel" name="phone" placeholder="0773232168">
         </div>
     </div>
-    <br> 
-    <div class = "address">
-        <label for="adr">Straße + Hausnummer</label><input type="text" id="adr" name="address" placeholder="Laurentiusstr. 9"> 
-        <div class="row">
-          <div class="column">
-                <label for="plz">PLZ</label><input type="text" id="plz" name="zip" placeholder="78315">
-            </div>
-            <div class="column">
-                 <label for="city">Stadt</label><input type="text" id="city" name="city" placeholder="Radolfzell">
-            </div>    
-        </div>
-    </div>
-    
-    <label for="message">Nachricht *</label>
+    <br>
+    <label for="message">Kommentar oder Nachricht *</label>
     <textarea id="message" name="message" placeholder="Deine Nachricht" required></textarea>
 
-    <input type="hidden" name="_subject" value="Neue Fördermitglied Anfrage">
-    <input type="hidden" name="_next" value="https://dpsg-radolfzell.de/kontakt/#unterstützung">
+    <input type="hidden" name="_subject" value="Neue Kontakt Anfrage">
+    <input type="hidden" name="_next" value="https://dpsg-radolfzell.de/kontakt/">
     <input type="hidden" name="_template" value="table">
+
     <input type="text" name="_honey" style="display:none">
 
     <input type="checkbox" name="terms" required>
     <label for="terms">Ich akzeptiere die <a href="https://formsubmit.co/privacy.pdf">Nutzungsbedingungen von formsubmit.co</a> *</label>
     <br>
-    <input type="submit" value="Absenden" class="plausible-event-name=foerdermitglied-form"></input>
+    <input type="submit" value="Absenden" class="plausible-event-name=contact-form"></input>
 </form>
 
 <style>
-input[type=text], input[type=email], input[type=tel], textarea {
+input[type=text], input[type=email], input[type=tel], input[type=date], input[type=number], textarea {
   width: 100%; /* Full width */
   padding: 0.8em; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -57,6 +44,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
     float: left;
     width: 50%;
   }
+
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {

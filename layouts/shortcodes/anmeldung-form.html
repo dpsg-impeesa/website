@@ -1,0 +1,90 @@
+<form action="https://formsubmit.co/4a3e2a6b2fc06831abf07703fe304396" method="POST">
+    <label for="name">Name (Kontakt) *</label><input type="text" name="name" placeholder="Max Musterpfadi" required> 
+    <div class="row">
+        <div class="column">
+            <label for="email">E-Mail *</label><input type="email" name="email" placeholder="name@domain.tld" required>
+        </div>
+        <div class="column">
+            <label for="phone">Telefon</label><input type="tel" name="phone" placeholder="0773232168">
+        </div>
+    </div>
+    <br>
+    <div class = "address">
+        <label for="adr">Straße + Hausnummer</label><input type="text" id="adr" name="address" placeholder="Laurentiusstr. 9"> 
+        <div class="row">
+          <div class="column">
+                <label for="plz">PLZ</label><input type="text" id="plz" name="zip" placeholder="78315">
+            </div>
+            <div class="column">
+                 <label for="city">Stadt</label><input type="text" id="city" name="city" placeholder="Radolfzell">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <label for="name-child">Name (Mitglied) *</label><input type="text" name="name-member" placeholder="Max Musterpfadi Jr." required>
+    <div class="row">
+        <div class="column">
+            <label for="birthday">Geburtsdatum *</label><input type="date" name="birthday" placeholder="01.01.2000" required>
+        </div>
+        <div class="column">
+            <label for="class">Klassenstufe</label><input type="number" name="class" placeholder="1">
+        </div>
+    </div>
+    <br>
+
+    <label for="message">Kommentar oder Nachricht</label>
+    <textarea id="message" name="message" placeholder="Deine Nachricht"></textarea>
+
+    <input type="hidden" name="_subject" value="Neue Mitglied Anfrage">
+    <input type="hidden" name="_next" value="https://dpsg-radolfzell.de/ueber-uns/">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" style="display:none">
+
+        <input type="checkbox" name="terms" required>
+    <label for="terms">Ich akzeptiere die <a href="https://formsubmit.co/privacy.pdf">Nutzungsbedingungen von formsubmit.co</a> *</label>
+    <br>
+    <input type="submit" value="Absenden" class="plausible-event-name=anmeldung-form"></input>
+</form>
+
+<style>
+input[type=text], input[type=email], input[type=tel], input[type=date], input[type=number], textarea {
+  width: 100%; /* Full width */
+  padding: 0.8em; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 0.5em; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 0.2em; /* Add a top margin */
+  margin-bottom: 0.6em; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  .row {
+    overflow: hidden;
+    display: block;
+  }
+  .column{
+    float: left;
+    width: 50%;
+  }
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(--highlight-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+label {
+    font-size: 0.9em;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: var(--accent-color);
+}
+</style>

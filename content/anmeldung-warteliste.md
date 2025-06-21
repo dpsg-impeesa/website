@@ -11,4 +11,4 @@ menu:
 
 Über das nachfolgende Formular können sie in Kontakt mit unserer Mitgliederverwaltung treten um Mitglied zu werden oder jemanden auf die Warteliste setzen zu lassen.
 
-{{< campflow-consent "warteliste-stamm-impeesa" >}}
+{{< anmeldung-form >}}

@@ -30,3 +30,7 @@ Für einmalige finanzielle Zuwendungen besitzen wir auch ein Spendenkonto:
 > Bank: Sparkasse Hegau-Bodensee  
 
 Spendenbescheinigungen (Zuwendungsbestätigungen) ab 50€, oder auf Anfrage. Bitte Adresse im Verwendungszweck angeben.
+
+## Allgemeines Kontaktformular
+
+{{< contact-form >}}
