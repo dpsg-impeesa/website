@@ -1,5 +1,5 @@
 <script id="load-plausible">
-    if (navigator.doNotTrack || navigator.doNotTrack == "yes" || window.doNotTrack || navigator.globalPrivacyControl ) {
+    if (  navigator.doNotTrack || navigator.doNotTrack == "yes" || window.doNotTrack || navigator.globalPrivacyControl ) {
         console.log("Do Not Track is enabled - Plausible will not be loaded");
     }
     else {
@@ -7,7 +7,17 @@
         plausible.type = 'text/javascript';
         plausible.defer = true;
         plausible.dataset.domain = 'dpsg-radolfzell.de';
-        plausible.src = 'https://stats.dpsg-radolfzell.de/js/script.js';
+        plausible.src = 'https://stats.dpsg-radolfzell.de/js/script.file-downloads.outbound-links.tagged-events.js';
         document.head.appendChild(plausible);
+
+        var plausible_window = document.createElement('script');
+        plausible_window.innerHTML = `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments)}`;
+        document.head.appendChild(plausible_window);
+
+	{{- if eq .Page.Kind "404" }}
+	var plausible_404 = document.createElement('script');
+        plausible_404.innerHTML = `plausible("404",{ props: { path: document.location.pathname } });`;
+        document.head.appendChild(plausible_404);
+	{{- end }}
     }
 </script>
