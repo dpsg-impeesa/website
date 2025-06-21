@@ -7,7 +7,8 @@
         plausible.type = 'text/javascript';
         plausible.defer = true;
         plausible.dataset.domain = 'dpsg-radolfzell.de';
-        plausible.src = 'https://stats.dpsg-radolfzell.de/js/script.file-downloads.outbound-links.tagged-events.js';
+	plausible.dataset.api = '/plausible/api/event';
+        plausible.src = '/plausible/js/script.js';
         document.head.appendChild(plausible);
 
         var plausible_window = document.createElement('script');
