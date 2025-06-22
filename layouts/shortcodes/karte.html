@@ -41,7 +41,19 @@
         center: [{{$lon}}, {{$lat}}],
         zoom: {{$zoom}}
     });
+
+    // place marker
     const marker = new maplibregl.Marker()
         .setLngLat([{{$lon}}, {{$lat}}])
         .addTo(map);
+
+    // add toggle to view the map in fullscreen
+    map.addControl(new maplibregl.FullscreenControl());
+    // Add zoom and rotation controls to the map.
+    map.addControl(new maplibregl.NavigationControl({
+        visualizePitch: true,
+        visualizeRoll: true,
+        showZoom: true,
+        showCompass: true
+    }));
 </script>
