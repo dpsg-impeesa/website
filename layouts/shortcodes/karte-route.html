@@ -1,0 +1,116 @@
+{{- $lat := .Get "lat" | default (.Get 0) | default 48.8 | float -}}
+{{- $lon := .Get "lon" | default (.Get 1) | default -3.25 | float -}}
+{{- $zoom := .Get "zoom" | default (.Get 2) | default 9 | int -}}
+{{ $data := .Get "data" | default (.Get 3) | default "map/wanderlager_2024.geojson" }}
+
+{{ $width := .Get "width" | default (.Get 4) | default 750 }}
+{{ $height := .Get "height" | default (.Get 5) | default 450 }}
+
+{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
+{{- $accentColor := .Site.Params.style.vars.accentColor | default (.Site.Params.accentColor | default "#810a1a") -}}
+
+{{ $lineColor := .Get "lineColor" | default $accentColor }}
+{{ $lineWidth := .Get "lineWidth" | default 3 }}
+
+{{ $pointColor := .Get "pointColor" | default $highlightColor }}
+{{ $pointRadius := .Get "pointRadius" | default 5 }}
+
+{{ $style := resources.Get "css/maplibre-gl.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
+
+{{ $script := resources.Get "js/maplibre-gl.js" | minify | fingerprint -}}
+<script src="{{ $script.RelPermalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
+
+
+<div id ="karte">
+    <noscript style="color: var(--inverted-primary-color);">
+       wir würden hier gerne eine Karte einbinden. Um diese anzeigen zu können, musst du Javascript aktivieren.
+    </noscript>
+</div>
+
+<style>
+  #karte {
+      border: 3px solid {{$highlightColor}};
+      border: 0.2rem solid {{$highlightColor}};
+      border-radius: 5px;
+      border-radius: 0.3rem;
+      width: {{$width}}px;
+      max-width: 100%;
+      height: {{$height | add 6 }}px;
+  }
+</style>
+
+
+
+<script>
+    const map = new maplibregl.Map({
+        container: 'karte',
+        style:
+            '/map-style.json',
+        center: [{{$lon}}, {{$lat}}],
+        zoom: {{$zoom}}
+    });
+
+    // add toggle to view the map in fullscreen
+    map.addControl(new maplibregl.FullscreenControl());
+
+    // Add zoom and rotation controls to the map.
+    map.addControl(new maplibregl.NavigationControl({
+        visualizePitch: true,
+        visualizeRoll: true,
+        showZoom: true,
+        showCompass: true
+    }));
+    map.on('load', () => {
+        map.addSource('route', {
+            type: 'geojson',
+            data: {{ with resources.Get $data }} {{ .Content | safeJS }} {{ end }}
+        });
+
+        map.addLayer({
+            "id": "route",
+            "type": "line",
+            "source": "route",
+            "paint": {
+                "line-color": {{ $lineColor }},
+                "line-width": 3
+            },
+            "filter": ["==", "$type", "LineString"]
+        });
+        
+        map.addLayer({
+            "id": "points",
+            "type": "circle",
+            "source": "route",
+            "paint": {
+                "circle-radius": 7,
+                "circle-color": {{ $pointColor }},
+            },
+            "filter": ["==", "$type", "Point"]
+        });
+       
+        map.on('click', 'points', (e) => {
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const name = e.features[0].properties.name;
+
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            new maplibregl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(name)
+                .addTo(map);
+        });
+
+        // Change the cursor to a pointer when the mouse is over the places layer.
+        map.on('mouseenter', 'points', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
+        // Change it back to a pointer when it leaves.
+        map.on('mouseleave', 'points', () => {
+            map.getCanvas().style.cursor = '';
+        });
+    });
+</script>
