@@ -1,1 +1,0 @@
-https://github.com/fullcalendar/fullcalendar/releases/tag/v6.1.4
