@@ -1,0 +1,80 @@
+{{- $lat := .Get "lat" | default (.Get 0) | default 47.74304 | float -}} 
+{{- $lon := .Get "lon" | default (.Get 1) | default 9.00725 | float -}}
+{{ $width := .Get "width" | default (.Get 3) | default 600 }}
+{{ $height := .Get "height" | default (.Get 4) | default 450 }}
+{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}} 
+{{- $accentColor := .Site.Params.style.vars.accentColor | default (.Site.Params.accentColor | default "#810a1a") -}}
+
+
+{{ $style := resources.Get "css/iframemanager.css" | resources.ExecuteAsTemplate "css/iframemanager.css" . | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
+
+{{ $script := resources.Get "js/iframemanager.js" | minify | fingerprint -}}
+<script src="{{ $script.RelPermalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} type="text/javascript"></script>
+
+
+<div id ="karte"
+    data-service="osm"
+    data-id="{{ $lat }},{{ $lon }}"
+>
+    <noscript style="color: var(--inverted-primary-color);">
+       wir würden hier gerne eine Karte einbinden. Um diese anzeigen zu können, musst du Javascript aktivieren.
+    </noscript>
+</div>
+<br />
+<small>
+  <a href="https://www.openstreetmap.org/?mlat={{ $lat }}&mlon={{ $lon }}#map=17/{{ $lat }}/{{ $lon }}" >
+    Größere Karte anzeigen
+  </a>
+</small>
+
+<style>
+  #karte {
+      border: 3px solid {{$highlightColor}};
+      border: 0.2rem solid {{$highlightColor}};
+      border-radius: 5px;
+      border-radius: 0.3rem;
+      width: {{$width}}px;
+      max-width: 100%;
+      height: {{$height | add 6 }}px;
+  }
+</style>
+
+
+  <script>
+    window.addEventListener('load', function(){
+
+        const im = iframemanager();
+
+        im.run({
+            currLang: 'de',
+            services : {
+                osm : {
+                    embedUrl: "https://www.openstreetmap.org/export/embed.html?bbox={{ $lon | add -0.005}},{{ $lat | add -0.005 }},{{ $lon | add 0.005}},{{ $lat | add 0.005 }}&layer=mapnik&marker={data-id}",
+                    iframe : {
+                        width: "{{$width}}",
+                        height: "{{$height}}",
+                        title: "Karte",
+                        frameborder: "0",
+                        scrolling: "no",
+                        marginheight: "0",
+                        marginwidth: "0",
+                        style: "border: 0px;"
+                    },
+                    languages : {
+                        en : {
+                            notice: 'This content is hosted by a third party. By showing the external content you accept the <a rel="noreferrer noopener" href="https://osmfoundation.org/wiki/Terms_of_Use" target="_blank">terms and conditions</a> of Open Street Maps.',
+                            loadBtn: 'Load map',
+                            loadAllBtn: "Load and don't ask again",
+                        },
+                        de : {
+                            notice: 'Dieser Inhalt wird von einem Dritten gehostet. Durch die Anzeige der externen Inhalte erklärst du dich mit den <a rel="noreferrer noopener" href="https://osmfoundation.org/wiki/Terms_of_Use" target="_blank">Nutzungsbedingungen</a> von Open Street Maps einverstanden.',
+                            loadBtn: 'Karte anzeigen',
+                            loadAllBtn: "nicht mehr fragen",
+                        }
+                    }
+                }
+            }
+        });
+    });
+  </script>

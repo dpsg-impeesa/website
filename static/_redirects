@@ -23,3 +23,4 @@
 
 /plausible/js/script.js https://stats.dpsg-radolfzell.de/js/script.file-downloads.outbound-links.tagged-events.js 200
 /plausible/api/event https://stats.dpsg-radolfzell.de/api/event 200
+/vtiles/* https://tiles.versatiles.org/:splat 200
