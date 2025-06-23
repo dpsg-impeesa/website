@@ -39,3 +39,10 @@
 
 /kalender/*.ics 
   Cache-Control: public, max-age=86400, must-revalidate
+
+/vtiles/*
+  Cache-Control: public, max-age=2419200, no-transform
+
+/plausible/*
+  Cache-Control: public, max-age=86400, must-revalidate
+
