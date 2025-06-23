@@ -15,6 +15,8 @@
 {{ $pointColor := .Get "pointColor" | default $highlightColor }}
 {{ $pointRadius := .Get "pointRadius" | default 5 }}
 
+{{ $mapStyle := .Get "mapStyle" | default "map/style-colorful.json" }}
+
 {{ $style := resources.Get "css/maplibre-gl.css" | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
 
@@ -45,8 +47,7 @@
 <script>
     const map = new maplibregl.Map({
         container: 'karte',
-        style:
-            '/map-style.json',
+        style: {{ with resources.Get $mapStyle }} {{ .Content | safeJS }} {{ end }},
         center: [{{$lon}}, {{$lat}}],
         zoom: {{$zoom}}
     });
