@@ -5,6 +5,7 @@ slug: impressum
 aliases:
   - /kontakt-impressum
   - /kontaktimpressum
+  - /kontaktimpresum
 noindex: true
 sitemap_hide: true
 ---
