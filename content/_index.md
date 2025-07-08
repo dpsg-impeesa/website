@@ -6,3 +6,4 @@ page: false
 # Wir suchen dich!
 
 {{< wir-suchen-dich >}}
+{{< link-button "/kontakt/#article" "Jetzt Leiter werden!" >}}

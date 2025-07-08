@@ -1,0 +1,42 @@
+{{ $href := .Get "href" | default (.Get 0) | default "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }}
+{{ $text := .Get "text" | default (.Get 1) |default "klick mich!" }}
+
+{{ $scale := .Get "scale" | default 1 | float }}
+{{ $alt := .Get "alt" }}
+
+<div class="center-button">
+  <div class="button">
+        <a href="{{ $href }}" 
+	{{- if $alt }}alt="{{ $alt }}"{{- end }} 
+	>{{ $text }}</a>
+  </div>
+</div>
+
+<style>
+    .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    }
+
+    .button a {
+    font-size: {{ mul $scale 3}}rem;
+    color: white;
+    background: var(--highlight-color);
+    padding: 0.7rem 1.5rem 0.9rem 1.5rem;
+    border-radius: 2.2rem;
+    font-weight: 900;
+    }
+
+    @media screen and (max-width: 1000px) {
+       .button a {
+	font-size: {{ mul $scale 5}}vw;
+	}
+    }
+    .button a:hover {
+    color: white;
+    background: var(--accent-color);
+    }
+
+</style>
