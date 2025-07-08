@@ -1,9 +1,43 @@
-<!-- https://tinytip.co/tips/html-pdf-params/ -->
 {{ $pdf_url := .Get "src" }}
+{{ $width := .Get "width" | default "100%" }}
+{{ $height := .Get "height" | default "100%" }}
 <object
     data="{{ $pdf_url }}"
-    {{- with .Get "width" | default "100%" }} width="{{ . }}"{{ end -}}
-    {{- with .Get "height" | default "100%" }} height="{{ . }}"{{ end -}}
-    type="application/pdf" >
-    <iframe loading="lazy" src="{{ $pdf_url }}"></iframe>
+    width="{{ $width }}"
+    height="{{ $height }}"
+    type="application/pdf">
+<div class="center-button">
+  <div class="button">
+        <a href="{{ $pdf_url}}">PDF anzeigen</a>
+  </div>
+</div>
 </object>
+
+<style>
+    .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    }
+
+    .button a {
+    font-size: 3rem;
+    color: white;
+    background: var(--highlight-color);
+    padding: 0.7rem 1.5rem 0.9rem 1.5rem;
+    border-radius: 2.2rem;
+    font-weight: 900;
+    }
+
+    @media screen and (max-width: 1000px) {
+       .button a {
+	font-size: 5vw;
+	}
+    }
+    .button a:hover {
+    color: white;
+    background: var(--accent-color);
+    }
+
+</style>
