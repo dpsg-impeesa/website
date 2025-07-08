@@ -8,6 +8,7 @@ menu:
     identifier: "galerie"
     weight: 4
 pageFeed: false
+lastmod: 2025-06-05 13:43:56
 ---
 
 {{< gallery caption-effect="none">}}

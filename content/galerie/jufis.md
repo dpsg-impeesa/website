@@ -7,6 +7,7 @@ menu:
     name: "Jufis"
     parent: "galerie"
     weight: 2
+lastmod: 2025-03-28 15:14:17 +01:00
 ---
 
 {{< load-photoswipe >}}

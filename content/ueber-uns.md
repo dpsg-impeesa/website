@@ -10,6 +10,7 @@ menu:
   main:
     name: 'Über Uns'
     weight: 2
+lastmod: 2025-06-14 10:34:45 +02:00
 ---
 Wir wurden am 3. April 1956 in Radolfzell gegründet. Der Gründungsname unseres Stammes war Siedlung Wiking,  wurde dann sehr viel später  in Stamm Impeesa geändert. _Impeesa_ war ein Spitzname des Gründers der Pfadfinder, Lord Baden-Powell und heißt übersetzt „der Wolf der nie schläft“.
 

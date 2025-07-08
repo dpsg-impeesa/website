@@ -10,6 +10,7 @@ menu:
     name: "Best of"
     parent: "galerie"
     weight: 1
+lastmod: 2025-03-28 15:14:17
 ---
 
 {{< load-photoswipe >}}

@@ -6,6 +6,7 @@ menu:
   main:
     name: 'Kontakt'
     weight: 5
+lastmod: 2025-06-21 12:14:55 +02:00
 ---
 
 Hier können Sie mit uns in Kontakt treten.  

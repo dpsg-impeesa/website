@@ -8,6 +8,7 @@ menu:
     name: "Rosskur"
     parent: "galerie"
     weight: 42
+lastmod: 2025-06-05 12:43:56
 ---
 
 {{< load-photoswipe >}}
