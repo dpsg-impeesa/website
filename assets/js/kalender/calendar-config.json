@@ -9,7 +9,7 @@
     {
       "name": "Wölflinge",
       "url": "/kalender/woelflinge.ics",
-      "color": "#ff6400",
+      "color": "#e05800",
       "checked": true
     },
     {
@@ -33,7 +33,7 @@
     {
       "name": "Leiter",
       "url": "/kalender/leiter.ics",
-      "color": "#9d9d9c",
+      "color": "#8b8b88",
       "checked": false
     }
   ]
