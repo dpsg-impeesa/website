@@ -306,9 +306,14 @@ function renderCalendarEvents(events) {
         time.className = 'event-time';
 
         const startDate = new Date(event.start);
-        const endDate = new Date(event.end);
+        let endDate = new Date(event.end);
         
-    
+        // For all-day events, adjust end date to represent the actual last day
+        // (since calendar systems typically set end date to the day after)
+        if (event.allDay) {
+          endDate = new Date(endDate.getTime() - 1); // Subtract 1 ms
+        }
+        
         let timeText = '';
         // same day
         if (endDate.getDate() === startDate.getDate()) {
