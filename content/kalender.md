@@ -13,6 +13,7 @@ aliases:
   - /my-calendar
   - /kalender/kalender-liste
 sidebar: true
+post_meta_hide: true
 lastmod: 2025-03-31 00:36:33 +0200
 ---
 
