@@ -41,7 +41,7 @@ Kontakt: {{< cloakemail "pfadis@dpsg-radolfzell.de" >}}
 ### Rover (ab 11. Klasse)
 
 Freitags ab 20:00 Uhr  
-Kontakt: {{< cloakemail "rover@dpsg-radolfzell.de" >}}
+Kontakt: {{< cloakemail "rover@dpsg-radolfzell.de" >}}  
 instagram [@rover_impeesa](https://instagram.com/rover_impeesa)
 
 ### Vorstand:
