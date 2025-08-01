@@ -26,10 +26,7 @@ jobs:
         run: git fetch --unshallow
 
       - name: Build website
-        run: hugo  --gc --minify
-
-      - name: Update calendar
-        run: public/kalender/get-calendars.sh
+        run: ./build.sh
 
       - name: Setup IndexNow
         run: echo ${{ secrets.INDEXNOW_KEY }} > public/${{ secrets.INDEXNOW_KEY }}.txt

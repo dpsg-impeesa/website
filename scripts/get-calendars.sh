@@ -2,7 +2,7 @@
 
 NC_URL="https://cloud.dpsg-radolfzell.de/remote.php/dav/public-calendars/"
 
-DIR=$(dirname "$0")
+DIR=static/kalender
 echo "Downloading calendars to $DIR"
 
 get_calendar() {

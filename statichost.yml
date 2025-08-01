@@ -1,7 +1,7 @@
 # Docker image to use for building
 image: hubci/hugo:0.145.0
 # Build command
-command: hugo --gc --minify && public/kalender/get-calendars.sh
+command: ./build.sh
 # Public directory
 public: public
 domains:
