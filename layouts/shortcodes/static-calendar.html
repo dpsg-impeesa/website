@@ -8,16 +8,19 @@
 		{{ $color := .color }}
 {{ with $new_data }}
   {{ range . | after 1 }}
+    {{ $end := (index . 4) | time.AsTime }}
+{{ if $end.After now }}
     {{ $data = $data | append (dict
     "calendar" $calendar
     "color" $color
     "title" (index . 1)
-    "start" (index . 2)
-    "end" (index . 4)
+    "start" (index . 2 | time.AsTime )
+    "end" $end
     "location" (index . 5)
     "description" (index . 6)
       )
     }}
+  {{ end }}
   {{ end }}
 {{ end }}
 
