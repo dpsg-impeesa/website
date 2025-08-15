@@ -1,0 +1,35 @@
+{{ $config := resources.Get "kalender/config.json" | transform.Unmarshal -}}
+{{ $data := slice }}
+
+{{ with $config.calendars }}
+	{{ range . }}
+		{{ $new_data := resources.Get .data | transform.Unmarshal -}}
+		{{ $calendar := .name }}
+		{{ $color := .color }}
+{{ with $new_data }}
+  {{ range . | after 1 }}
+    {{ $data = $data | append (dict
+    "calendar" $calendar
+    "color" $color
+    "title" (index . 1)
+    "start" (index . 2)
+    "end" (index . 4)
+    "location" (index . 5)
+    "description" (index . 6)
+      )
+    }}
+  {{ end }}
+{{ end }}
+
+	{{end}}
+{{ end }}
+
+{{ $data = sort $data "start" }}
+
+{{ with $data }}
+  {{ range . }}
+    {{ .title }} {{ .start }} {{ .calendar }}
+	<br>
+  {{ end }}
+{{ end }}
+
