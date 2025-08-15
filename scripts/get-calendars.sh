@@ -12,7 +12,7 @@ get_calendar() {
 	curl -s -o "$DIR/$name.ics" "$NC_URL$id/?export"
 	sed -i 's/(Admin)/(DPSG Stamm Impeesa)/' $DIR/$name.ics
 	sed -i 's/,//' $DIR/$name.ics
-	./scripts/icsp -d , -c "UID,SUMMARY,DTSTART,DTSTAMP,DTEND,LOCATION,DESCRIPTION" -n $DIR/$name.ics > assets/kalender/$name.csv
+	./scripts/icsp -d , -c "UID,SUMMARY,DTSTART,DTSTAMP,DTEND,LOCATION,DESCRIPTION" $DIR/$name.ics > assets/kalender/$name.csv
 }
 
 get_calendar c5yMSBoWp9qRstkd stamm
