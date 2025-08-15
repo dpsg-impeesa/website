@@ -1,8 +1,7 @@
 {{ $config := resources.Get "kalender/config.json" | transform.Unmarshal -}}
 {{ $data := slice }}
 
-{{ with $config.calendars }}
-	{{ range . }}
+{{ range $config.calendars }}
 		{{ $new_data := resources.Get .data | transform.Unmarshal -}}
 		{{ $calendar := .name }}
 		{{ $color := .color }}
@@ -21,7 +20,6 @@
       )
     }}
   {{ end }}
-  {{ end }}
 {{ end }}
 
 	{{end}}
@@ -29,10 +27,102 @@
 
 {{ $data = sort $data "start" }}
 
-{{ with $data }}
-  {{ range . }}
-    {{ .title }} {{ .start }} {{ .calendar }}
-	<br>
-  {{ end }}
+<div id='calendar-container'>
+{{ range $config.calendars }}
+  <input type="checkbox" class="calendar-toggle {{ .name }}" id="{{ .name }}-toggle" name="{{ .name }}" value="{{ .mame}}" style="accent-color: {{ .color }};" {{ if .checked }}checked{{ end }}>
+  <label class="calendar-toggle-label {{ .name }}" for="{{ .name }}-toggle" style="color: {{ .color }};">{{ .name }}</label>
 {{ end }}
+  <br>
+{{ range $data }}
+      <div class="calendar-event {{.calendar}}" style="border-left: 0.3rem solid {{.color}};">
+        <h3 class="event-title" style="color: {{.color}};">{{.title}}</h3>
+        <p class="event-time">{{ .start.Format "2.1. 15:04"}} – {{ .end.Format "2.1. 15:04 Uhr"}}</p>
+	{{- if .description }}
+	<div class="event-description">
+	  {{ .description | markdownify }}
+	</div>
+	{{- end }}
+        <p class="event-source" style="color: {{.color}};">{{.calendar}}</p>
+      </div>
+{{ end }}
+</div>
 
+
+<style type='text/css'>
+  .calendar-event {
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      text-indent: 0.2rem;
+    }
+
+  p.event-time,
+  p.event-source,
+  p.event-description-line {
+    margin: 0;
+  }
+
+  p.event-source {
+    font-weight: bold;
+  }
+
+  .event-description {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    margin-left: 0.5rem;
+    color: var(--highlight-color);
+  }
+
+  h3.event-title {
+    margin-block-end: 0;
+  }
+
+  .calendar-toggle-label {
+    margin-right: 0.5rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    .calendar-toggle-label:nth-of-type(3)::after{
+      content: "\a";
+      white-space: pre;
+    }
+  }
+
+  {{ range $config.calendars }}
+  input.{{ .name }}[type="checkbox"]:not(:checked) ~ .calendar-event.{{ .name }}  {
+    display: none;
+  }
+  {{ end }}
+
+</style>
+
+
+<script>
+ function copyLink(event) {
+  event.preventDefault();
+  link = event.target.getAttribute('href');
+  alt = event.target.getAttribute('alt');
+  navigator.clipboard.writeText(link).then(() => {
+    alert( alt + " kopiert!\n\n" + link);
+  }, () => {
+    console.log("Link Kopieren fehlgeschlagen!");
+  });
+}
+</script>
+
+<br>
+
+<div id='calendar-subscribe'>
+  Um die einzelnen Kalender zu abonnieren, können die folgenden Links verwendet werden:
+  <br>
+  {{ range $config.calendars }}
+  <a
+    href="{{ .url | absURL }}"
+    onclick="copyLink(event)"
+    style="color : {{ .color }};"
+    alt="Link zum Abonnieren des {{ .name }}-Kalenders"
+    target="_blank"
+  >
+    {{ .name }}
+  </a>
+  {{ end }}
+</div>
