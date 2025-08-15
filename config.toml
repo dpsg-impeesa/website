@@ -14,7 +14,7 @@ theme = []
 #   avatar = "img/avatar.png"
 
 [pagination]
-  pagerSize  = "5" # Number of posts per page
+  #pagerSize  = "5" # Number of posts per page
   disableAliases = false
   path = ''
 
@@ -39,7 +39,7 @@ theme = []
   expanded_menu = false # always show menu items in expanded mode on mobile
   start_button = true # show dpsg logo button in menu bar that links to the index page
   darkmode = false
-
+  pagerSize = 5  # Default number of posts per page
 [Params.style.vars]
   highlightColor = "#003056" # Override main theme color
 
