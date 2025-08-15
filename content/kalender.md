@@ -12,10 +12,10 @@ aliases:
   - /calendar
   - /my-calendar
   - /kalender/kalender-liste
-sidebar: true
+sidebar: false
 post_meta_hide: true
 lastmod: 2025-03-31 00:36:33 +0200
 ---
 
 
-{{< js-kalender >}}
+{{< static-calendar >}}

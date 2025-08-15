@@ -7,3 +7,5 @@ static/old-images/
 static/large
 
 *.ics
+
+assets/kalender/*.csv
