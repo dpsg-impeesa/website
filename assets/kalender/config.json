@@ -1,0 +1,46 @@
+{
+  "calendars": [
+    {
+      "name": "Stamm",
+      "data": "kalender/stamm.csv",
+      "url": "/kalender/stamm.ics",
+      "color": "purple",
+      "checked": true
+    },
+    {
+      "name": "Wölflinge",
+      "data": "kalender/woelflinge.csv",
+      "url": "/kalender/woelflinge.ics",
+      "color": "#e05800",
+      "checked": true
+    },
+    {
+      "name": "Jufis",
+      "data": "kalender/jufis.csv",
+      "url": "/kalender/jufis.ics",
+      "color": "#2f53a7",
+      "checked": true
+    },
+    {
+      "name": "Pfadis",
+      "data": "kalender/pfadis.csv",
+      "url": "/kalender/pfadis.ics",
+      "color": "#00823c",
+      "checked": true
+    },
+    {
+      "name": "Rover",
+      "data": "kalender/rover.csv",
+      "url": "/kalender/rover.ics",
+      "color": "#cc1f2f",
+      "checked": true
+    },
+    {
+      "name": "Leiter",
+      "data": "kalender/leiter.csv",
+      "url": "/kalender/leiter.ics",
+      "color": "#8b8b88",
+      "checked": false
+    }
+  ]
+}
