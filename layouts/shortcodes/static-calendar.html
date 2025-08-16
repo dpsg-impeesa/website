@@ -48,6 +48,9 @@
 	</div>
 	{{- end }}
         <p class="event-source" style="color: {{.color}};">{{.calendar}}</p>
+	{{ if .location }}
+        <p class="event-location">📍 {{.location}}</p>
+        {{ end }}
       </div>
 {{ end }}
 </div>
