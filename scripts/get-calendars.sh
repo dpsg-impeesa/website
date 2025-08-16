@@ -11,7 +11,7 @@ get_calendar() {
 	echo "Downloading calendar $name"
 	curl -s -o "$DIR/$name.ics" "$NC_URL$id/?export"
 	sed -i 's/(Admin)/(DPSG Stamm Impeesa)/' $DIR/$name.ics
-	sed -i 's/,//' $DIR/$name.ics
+	sed -i 's/,//' $DIR/$name.ics # all commas need to be removed from Summary and description to get a correct csv file later
 	./scripts/icsp -d , -c "UID,SUMMARY,DTSTART,DTSTAMP,DTEND,LOCATION,DESCRIPTION" $DIR/$name.ics > assets/kalender/$name.csv
 }
 
