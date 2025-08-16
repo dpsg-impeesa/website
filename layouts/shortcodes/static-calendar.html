@@ -33,7 +33,12 @@
   <label class="calendar-toggle-label {{ .name }}" for="{{ .name }}-toggle" style="color: {{ .color }};">{{ .name }}</label>
 {{ end }}
   <br>
+{{ $lastDate := time.AsTime 0 }}
 {{ range $data }}
+    {{- if eq ($lastDate.Format "2006-01") (.start.Format "2006-01") | not }}
+    <h2 class="month-header">{{ index (split (.start | time.Format ":date_full") ". " ) 1 }}</h2> <!-- :date_full is localized and contains the month name and year -->
+    {{ $lastDate = .start }}
+    {{ end }}
       <div class="calendar-event {{.calendar}}" style="border-left: 0.3rem solid {{.color}};">
         <h3 class="event-title" style="color: {{.color}};">{{.title}}</h3>
         <p class="event-time">{{ .start.Format "2.1. 15:04"}} – {{ .end.Format "2.1. 15:04 Uhr"}}</p>
