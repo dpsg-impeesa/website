@@ -29,7 +29,7 @@
 
 <div id='calendar-container'>
 {{ range $config.calendars }}
-  <input type="checkbox" class="calendar-toggle {{ .name }}" id="{{ .name }}-toggle" name="{{ .name }}" value="{{ .mame}}" style="accent-color: {{ .color }};" {{ if .checked }}checked{{ end }}>
+  <input type="checkbox" class="calendar-toggle {{ .name }}" id="{{ .name }}-toggle" name="{{ .name }}" value="{{ .name}}" style="accent-color: {{ .color }};" {{ if .checked }}checked{{ end }}>
   <label class="calendar-toggle-label {{ .name }}" for="{{ .name }}-toggle" style="color: {{ .color }};">{{ .name }}</label>
 {{ end }}
   <br>
