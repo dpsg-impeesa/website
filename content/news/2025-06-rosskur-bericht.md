@@ -13,12 +13,6 @@ thumbnail_hide_post: true
 
 {{< load-photoswipe >}}
 
-<style>
-img {
-    width: 25rem;
-}
-</style>
-
 {{< figure src="/images/galerie/rosskur/IMG_7889.webp" alt="Das Helfer-Team" >}}  
 Wer am Wochenende vom 16. bis 18. Mai 2025 am Ortsausgang von Markelfingen in Richtung Allensbach vorbeikam, konnte einen ungewöhnlichen Anblick erleben: Auf der Wiese standen zahlreiche Zelte und ein selbstgebautes Piratenboot. Es war der Start- und Zielbereich sowie Lagerplatz der Rosskur 2025, einem 24-Stunden-Stationenlauf für Pfadfinderinnen und Pfadfinder der ältesten Stufe in der DPSG (Deutsche Pfadfinder*innenschaft Sankt Georg), den sogenannten Rovern.
 
