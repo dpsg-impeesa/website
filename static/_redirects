@@ -21,6 +21,8 @@
 /category/stammestruppvorstellungen/ /tags/vorstellungen/ 301
 /kalender/wös.ics /kalender/woelflinge.ics 301
 
+/bilder/* https://cloud.dpsg-radolfzell.de/apps/memories/s/:splat
+
 /plausible/js/script.js https://stats.dpsg-radolfzell.de/js/script.file-downloads.outbound-links.tagged-events.js 200
 /plausible/api/event https://stats.dpsg-radolfzell.de/api/event 200
 /vtiles/* https://tiles.versatiles.org/:splat 200
