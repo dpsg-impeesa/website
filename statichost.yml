@@ -4,8 +4,3 @@ image: hubci/hugo:0.145.0
 command: ./build.sh
 # Public directory
 public: public
-domains:
-  # Primary domain
-  - dpsg-radolfzell.de
-  # Domains that redirect to the primary
-  - www.dpsg-radolfzell.de
