@@ -6,8 +6,7 @@ tags:
 title: Wölflingslager 2025
 type: post
 slug: woelflingslager
-thumbnail: /images/upload/2024/image0.jpeg
-summary: "Am Samstag den 6.9. haben wir uns am Vormittag getroffen und schon ging es los Richtung St. Georgen in den Schwarzwald. Kaum angekommen und schnell wurde fleißig fürs Mittagessen geschnippelt. Es folgten ein paar organisatorische Dinge wie zB. die Zimmeraufteilung oder die Regeln."
+thumbnail: /images/upload/2025/WöLa25-Gruppenbild.webp
 readmore: true
 ---
 
