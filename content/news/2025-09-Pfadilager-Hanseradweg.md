@@ -1,5 +1,5 @@
 ---
-date: 2025-09-22 22:00:00
+date: 2025-10-05 12:00:00
 tags:
 - sommerlager
 - pfadfinder
@@ -21,11 +21,15 @@ Die Tour führte uns auf einer **Route von Duisburg bis Amsterdam** entlang der 
 
 #### 1. September: Komplizierte Anreise
 
-Unsere Reise begann bereits mit der **Aufteilung in zwei Gruppen** für die Zuganreise nach Duisburg. Wir mussten beide extrem früh aufbrechen (um 4 bzw. 5 Uhr morgens) um mittags gemeinsam in Duisburg zu starten.
 
-**Gruppe 1** wählte die Route von Radolfzell über Friedrichshafen und Ulm. Diese Gruppe erreichte das Ziel ohne größere Komplikationen, wenn auch müde von der frühen Bahnfahrt. Sie organisierte erfolgreich einen Schlafplatz bei einem örtlichen Kanuclub und bereitete das Abendessen vor, obwohl sich der Großteil der Kochutensilien bei der zweiten Gruppe befand.
+Für die Zuganreise nach Duisburg mussten wir uns in zwei Gruppen aufteilen, um die Fahrräder überhaupt mitnehmen zu können. Außerdem mussten beide Gruppen extrem früh aufbrechen (um 4 bzw. 5 Uhr morgens) um mittags gemeinsam in Duisburg zu starten.
 
-**Gruppe 2** erlebte dagegen erhebliche Schwierigkeiten. Die Route führte über Karlsruhe (einziger geplanter Umstieg), doch bereits kurz nach der Abfahrt sammelte der Zug eine halbstündige Verspätung an. Der kritische Moment kam, als unser Zug ankam, während der Anschluss abfuhr. Die Suche nach alternativen Verbindungen mit Fahrrädern erwies sich als äußerst schwierig. Nach dreistündigen Aufenthalt in Karlsruhe begannen wir eine mühsame Reise mit Regionalzügen, die fünf Umstiege erforderte und uns **8,5 Stunden später als geplant** in Duisburg ankommen ließ.
+**Gruppe 1** nahm die Route von Radolfzell über Friedrichshafen und Ulm. Diese Gruppe erreichte das Ziel ohne größere Komplikationen, wenn auch müde von der frühen Bahnfahrt. 
+
+**Gruppe 2** erlebte dagegen erhebliche Schwierigkeiten. Die Route führte über Karlsruhe (einziger geplanter Umstieg), doch bereits kurz nach der Abfahrt sammelte der Zug eine halbstündige Verspätung an. Der Anschlusszug in Karlsruhe wartete nicht, sondern fuhr gleichzeitig mit unserer Ankunft ab. 
+Die Suche nach alternativen Verbindungen mit Fahrrädern erwies sich als äußerst schwierig. Nach dreistündigen Aufenthalt in Karlsruhe begannen wir eine mühsame Reise mit Regionalzügen, die fünf Umstiege erforderte und uns **8,5 Stunden später als geplant** in Duisburg ankommen ließ.
+
+Währenddessen organisierte die Erste Gruppe einen Schlafplatz bei einem örtlichen Kanuclub und bereitete das Abendessen vor, obwohl sich der Großteil der Kochutensilien und Zutaten bei der zweiten Gruppe befand.
 
 ### Die eigentliche Radtour
 
@@ -33,48 +37,51 @@ Unsere Reise begann bereits mit der **Aufteilung in zwei Gruppen** für die Zuga
 
 #### 2. September: Endlich gemeinsam unterwegs
 
-Unser erster gemeinsamer Radtag begann vielversprechend, doch bereits **nach 15 Kilometern innerhalb Duisburgs** erlebten wir den ersten Reifenplatzer der Tour. Zusätzlich kam es zu einem Auffahrunfall, infolge dessen wir eine Satteltasche provisorisch mit Kabelbindern befestigen mussten.   
-  
-Und da kein Fahrradladen Ersatzteile verkaufen wollte.
+Unser erster gemeinsamer Radtag begann vielversprechend, doch bereits **nach 15 Kilometern (noch innerhalb Duisburgs)** erlebten wir den ersten platten Reifen der Tour.
 
-Trotz dieser frühen Rückschläge schafften wir an diesem Tag **insgesamt 65 Kilometer**. Wir übernachteten beim Rees'er Kanuclub, und bereiteten das ursprünglich für den ersten Abend geplante Curry zu, wobei wir das gesamte Currypulver aufbrauchten.
+Bei einem Auffahrunfall kam eine Satteltasche zu schaden, die von da an mit Kabelbindern am Gepäckträger gehalten wurde (kein Fahrradladen hatte da passende Ersatzteil vorrätig).
+
+Trotz dieser frühen Rückschläge schafften wir an diesem Tag **insgesamt 65 Kilometer**. Wir übernachteten beim Rees'er Kanuclub, und bereiteten das ursprünglich für den ersten Abend geplante Curry zu, wobei das gesamte Currypulver aufgebraucht wurde.
+
 
 #### 3. September: Landesgrenze und neue Landschaften
 
-Dieser Tag markierte für uns den **Übergang von Deutschland in die Niederlande**. Ein besonderes Erlebnis war die Rheinüberquerung mit der Fähre, die perfekt getimt war: Sie kam genau dann an, als wir aufgrund der Fährzeiten eine frühe Mittagspause beschlossen hatten. Beim Einpacken und Losfahren zeigten wir beeindruckende Effizienz.
+Dieser Tag markierte für uns den **Übergang von Deutschland in die Niederlande**. Ein besonderes Erlebnis war die Rheinüberquerung mit der Fähre, die perfekt getimt war: Sie kam genau dann an, als wir aufgrund der im Plan angegebenen Fährzeiten eine frühe Mittagspause beschlossen hatten. Nach etwas Hecktischem zusammenpacken, konnte die frühere Fähre dann doch erreicht werden.
 
 An diesem Tag mussten wir eine wichtige **Routenentscheidung** treffen: Die entspannte Route über Utrecht oder die längere Strecke über Zwolle? Wir entschieden uns für Zwolle und verließen damit den Rhein, um der Ijssel zu folgen.
 
 ![Fahrräder auf Deich](/images/upload/2025/hanseradweg_deich.webp)
 
-Das Ende des Tages war von Pech geprägt: **Zwei Reifenpannen nacheinander** zwangen uns, die letzten zehn geplanten Kilometer nicht zu fahren, sondern direkt im nächsten Ort (einem Vorort von Doesburg) nach einem Schlafplatz zu suchen. Wir übernachteten bei einer gastfreundlichen Familie mit großem Garten, und erlebten damit unsere erste Nacht im Zelt. Während des Zeltaufbaus und beim Abendessen erlebten wir einen kurzen, aber intensiven Regenschauer.
+Am Ende des Tages zwanngen uns **Zwei Reifenpannen nacheinander** und ein nahendes Unwetter, die letzten zehn geplanten Kilometer nicht zu fahren, sondern direkt im nächsten Ort (einem Vorort von Doesburg) nach einem Schlafplatz zu suchen. Wir übernachteten bei einer gastfreundlichen Familie mit großem Garten, und erlebten damit unsere erste Nacht im Zelt. Während des Zeltaufbaus und beim Abendessen gab es dann noch einen kurzen, aber intensiven Regenschauer.
 
 #### 4. September: Gegenwind und ländliche Idylle
 
-Unser vierter Tag war geprägt von **starkem Gegenwind**, der das Vorankommen auf den geraden Strecken erschwerte. Nach einer Mittagspause in eine Park mit Pavillon beschlossen wir, einen landschaftlichen Umweg über zwei pittoreske Dörfer zu nehmen.  
-  
-Eine **Kekspause am Bach** führte zu einem kleinen Zwischenfall: Einer von uns zog sich eine leichte Verletzung zu, nachdem er durch den Bach gewatet war
+Unser vierter Tag war sehr windig, was das Vorankommen auf den geraden Strecken erschwerte. Doch unsere Beine machten nicht schlapp und wir beschlossen nach der Mittagspause, einen landschaftlichen Umweg über zwei pittoreske Dörfer zu nehmen.  
 
-Am Abend gestaltete sich unsere Suche nach einer Unterkunft schwierig, da im letzten Ort vor Zwolle Dorffest war und entsprechend wenige Menschen zu Hause waren. Schließlich wurden wir auf einem **Bauernhof mit Schafen** aufgenommen.
+Am Abend gestaltete sich unsere Suche nach einer Unterkunft schwierig, da im letzten Ort vor Zwolle Dorffest war und entsprechend wenige Menschen zu Hause waren. 
+Schließlich wurden wir auf einem **Bauernhof mit Schafen** aufgenommen. Das lokale Unwetter zog zum Glück größtenteils an uns vorbei.
 
 ![Zelt mit Unwetterwolken](/images/upload/2025/hanseradweg_unwetterwolken.webp)
 
-#### 5. September: Einkaufspause und Missgeschicke
-
-In Zwolle nutzten wir die Gelegenheit für eine **Einkaufspause**, bei der wir sowohl praktische Bedürfnisse (Apotheke) als auch kulinarische Wünsche (High-Protein-Erdnussbutter im Aldi) erfüllten.
+#### 5. September: Höhenmeter und Stürze
 
 Unsere Route führte über eine große Brücke als Abkürzung an Zwolle vorbei vorbei. Dies waren gleichzeitig die einzigen nennenswerten Höhenmeter unserer gesamten Tour. 
 
-Eine Pause an einem windigen Picknickplatz direkt an der Straße führte zu einem Fahrradschaden.   
-Nach der anschließenden Kekspause ereignete sich außerdem ein **Sturz in den Graben** (schlechtes Omen für Kekspausen?).
+Bei der Mittagspause machte sich eines der Fahrräder alleine weiter auf den Weg und fuhr von der Straße den Hang herunter.
+Nach der späteren Kekspause ereignete sich außerdem ein **akrobatischer Sturz in den Graben**
 
 ![Sturz in Graben](/images/upload/2025/hanseradweg_graben.webp)
 
-Nahe Nunspeet suchten wir nach einem **Übernachtungsort für zwei Tage**. Wir fanden einen besonders komfortablen Platz mit luxuriöser Ausstattung: Wasserkocher, Tee, Kaffeemaschine, Käseplatte, Holz und Feuerschale standen uns zur Verfügung. 
+Nahe Nunspeet suchten wir nach einem **Übernachtungsort für zwei Tage**. Hier wurden wir von unseren Gastgebern verwöhnt: Wasserkocher mit Teebeuteln, Kaffeemaschine, eine leckerere Käseplatte, Holz und eine Feuerschale wurden uns gebracht. 
 
 #### 6. September: Feierlicher Versprechenstag
 
-Unser sechster Tag war ein **besonderer Höhepunkt der Reise**: der Versprechenstag. Der Tag begann festlich mit Pfannkuchen und süßen Teilchen zum Frühstück. Doch beim nächtlichen Aufbruch zum Versprechen entdeckten wir **zwei weitere Reifenpannen**.
+Unser sechster Tag war ein **besonderer Höhepunkt der Reise**: der Versprechenstag. Der Tag begann festlich mit Pfannkuchen und süßen Teilchen zum Frühstück. Neben Platz suchen, Text schreiben und aufgaben überlegen war noch genug zeit sich von den letzten Anstrengenden Tagen zu entspannen.
+
+![Fahrradtaxi](/images/upload/2025/hanseradweg_taxi.webp)
+
+Doch beim nächtlichen Aufbruch zum Versprechen entdeckten wir **zwei weitere Reifenpannen**, wehalb bei der Reise zum versprechensplatz auch die Stabilität der Gepäckträger getestet wurde.
+
 
 **Unser Versprechen fand in den Dünen** statt, was eine besonders atmosphärische Kulisse schuf. Nach der feierlichen Zeremonie versammelten wir uns um ein Feuer um Marshmallows und Stockbrot zu essen. Unsere Feierlichkeiten zogen sich bis weit in die Nacht.
 
@@ -84,9 +91,10 @@ Unser sechster Tag war ein **besonderer Höhepunkt der Reise**: der Versprechens
 
 Nach der kurzen Nacht war erwartungsgemäß **unser Start in den Tag langsam**, und wir brachen erst Mittags auf. Wir waren alle noch müde, hatten aber noch eine anspruchsvolle **50-Kilometer-Etappe** vor uns.
 
-Ein Höhepunkt des Tages war unsere **Mittagspause mit Schwimmen im Gooimeer**, die uns neue Energie spendete. Am Abend wartete eine positive Überraschung auf uns: Wir hatten bereits eine Übernachtungsmöglichkeit bei **Seepfadfindern in Naarden**.
+Ein Höhepunkt des Tages war unsere **Mittagspause mit Schwimmen im Gooimeer**, die uns neue Energie spendete.  
+Am Abend wartete eine positive Überraschung auf uns: Wir hatten bereits eine Übernachtungsmöglichkeit bei den **Seepfadfindern in Naarden**.
 
-Wir erkundeten das historische Dorf, das in eine Festung eingebaut ist, und beobachteten am Abend eine Mondfinsternis. Unser Abendessen bestand erneut aus Nudeln mit Pesto, wodurch unser „Pesto-Hunger” endgültig gestillt wurde.
+Wir erkundeten das historische Dorf, das in eine Festung eingebaut ist, und beobachteten am Abend eine Mondfinsternis. Das Abendessen bestand zum zweiten mal aus Nudeln mit Pesto, wodurch unser „Pesto-Hunger” endgültig gestillt wurde.
 
 ### Sightseeing in Amsterdam
 
@@ -102,15 +110,15 @@ Ein **Regentag** bot uns die perfekte Gelegenheit für kulturelle Aktivitäten. 
 
 #### 10. September: Unser intensiver Abschlusstag
 
-Unser letzter voller Tag in Amsterdam war dicht gepackt mit kulturellen Höhepunkten. Wir besuchten die **Fabri des Lumières**, entspannten in einem Café und Park, unternahmen eine **Bootstour durch die berühmten Grachten** und besichtigten das bewegende **Anne-Frank-Haus**.
+Unser letzter voller Tag in Amsterdam war dicht gepackt mit kulturellen Höhepunkten. Wir besuchten die **Fabriqur des Lumières**, entspannten in einem Café und Park, unternahmen eine **Bootstour durch die berühmten Grachten** und besichtigten das bewegende **Anne-Frank-Haus**.
 
-Zum Abendessen gab es Burger und Pommes bei einer niederländischen Frittenbude mit "riesen Pommes-Portionen". Den Abend widmeten wir dem **Aufräumen und Packen**, bevor eine **letzte Runde unseres beliebten Werwolf-Spiels** das Lager abschloss.
+Zum Abendessen gab es Burger und Pommes bei einer niederländischen Frittenbude mit "riesen Pommes-Portionen". Den Abend widmeten wir dem **Aufräumen und Packen**, bevor eine **letzte Runde "Werwolf"** das Lager abschloss.
 
 ![Abschlussessen](/images/upload/2025/hanseradweg_abschlussessen.webp)
 
 #### 11. September: Reibungslose Rückkehr
 
-Im Gegensatz zur Anreise verlief unsere Heimreise völlig problemlos. Wieder in zwei Gruppen aufgeteilt, brachen die ersten um 6:30 Uhr und die zweiten um 8:30 Uhr auf. **Ab Amsterdam ging es mit dem ICE**, und alle unsere Anschlüsse funktionierten perfekt. Selbst der Regionalzug, für den die Information "Keine Fahrradmitnahme möglich" angezeigt wurde, hatte überraschend viel Platz für unsere Fahrräder.
+Im Gegensatz zur Anreise verlief unsere Heimreise völlig problemlos. Wieder in zwei Gruppen aufgeteilt, brachen die ersten um 5:30 Uhr und die zweiten um 7:30 Uhr auf. Direkt in Amsterdam Central konnten wir in den ICE einsteigen, und alle unsere Anschlüsse funktionierten ohne Probleme. Selbst der Regionalzug, für den die Information "Keine Fahrradmitnahme möglich" angezeigt wurde, hatte überraschend viel Platz für unsere Fahrräder.
 
 Unsere Reise endete mit einem **gemeinsamen Abschluss in Radolfzell**, wo unser Abenteuer begonnen hatte.
 
