@@ -1,6 +1,6 @@
 +++
 title="Categories"
-[_build]
+[build]
   render="never"
   list="never"
 +++
