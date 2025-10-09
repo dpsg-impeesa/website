@@ -7,23 +7,23 @@ title: Pfadilager Hanseradweg 2025 🇳🇱
 type: post
 slug: hanseradweg
 thumbnail: /images/upload/2025/hanseradweg_allee.webp 
+summary: Unser Pfadilager 2025 war eine unvergessliche Fahrradtour von Duisburg bis Amsterdam. Über elf ereignisreiche Tage erlebten wir - eine Gruppe von zwölf Personen, darunter zehn Pfadis und zwei Leiter - ein Abenteuer voller Herausforderungen, Gemeinschaftserlebnisse und kultureller Entdeckungen. Die Tour führte uns entlang des Rheins bis zur Niederländischen Grenze, weiter durch malerische Landschaften und historische Städte entlang der Ijsel und der Zuiderseen bis Nach Amsterdam. Insgesamt legten wir 370 Kilometer auf dem Fahrrad zurück.
 readmore: true
 ---
 
 
 **Unser Pfadilager 2025** war eine unvergessliche Fahrradtour von Duisburg bis Amsterdam. Über elf ereignisreiche Tage erlebten wir - eine Gruppe von zwölf Personen, darunter zehn Pfadis und zwei Leiter - ein Abenteuer voller Herausforderungen, Gemeinschaftserlebnisse und kultureller Entdeckungen.
 
-Die Tour führte uns auf einer **Route von Duisburg bis Amsterdam** entlang der traditionsreichen Hanseroute. Dieser historische Handelsweg bot uns nicht nur landschaftliche Schönheit, sondern auch eine Verbindung zur mittelalterlichen Handelsgeschichte der Hanse. Wir legten dabei beträchtliche Strecken zurück und überwanden verschiedene logistische Herausforderungen.
+Die Tour führte uns entlang des Rheins bis zur Niederländischen Grenze, weiter durch malerische Landschaften und historische Städte entlang der Ijsel und der Zuiderseen bis Nach Amsterdam. Insgesamt legten wir 370 Kilometer auf dem Fahrrad zurück.
 {{< karte-route 52 6 7 "map/2025_hanseradweg.geojson" 700 500 >}}
 
 ## Anreise und erste Herausforderungen
 
 ### 1. September: Komplizierte Anreise
 
-
 Für die Zuganreise nach Duisburg mussten wir uns in zwei Gruppen aufteilen, um die Fahrräder überhaupt mitnehmen zu können. Außerdem mussten beide Gruppen extrem früh aufbrechen (um 4 bzw. 5 Uhr morgens) um mittags gemeinsam in Duisburg zu starten.
 
-**Gruppe 1** nahm die Route von Radolfzell über Friedrichshafen und Ulm. Diese Gruppe erreichte das Ziel ohne größere Komplikationen, wenn auch müde von der frühen Bahnfahrt. 
+**Gruppe 1** nahm die Route von Radolfzell über Friedrichshafen und Ulm. Diese Gruppe erreichte das Ziel ohne größere Komplikationen, wenn auch müde von der frühen Bahnfahrt.
 
 **Gruppe 2** erlebte dagegen erhebliche Schwierigkeiten. Die Route führte über Karlsruhe (einziger geplanter Umstieg), doch bereits kurz nach der Abfahrt sammelte der Zug eine halbstündige Verspätung an. Der Anschlusszug in Karlsruhe wartete nicht, sondern fuhr gleichzeitig mit unserer Ankunft ab. 
 Die Suche nach alternativen Verbindungen mit Fahrrädern erwies sich als äußerst schwierig. Nach dreistündigen Aufenthalt in Karlsruhe begannen wir eine mühsame Reise mit Regionalzügen, die fünf Umstiege erforderte und uns **8,5 Stunden später als geplant** in Duisburg ankommen ließ.
@@ -41,7 +41,6 @@ Unser erster gemeinsamer Radtag begann vielversprechend, doch bereits **nach 15 
 Bei einem Auffahrunfall kam eine Satteltasche zu schaden, die von da an mit Kabelbindern am Gepäckträger gehalten wurde (kein Fahrradladen hatte da passende Ersatzteil vorrätig).
 
 Trotz dieser frühen Rückschläge schafften wir an diesem Tag **insgesamt 65 Kilometer**. Wir übernachteten beim Rees'er Kanuclub, und bereiteten das ursprünglich für den ersten Abend geplante Curry zu, wobei das gesamte Currypulver aufgebraucht wurde.
-
 
 ### 3. September: Landesgrenze und neue Landschaften
 
@@ -64,14 +63,14 @@ Schließlich wurden wir auf einem **Bauernhof mit Schafen** aufgenommen. Das lok
 
 ### 5. September: Höhenmeter und Stürze
 
-Unsere Route führte über eine große Brücke als Abkürzung an Zwolle vorbei vorbei. Dies waren gleichzeitig die einzigen nennenswerten Höhenmeter unserer gesamten Tour. 
+Unsere Route führte über eine große Brücke als Abkürzung an Zwolle vorbei vorbei. Dies waren gleichzeitig die einzigen nennenswerten Höhenmeter unserer gesamten Tour.
 
 Bei der Mittagspause machte sich eines der Fahrräder alleine weiter auf den Weg und fuhr von der Straße den Hang herunter.
 Nach der späteren Kekspause ereignete sich außerdem ein **akrobatischer Sturz in den Graben**
 
 ![Sturz in Graben](/images/upload/2025/hanseradweg_graben.webp)
 
-Nahe Nunspeet suchten wir nach einem **Übernachtungsort für zwei Tage**. Hier wurden wir von unseren Gastgebern verwöhnt: Wasserkocher mit Teebeuteln, Kaffeemaschine, eine leckerere Käseplatte, Holz und eine Feuerschale wurden uns gebracht. 
+Nahe Nunspeet suchten wir nach einem **Übernachtungsort für zwei Tage**. Hier wurden wir von unseren Gastgebern verwöhnt: Wasserkocher mit Teebeuteln, Kaffeemaschine, eine leckerere Käseplatte, Holz und eine Feuerschale wurden uns gebracht.
 
 ### 6. September: Feierlicher Versprechenstag
 
@@ -80,7 +79,6 @@ Unser sechster Tag war ein **besonderer Höhepunkt der Reise**: der Versprechens
 ![Fahrradtaxi](/images/upload/2025/hanseradweg_taxi.webp)
 
 Doch beim nächtlichen Aufbruch zum Versprechen entdeckten wir **zwei weitere Reifenpannen**, wehalb bei der Reise zum versprechensplatz auch die Stabilität der Gepäckträger getestet wurde.
-
 
 **Unser Versprechen fand in den Dünen** statt, was eine besonders atmosphärische Kulisse schuf. Nach der feierlichen Zeremonie versammelten wir uns um ein Feuer um Marshmallows und Stockbrot zu essen. Unsere Feierlichkeiten zogen sich bis weit in die Nacht.
 
@@ -121,9 +119,4 @@ Im Gegensatz zur Anreise verlief unsere Heimreise völlig problemlos. Wieder in 
 
 Unsere Reise endete mit einem **gemeinsamen Abschluss in Radolfzell**, wo unser Abenteuer begonnen hatte.
 
-## Fazit
-
-Unser Pfadilager 2025 entlang des Hanseradwegs war trotz technischer Herausforderungen und widriger Wetterbedingungen ein großer Erfolg. Wir bewältigten nicht nur die physischen Anforderungen der mehrtägigen Radtour, sondern erlebten auch wichtige Momente der Gemeinschaft, wie den feierlichen Versprechenstag, und eine kulturelle Bereicherung durch den Besuch historischer Städte und Museen. Die häufige Aufnahme bei Kanu- und Seepfadfindergruppen unterstrich den internationalen Zusammenhalt der Pfadfinderbewegung und bot uns authentische Begegnungen mit Gleichgesinnten. Unser beliebtes Werwolf-Spiel und die gemeinsamen Mahlzeiten stärkten unseren Gruppenzusammenhalt und schufen bleibende Erinnerungen an diese außergewöhnliche Unternehmung.
-
 ![Gruppenfoto](/images/upload/2025/hanseradweg_gruppe.webp)
-
