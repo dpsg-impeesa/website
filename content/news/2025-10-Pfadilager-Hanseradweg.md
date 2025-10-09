@@ -6,7 +6,7 @@ tags:
 title: Pfadilager Hanseradweg 2025 🇳🇱
 type: post
 slug: hanseradweg
-thumbnail: /images/upload/2025/hanseradweg_allee.webp 
+thumbnail: /images/upload/2025/hanseradweg_allee.webp
 summary: Unser Pfadilager 2025 war eine unvergessliche Fahrradtour von Duisburg bis Amsterdam. Über elf ereignisreiche Tage erlebten wir - eine Gruppe von zwölf Personen, darunter zehn Pfadis und zwei Leiter - ein Abenteuer voller Herausforderungen, Gemeinschaftserlebnisse und kultureller Entdeckungen. Die Tour führte uns entlang des Rheins bis zur Niederländischen Grenze, weiter durch malerische Landschaften und historische Städte entlang der Ijsel und der Zuiderseen bis Nach Amsterdam. Insgesamt legten wir 370 Kilometer auf dem Fahrrad zurück.
 readmore: true
 ---
