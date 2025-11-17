@@ -23,30 +23,30 @@ Um Mitglied zu werden, oder sich auf die Warteliste setzen zu lassen können sie
 ### Wölflinge (2.-4. Klasse)
 
 Dienstag 18:00-19:30  
-Leiter: Samuel, Friedemann, David, Louisa, Lotta und Silas  
+Leiter: David, Theresa, Louisa, Lotta, Eliana, Samuel und Helen  
 Kontakt: {{< cloakemail "woelflinge@dpsg-radolfzell.de" >}}
 
 ### Jungpfadfinder (5.-7. Klasse)
 
 Montag 18:15-19:45  
-Leiter: Frederik, Jakob, Helen, Mathis und Enya  
+Leiter: Jakob, Frederik, Enya und Mathis  
 Kontakt: {{< cloakemail "jufis@dpsg-radolfzell.de" >}}
 
 ### Pfadis (8.-10. Klasse)
 
 Montag 20:00-21:30  
-Leiter: Steffen und Emil  
+Leiter: Friedemann, Silas und Emil  
 Kontakt: {{< cloakemail "pfadis@dpsg-radolfzell.de" >}}
 
 ### Rover (ab 11. Klasse)
 
 Freitags ab 20:00 Uhr  
 Kontakt: {{< cloakemail "rover@dpsg-radolfzell.de" >}}  
-instagram [@rover_impeesa](https://instagram.com/rover_impeesa)
+Instagram: [@rover_impeesa](https://instagram.com/rover_impeesa)
 
 ### Vorstand:
 
-Thomas und David  
+David, Jakob und Spicki (Kuratin)  
 Kontakt: {{< cloakemail "vorstand@dpsg-radolfzell.de" >}}
 
 
