@@ -1,0 +1,73 @@
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $layout := .Get "layout" | default "left" }}
+{{ $ratio := .Get "ratio" | default "1:1" }}
+
+{{ $imgFlex := "1" }}
+{{ $textFlex := "1" }}
+{{ if eq $ratio "2:1" }}
+  {{ $imgFlex = "2" }}
+  {{ $textFlex = "1" }}
+{{ else if eq $ratio "1:2" }}
+  {{ $imgFlex = "1" }}
+  {{ $textFlex = "2" }}
+{{ else if eq $ratio "3:2" }}
+  {{ $imgFlex = "3" }}
+  {{ $textFlex = "2" }}
+{{ else if eq $ratio "2:3" }}
+  {{ $imgFlex = "2" }}
+  {{ $textFlex = "3" }}
+{{ end }}
+
+<div class="sxs-container layout-{{ $layout }}" style="
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  margin: 2.5rem 0;
+  width: 100%;
+">
+  <div class="sxs-image-wrapper" style="
+    flex: {{ $imgFlex }} 1 300px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  ">
+    <img src="{{ $image | relURL }}" alt="{{ $alt }}" style="
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    ">
+  </div>
+  <div class="sxs-text-wrapper" style="
+    flex: {{ $textFlex }} 1 300px;
+    min-width: 0;
+  ">
+    {{ .Inner }}
+  </div>
+</div>
+
+<style>
+  @media (max-width: 768px) {
+    .sxs-container {
+      flex-direction: column !important;
+      gap: 1.5rem !important;
+    }
+    .sxs-image-wrapper {
+      flex: 1 1 100% !important;
+    }
+    .sxs-text-wrapper {
+      flex: 1 1 100% !important;
+    }
+  }
+  .sxs-image-wrapper:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
+  }
+  .layout-right {
+    flex-direction: row-reverse !important;
+  }
+</style>

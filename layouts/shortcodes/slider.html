@@ -1,0 +1,145 @@
+{{ $images := .Get "images" | split "," }}
+{{ $id := printf "slider-%d" now.UnixNano }}
+
+<div class="custom-slider-container" id="{{ $id }}" style="
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+">
+  <div class="slider-wrapper" style="
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 100%;
+  ">
+    {{ range $index, $src := $images }}
+      <div class="slide" style="
+        min-width: 100%;
+        box-sizing: border-box;
+      ">
+        <img src="{{ $src | trim " " | relURL }}" style="
+          width: 100%;
+          height: auto;
+          display: block;
+          max-height: 500px;
+          object-fit: cover;
+        ">
+      </div>
+    {{ end }}
+  </div>
+
+  <!-- Navigation Arrows -->
+  <button class="slider-btn prev-btn" onclick="moveSlider('{{ $id }}', -1)" style="
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: background 0.3s;
+    z-index: 10;
+  ">&#10094;</button>
+  <button class="slider-btn next-btn" onclick="moveSlider('{{ $id }}', 1)" style="
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: background 0.3s;
+    z-index: 10;
+  ">&#10095;</button>
+
+  <!-- Indicator Dots -->
+  <div class="slider-dots" style="
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+  ">
+    {{ range $index, $src := $images }}
+      <span class="dot {{ if eq $index 0 }}active{{ end }}" onclick="setSlider('{{ $id }}', {{ $index }})" style="
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.5);
+        cursor: pointer;
+        transition: background 0.3s;
+      "></span>
+    {{ end }}
+  </div>
+</div>
+
+{{ if not ($.Scratch.Get "slider_script_loaded") }}
+  {{ $.Scratch.Set "slider_script_loaded" true }}
+  <script>
+    const slidersState = {};
+
+    function initSlider(id) {
+      if (!slidersState[id]) {
+        slidersState[id] = {
+          currentIdx: 0,
+          totalSlides: document.querySelectorAll('#' + id + ' .slide').length
+        };
+      }
+    }
+
+    function moveSlider(id, direction) {
+      initSlider(id);
+      const state = slidersState[id];
+      state.currentIdx = (state.currentIdx + direction + state.totalSlides) % state.totalSlides;
+      updateSlider(id);
+    }
+
+    function setSlider(id, index) {
+      initSlider(id);
+      slidersState[id].currentIdx = index;
+      updateSlider(id);
+    }
+
+    function updateSlider(id) {
+      const state = slidersState[id];
+      const wrapper = document.querySelector('#' + id + ' .slider-wrapper');
+      wrapper.style.transform = `translateX(-${state.currentIdx * 100}%)`;
+
+      // Update dots
+      const dots = document.querySelectorAll('#' + id + ' .dot');
+      dots.forEach((dot, idx) => {
+        if (idx === state.currentIdx) {
+          dot.style.background = '#fff';
+        } else {
+          dot.style.background = 'rgba(255,255,255,0.5)';
+        }
+      });
+    }
+  </script>
+{{ end }}
+<style>
+  .slider-btn:hover {
+    background: rgba(0,0,0,0.8) !important;
+  }
+</style>

@@ -1,0 +1,36 @@
+{{ $cols := .Get "cols" | default "2" }}
+<div class="custom-grid grid-cols-{{ $cols }}" style="
+  display: grid;
+  grid-template-columns: repeat({{ $cols }}, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+  width: 100%;
+">
+  {{ .Inner }}
+</div>
+
+<style>
+  .custom-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 0 !important;
+  }
+  .custom-grid img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+  .custom-grid p {
+    margin: 0 !important;
+  }
+  @media (max-width: 768px) {
+    .custom-grid {
+      grid-template-columns: 1fr !important;
+      gap: 1rem !important;
+    }
+  }
+</style>

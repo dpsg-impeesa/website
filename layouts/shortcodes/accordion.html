@@ -1,0 +1,54 @@
+{{ $title := .Get "title" }}
+{{ $open := .Get "open" | default "false" }}
+<details class="custom-accordion" {{ if eq $open "true" }}open{{ end }} style="
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin: 1rem 0;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+">
+  <summary style="
+    font-weight: 600;
+    padding: 1rem 1.25rem;
+    background: #f8fafc;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    list-style: none; /* Hide default arrow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+    transition: background 0.2s ease;
+  ">
+    <span>{{ $title }}</span>
+    <span class="accordion-arrow" style="
+      transition: transform 0.3s ease;
+      font-size: 0.8rem;
+    ">&#9660;</span>
+  </summary>
+  <div class="accordion-content" style="
+    padding: 1.25rem;
+    border-top: 1px solid #e2e8f0;
+  ">
+    {{ .Inner }}
+  </div>
+</details>
+
+<style>
+  .custom-accordion[open] summary {
+    background: #f1f5f9;
+    border-bottom-color: #e2e8f0;
+  }
+  .custom-accordion[open] .accordion-arrow {
+    transform: rotate(180deg);
+  }
+  .custom-accordion summary::-webkit-details-marker {
+    display: none; /* Hide default arrow in Safari */
+  }
+  .custom-accordion:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+</style>

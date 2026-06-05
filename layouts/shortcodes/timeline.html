@@ -7,15 +7,14 @@
     {{ $media = dict "url" .Params.thumbnail }}
   {{ end }}
   
-  {{ $desc := .Summary }}
-  {{ if .Truncated }}
-    {{ $desc = printf "%s <p><a href='%s' class='read-more-link'>Weiterlesen... &rarr;</a></p>" $desc .RelPermalink }}
-  {{ end }}
+  {{ $articleId := printf "article-%s" .File.UniqueID }}
+  {{ $desc := printf "%s <p><button class='timeline-modal-btn' data-article-id='%s'>📖 Im Vollbild lesen &rarr;</button></p>" .Summary $articleId }}
 
   {{ $startDate := dict "year" (.Date.Format "2006") "month" (.Date.Format "01") "day" (.Date.Format "02") }}
   {{ $event := dict 
     "start_date" $startDate
     "text" (dict "headline" .Title "text" $desc)
+    "unique_id" $articleId
   }}
   {{ if $media }}
     {{ $event = merge $event (dict "media" $media) }}
@@ -25,7 +24,7 @@
 
 <!-- 2. Custom Events aus data/chronik.yaml hinzufügen -->
 {{ if .Site.Data.chronik }}
-  {{ range .Site.Data.chronik }}
+  {{ range $index, $element := .Site.Data.chronik }}
     {{ $dateStr := "" }}
     {{ $type := printf "%T" .date }}
     {{ if eq $type "time.Time" }}
@@ -75,9 +74,16 @@
         {{ $startDate = merge $startDate (dict "day" $day) }}
       {{ end }}
 
+      {{ $yamlID := printf "yaml-%d" $index }}
+      {{ $desc := .text }}
+      {{ if .images }}
+        {{ $desc = printf "%s <p><button class='timeline-modal-btn' data-article-id='article-%s'>📖 Bildergalerie &amp; Details &rarr;</button></p>" .text $yamlID }}
+      {{ end }}
+
       {{ $event := dict 
         "start_date" $startDate
-        "text" (dict "headline" .title "text" .text)
+        "text" (dict "headline" .title "text" $desc)
+        "unique_id" (printf "article-%s" $yamlID)
       }}
       {{ if $media }}
         {{ $event = merge $event (dict "media" $media) }}
@@ -97,17 +103,770 @@
 
 <!-- Knightlab TimelineJS Assets (Self-Hosted for CSP compliance) -->
 <link rel="stylesheet" href="/css/timeline.css">
-<div id="timeline-embed" style="width: 100%; height: 650px; margin: 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid #ddd;"></div>
+
+<!-- Premium Interactive Search Section -->
+<div class="timeline-search-section">
+  <div class="timeline-search-bar">
+    <div class="timeline-input-wrapper">
+      <svg class="timeline-search-icon" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+      </svg>
+      <input type="text" id="timeline-search-input" placeholder="Chronik durchsuchen (z.B. Gründung, Lager, 1956...)" aria-label="Chronik durchsuchen" autocomplete="off">
+      <button id="timeline-search-clear" aria-label="Suche löschen" style="display: none;">&times;</button>
+    </div>
+    <div class="timeline-search-actions">
+      <label class="timeline-filter-toggle">
+        <input type="checkbox" id="timeline-filter-checkbox">
+        <span class="slider"></span>
+        <span class="toggle-label">Timeline filtern</span>
+      </label>
+    </div>
+  </div>
+  
+  <!-- Live Search Results Dropdown -->
+  <div id="timeline-search-dropdown" class="timeline-search-dropdown" style="display: none;">
+    <div class="timeline-search-results-info">
+      <span id="timeline-search-count">0 Ergebnisse</span>
+      <span style="font-weight: normal; color: #94a3b8; font-size: 0.75rem;">Klicke, um zum Ereignis zu springen</span>
+    </div>
+    <div id="timeline-search-results-list" class="timeline-search-results-list"></div>
+  </div>
+</div>
+
+<div id="timeline-embed" style="width: 100%; height: 650px; margin: 1.5rem 0 2rem 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 1px solid #ddd;"></div>
 <script src="/js/timeline.js"></script>
 
+<!-- Hidden container for full article contents -->
+<div id="timeline-modal-storage" style="display: none;">
+  <!-- News articles -->
+  {{ range where .Site.RegularPages "Section" "news" }}
+    <div id="article-{{ .File.UniqueID }}" class="timeline-article-modal-content">
+      <h2 class="timeline-modal-title">{{ .Title }}</h2>
+      <div class="timeline-modal-meta">
+        <span class="timeline-modal-date">📅 {{ .Date.Format "02.01.2006" }}</span>
+        {{ if .Params.tags }}
+          <span class="timeline-modal-tags">
+            {{ range .Params.tags }}
+              <span class="timeline-tag">#{{ . }}</span>
+            {{ end }}
+          </span>
+        {{ end }}
+      </div>
+      <hr class="timeline-modal-divider">
+      <div class="timeline-modal-body">
+        {{ .Content }}
+      </div>
+    </div>
+  {{ end }}
+
+  <!-- YAML events with multiple images -->
+  {{ if .Site.Data.chronik }}
+    {{ range $index, $element := .Site.Data.chronik }}
+      {{ if .images }}
+        {{ $yamlID := printf "yaml-%d" $index }}
+        {{ $dateStr := "" }}
+        {{ $type := printf "%T" .date }}
+        {{ if eq $type "time.Time" }}
+          {{ $dateStr = .date.Format "02.01.2006" }}
+        {{ else }}
+          {{ $dateStr = string .date }}
+        {{ end }}
+        {{ $eventTitle := .title }}
+        <div id="article-{{ $yamlID }}" class="timeline-article-modal-content">
+          <h2 class="timeline-modal-title">{{ .title }}</h2>
+          <div class="timeline-modal-meta">
+            <span class="timeline-modal-date">📅 {{ $dateStr }}</span>
+          </div>
+          <hr class="timeline-modal-divider">
+          <div class="timeline-modal-body">
+            <p>{{ .text | safeHTML }}</p>
+            <div class="custom-grid grid-cols-2" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+              {{ range .images }}
+                <img src="{{ . | relURL }}" alt="{{ $eventTitle }}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+
+<!-- Fullscreen Modal Markup -->
+<div id="timeline-fullscreen-modal" class="timeline-modal-overlay">
+  <div class="timeline-modal-container">
+    <button class="timeline-modal-close" aria-label="Schließen">&times;</button>
+    <div class="timeline-modal-inner-content">
+      <!-- Injected via JavaScript -->
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Button styling in TimelineJS */
+  .timeline-modal-btn {
+    background: #003056 !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 8px 16px !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    transition: all 0.2s ease !important;
+    margin-top: 12px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    box-shadow: 0 4px 6px rgba(0,30,86,0.15) !important;
+    font-family: inherit !important;
+  }
+  .timeline-modal-btn:hover {
+    background: #00467c !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 12px rgba(0,30,86,0.25) !important;
+  }
+  .timeline-modal-btn:active {
+    transform: translateY(1px) !important;
+  }
+
+  /* Modal Overlay styling */
+  .timeline-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 999999;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .timeline-modal-overlay.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  /* Modal Container styling (Fullscreen) */
+  .timeline-modal-container {
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .timeline-modal-overlay.active .timeline-modal-container {
+    transform: translateY(0);
+  }
+
+  /* Close Button styling (Fixed/Floating at top-right of the fullscreen container) */
+  .timeline-modal-close {
+    position: absolute;
+    top: 24px;
+    right: 40px;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height: 40px;
+    cursor: pointer;
+    color: #475569;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  .timeline-modal-close:hover {
+    background: #ef4444;
+    border-color: #ef4444;
+    color: #ffffff;
+    transform: rotate(90deg) scale(1.05);
+  }
+
+  /* Modal Inner Content scrolling */
+  .timeline-modal-inner-content {
+    overflow-y: auto;
+    padding: 80px 24px 60px 24px;
+    flex: 1;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Centered article content wrapper inside fullscreen layout */
+  .timeline-article-modal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 0 80px 0;
+  }
+
+  /* Article typography in Modal */
+  .timeline-modal-title {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+    line-height: 1.2 !important;
+    font-family: inherit !important;
+  }
+  .timeline-modal-meta {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .timeline-tag {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .timeline-modal-divider {
+    border: 0;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 0 0 30px 0;
+  }
+  .timeline-modal-body {
+    color: #334155;
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  .timeline-modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Prevent background scrolling when modal is active */
+  body.modal-open {
+    overflow: hidden;
+    padding-right: var(--scrollbar-width, 0px); /* Avoid page shift */
+  }
+
+  @media (max-width: 768px) {
+    .timeline-modal-inner-content {
+      padding: 24px 20px;
+    }
+    .timeline-modal-title {
+      font-size: 1.6rem !important;
+    }
+    .timeline-modal-container {
+      max-height: 90vh;
+      margin: 10px;
+    }
+  }
+
+  /* Search UI styles */
+  .timeline-search-section {
+    position: relative;
+    max-width: 100%;
+    margin: 1.5rem 0 0.5rem 0;
+    font-family: inherit;
+  }
+  .timeline-search-bar {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #f8fafc;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .timeline-input-wrapper {
+    position: relative;
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+  }
+  .timeline-search-icon {
+    position: absolute;
+    left: 14px;
+    width: 18px;
+    height: 18px;
+    fill: #64748b;
+    pointer-events: none;
+  }
+  #timeline-search-input {
+    width: 100%;
+    padding: 10px 40px 10px 42px;
+    border-radius: 8px;
+    border: 1.5px solid #cbd5e1;
+    font-size: 0.95rem;
+    color: #1e293b;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    outline: none;
+  }
+  #timeline-search-input:focus {
+    border-color: #003056;
+    box-shadow: 0 0 0 3px rgba(0, 48, 86, 0.15);
+  }
+  #timeline-search-clear {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  #timeline-search-clear:hover {
+    color: #64748b;
+    background: #f1f5f9;
+  }
+  .timeline-search-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Custom Toggle Switch */
+  .timeline-filter-toggle {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    gap: 8px;
+  }
+  .timeline-filter-toggle input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .timeline-filter-toggle .slider {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 24px;
+    background-color: #cbd5e1;
+    transition: .3s;
+    border-radius: 24px;
+  }
+  .timeline-filter-toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .3s;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  .timeline-filter-toggle input:checked + .slider {
+    background-color: #003056;
+  }
+  .timeline-filter-toggle input:focus + .slider {
+    box-shadow: 0 0 0 2px rgba(0, 48, 86, 0.25);
+  }
+  .timeline-filter-toggle input:checked + .slider:before {
+    transform: translateX(22px);
+  }
+  .toggle-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #475569;
+    transition: color 0.2s;
+  }
+  .timeline-filter-toggle input:checked ~ .toggle-label {
+    color: #003056;
+  }
+
+  /* Dropdown results container */
+  .timeline-search-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    z-index: 1000;
+    max-height: 380px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: slideDown 0.2s ease-out;
+  }
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .timeline-search-results-info {
+    padding: 10px 16px;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #64748b;
+    display: flex;
+    justify-content: space-between;
+  }
+  .timeline-search-results-list {
+    overflow-y: auto;
+    flex: 1;
+    padding: 6px 0;
+  }
+  
+  /* Result Item styling */
+  .timeline-search-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: all 0.15s ease;
+    border-bottom: 1px solid #f1f5f9;
+    text-align: left;
+  }
+  .timeline-search-item:last-child {
+    border-bottom: none;
+  }
+  .timeline-search-item:hover {
+    background: #f1f5f9;
+  }
+  .timeline-search-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .timeline-search-item-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #003056;
+  }
+  .timeline-search-item-date {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #475569;
+    background: #e2e8f0;
+    padding: 2px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .timeline-search-item-text {
+    font-size: 0.85rem;
+    color: #64748b;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+  .timeline-search-no-results {
+    padding: 24px;
+    text-align: center;
+    color: #64748b;
+    font-size: 0.9rem;
+  }
+  .search-highlight {
+    background-color: rgba(254, 240, 138, 0.6);
+    color: #854d0e;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+</style>
+
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function() {
-    var timeline_json = {{ $timelineData | jsonify | safeJS }};
-    window.timeline = new TL.Timeline('timeline-embed', timeline_json, {
+  // Global initializer for TimelineJS
+  window.initTimeline = function(data, hashBookmark) {
+    if (window.timeline) {
+      document.getElementById('timeline-embed').innerHTML = '';
+    }
+    window.timeline = new TL.Timeline('timeline-embed', data, {
       language: 'de',
-      hash_bookmark: true,
+      hash_bookmark: hashBookmark,
       scale_factor: 1.5,
       zoom_sequence: [0.5, 1, 2, 3, 5, 8]
     });
+  };
+
+  document.addEventListener("DOMContentLoaded", function() {
+    window.originalTimelineData = {{ $timelineData | jsonify | safeJS }};
+    
+    // Initial timeline load
+    window.initTimeline(window.originalTimelineData, true);
+
+    // Calculate scrollbar width to prevent page layout shifting
+    var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    document.documentElement.style.setProperty('--scrollbar-width', scrollbarWidth + 'px');
+
+    // Search and filtering implementation
+    var searchInput = document.getElementById("timeline-search-input");
+    var searchClear = document.getElementById("timeline-search-clear");
+    var filterCheckbox = document.getElementById("timeline-filter-checkbox");
+    var searchDropdown = document.getElementById("timeline-search-dropdown");
+    var searchCount = document.getElementById("timeline-search-count");
+    var searchResultsList = document.getElementById("timeline-search-results-list");
+
+    function stripHtml(html) {
+      var tmp = document.createElement("DIV");
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || "";
+    }
+
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function createSnippet(text, query, maxLength = 120) {
+      const cleanText = stripHtml(text).replace(/\s+/g, ' ').trim();
+      const index = cleanText.toLowerCase().indexOf(query.toLowerCase());
+      if (index === -1) {
+        return cleanText.substring(0, maxLength) + (cleanText.length > maxLength ? '...' : '');
+      }
+      
+      let start = Math.max(0, index - Math.floor(maxLength / 2));
+      let end = Math.min(cleanText.length, start + maxLength);
+      
+      if (start > 0) {
+        const spaceIdx = cleanText.indexOf(' ', start);
+        if (spaceIdx !== -1 && spaceIdx < index) {
+          start = spaceIdx + 1;
+        }
+      }
+      
+      let snippet = cleanText.substring(start, end);
+      if (start > 0) snippet = '...' + snippet;
+      if (end < cleanText.length) snippet = snippet + '...';
+      
+      const regex = new RegExp(`(${escapeRegExp(query)})`, 'gi');
+      return snippet.replace(regex, '<mark class="search-highlight">$1</mark>');
+    }
+
+    function formatEventDate(startDate) {
+      if (!startDate) return "";
+      let parts = [];
+      if (startDate.day) parts.push(String(startDate.day).padStart(2, '0'));
+      if (startDate.month) parts.push(String(startDate.month).padStart(2, '0'));
+      if (startDate.year) parts.push(startDate.year);
+      
+      if (parts.length === 3) {
+        return parts.join('.');
+      } else if (parts.length === 2) {
+        return parts.join('.');
+      } else {
+        return startDate.year || "";
+      }
+    }
+
+    function performSearch() {
+      var query = searchInput.value.trim().toLowerCase();
+      
+      if (query === "") {
+        searchClear.style.display = "none";
+        searchDropdown.style.display = "none";
+        
+        // Reset timeline back to full content if it was filtered
+        if (filterCheckbox.checked) {
+          window.initTimeline(window.originalTimelineData, true);
+        }
+        return;
+      }
+
+      searchClear.style.display = "flex";
+      
+      var matches = [];
+      var events = window.originalTimelineData.events;
+      
+      for (var i = 0; i < events.length; i++) {
+        var event = events[i];
+        var headline = event.text.headline || "";
+        var summary = event.text.text || "";
+        var dateStr = formatEventDate(event.start_date);
+        
+        var fullText = "";
+        if (event.unique_id) {
+          var modalEl = document.getElementById(event.unique_id);
+          if (modalEl) {
+            fullText = modalEl.innerText || "";
+          }
+        }
+
+        var searchableText = (headline + " " + summary + " " + dateStr + " " + fullText).toLowerCase();
+        
+        if (searchableText.indexOf(query) !== -1) {
+          matches.push({
+            event: event,
+            headline: headline,
+            dateStr: dateStr,
+            snippetText: fullText || summary
+          });
+        }
+      }
+
+      // Display results dropdown
+      searchResultsList.innerHTML = "";
+      searchCount.textContent = matches.length === 1 ? "1 Ergebnis" : matches.length + " Ergebnisse";
+      
+      if (matches.length === 0) {
+        var noResults = document.createElement("div");
+        noResults.className = "timeline-search-no-results";
+        noResults.textContent = "Keine passenden Ereignisse gefunden.";
+        searchResultsList.appendChild(noResults);
+      } else {
+        matches.forEach(function(match) {
+          var item = document.createElement("div");
+          item.className = "timeline-search-item";
+          
+          var header = document.createElement("div");
+          header.className = "timeline-search-item-header";
+          
+          var title = document.createElement("span");
+          title.className = "timeline-search-item-title";
+          var regex = new RegExp(`(${escapeRegExp(query)})`, 'gi');
+          title.innerHTML = match.headline.replace(regex, '<mark class="search-highlight">$1</mark>');
+          
+          var dateBadge = document.createElement("span");
+          dateBadge.className = "timeline-search-item-date";
+          dateBadge.textContent = match.dateStr;
+          
+          header.appendChild(title);
+          header.appendChild(dateBadge);
+          
+          var snippet = document.createElement("div");
+          snippet.className = "timeline-search-item-text";
+          snippet.innerHTML = createSnippet(match.snippetText, query);
+          
+          item.appendChild(header);
+          item.appendChild(snippet);
+          
+          item.addEventListener("click", function() {
+            window.timeline.goToId(match.event.unique_id);
+            searchDropdown.style.display = "none";
+          });
+          
+          searchResultsList.appendChild(item);
+        });
+      }
+      
+      searchDropdown.style.display = "flex";
+
+      // If "Timeline filtern" is checked, reload TimelineJS with matches only
+      if (filterCheckbox.checked) {
+        var filteredEvents = matches.map(function(m) { return m.event; });
+        
+        if (filteredEvents.length === 0) {
+          const container = document.getElementById('timeline-embed');
+          container.innerHTML = `
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; min-height: 400px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1; padding: 2rem; text-align: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
+              <svg style="width: 48px; height: 48px; fill: #64748b; margin-bottom: 1rem;" viewBox="0 0 24 24">
+                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+              </svg>
+              <h3 style="margin: 0 0 8px 0; color: #1e293b; font-size: 1.25rem;">Keine Ergebnisse</h3>
+              <p style="margin: 0; color: #64748b; font-size: 0.95rem;">Für "${query}" konnten keine passenden Ereignisse in der Chronik gefunden werden.</p>
+            </div>
+          `;
+        } else {
+          var filteredData = {
+            title: window.originalTimelineData.title,
+            events: filteredEvents
+          };
+          window.initTimeline(filteredData, false);
+        }
+      }
+    }
+
+    searchInput.addEventListener("input", performSearch);
+    
+    filterCheckbox.addEventListener("change", function() {
+      performSearch();
+      if (!filterCheckbox.checked && searchInput.value.trim() === "") {
+        window.initTimeline(window.originalTimelineData, true);
+      }
+    });
+
+    searchClear.addEventListener("click", function() {
+      searchInput.value = "";
+      performSearch();
+      window.initTimeline(window.originalTimelineData, true);
+      searchInput.focus();
+    });
+
+    document.addEventListener("click", function(e) {
+      if (!e.target.closest(".timeline-search-section")) {
+        searchDropdown.style.display = "none";
+      }
+    });
+
+    searchInput.addEventListener("focus", function() {
+      if (searchInput.value.trim() !== "") {
+        searchDropdown.style.display = "flex";
+      }
+    });
+  });
+
+  // Event Delegation for dynamically created TimelineJS buttons
+  document.addEventListener("click", function(e) {
+    var btn = e.target.closest(".timeline-modal-btn");
+    if (btn) {
+      e.preventDefault();
+      var articleId = btn.getAttribute("data-article-id");
+      var contentSource = document.getElementById(articleId);
+      if (contentSource) {
+        var modal = document.getElementById("timeline-fullscreen-modal");
+        var inner = modal.querySelector(".timeline-modal-inner-content");
+        inner.innerHTML = contentSource.innerHTML;
+        modal.classList.add("active");
+        document.body.classList.add("modal-open");
+      }
+    }
+  });
+
+  function closeTimelineModal() {
+    var modal = document.getElementById("timeline-fullscreen-modal");
+    if (modal) {
+      modal.classList.remove("active");
+      document.body.classList.remove("modal-open");
+    }
+  }
+
+  // Close event listeners
+  document.getElementById("timeline-fullscreen-modal").addEventListener("click", function(e) {
+    if (e.target === this || e.target.closest(".timeline-modal-close")) {
+      closeTimelineModal();
+    }
+  });
+
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+      closeTimelineModal();
+    }
   });
 </script>
