@@ -1,0 +1,31 @@
+# Chronik-Einträge
+#
+# Hier können historische Meilensteine und Ereignisse eingetragen werden,
+# die nicht als normaler Beitrag/News auf der Website existieren.
+#
+# Das Format ist einfach und kann auch von IT-Laien leicht erweitert werden:
+#
+# - date: Datum des Ereignisses. Erlaubte Formate:
+#         - YYYY-MM-DD (z. B. 1956-04-03)
+#         - YYYY-MM    (z. B. 1956-04)
+#         - YYYY       (z. B. 1956)
+#   title: "Titel des Ereignisses"
+#   text: "Beschreibungstext des Ereignisses (HTML ist erlaubt, z. B. für Links oder Fettschrift)."
+#   image: "/images/upload/... (Optional: Pfad zum Bild, z. B. /img/logo.webp)"
+#   caption: "Bildunterschrift (Optional)"
+#   credit: "Bildnachweis / Fotograf (Optional)"
+#
+# WICHTIG:
+# - Die Einrückung mit Leerzeichen (2 Leerzeichen pro Ebene) muss exakt eingehalten werden.
+# - Texte am besten in doppelte Anführungszeichen setzen: "Text hier"
+# - Nach dem Speichern baut die Website die Chronik automatisch neu auf.
+
+- date: 1956-04-03
+  title: "Gründung des Stammes"
+  text: "Unser Stamm wurde am 3. April 1956 in Radolfzell gegründet. Der Gründungsname lautete zunächst <b>Siedlung Wiking</b>."
+  image: "/img/logo.webp"
+  caption: "Das traditionelle Logo des Stammes Impeesa"
+
+- date: 1970
+  title: "Umbenennung in Stamm Impeesa"
+  text: "Der ursprüngliche Name 'Siedlung Wiking' wurde in 'Stamm Impeesa' geändert. <i>Impeesa</i> war der Spitzname des Pfadfindergründers Lord Baden-Powell und bedeutet übersetzt 'der Wolf, der nie schläft'."
