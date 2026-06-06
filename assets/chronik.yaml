@@ -1,0 +1,19 @@
+# Chronik-Einträge
+#
+# Hier können historische Meilensteine und Ereignisse eingetragen werden,
+# die nicht als normaler Beitrag/News auf der Website existieren.
+#
+# Dokumentation für das Format findet sich unter: https://github.com/emhl/hugo-timelinejs/blob/main/docs/YAML_FORMAT.md
+
+title:
+  headline: "Chronik des Stammes"
+
+events:
+  - date: 1956-04-03
+    headline: "Gründung des Stammes"
+    text: "Unser Stamm wurde am 3. April 1956 in Radolfzell gegründet. Der Gründungsname lautete zunächst **Siedlung Wiking**."
+    media: "/img/logo.webp"
+    caption: "Das traditionelle Logo des Stammes Impeesa"
+  - date: 1970
+    headline: "Umbenennung in Stamm Impeesa"
+    text: "Der ursprüngliche Name 'Siedlung Wiking' wurde in 'Stamm Impeesa' geändert. _Impeesa_ war der Spitzname des Pfadfindergründers Lord Baden-Powell und bedeutet übersetzt 'der Wolf, der nie schläft'."

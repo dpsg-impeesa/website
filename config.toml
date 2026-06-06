@@ -108,3 +108,5 @@ theme = []
     path = 'github.com/emhl/hugo-dpsg'
 [[module.imports]]
     path = 'github.com/emhl/hugo-photoswipe-gallery'
+[[module.imports]]
+        path = 'github.com/emhl/hugo-timelinejs'
