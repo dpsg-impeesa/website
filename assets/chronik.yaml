@@ -9,7 +9,6 @@ title:
   headline: "Chronik des Stammes"
 
 events:
-  # events extracted from Stammeskronik.doc
   - date: 1956-04-03
     headline: "Gründung des Stammes"
     text: "Gründung am 3. April durch Winfried Enz, Reinhold Bartosch, Walter Kramer, Guido Moriell, Lothar Fischer und Helmut Haselberger als Siedlung Wiking."
@@ -29,10 +28,10 @@ events:
   - date: 1956-09-21
     headline: "Zweite Jungpfadfindersippe"
     text: "Nur zwei Wochen nach der ersten wurde am 21. September bereits die zweite Jungpfadfindersippe gegründet."
-  - date: 1956-10-01
+  - date: 1956
     headline: "Erster Stammeskurat"
     text: "Als erster Stammeskurat wurde dem Stamm Elmar Hettler zugeteilt."
-  - date: 1957-01-01
+  - date: 1957-01
     headline: "Erstes Wölflingsrudel"
     text: "Ende Januar entstand das erste Wölflingsrudel des Stammes."
   - date: 1957-01-23
@@ -50,7 +49,7 @@ events:
   - date: 1957-12-15
     headline: "Erste Krippenausstellung"
     text: "Am 15. Dezember fand die erste Krippenausstellung statt."
-  - date: 1958-03-01
+  - date: 1958-03
     headline: "Erste Akela"
     text: "Seit März 1958 hat der Stamm eine Akela für die Wölflingsstufe."
   - date: 1958-01-28
@@ -104,7 +103,7 @@ events:
   - date: 1967-03-28
     headline: "Aktion Flinke Hände, flinke Füße"
     text: 'Vom 28. März bis 9. April wurde die Aktion „Flinke Hände, flinke Füße" erstmals gemeinsam mit der PSG durchgeführt.'
-  - date: 1967-09-01
+  - date: 1967-09
     headline: "Neuer Stammeskurat Wolfgang Oberschmidt"
     text: "Im September wurde dem Stamm Wolfgang Oberschmidt als neuer Stammeskurat zugeteilt."
   - date: 1968-01-28
@@ -116,13 +115,13 @@ events:
   - date: 1969
     headline: "Unterstützung für Entwicklungshelfer Kurt Fricker"
     text: 'An Ostern wurde die Aktion „Flinke Hände, flinke Füße" für den Entwicklungshelfer Kurt Fricker im Kongo durchgeführt.'
-  - date: 1970-01-01
+  - date: 1970-01
     headline: "Neuer Stammeskurat Vikar Weber"
     text: "Im Januar wurde dem Stamm Vikar Weber als neuer Stammeskurat zugeteilt."
   - date: 1970-01-18
     headline: "Neuer Stammesvorsitzender Friedrich Liebsch"
     text: "Am 18. Januar wurde Friedrich Liebsch zum neuen Stammesvorsitzenden gewählt."
-  - date: 1970-09-01
+  - date: 1970-09
     headline: "Neuer Stammeskurat Kaplan Endres"
     text: "Im September erfolgte ein erneuter Wechsel des Stammeskuraten zu Kaplan Endres."
   - date: 1970-08-13
@@ -146,13 +145,13 @@ events:
   - date: 1975
     headline: "Wahl des Stammeskuraten Erwin Roser"
     text: "Erstmals wurde Erwin Roser zum neuen Stammeskuraten gewählt."
-  - date: 1975-09-01
+  - date: 1975-09
     headline: "Renovierung des Pfadfinderturms"
     text: "Im September und Oktober fand eine Renovierung des Pfadfinderturms statt."
   - date: 1976-01-23
     headline: "Ehrenmitgliedschaft und neuer Vorsitz"
     text: "Friedrich Liebsch wurde zum Ehrenmitglied ernannt. Gleichzeitig wurde Karl Fischer zum neuen Stammesvorsitzenden gewählt."
-  - date: 1976-09-01
+  - date: 1976-09
     headline: "Erwin Roser wird Regionalseelsorger"
     text: "Im September wurde Kurat Erwin Roser zum Regionalseelsorger gewählt."
   - date: 1977-06-11
@@ -176,7 +175,7 @@ events:
   - date: 1979-06-23
     headline: "Erste grüne Halstücher"
     text: "Am 23. Juni gab es erstmals grüne Halstücher für die Pfadfinderstufe im Stamm."
-  - date: 1979-09-01
+  - date: 1979-09
     headline: "Stadtranderholung Radolfzell"
     text: "Im September gestaltete der Stamm ein Tagesprogramm für die erstmals in Radolfzell durchgeführte Stadtranderholung."
   - date: 1981-06-14
@@ -191,10 +190,10 @@ events:
   - date: 1982
     headline: "Frühschoppen für die Kirche"
     text: "Veranstaltung eines Frühschoppens in Markelfingen, dessen Erlös von 1.894,45 DM der Kirchenrenovation zugute kam."
-  - date: 1982-10-01
+  - date: 1982-10
     headline: "25. Jamboree on the air"
     text: "Teilnahme am 25. Jamboree on the air im Oktober."
-  - date: 1982-08-01
+  - date: 1982-08
     headline: "Einweihung Spielplatz Im Lehen"
     text: 'Im August wurde in Markelfingen der Spielplatz „Im Lehen" eingeweiht, dessen Holzspielgeräte vom Pfadfindertrupp selbst hergestellt wurden.'
   - date: 1982
@@ -218,7 +217,7 @@ events:
   - date: 1984-10-11
     headline: "Neuer Stammesvorsitzender Joachim Petrich"
     text: "Joachim Petrich wurde am 11. Oktober zum neuen Stammesvorsitzenden gewählt."
-  - date: 1985-01-01
+  - date: 1985-01
     headline: "Jugendschutz-Appell"
     text: "Im Januar erfolgte ein Appell an die Wirte, keinen Alkohol an Jugendliche auszuschenken."
   - date: 1985-05-22
@@ -266,7 +265,7 @@ events:
   - date: 1991-04-28
     headline: "Stammesstafette zum 35. Jubiläum"
     text: "Am 28. April fand zum 35-jährigen Jubiläum eine große Stammesstafette mit Kindern und Eltern statt."
-  - date: 1991-12-01
+  - date: 1991-12
     headline: "Ehemaligentreffen zur Nachtwallfahrt"
     text: "Zum Ehemaligentreffen wurde am 3. Advent im Rahmen der Nachtwallfahrt eingeladen."
   - date: 1992
@@ -347,7 +346,7 @@ events:
   - date: 2002
     headline: "Solarkocher für Bangladesh"
     text: 'Jahresaktion in der Fußgängerzone für das Projekt „Solarkocher für Bangladesh".'
-  - date: 2002-12-01
+  - date: 2002-12
     headline: "Marktstand für den Schutzwaldverein"
     text: "Im Advent wurde ein Marktstand zum Kauf von Schulbüchern für den Schutzwaldverein betrieben."
   - date: 2003-10-02
@@ -371,7 +370,7 @@ events:
   - date: 2006-04-30
     headline: "50-jähriges Jubiläum"
     text: "Am 30. April wurde das 50. Jubiläum mit einer Stammesstafette und Jurtenburg gefeiert."
-  - date: 2006-09-01
+  - date: 2006-09
     headline: "Jubiläums-Stammeslager"
     text: "Anfang September fand zum Abschluss des Jubiläumsjahres ein Stammeslager statt."
 
@@ -448,6 +447,14 @@ events:
     headline: "Spendenlauf - Jahresaktion 2022"
     text: "Laufen für den guten Zweck:\nWir laden alle Motivierten, egal ob Sportskanonen, Hobbysportler oder Sportmuffel, zu unserem Spendenlauf ein. Drei Stunden hast Du Zeit, möglichst viele Runden à 650 Meter zu laufen, walken, joggen oder rennen. Du tust etwas Gutes für Deine Gesundheit und sammelst gleichzeitig mit jeder gelaufenen Runde Spenden für unsere Partnergemeinde Sicuani in Peru.\nMehr Infos zu Sicuani findest Du hier.\nWie funktioniert das genau? Teilnehmen kannst Du ganz einfach:\n\n\n[Mehr erfahren](/news/spendenlauf-2022/)"
     media: "/images/upload/2022/0001.webp"
+  - date: "2021-07-04"
+    headline: "Vorstellung Jufitrupp"
+    text: "Hallo wir sind die Jungpfadfinder,\nwir sind in der 5.,6. Oder 7. Klasse und treffen uns immer Montag Abend von 18:15 Uhr bis 19:45 Uhr im Pfarrheim in Markelfingen. Wir starten unsere Truppstunde mit einer von den Trüpplingen vorbereiteten Einleitung. Anschließend machen wir gemeinsam Spiele, sind viel draußen, planen und führen Aktionen und Projekte durch und haben viel Spaß zusammen. Das Highlight des Jahres stellt unser Sommerlager dar, bei dem wir ca. 2 Wochen Zelten gehen und an selbstgebauten Küchen kochen werden.\n\n\n[Mehr erfahren](/news/jufi-vorstellung-2021/)"
+    media: "/images/upload/2021/WhatsApp-Image-2021-07-06-at-20.20.04.jpeg"
+  - date: "2021-06-28"
+    headline: "Vorstellung Wölflingsmeute"
+    text: "Hallo, wir sind die Wölflinge!\nIhr findet uns jede Woche am Dienstag von 18:00 Uhr bis 19:30 Uhr auf der Pfarrwiese oder im Pfarrheim in Markelfingen.\nDie meiste Zeit spielen wir coole Spiele oder machen tolle Projekte, wie beispielsweise der Bau von einem großen Insektenhotel.\nWir Kinder besuchen die zweite, dritte oder vierte Klasse einer Grundschule.\nUnser Highlight im Pfadijahr ist definitiv das Sommerlager, auf welchem wir eine Woche lang Abenteuer in einem Haus erleben und als Gruppe noch weiter zusammenwachsen.\n\n\n[Mehr erfahren](/news/woelflinge-vorstellung-2021/)"
+    media: "/images/upload/2021/IMG-20210628-WA0001.webp"
   - date: "2019-08-01"
     headline: "72 Stunden Aktion 2019"
     text: "Die Diesjährige 72 Stunden Aktion war ein voller Erfolg. In kürzester Zeit bauten wir eine Schutzhütte auf dem Kohlplatz in Markelfingen. Vom 23.5.-26.5. hatten wir dafür Zeit.\n\n[Mehr erfahren](/news/72h-aktion-2019/)"

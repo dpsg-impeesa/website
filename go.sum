@@ -2,5 +2,5 @@ github.com/emhl/hugo-dpsg v0.0.0-20260606172142-cd2b81e58077 h1:czRfAGD9bM3pRrYE
 github.com/emhl/hugo-dpsg v0.0.0-20260606172142-cd2b81e58077/go.mod h1:M3DPv0Al0Dbn+GaE0wf9tYFh5ZKV8J5VsCZe9aFlVQ8=
 github.com/emhl/hugo-photoswipe-gallery v0.0.0-20250327213430-a127dd620357 h1:XeyPEsJ3XFnuNWQ2yN1LquU85RxcIfVeVh5KJKIgu40=
 github.com/emhl/hugo-photoswipe-gallery v0.0.0-20250327213430-a127dd620357/go.mod h1:D2JdS8A+7TW+ie6hbOM/imAXpzFBi4SvKDecw42v6x4=
-github.com/emhl/hugo-timelinejs v0.0.0-20260606191407-b21e7924ca12 h1:t4OeJlhwSYQnA9ucZqcT6ktP/SqxAr9zgsPuY+LzMkE=
-github.com/emhl/hugo-timelinejs v0.0.0-20260606191407-b21e7924ca12/go.mod h1:4MAXTnsdlVMA1Sw1EP61PjOiakQou92fBNEEbRunmlc=
+github.com/emhl/hugo-timelinejs v0.0.0-20260606230923-3d9b6302ebe2 h1:Z7860hRRpGbEvA6x/1B/fib7O9/G7DCLMxSC5xwFDq0=
+github.com/emhl/hugo-timelinejs v0.0.0-20260606230923-3d9b6302ebe2/go.mod h1:4MAXTnsdlVMA1Sw1EP61PjOiakQou92fBNEEbRunmlc=
