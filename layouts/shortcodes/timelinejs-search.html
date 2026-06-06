@@ -1,0 +1,122 @@
+{{ $data := .Get "data" | default "chronik.yaml" }} {{ $chronik := resources.Get
+$data | transform.Unmarshal }}
+
+<div class="timeline-search">
+    <input
+        type="text"
+        id="timeline-search-input"
+        placeholder="Chronik durchsuchen..."
+        aria-label="Chronik durchsuchen"
+    />
+    <div id="timeline-search-results" class="search-results"></div>
+</div>
+
+<script>
+    (function() {
+        const events = {{ $chronik.events | jsonify | safeJS }};
+        const input = document.getElementById('timeline-search-input');
+        const results = document.getElementById('timeline-search-results');
+
+        function slugify(str) {
+            if (!str) return '';
+            // Exact algorithm from TimelineJS3 src/js/core/Util.js
+            str = str.toString().trim().toLowerCase();
+            var from = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+            var to = "aaaaaeeeeeiiiiooooouuuunc------";
+            for (var i = 0, l = from.length; i < l; i++) {
+                str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+            }
+            str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+                .replace(/\s+/g, '-') // collapse whitespace and replace by -
+                .replace(/-+/g, '-'); // collapse dashes
+            str = str.replace(/^([0-9])/, '_$1'); // prefix if starts with number
+            return 'event-' + str;
+        }
+
+        input.addEventListener('input', function() {
+            const val = this.value.toLowerCase();
+            results.innerHTML = '';
+            if (val.length < 2) return;
+
+            const filtered = events.filter(e =>
+                (e.headline && e.headline.toLowerCase().includes(val)) ||
+                (e.text && e.text.toLowerCase().includes(val))
+            );
+
+            filtered.forEach(e => {
+                const div = document.createElement('div');
+                div.className = 'search-result-item';
+
+                // Remove markdown from text for preview
+                const plainText = e.text ? e.text.replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1').replace(/[\*_]/g, '') : '';
+                const preview = plainText.length > 100 ? plainText.substring(0, 100) + '...' : plainText;
+
+                div.innerHTML = `<strong>${e.headline}</strong><br><small>${e.date}${preview ? ' - ' + preview : ''}</small>`;
+                div.onclick = () => {
+                    const id = e.unique_id ? 'event-' + e.unique_id : slugify(e.headline);
+                    window.location.hash = id;
+                    results.innerHTML = '';
+                    input.value = '';
+                };
+                results.appendChild(div);
+            });
+        });
+        // Close results when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!document.querySelector('.timeline-search').contains(e.target)) {
+                results.innerHTML = '';
+            }
+        });
+    })();
+</script>
+
+<style>
+    .timeline-search {
+        position: relative;
+        margin-bottom: 2rem;
+        max-width: 600px;
+    }
+    #timeline-search-input {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+        border: 2px solid #eee;
+        border-radius: 8px;
+        transition: border-color 0.2s;
+        outline: none;
+    }
+    #timeline-search-input:focus {
+        border-color: #003056; /* Match theme highlightColor */
+    }
+    .search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid #eee;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    .search-result-item {
+        padding: 12px 16px;
+        cursor: pointer;
+        border-bottom: 1px solid #f5f5f5;
+        line-height: 1.4;
+    }
+    .search-result-item:last-child {
+        border-bottom: none;
+    }
+    .search-result-item:hover {
+        background: #f9f9f9;
+    }
+    .search-result-item strong {
+        color: #003056;
+    }
+    .search-result-item small {
+        color: #666;
+    }
+</style>

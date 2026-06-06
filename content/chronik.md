@@ -15,4 +15,7 @@ post_meta_hide: true
 ---
 
 Hier findet ihr eine interaktive Zeitreise durch die Geschichte unseres Stammes.
+
+{{< timelinejs-search data="chronik.yaml" >}}
+
 {{< timelinejs data="chronik.yaml" language="de" hash_bookmark="true" >}}
