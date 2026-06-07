@@ -374,6 +374,60 @@ events:
     headline: "Jubiläums-Stammeslager"
     text: "Anfang September fand zum Abschluss des Jubiläumsjahres ein Stammeslager statt."
 
+  # Daten aus Emil's Kopf
+  - date: 2010 # vielleicht auch 2009 oder 2011
+    headline: "Wir müssen den Turm verlassen"
+    text: "Die Radolfzeller Wös und Jufis dürfen nicht mehr im Turm am Untertor die Gruppenstunden veranstalten und ziehen in den Hexenkeller bei der Hausherrenschule"
+  - date: 2013
+    headline: 'Diöeszesanlager "Scoutside" bei Sigmaringen'
+    text: "2500 Pfadfinderinnen kommen auf dem ehemaligen Kasernengelände zusammen. Mehrere schwere Unwetter suchen die Veranstaltung heim."
+  - date: 2014-10 # oder war's doch erst 2015?
+    headline: "Zusammenlegung der Jufis"
+    text: "Die Jungpfadfindergruppe in Radolfzell wird aufgelöst."
+  - date: 2015-08
+    headline: 'Wanderlager der Pfadis entlang des "Via Spluga"'
+    text: "Über den Splügenpass von der Schweiz nach Italien, entlang der Historischen Handelsroute aus der Römerzeit führte das Wanderlager der Pfadis in diesem Jahr"
+  - date: 2016-08
+    headline: "Stammeslager zum 60-Jährigen Jubiläum"
+    text: "fand im Schwarzwalf auf dem Bruderhof statt"
+  - date: 2017-08
+    headline: "Wanderlager der Pfadis in der Bretagne"
+    text: ""
+  - date: 2018-08
+    headline: "Stammeslager zum Motto Märchen"
+    text: "Auf dem Zeltplatz in Öttiswald"
+  - date: 2019-08
+    headline: "Wanderlager der Pfadis auf dem Lech-Weg"
+    text: ""
+  - date: 2019-08
+    headline: "Sommerlager der Jungpfadfinder in Schönwald"
+    text: ""
+  - date: 2020-05-11 # erste Online-Gruppenstunde
+    end: 2022-04-04 # letzte Online-Gruppenstunde
+    headline: "Online Gruppenstunden in der Pfadistufe"
+    text: "Aufgrund der Kontaktbeschränkungen konnten keine normalen Gruppenstunden mehr stattfinden. Daher wurde in der Pfadistufe die online Gruppenstunde eingeführt. Zur sicheren Durchführung wurde auch der Discord-Server immer gut gelüftet. Präsenzgruppenstunden konnten in dem Zeitraum teilweise (idr. im Sommer) auch durchgeführt werden, so lange bis die Beschränkungen wieder verschärft wurden."
+  - date: 2020-08
+    headline: "Ringelager FarbenmEEHr 2020"
+    text: "Großlager mit Teilnehmenden aus verschiedenen Pfadfinerverbänden in ganz Baden-Württemberg. **Musste aufgrund der Corona-Pandemie abgesagt werden**"
+  - date: 2020-08
+    headline: "Wanderlager der Pfadis durch den Schwarzwald"
+    text: "Auf dem Westweg war die Pfadistufe für 5 Tage unterwegs"
+  - date: 2021-08
+    headline: "Kanulager der Pfadis auf der Spree"
+    text: "Nach mehreren Tagen paddeln auf der Spree und Dahme gab es außerdem noch Sightseeing in Berlin"
+  - date: 2022-04-10
+    end: 2022-04-18
+    headline: "Bundesunternehmen: roverVOCO"
+    text: "Auftakt mit der Region Mitte in Heidelberg. Projektphase in Duisburg. Gemeinsames Absschlusslager mit allen Teilnehmenden auf dem Gelände des Ziegeleipark Mildenberg in Brandenburg"
+  - date: 2022-08
+    headline: "Fahrradlager der Pfadis auf dem Donauradweg"
+    text: "Von Markelfingen auf direktem Weg an die Donau und dann dieser folgend bis Regensburg"
+  - date: 2023-08
+    headline: "Stammeslager mit Motto Asterix und Obelix"
+    text: "fand im Schwarzwalf auf dem Bruderhof statt"
+  - date: 2024-05
+    headline: "Gewinn der Super-Rosskur"
+    text: 'Bei der Rosskur in Bruchsal erzielte das Team aus Markelfingen die meisten Punkte. Daher findet die Rosskur 2025 bei uns statt. Die Rosskur 2024 war unter dem Motto "Super Mario"'
   # exported news posts
   - date: "2026-05-13"
     end: "2026-05-17"
