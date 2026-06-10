@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/emhl/hugo-timelinejs/main/docs/schema.json
 # Chronik-Einträge
 #
 # Hier können historische Meilensteine und Ereignisse eingetragen werden,
