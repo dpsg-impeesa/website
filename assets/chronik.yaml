@@ -419,19 +419,10 @@ events:
   - date: 2020-08
     headline: "Wanderlager der Pfadis durch den Schwarzwald"
     text: "Auf dem Westweg war die Pfadistufe für 5 Tage unterwegs"
-  - date: 2021-08
-    headline: "Kanulager der Pfadis auf der Spree"
-    text: "Nach mehreren Tagen paddeln auf der Spree und Dahme gab es außerdem noch Sightseeing in Berlin"
   - date: 2022-04-10
     end: 2022-04-18
     headline: "Bundesunternehmen: roverVOCO"
     text: "Auftakt mit der Region Mitte in Heidelberg. Projektphase in Duisburg. Gemeinsames Absschlusslager mit allen Teilnehmenden auf dem Gelände des Ziegeleipark Mildenberg in Brandenburg"
-  - date: 2022-08
-    headline: "Fahrradlager der Pfadis auf dem Donauradweg"
-    text: "Von Markelfingen auf direktem Weg an die Donau und dann dieser folgend bis Regensburg"
-  - date: 2023-08
-    headline: "Stammeslager mit Motto Asterix und Obelix"
-    text: "fand im Schwarzwalf auf dem Bruderhof statt"
   - date: 2024-05
     headline: "Gewinn der Super-Rosskur"
     text: 'Bei der Rosskur in Bruchsal erzielte das Team aus Markelfingen die meisten Punkte. Daher findet die Rosskur 2025 bei uns statt. Die Rosskur 2024 war unter dem Motto "Super Mario"'
@@ -488,6 +479,14 @@ events:
       Das Ziel war es, während der Projektphase so viel CO2 einzusparen, dass das Abschlusslager im Endeffekt CO2-neutral war.
       {{< popup-button "/news/crover-2025/" "Mehr erfahren" >}}
     media: "/images/upload/2025/CroverGroup.webp"
+  - date: "2025-06-28"
+    headline: "Dorfgauditunier 2025"
+    text: |
+      Am Samstag, 28. Juni 2025 findet in Markelfingen das diesjjhrige Dorfgauditurnier statt.
+      Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
+      Wir freuen uns auf einen Tag voller Spaß und guter Laune! Das Tunier get von 10:00 bis 17:00 Uhr und findet am Riedstadion in Markelfingen statt.
+      Anschließend ist ab 18:00 Uhr Party mit Live Band.   {{< popup-button "/news/dorfgauditunier-2025/" "Mehr erfahren" >}}
+    media: "/images/upload/2025/gauditunier.webp"
   - date: "2025-05-16"
     end: "2025-05-18"
     headline: "So war die Rosskur"
@@ -503,14 +502,15 @@ events:
       Doch wie kommt es dazu? Wer kann daran teilnehmen und was ist bitte eine Rosskur?
       {{< popup-button "/news/rosskur-2025/" "Mehr erfahren" >}}
     media: https://www.youtube.com/watch?v=c1hPXJ-CM34
-  - date: "2025-06-28"
-    headline: "Dorfgauditunier 2025"
+  - date: "2024-08-31"
+    end: "2024-09-06"
+    headline: "Wölflingslager 2024"
     text: |
-      Am Samstag, 28. Juni 2025 findet in Markelfingen das diesjjhrige Dorfgauditurnier statt.
-      Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
-      Wir freuen uns auf einen Tag voller Spaß und guter Laune! Das Tunier get von 10:00 bis 17:00 Uhr und findet am Riedstadion in Markelfingen statt.
-      Anschließend ist ab 18:00 Uhr Party mit Live Band.   {{< popup-button "/news/dorfgauditunier-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2025/gauditunier.webp"
+      Am Samstag, den 31. August sind wir in Nöggenschwiel im Pfadiheim angekommen und haben unser Gepäck in die Zimmer gebracht.
+      Alle hatten erstmal Freizeit und durften spielen.
+      Nach dem Essen und einer Abendrunde hörten wir noch eine Geschichte und gingen schlafen.
+      {{< popup-button "/news/woelflingslager-2024/" "Mehr erfahren" >}}
+    media: "/images/upload/2024/image0.jpeg"
   - date: "2024-08-27"
     end: "2024-09-07"
     headline: "Wanderlager der Pfadis 2024"
@@ -573,23 +573,63 @@ events:
       Der Römerplatz soll aus mehreren Bänken, Bäumen und 2 Mosaiken im Boden bestehen.
       {{< popup-button "/news/72h-aktion-2024/" "Mehr erfahren" >}}
     media: "/images/upload/2024/72h/gruppenbild.jpg"
+  - date: "2023-08-05"
+    end: "2023-08-12"
+    headline: "Stammeslager 2023: Asterix und Obelix"
+    text: |
+      Das Stammeslager am Bruderhof stand ganz im Zeichen der Gallier. Wölflinge, Jufis und Pfadis befreiten Miraculix und feierten gemeinsam am Lagerfeuer. {{< popup-button "/news/stammeslager-2023/" "Mehr erfahren" >}}
+    media: "/images/upload/2023/stammeslager/blaettle-19-027.webp"
   - date: "2023-05-13"
     headline: "Spendenlauf - Jahresaktion 2023"
     text: |
-      Wir laden alle Motivierten, egal ob Sportskanonen, Hobbysportler oder Sportmuffel, zu unserem Spendenlauf ein.
-      Drei Stunden hast Du Zeit, möglichst viele Runden à 650 Meter zu laufen, walken, joggen oder rennen.
-      Du tust etwas Gutes für Deine Gesundheit und sammelst gleichzeitig mit jeder gelaufenen Runde Spenden für den Bau einer Schule in Ghana.
-      Mehr Infos zu dem Projekt findest Du hier.
-      {{< popup-button "/news/spendenlauf-2023/" "Mehr erfahren" >}}
-    media: "/images/upload/2023/Plakat-1-conv-1-1.jpeg"
+      126 Läufer sammelten 6800€ für den Bau einer Schule in Ghana. Mit 1796 gelaufenen Runden war der Tag ein voller Erfolg für den guten Zweck. {{< popup-button "/news/spendenlauf-bericht-2023/" "Mehr erfahren" >}}
+    media: "/images/upload/2023/spendenlauf/blaettle-18-013.webp"
+  - date: "2022-08-15"
+    end: "2022-08-25"
+    headline: "Fahrradlager 2022 von Markelfingen nach Regensburg"
+    text: |
+      Die Pfadfinderstufe radelte 420 Kilometer entlang der Donau bis nach Regensburg. Unterwegs wurde in Pfarrheimen und auf Bauernhöfen übernachtet. {{< popup-button "/news/fahrradlager-2022/" "Mehr erfahren" >}}
+    media: "/images/upload/2022/fahrradlager/blaettle-13-014.webp"
+  - date: "2022-08-01"
+    end: "2022-08-12"
+    headline: "Jufilager 2022 in Mühlingen"
+    text: |
+      Sommerlager unter dem Motto „Harry Potter“. Die Jungpfadfinder bauten ihre eigenen Küchen, spielten Quidditch und bewiesen ihre Navigationsfähigkeiten beim Hike. {{< popup-button "/news/jufi-sommerlager-2022/" "Mehr erfahren" >}}
+    media: "/images/upload/2022/jusola/blaettle-12-023.webp"
+  - date: "2022-08-01"
+    end: "2022-08-07"
+    headline: "Wölflingslager 2022 in Bischofszell 🇨🇭"
+    text: |
+      Hauslager auf einem Bauernhof in der Schweiz. Als Piraten verkleidet suchten die Wölflinge nach Schätzen und feierten ihr Versprechen am Fluss. {{< popup-button "/news/woelflingslager-2022/" "Mehr erfahren" >}}
+    media: "/images/upload/2022/woelager/blaettle-12-017.webp"
   - date: "2022-06-25"
     headline: "Spendenlauf - Jahresaktion 2022"
     text: |
-      Laufen für den guten Zweck: Wir laden alle Motivierten, egal ob Sportskanonen, Hobbysportler oder Sportmuffel, zu unserem Spendenlauf ein.
-      Drei Stunden hast Du Zeit, möglichst viele Runden à 650 Meter zu laufen, walken, joggen oder rennen.
-      Du tust etwas Gutes für Deine Gesundheit und sammelst gleichzeitig mit jeder gelaufenen Runde Spenden für unsere Partnergemeinde Sicuani in Peru.
-      {{< popup-button "/news/spendenlauf-2022/" "Mehr erfahren" >}}
-    media: "/images/upload/2022/0001.webp"
+      Laufen für den guten Zweck: 93 Läufer bewältigten insgesamt 1017 Runden für unsere Partnergemeinde Sicuani in Peru. Dabei kam eine unglaubliche Summe von etwa 7000 Euro zusammen. {{< popup-button "/news/spendenlauf-bericht/" "Mehr erfahren" >}}
+    media: "/images/upload/2022/spendenlauf/blaettle-11-044.webp"
+  - date: "2021-08-10"
+    end: "2021-08-18"
+    headline: "Kanulager 2021 von Lübbenau nach Berlin"
+    text: |
+      Ein abenteuerliches Kanulager der Pfadfinder und Rover. Von Lübbenau aus ging es die Spree entlang bis nach Berlin, mit anschließenden Sightseeing-Tagen in der Hauptstadt. {{< popup-button "/news/kanulager/" "Mehr erfahren" >}}
+    media: "/images/upload/2021/kanulager/blaettle-029.webp"
+  - date: "2021-08-02"
+    end: "2021-08-13"
+    headline: "Jufilager 2021 in Bonndorf"
+    text: |
+      Zeltlager der Jungpfadfinder unter dem Motto „Vergangenheit“. Mit Lagerbauten, Geländespielen, einem Hike zum Turm Hohenbodmann und einem feierlichen Versprechen im Wald. {{< popup-button "/news/jufi-sommerlager/" "Mehr erfahren" >}}
+    media: "/images/upload/2021/jusola/blaettle-023.webp"
+  - date: "2021-08-01"
+    end: "2021-08-07"
+    headline: "Wölflingslager 2021 in Prinzbach"
+    text: |
+      Sommerlager in Prinzbach im Schwarzwald. Die Wölflinge verbrachten eine Woche voller Abenteuer, Workshops und einem feierlichen Versprechen auf der Burgruine Hohengeroldseck. {{< popup-button "/news/woelflingslager/" "Mehr erfahren" >}}
+    media: "/images/upload/2021/woelager/blaettle-019.webp"
+  - date: "2020-06-14"
+    headline: "Halstuchchallenge 2020"
+    text: |
+      Im Jahr 2020 nahmen wir an der Halstuchchallenge teil. Dabei nominierten wir andere Stämme aus der Umgebung. {{< popup-button "/news/halstuchchallenge/" "Mehr erfahren" >}}
+    media: "https://cloud.dpsg-radolfzell.de/public.php/dav/files/halstuchchallenge/"
   - date: "2019-05-23"
     end: "2019-05-26"
     headline: "72 Stunden Aktion 2019"
