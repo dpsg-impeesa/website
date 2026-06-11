@@ -605,30 +605,30 @@ events:
   - date: "2022-06-25"
     headline: "Spendenlauf - Jahresaktion 2022"
     text: |
-      Laufen für den guten Zweck: 93 Läufer bewältigten insgesamt 1017 Runden für unsere Partnergemeinde Sicuani in Peru. Dabei kam eine unglaubliche Summe von etwa 7000 Euro zusammen. {{< popup-button "/news/spendenlauf-bericht/" "Mehr erfahren" >}}
+      Laufen für den guten Zweck: 93 Läufer bewältigten insgesamt 1017 Runden für unsere Partnergemeinde Sicuani in Peru. Dabei kam eine unglaubliche Summe von etwa 7000 Euro zusammen. {{< popup-button "/news/spendenlauf-bericht-2022/" "Mehr erfahren" >}}
     media: "/images/upload/2022/spendenlauf/blaettle-11-044.webp"
   - date: "2021-08-10"
     end: "2021-08-18"
     headline: "Kanulager 2021 von Lübbenau nach Berlin"
     text: |
-      Ein abenteuerliches Kanulager der Pfadfinder und Rover. Von Lübbenau aus ging es die Spree entlang bis nach Berlin, mit anschließenden Sightseeing-Tagen in der Hauptstadt. {{< popup-button "/news/kanulager/" "Mehr erfahren" >}}
+      Ein abenteuerliches Kanulager der Pfadfinder und Rover. Von Lübbenau aus ging es die Spree entlang bis nach Berlin, mit anschließenden Sightseeing-Tagen in der Hauptstadt. {{< popup-button "/news/kanulager-2021/" "Mehr erfahren" >}}
     media: "/images/upload/2021/kanulager/blaettle-029.webp"
   - date: "2021-08-02"
     end: "2021-08-13"
     headline: "Jufilager 2021 in Bonndorf"
     text: |
-      Zeltlager der Jungpfadfinder unter dem Motto „Vergangenheit“. Mit Lagerbauten, Geländespielen, einem Hike zum Turm Hohenbodmann und einem feierlichen Versprechen im Wald. {{< popup-button "/news/jufi-sommerlager/" "Mehr erfahren" >}}
+      Zeltlager der Jungpfadfinder unter dem Motto „Vergangenheit“. Mit Lagerbauten, Geländespielen, einem Hike zum Turm Hohenbodmann und einem feierlichen Versprechen im Wald. {{< popup-button "/news/jufi-sommerlager-2021/" "Mehr erfahren" >}}
     media: "/images/upload/2021/jusola/blaettle-023.webp"
   - date: "2021-08-01"
     end: "2021-08-07"
     headline: "Wölflingslager 2021 in Prinzbach"
     text: |
-      Sommerlager in Prinzbach im Schwarzwald. Die Wölflinge verbrachten eine Woche voller Abenteuer, Workshops und einem feierlichen Versprechen auf der Burgruine Hohengeroldseck. {{< popup-button "/news/woelflingslager/" "Mehr erfahren" >}}
+      Sommerlager in Prinzbach im Schwarzwald. Die Wölflinge verbrachten eine Woche voller Abenteuer, Workshops und einem feierlichen Versprechen auf der Burgruine Hohengeroldseck. {{< popup-button "/news/woelflingslager-2021/" "Mehr erfahren" >}}
     media: "/images/upload/2021/woelager/blaettle-019.webp"
   - date: "2020-06-14"
     headline: "Halstuchchallenge 2020"
     text: |
-      Im Jahr 2020 nahmen wir an der Halstuchchallenge teil. Dabei nominierten wir andere Stämme aus der Umgebung. {{< popup-button "/news/halstuchchallenge/" "Mehr erfahren" >}}
+      Im Jahr 2020 nahmen wir an der Halstuchchallenge teil. Dabei nominierten wir andere Stämme aus der Umgebung. {{< popup-button "/news/halstuchchallenge-2020/" "Mehr erfahren" >}}
     media: "https://cloud.dpsg-radolfzell.de/public.php/dav/files/halstuchchallenge/"
   - date: "2019-05-23"
     end: "2019-05-26"
@@ -639,3 +639,9 @@ events:
       Vom 23.5.-26.5. hatten wir dafür Zeit.
       {{< popup-button "/news/72h-aktion-2019/" "Mehr erfahren" >}}
     media: "/images/upload/2019/logo-72-stunden-aktion-datum-gruen.webp"
+  - date: "2017-10-27"
+    headline: "Helmut Haselberger wird Ehrenbürger"
+    text: |
+      Helmut Haselberger, Mitbegründer des Stammes, wurde für seine kommunalpolitischen und gesellschaftlichen Verdienste zum 14. Ehrenbürger der Stadt Radolfzell ernannt.
+      Er prägte den Stamm über Jahrzehnte als Stammesführer und Vorbild. {{< popup-button "/news/ehrenbuerger-2017/" "Mehr erfahren" >}}
+    media: "/images/upload/2017/ehrenbuerger/aktuell.webp"

@@ -1,6 +1,6 @@
 ---
 title: 'Rückblick: Spendenlauf 2023'
-slug: spendenlauf-bericht-2023
+slug: spendenlauf-bericht
 date: 2023-08-18
 type: post
 draft: false

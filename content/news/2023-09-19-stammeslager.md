@@ -5,7 +5,7 @@ tags:
 - Stamm
 title: "Stammeslager 2023: Asterix und Obelix am Bruderhof"
 type: post
-slug: stammeslager-2023
+slug: stammeslager
 summary: "Das Stammeslager 2023 stand ganz im Zeichen von Asterix und Obelix. Am Bruderhof erlebten Wölflinge, Jungpfadfinder und Pfadfinder spannende Abenteuer, befreiten Miraculix aus den Fängen der Römer und feierten gemeinsame Versprechen am Lagerfeuer."
 readmore: true
 thumbnail: /images/upload/2023/stammeslager/blaettle-19-027.webp

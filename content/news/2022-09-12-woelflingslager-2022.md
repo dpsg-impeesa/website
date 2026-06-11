@@ -5,7 +5,7 @@ tags:
 - wölflinge
 title: Wölflingslager 2022 in Bischofszell
 type: post
-slug: woelflingslager-2022
+slug: woelflingslager
 # thumbnail: /images/upload/2024/image0.jpeg
 summary: "Am Montag, den 1. August 2022, machten sich die Wölflinge auf den Weg nach Bischofszell in die Schweiz. Auf einem Bauernhof gab es viel zu entdecken, unter anderem Hundewelpen."
 readmore: true
