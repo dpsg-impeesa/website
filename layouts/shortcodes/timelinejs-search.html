@@ -1,5 +1,16 @@
-{{ $data := .Get "data" | default "chronik.yaml" }} {{ $chronik := resources.Get
-$data | transform.Unmarshal }}
+{{ $data := .Get "data" | default "chronik.yaml" }}
+{{ $chronik := resources.Get $data | transform.Unmarshal }}
+{{$cleanedEvents := slice }}
+{{ range $chronik.events }}
+    {{ $text := .text | default "" | plainify }}
+    {{ $headline := .headline | default "" | plainify }}
+    {{ $cleanedEvents = $cleanedEvents | append (dict
+        "headline" $headline
+        "text" $text
+        "date" .date
+        "unique_id" .unique_id
+    ) }}
+{{ end }}
 
 <div class="timeline-search">
     <input
@@ -13,7 +24,7 @@ $data | transform.Unmarshal }}
 
 <script>
     (function() {
-        const events = {{ $chronik.events | jsonify | safeJS }};
+        const events = {{ $cleanedEvents | jsonify | safeJS }};
         const input = document.getElementById('timeline-search-input');
         const results = document.getElementById('timeline-search-results');
 
@@ -39,17 +50,15 @@ $data | transform.Unmarshal }}
             if (val.length < 2) return;
 
             const filtered = events.filter(e =>
-                (e.headline && e.headline.toLowerCase().includes(val)) ||
-                (e.text && e.text.toLowerCase().includes(val))
+                e.headline.toLowerCase().includes(val) ||
+                e.text.toLowerCase().includes(val)
             );
 
             filtered.forEach(e => {
                 const div = document.createElement('div');
                 div.className = 'search-result-item';
 
-                // Remove markdown from text for preview
-                const plainText = e.text ? e.text.replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1').replace(/[\*_]/g, '') : '';
-                const preview = plainText.length > 100 ? plainText.substring(0, 100) + '...' : plainText;
+                const preview = e.text.length > 100 ? e.text.substring(0, 100) + '...' : e.text;
 
                 div.innerHTML = `<strong>${e.headline}</strong><br><small>${e.date}${preview ? ' - ' + preview : ''}</small>`;
                 div.onclick = () => {
