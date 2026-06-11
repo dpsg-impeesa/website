@@ -1,0 +1,25 @@
+<div id="mini-window-container" style="display: none">
+    <div id="mini-window">
+        <div id="mini-window-header">
+            <span id="mini-window-title"></span>
+            <button id="mini-window-close" title="Schließen">&times;</button>
+        </div>
+        <div id="mini-window-content">
+            <iframe id="mini-window-iframe" src="about:blank"></iframe>
+        </div>
+    </div>
+</div>
+
+{{ $style := resources.Get "css/mini-window.css" | minify | fingerprint }}
+<link
+    rel="stylesheet"
+    href="{{ $style.RelPermalink }}"
+    integrity="{{ $style.Data.Integrity }}"
+/>
+
+{{ $script := resources.Get "js/mini-window.js" | minify | fingerprint }}
+<script
+    src="{{ $script.RelPermalink }}"
+    integrity="{{ $script.Data.Integrity }}"
+    defer
+></script>

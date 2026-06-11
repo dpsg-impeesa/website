@@ -11,6 +11,8 @@ aliases:
   - /timeline
   - /geschichte
 sidebar: false
+params:
+  popup_button_present: true
 post_meta_hide: true
 ---
 

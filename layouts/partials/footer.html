@@ -1,0 +1,22 @@
+<footer class="footer" id="footer">
+    <div class="container footer__container flex">
+        {{ partial "footer_links.html" . }}
+        <div class="footer__copyright">
+            &copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default
+            .Site.Title }} {{ with .Site.Params.footer.text }}<span
+                >{{ . | markdownify }}</span
+            >{{ end }}
+        </div>
+
+        {{ if .Site.Params.progressive_webapp }}
+        <script>
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/sw.js", { scope: "/" });
+            }
+        </script>
+        {{ end }} {{ partial "footer_right.html" . }}
+    </div>
+</footer>
+
+{{ if or (.Page.Scratch.Get "popup_button_present") .Params.popup_button_present
+}} {{ partial "mini-window.html" . }} {{ end }}

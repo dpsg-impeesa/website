@@ -1,0 +1,55 @@
+{{ $url := .Get "url" | default (.Get 0) | default "#" | absURL }} {{ $text :=
+.Get "text" | default (.Get 1) | default "Klick mich!" }} {{ $title := .Get
+"title" | default (.Get 2) | default "" }} {{ $scale := .Get "scale" | default
+0.5 | float }}
+
+<div class="center-button">
+    <div class="button popup-button-wrapper">
+        <button
+            type="button"
+            class="mini-window-trigger"
+            data-url="{{ $url | safeJS }}"
+            data-title="{{ $title | safeJS }}"
+        >
+            {{ $text }}
+        </button>
+    </div>
+</div>
+
+<style>
+    .popup-button-wrapper .mini-window-trigger {
+        font-size: {{ mul $scale 3 }}rem;
+        color: white;
+        background: var(--highlight-color, #003056);
+        padding: 0.7rem 1.5rem 0.9rem 1.5rem;
+        border-radius: 2.2rem;
+        font-weight: 900;
+        text-decoration: none;
+        display: inline-block;
+        border: none;
+        cursor: pointer !important;
+        font-family: inherit;
+        line-height: normal;
+        transition: background 0.2s;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .popup-button-wrapper .mini-window-trigger {
+            font-size: {{ mul $scale 5 }}vw;
+        }
+    }
+
+    .popup-button-wrapper .mini-window-trigger:hover {
+        background: var(--accent-color, #e3000f);
+        color: white;
+    }
+
+    .center-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+</style>
+
+{{ .Page.Scratch.Set "popup_button_present" true }}
