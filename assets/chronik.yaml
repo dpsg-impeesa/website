@@ -4,14 +4,14 @@ events:
   - date: "1955"
     headline: Album Bender
     text: '{{< popup-button "/chronik-galerie/1950x-album-bender/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1950X_Album_Bender/Bender_000.jpg
   - date: "1956"
     headline: Erster Stammeskurat
     text: Als erster Stammeskurat wurde dem Stamm Elmar Hettler zugeteilt.
   - date: "1956"
     headline: Bilder aus dem Jahr 1956
     text: '{{< popup-button "/chronik-galerie/1956/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1956/1956.jpg
   - date: "1956-04-03"
     headline: Gründung des Stammes
     text: |
@@ -32,7 +32,7 @@ events:
   - date: "1957"
     headline: Bilder aus dem Jahr 1957
     text: '{{< popup-button "/chronik-galerie/1957/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1957/1957_20260611_111044.jpg
   - date: 1957-01
     headline: Erstes Wölflingsrudel
     text: Ende Januar entstand das erste Wölflingsrudel des Stammes.
@@ -54,7 +54,7 @@ events:
   - date: "1958"
     headline: Bilder aus dem Jahr 1958
     text: '{{< popup-button "/chronik-galerie/1958/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1958/1958.jpg
   - date: "1958-01-28"
     headline: Neuer Stammeskurat
     text: Am 28. Januar wurde Vikar Christoph Burghardt als neuer Stammeskurat zugeteilt.
@@ -67,11 +67,11 @@ events:
   - date: "1959"
     headline: Bilder aus dem Jahr 1959
     text: '{{< popup-button "/chronik-galerie/1959/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1959/1959_20260611_111503.jpg
   - date: "1960"
     headline: Bilder aus dem Jahr 1960
     text: '{{< popup-button "/chronik-galerie/1960/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1960/1960_20260611_111540.jpg
   - date: "1960-12-04"
     headline: Altmaterialsammlung
     text: Vom 4. bis 10. Dezember fand eine Altmaterialsammlung zugunsten des „Speckpaters von Flandern" statt.
@@ -135,11 +135,11 @@ events:
   - date: "1970"
     headline: Assineum Hütte
     text: '{{< popup-button "/chronik-galerie/1970x-assineumhuette/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1970x_AssiNeumHütte/RP_197x_AssiNeumHütte_001.jpg
   - date: "1970"
     headline: Bilder aus dem Jahr 1970x
     text: '{{< popup-button "/chronik-galerie/1970x/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1970x/20250410_222641.jpg
   - date: 1970-01
     headline: Neuer Stammeskurat Vikar Weber
     text: Im Januar wurde dem Stamm Vikar Weber als neuer Stammeskurat zugeteilt.
@@ -160,7 +160,7 @@ events:
     text: |-
       {{< popup-button "/chronik-galerie/1971-lager-fuerstenberg/" "Sommerlager 1971 Galerie" >}}
       {{< popup-button "/chronik-galerie/1971-woe-lochwiese/" "Sommerlager 1971 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1971_Lager_Fürstenberg/RP_1971_Lager_Fürstenberg_044.jpg
   - date: "1971-08-14"
     headline: Wölflingsmeute Markelfingen
     text: Am 14. August wurde in Markelfingen eine gemischte Wölflingsmeute für Jungen und Mädchen gegründet.
@@ -173,21 +173,21 @@ events:
       {{< popup-button "/chronik-galerie/1972-stala-pfuenz/" "Sommerlager 1972 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1972-woe-hofstetten/" "Sommerlager 1972 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1972_StaLa_Pfünz/RP_1972_Pfünz__001.jpg
   - date: 1973-08
     headline: Stammeslager mit 110 Teilnehmern
     text: |-
       Ein großes Stammeslager mit 110 Teilnehmern wurde durchgeführt.
 
       {{< popup-button "/chronik-galerie/1973-stalager-oberbuchsiten/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1973_StaLager_Oberbuchsiten/RP_1973_Oberbuchsitten__003.jpg
   - date: 1974-08
     headline: Sommerlager 1974
     text: |-
       {{< popup-button "/chronik-galerie/1974-stala-klinge/" "Sommerlager 1974 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1974-woe-bichtlingen/" "Sommerlager 1974 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1974_StaLa_Klinge/RP_1974_Klinge_001.jpg
   - date: "1975"
     headline: Wahl des Stammeskuraten Erwin Roser
     text: Erstmals wurde Erwin Roser zum neuen Stammeskuraten gewählt.
@@ -197,29 +197,29 @@ events:
       {{< popup-button "/chronik-galerie/1975-sola-schutterquelle/" "Sommerlager 1975 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1975-woelager-froehnd/" "Sommerlager 1975 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1975_SoLa_Schutterquelle/20250403_224156.jpg
   - date: 1975-09
     headline: Renovierung des Pfadfinderturms
     text: Im September und Oktober fand eine Renovierung des Pfadfinderturms statt.
   - date: "1976"
     headline: Trupparbeit
     text: '{{< popup-button "/chronik-galerie/1976-trupparbeit/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1976_Trupparbeit/KW_1976_308.jpg
   - date: "1976"
     headline: Winterzelten
     text: '{{< popup-button "/chronik-galerie/1976-winterzelten/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1976_Winterzelten/KW_1976_301.jpg
   - date: "1976-01-23"
     headline: Ehrenmitgliedschaft und neuer Vorsitz
     text: Friedrich Liebsch wurde zum Ehrenmitglied ernannt. Gleichzeitig wurde Karl Fischer zum neuen Stammesvorsitzenden gewählt.
   - date: 1976-02
     headline: Wölflingsfasnet
     text: '{{< popup-button "/chronik-galerie/1976-woefasnet/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1976_WöFasnet/RP_197x_Wö_001.jpg
   - date: "1976-05-01"
     headline: 1 Mai
     text: '{{< popup-button "/chronik-galerie/1976-1mai/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1976_1Mai/KW_1976_1Mai001.jpg
   - date: 1976-08
     headline: Sommerlager 1976
     text: |-
@@ -228,7 +228,7 @@ events:
       {{< popup-button "/chronik-galerie/1976-radlager/" "Sommerlager 1976 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1976-woela-huefingen/" "Sommerlager 1976 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1976_JuLa_Heggelbach/20250403_111108.jpg
   - date: 1976-09
     headline: Erwin Roser wird Regionalseelsorger
     text: Im September wurde Kurat Erwin Roser zum Regionalseelsorger gewählt.
@@ -238,47 +238,47 @@ events:
   - date: 1977-08
     headline: Wölflingslager Hischwil
     text: '{{< popup-button "/chronik-galerie/1977-woela-hischwil/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1977_WöLa_Hischwil/20250403_185259.jpg
   - date: "1977-10-20"
     headline: Umbau des Pfarrheims Markelfingen
     text: Beginn des Umbaus des historischen Pfarrheims in Markelfingen unter Mitwirkung des Stammes.
   - date: "1978"
     headline: Spanferkel
     text: '{{< popup-button "/chronik-galerie/1978-spanferkel/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_Spanferkel/KW_1977_Spanferkel_001.jpg
   - date: "1978"
     headline: Stammes-Stafette
     text: '{{< popup-button "/chronik-galerie/1978-stastafette/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_StaStafette/KW_1978_StaStafette_001.jpg
   - date: "1978"
     headline: Stammes-Wanderung
     text: '{{< popup-button "/chronik-galerie/1978-stawanderung/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_StaWanderung/RP_197x_Wö_027.jpg
   - date: "1978"
     headline: Wölflingsübergabe
     text: '{{< popup-button "/chronik-galerie/1978-woeuebergabe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_WöÜbergabe/RP_197x_Wö_024.jpg
   - date: "1978"
     headline: TS
     text: '{{< popup-button "/chronik-galerie/1978-ebnet-ts/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_Ebnet_TS/20250408_192152.jpg
   - date: "1978"
     headline: Sommerlager 1978
     text: |-
       {{< popup-button "/chronik-galerie/1978-jufimaedeberg/" "Sommerlager 1978 Galerie" >}}
       {{< popup-button "/chronik-galerie/1978-woeebnet/" "Sommerlager 1978 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_JufiMädeberg/RP_19xx_JufiMägdeberg_001.jpg
   - date: "1978-06-04"
     headline: Bezirks-Seifenkistenrennen
     text: Am 4. Juni fand das erste Bezirks-Seifenkistenrennen der Jungpfadfinder in Liggeringen statt.
   - date: 1978-08
     headline: Wölflingslager
     text: '{{< popup-button "/chronik-galerie/1978-woela-ebnet-kw/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1978_WöLa_Ebnet_KW/20250403_111059.jpg
   - date: "1979"
     headline: Wölflingsausflug Versprechen
     text: '{{< popup-button "/chronik-galerie/1979-woeausflug-versprechen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1979_WöAusflug_Versprechen/RP_197x_Wö_033.jpg
   - date: "1979-01-09"
     headline: Erste Truppstunde im neuen Pfarrgemeindehaus
     text: Am 9. Januar fand die erste Truppstunde im neu renovierten Pfarrgemeindehaus statt.
@@ -288,59 +288,59 @@ events:
       Am 11. März folgte die offizielle Einweihung des renovierten Hauses.
 
       {{< popup-button "/chronik-galerie/1979-einweihungpfarrheim/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1979_EinweihungPfarrheim/KW_1979_Pfarrheim_001.jpg
   - date: "1979-03-20"
     headline: Neuer Stammesvorsitzender Joachim Schellhammer
     text: Joachim Schellhammer wurde am 20. März zum neuen Stammesvorsitzenden gewählt.
   - date: 1979-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1979-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1979_Fronleichnam/R22_026.jpg
   - date: "1979-06-23"
     headline: Erste grüne Halstücher
     text: Am 23. Juni gab es erstmals grüne Halstücher für die Pfadfinderstufe im Stamm.
   - date: 1979-08
     headline: Wölflingslager Mistelbrunn
     text: '{{< popup-button "/chronik-galerie/1979-woela-mistelbrunn/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1979_WöLa_Mistelbrunn/RP_1979_WöLa_Mistelbrunn_001.jpg
   - date: 1979-09
     headline: Stadtranderholung Radolfzell
     text: Im September gestaltete der Stamm ein Tagesprogramm für die erstmals in Radolfzell durchgeführte Stadtranderholung.
   - date: "1980"
     headline: Pfadfinder Bayer Wald
     text: '{{< popup-button "/chronik-galerie/1980-pfadibayerwald/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1980_PfadiBayerWald/1980_PfadiBayerWald_001.jpg
   - date: "1980"
     headline: Bilder aus dem Jahr 1980x
     text: '{{< popup-button "/chronik-galerie/1980x/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1980x/20250412_194733.jpg
   - date: "1980"
     headline: Wölflingsarbeitskreis
     text: '{{< popup-button "/chronik-galerie/1980-woeak/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1980_WöAK/RP_1980_WöAK_001.jpg
   - date: 1980-08
     headline: Pfadfinderlager Serie
     text: '{{< popup-button "/chronik-galerie/1980-pfadiserie/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1980_PfadiSerie/198x_PfadiSerie_1_001.jpg
   - date: "1981"
     headline: Pfadfinder Tschagguns
     text: '{{< popup-button "/chronik-galerie/1981-pfadi-tschagguns/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1981_Pfadi_Tschagguns/1981_Tschagguns_001.jpg
   - date: "1981"
     headline: Wölflingsarbeitskreis
     text: '{{< popup-button "/chronik-galerie/1981-woeak/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1981_WöAK/RP_1981_WöAK_001.jpg
   - date: 1981-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1981-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1981_Fronleichnam/R31_014.jpg
   - date: "1981-06-14"
     headline: 25-jähriges Bestehen
     text: Am 14. Juni wurde das Jubiläumsfest zum 25-jährigen Bestehen des Stammes Radolfzell gefeiert.
   - date: 1981-08
     headline: Wölflingslager
     text: '{{< popup-button "/chronik-galerie/1981-woe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1981_Wö/RP_1981_Wö_001.jpg
   - date: "1982"
     headline: 50 Jahre Diözesanverband
     text: Teilnahme am 50-jährigen Bestehen des Diözesanverbandes in Freiburg.
@@ -353,33 +353,33 @@ events:
   - date: "1982"
     headline: 50 Jahre DPSG Freiburg
     text: '{{< popup-button "/chronik-galerie/1982-50j-dpsg-fr/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1982_50J_DPSG_FR/20250422_121717.jpg
   - date: "1982"
     headline: James Wiese
     text: '{{< popup-button "/chronik-galerie/1982-james-wiese/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1982_James_Wiese/R37_005.jpg
   - date: "1982"
     headline: Wölflinge Bezirk Überlingen
     text: '{{< popup-button "/chronik-galerie/1982-woebezueberl/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1982_WöBezÜberl/20250422_121717.jpg
   - date: "1982-04-25"
     headline: Stammesstafette
     text: |-
       Am 25. April fand eine Stammesstafette mit 180 Teilnehmern statt.
 
       {{< popup-button "/chronik-galerie/1982-stammesstafette/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1982_Stammesstafette/1982_AxelVolk_1.jpg
   - date: 1982-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1982-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1982_Fronleichnam/R32_036.jpg
   - date: 1982-08
     headline: Einweihung Spielplatz Im Lehen
     text: Im August wurde in Markelfingen der Spielplatz „Im Lehen" eingeweiht, dessen Holzspielgeräte vom Pfadfindertrupp selbst hergestellt wurden.
   - date: 1982-08
     headline: Wölflingslager
     text: '{{< popup-button "/chronik-galerie/1982-woelager/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1982_WöLager/RP_1982_WöLa_001.jpg
   - date: 1982-10
     headline: 25. Jamboree on the air
     text: Teilnahme am 25. Jamboree on the air im Oktober.
@@ -389,57 +389,57 @@ events:
   - date: "1983"
     headline: DPSG Bundesvers
     text: '{{< popup-button "/chronik-galerie/1983-dpsg-bundesvers/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1983_DPSG_Bundesvers/R39_029.jpg
   - date: "1983"
     headline: Hochzeit Anne und Wolfgang Uhl
     text: '{{< popup-button "/chronik-galerie/1983-hochzeit-anne-und-wolfgang-uhl/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1983_Hochzeit_Anne_und_Wolfgang_Uhl/R39_015.jpg
   - date: "1983-03-18"
     headline: Stufenloser Elternabend
     text: Am 18. März fand ein stufenloser Elternabend statt.
   - date: 1983-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1983-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1983_Fronleichnam/R_1983_0001.jpg
   - date: "1983-07-03"
     headline: Erster Traktorschoppen
     text: |-
       Am 3. Juli fand der erste Traktorschoppen zugunsten des Entwicklungshelfers Michael Stähler statt.
 
       {{< popup-button "/chronik-galerie/1983-traktorschoppen/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1983_Traktorschoppen/R39_047.jpg
   - date: 1983-08
     headline: Wölflingslager Grabs
     text: '{{< popup-button "/chronik-galerie/1983-woelager-grabs/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1983_WöLager_Grabs/RP_Grabs_002.jpg
   - date: "1984"
     headline: Traktorschoppen für Michael Stähler
     text: Auch beim zweiten Traktorschoppen für Michael Stähler konnte ein Erlös von über 3.000 DM erzielt werden.
   - date: "1984"
     headline: Wölflinge Bezirk
     text: '{{< popup-button "/chronik-galerie/1984-woebez/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1984_WöBez/RP_1984_WöLa_066.jpg
   - date: "1984"
     headline: Wölflingswochenende
     text: '{{< popup-button "/chronik-galerie/1984-woewe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1984_WöWE/RP_1984_WöLa_001.jpg
   - date: 1984-02
     headline: Wölflingsfasnet
     text: '{{< popup-button "/chronik-galerie/1984-woefasnet/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1984_WöFasnet/RP_1984_WöLa_060.jpg
   - date: "1984-05-26"
     headline: Aktion Saatgut für Bolivien
     text: Die Aktion „Flinke Hände, flinke Füße – Saatgut für Bolivien" am 26. Mai in Radolfzell erbrachte über 3.000 DM.
   - date: 1984-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1984-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1984_Fronleichnam/R44_018.jpg
   - date: 1984-08
     headline: Wölflingslager St Anton
     text: |-
       {{< popup-button "/chronik-galerie/1984-woela-stanton/" "Galerie 1 anzeigen" >}}
       {{< popup-button "/chronik-galerie/1984-woelager-stanton/" "Galerie 2 anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1984_WöLa_StAnton/RP_1984_WöLa_StAnton_001.jpg
   - date: "1984-10-11"
     headline: Neuer Stammesvorsitzender Joachim Petrich
     text: Joachim Petrich wurde am 11. Oktober zum neuen Stammesvorsitzenden gewählt.
@@ -449,33 +449,33 @@ events:
   - date: "1985"
     headline: Pfadfinder Juze Open Air
     text: '{{< popup-button "/chronik-galerie/1985-pfadi-juzeopenair/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_Pfadi_JuzeOpenAir/1985_Pfadi_Bonn_025.jpg
   - date: "1985"
     headline: Traktorschoppen
     text: '{{< popup-button "/chronik-galerie/1985-traktorschoppen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_Traktorschoppen/P1_188.jpg
   - date: "1985"
     headline: Wölflinge Bezirkstag Zirkus Pfiff
     text: '{{< popup-button "/chronik-galerie/1985-woebeztagzirkuspfiff/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_WöBezTagZirkusPfiff/P1_168.jpg
   - date: "1985"
     headline: Wölflinge Versprechen
     text: '{{< popup-button "/chronik-galerie/1985-woe-versprechen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_Wö_Versprechen/P1_025.jpg
   - date: 1985-01
     headline: Jugendschutz-Appell
     text: Im Januar erfolgte ein Appell an die Wirte, keinen Alkohol an Jugendliche auszuschenken.
   - date: 1985-04
     headline: Bezirk Georgstag
     text: '{{< popup-button "/chronik-galerie/1985-bezgeorgstag/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_BezGeorgstag/RP_1985_Wö_017.jpg
   - date: "1985-05-22"
     headline: Jugendempfang in Bonn
     text: |-
       Am 22. Mai folgten 25 Pfadfinder einer Einladung des Bundespräsidenten Richard von Weizsäcker nach Bonn.
 
       {{< popup-button "/chronik-galerie/1985-pfadi-bonn/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_Pfadi_Bonn/1985_Pfadi_Bonn_001.jpg
   - date: 1985-08
     headline: Sommerlager 1985
     text: |-
@@ -484,32 +484,31 @@ events:
       {{< popup-button "/chronik-galerie/1985-woelager-flums/" "Wö Lager Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1985-woe-hurrican/" "Wö Hurrican Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1985_Roverlager_Schweden/1985_Roverlager_Schweden_001.jpg
   - date: "1986"
     headline: Ehemaligentreffen
     text: Das Ehemaligentreffen des Stammes fand im Bernhardshaus statt.
   - date: "1986"
     headline: Pfadfinder Deutschsprachige Konferenz
     text: '{{< popup-button "/chronik-galerie/1986-pfadi-deutschsprachkonf/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1986_Pfadi_DeutschsprachKonf/P1_195.jpg
   - date: "1986"
     headline: Pfadfinder Jubiläum 30
     text: '{{< popup-button "/chronik-galerie/1986-pfadi-jubilaeum30/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1986_Pfadi_Jubiläum30/1986_Pfadi_Jubiläum30_001.jpg
   - date: "1986"
     headline: Sommerlager 1986
     text: |-
       {{< popup-button "/chronik-galerie/1986-roverwe-rhein/" "Sommerlager 1986 Galerie" >}}
       {{< popup-button "/chronik-galerie/1986-woewe-stetten/" "Sommerlager 1986 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1986_RoverWE_Rhein/1986_Roverlager_Loire_Allier_177.jpg
   - date: 1986-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1986-fronleichnahm/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1986_Fronleichnahm/R46_026.jpg
   - date: "1986-06-22"
     headline: 30-jähriges Jubiläum
     text: Anlässlich des 30-jährigen Jubiläums wurde ein Fest mit buntem Jahrmarkt gefeiert.
-    media: /img/banner_round.webp
   - date: 1986-08
     headline: Sommerlager 1986
     text: |-
@@ -520,133 +519,133 @@ events:
       {{< popup-button "/chronik-galerie/1986-woelager/" "Sommerlager 1986 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1986-woelflingslager/" "Sommerlager 1986 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1986_Jufilager_Kaiserstuhl/1986_Jufilager_Kaiserstuhl_001.jpg
   - date: "1986-10-18"
     headline: Jahresaktion für Almé
     text: Am 18. Oktober wurden bei der Jahresaktion 4.000 DM für Almé in Kamerun gesammelt.
   - date: "1987"
     headline: Leiter Wochenende Höhle
     text: '{{< popup-button "/chronik-galerie/1987-leiterwe-hoehle/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1987_LeiterWE_Höhle/1987_Pfadi_021.jpg
   - date: "1987"
     headline: Leiter Wochenende Natur Wutach
     text: '{{< popup-button "/chronik-galerie/1987-leiterwe-natur-wutach/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1987_LeiterWE_Natur_Wutach/1987_Pfadi_001.jpg
   - date: "1987"
     headline: Wölflinge Bezirk Tag
     text: '{{< popup-button "/chronik-galerie/1987-woebeztag/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1987_WöBezTag/1987_Pfadi_020.jpg
   - date: "1987"
     headline: Wölflingswochenende
     text: '{{< popup-button "/chronik-galerie/1987-woewe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1987_WöWE/1987_Pfadi_001.jpg
   - date: "1987-09-12"
     headline: Jahresaktion Viva Cochabamba
     text: |-
       Am 12. September fand die Jahresaktion „Viva Cochabamba" statt.
 
       {{< popup-button "/chronik-galerie/1987-jahresaktion/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1987_Jahresaktion/1987_Pfadi_036.jpg
   - date: "1987-10-22"
     headline: Film Im Tal der Knochen
     text: Uraufführung des auf dem Leiterwochenende gedrehten Films „Im Tal der Knochen" am 22. Oktober.
   - date: "1988"
     headline: Leiter Wochenende
     text: '{{< popup-button "/chronik-galerie/1988-leiter-we/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1988_Leiter_WE/R59_032.jpg
   - date: "1988"
     headline: Sommerlager 1988
     text: |-
       {{< popup-button "/chronik-galerie/1988-jufi-flosscrash/" "Sommerlager 1988 Galerie" >}}
       {{< popup-button "/chronik-galerie/1988-jufi-we-kraehen/" "Sommerlager 1988 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1988_Jufi_FlossCrash/1988_JufiWE_073.jpg
   - date: "1988-04-24"
     headline: Stammeswanderung zum Georgstag
     text: Zum Georgstag am 24. April fand eine gemeinsame Stammeswanderung statt.
   - date: 1988-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1988-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1988_Fronleichnam/R61_010.jpg
   - date: 1988-06
     headline: Jungpfadfinder Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1988-jufi-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1988_Jufi_Fronleichnam/1988_JufiWE_067.jpg
   - date: 1988-08
     headline: Sommerlager 1988
     text: |-
       {{< popup-button "/chronik-galerie/1988-jufilager-hofstetten/" "Sommerlager 1988 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1988-pfadi-bdkj-fr/" "Sommerlager 1988 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1988_Jufilager_Hofstetten/1988_Jufilager_Hofstetten_001.jpg
   - date: "1988-11-19"
     headline: Kinderkleider-Jahresaktion
     text: |-
       Bei der Jahresaktion am 19. November wurden Kinderkleider gesammelt und weiterverkauft.
 
       {{< popup-button "/chronik-galerie/1988-jahresaktion-slums/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1988_Jahresaktion_Slums/1988_Jahresaktion_Slums_001.jpg
   - date: "1989"
     headline: DPSG Wochenende Höchsten
     text: '{{< popup-button "/chronik-galerie/1989-dpsg-we-hoechsten/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_DPSG_WE_Höchsten/R_1989_186.jpg
   - date: "1989"
     headline: Geb Beach Party
     text: '{{< popup-button "/chronik-galerie/1989-geb-beachparty/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_Geb_BeachParty/1989_1999_Geburtstage_001.jpg
   - date: "1989"
     headline: Leiter Aktiv Wochenende Braunarlspitze
     text: '{{< popup-button "/chronik-galerie/1989-leiteraktivwe-braunarlspitze/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_LeiterAktivWE_Braunarlspitze/1989_Vermischtes_001.jpg
   - date: "1989"
     headline: Leiter Urlaub Spanien
     text: '{{< popup-button "/chronik-galerie/1989-leiterurlaub-spanien/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_LeiterUrlaub_Spanien/1989_Vermischtes_016.jpg
   - date: "1989"
     headline: Sommerlager 1989
     text: |-
       {{< popup-button "/chronik-galerie/1989-dpsg-stavers/" "Sommerlager 1989 Galerie" >}}
       {{< popup-button "/chronik-galerie/1989-juifiwe-japan/" "Sommerlager 1989 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_DPSG_StaVers/R65_012.jpg
   - date: 1989-04
     headline: Bezirksgeorgstag in Singen
     text: Der Stamm nahm am Bezirksgeorgstag in Singen teil.
   - date: 1989-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1989-fronleichnahm/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_Fronleichnahm/R_1989_001.jpg
   - date: "1989-07-02"
     headline: Stammestag
     text: Am 2. Juli wurde ein Stammestag durchgeführt.
   - date: 1989-08
     headline: Jungpfadfinderlager Rangendingen
     text: '{{< popup-button "/chronik-galerie/1989-jufilager-rangendingen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_Jufilager_Rangendingen/1989_Jufilager_Rangendingen_001.jpg
   - date: 1989-12
     headline: Nachtwallfahrt
     text: '{{< popup-button "/chronik-galerie/1989-nachtwallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1989_Nachtwallfahrt/R64_041.jpg
   - date: "1990"
     headline: Geb Beduinen
     text: '{{< popup-button "/chronik-galerie/1990-geb-beduinen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1990_Geb_Beduinen/1989_1999_Geburtstage_035.jpg
   - date: "1990"
     headline: Sommerlager 1990
     text: |-
       {{< popup-button "/chronik-galerie/1990-jufiwe-umwelt-rorgenwies/" "Sommerlager 1990 Galerie" >}}
       {{< popup-button "/chronik-galerie/1990-pfadiband/" "Sommerlager 1990 Galerie" >}}
       {{< popup-button "/chronik-galerie/1990-stammesversammlung/" "Sommerlager 1990 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1990_JufiWE_Umwelt_Rorgenwies/1990_JufiWE_Umwelt_Rorgenwies_001.jpg
   - date: 1990-06
     headline: Sängerfest
     text: '{{< popup-button "/chronik-galerie/1990-saengerfescht/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1990_Sängerfescht/1989_Vermischtes_036.jpg
   - date: 1990-08
     headline: Jahresaktion für Kinderdorf Klinge
     text: |-
       Die Jahresaktion wurde zugunsten des Kinder- und Jugenddorfs „Klinge" gestaltet.
 
       {{< popup-button "/chronik-galerie/1990-jufilager-klinge/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1990_Jufilager_Klinge/1990_Jufilager_Klinge_002.jpg
   - date: "1991"
     headline: Gottesdienst für Caps
     text: Mit einem von den Jungpfadfindern vorbereiteten Gottesdienst für Caps wurden 4.500 DM für einen VW-Bus eingenommen.
@@ -656,30 +655,30 @@ events:
   - date: "1991"
     headline: 10 Polterabend Andi Patone
     text: '{{< popup-button "/chronik-galerie/1991-10-polterabend-andipatone/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1991_10_Polterabend_AndiPatone/R_1991_1001.jpg
   - date: "1991"
     headline: Geb Scotish Celebration
     text: '{{< popup-button "/chronik-galerie/1991-geb-scotishcelebration/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1991_Geb_ScotishCelebration/1989_1999_Geburtstage_038.jpg
   - date: "1991"
     headline: Stammestafette
     text: '{{< popup-button "/chronik-galerie/1991-stammestafette/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1991_Stammestafette/R_1991_151.jpg
   - date: "1991-04-28"
     headline: Stammesstafette zum 35. Jubiläum
     text: Am 28. April fand zum 35-jährigen Jubiläum eine große Stammesstafette mit Kindern und Eltern statt.
   - date: 1991-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1991-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1991_Fronleichnam/R_1991_226.jpg
   - date: 1991-08
     headline: Jungpfadfinderlager Kandersteg
     text: '{{< popup-button "/chronik-galerie/1991-jufilager-kandersteg/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1991_Jufilager_Kandersteg/1990_JufilagerKandersteg_x_TaufeDavid_001.jpg
   - date: 1991-09
     headline: Stadtranderholung
     text: '{{< popup-button "/chronik-galerie/1991-stadtranderholung/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1991_Stadtranderholung/R_1991_266.jpg
   - date: 1991-12
     headline: Ehemaligentreffen zur Nachtwallfahrt
     text: Zum Ehemaligentreffen wurde am 3. Advent im Rahmen der Nachtwallfahrt eingeladen.
@@ -698,19 +697,19 @@ events:
       Die diesjährige Jahresaktion wurde erneut für Caps gestaltet.
 
       {{< popup-button "/chronik-galerie/1992-jahresaktion-semtrarra/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_Jahresaktion_SemTrarra/1992_Jahresaktion_SemTrarra_001.jpg
   - date: "1992"
     headline: Leiter Wochenende Behinderte
     text: '{{< popup-button "/chronik-galerie/1992-leiterwe-behinderte/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_LeiterWE_Behinderte/1992_Vermischt_063.jpg
   - date: "1992"
     headline: Leiter Wochenende Ritter
     text: '{{< popup-button "/chronik-galerie/1992-leiterwe-ritter/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_LeiterWE_Ritter/1992_Vermischt_034.jpg
   - date: "1992"
     headline: Ski Wochenende
     text: '{{< popup-button "/chronik-galerie/1992-skiwe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_SkiWE/1992_SkiWE_001.jpg
   - date: "1992"
     headline: Sommerlager 1992
     text: |-
@@ -720,11 +719,11 @@ events:
       {{< popup-button "/chronik-galerie/1992-jufiwe-kraehen/" "Sommerlager 1992 Galerie" >}}
       {{< popup-button "/chronik-galerie/1992-jufi-bezwe/" "Sommerlager 1992 Galerie" >}}
       {{< popup-button "/chronik-galerie/1992-jufiuebergabe/" "Sommerlager 1992 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_DPSG_StaVers/R_1992_071.jpg
   - date: 1992-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1992-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_Fronleichnam/R_1992_1101.jpg
   - date: 1992-08
     headline: Stammeslager Hexen
     text: |-
@@ -735,84 +734,83 @@ events:
       {{< popup-button "/chronik-galerie/1992-jufilager-thannenkirch-elsass/" "Stammeslager Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1992-pfadi-dankeessenhubi/" "Stammeslager Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_Stammeslager_Wutach_Babsi/1992_Stammeslager_Wutach_Babsi_001.jpg
   - date: 1992-09
     headline: Stadtranderholung
     text: '{{< popup-button "/chronik-galerie/1992-stadtranderholung/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1992_Stadtranderholung/R_1992_257.jpg
   - date: "1993"
     headline: Erste Laienkuratin Angela Wolf
     text: In der Stammesversammlung wurde Angela Wolf als erste „Laienkuratin" gewählt.
   - date: "1993"
     headline: Patrozinium
     text: '{{< popup-button "/chronik-galerie/1993-patrozinium/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1993_Patrozinium/R_1993_225.jpg
   - date: "1993"
     headline: Rwandesen
     text: '{{< popup-button "/chronik-galerie/1993-rwandesen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1993_Rwandesen/R_1993_210.jpg
   - date: "1993"
     headline: Sommerlager 1993
     text: |-
       {{< popup-button "/chronik-galerie/1993-leiterwe-neckar/" "Sommerlager 1993 Galerie" >}}
       {{< popup-button "/chronik-galerie/1993-jufileiterbezirkswe-riverrafting/" "Sommerlager 1993 Galerie" >}}
       {{< popup-button "/chronik-galerie/1993-stammesstafette/" "Sommerlager 1993 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1993_LeiterWE_Neckar/1993_LeiterWE_Neckar_001.jpg
   - date: 1993-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1993-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1993_Fronleichnam/R_1993_171.jpg
   - date: 1993-06
     headline: Oldie Sängerfest
     text: '{{< popup-button "/chronik-galerie/1993-oldiesaengerfescht/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1993_OldieSängerfescht/1993_OldieSängerfescht_001.jpg
   - date: 1993-08
     headline: Sommerlager 1993
     text: |-
       {{< popup-button "/chronik-galerie/1993-jufilager-deggenhausertal/" "Sommerlager 1993 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1993-jufi-weilerhuettle/" "Sommerlager 1993 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1993_Jufilager_Deggenhausertal/1993_Jufilager_Deggenhausertal_001.jpg
   - date: "1994"
     headline: Abschied von Kurat Erwin Roser
     text: |-
       Mit einem Gottesdienst und Fest in der Markolfhalle wurde Pfarrer und Langzeitkurat Erwin Roser verabschiedet.
 
       {{< popup-button "/chronik-galerie/1994-01-verabschiedungerwin/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_01_VerabschiedungErwin/R_1993_021.jpg
   - date: "1994"
     headline: Spielefest für Asylbewerberkinder
     text: Veranstaltung eines Spielefests für Kinder von Asylbewerbern.
   - date: "1994"
     headline: Baumpflanzaktion für Rwanda
     text: Teilnahme an einer Flurbereinigungsaktion, deren Erlös für Rwanda gespendet wurde.
-    media: /img/banner_round.webp
   - date: "1994"
     headline: 08 Patrozinium
     text: '{{< popup-button "/chronik-galerie/1994-08-patrozinium/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_08_Patrozinium/20250514_234204.jpg
   - date: "1994"
     headline: Geb Weinkeller
     text: '{{< popup-button "/chronik-galerie/1994-geb-weinkeller/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_Geb_Weinkeller/1989_1999_Geburtstage_095.jpg
   - date: "1994"
     headline: Pfadfinder Aktion Rwanda
     text: '{{< popup-button "/chronik-galerie/1994-pfadiaktion-rwanda/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_PfadiAktion_Rwanda/1994_Vermischtes_064.jpg
   - date: "1994"
     headline: Leiter Aktiv Wochenende Leggler Hütte
     text: '{{< popup-button "/chronik-galerie/1994-leiteraktivwe-legglerhuette/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_LeiterAktivWE_LegglerHütte/199x_Venedig_011.jpg
   - date: "1994"
     headline: Leiter Aktiv Vogesen
     text: '{{< popup-button "/chronik-galerie/1994-leiteraktiv-vogesen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_LeiterAktiv_Vogesen/1994_Vermischtes_036.jpg
   - date: "1994"
     headline: Sommerlager 1994
     text: |-
       {{< popup-button "/chronik-galerie/1994-jufianimation-koenigvondeutschland/" "Sommerlager 1994 Galerie" >}}
       {{< popup-button "/chronik-galerie/1994-woelflingsmeute/" "Sommerlager 1994 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_JufiAnimation_KönigVonDeutschland/1994_Vermischtes_028.jpg
   - date: 1994-04
     headline: Stadtspiel zum Georgstag
     text: Großes Stadtspiel in Konstanz mit über 500 Pfadfindern aus dem Bezirk.
@@ -824,131 +822,126 @@ events:
       {{< popup-button "/chronik-galerie/1994-jufilager-wuenschmichelbach/" "Umzug des Materiallagers Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1994-stammeslager/" "Umzug des Materiallagers Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1994_Jufilager_Wünschmichelbach/1994_Jufilager_Wünschmichelbach_001.jpg
   - date: "1995"
     headline: Jahresaktion für Rwandesen
     text: Die Jahresaktion wurde für und mit den Gästen aus Rwanda durchgeführt.
   - date: "1995"
     headline: 03 t shirt Winni Fiedler
     text: '{{< popup-button "/chronik-galerie/1995-03-t-shirt-winnifiedler/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1995_03_t_shirt_WinniFiedler/20250519_071517.jpg
   - date: "1995"
     headline: Geb Laurenty Ranch
     text: '{{< popup-button "/chronik-galerie/1995-geb-laurentyranch/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1995_Geb_LaurentyRanch/1989_1999_Geburtstage_121.jpg
   - date: "1995"
     headline: Jungpfadfinder Ausflug
     text: ""
-    media: /img/banner_round.webp
   - date: "1995"
     headline: Leiter Wochenende
     text: '{{< popup-button "/chronik-galerie/1995-leiterwe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1995_LeiterWE/1995_LeiterWE_001.jpg
   - date: "1995"
     headline: Jungpfadfinder Ausflug
     text: '{{< popup-button "/chronik-galerie/1995-jufiausflug/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1995_JufiAusflug/1995_JufiAusflug_001.jpg
   - date: "1995-05-25"
     headline: Stammeslager Mittelalter
     text: |-
       Vom 25. bis 28. Mai fand ein Stammeslager unter dem Motto „Mittelalter" im Deggenhausertal mit Gästen aus Rwanda statt.
-
-      {{< popup-button "/chronik-galerie/1995-stammeslager/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
   - date: 1995-08
     headline: Sommerlager 1995
     text: |-
       {{< popup-button "/chronik-galerie/1995-jufilager-donautal/" "Sommerlager 1995 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/1995-dioezjufilager-peaceloveaction/" "Sommerlager 1995 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1995_Jufilager_Donautal/1995_Jufilager_Donautal_001.jpg
   - date: "1996"
     headline: Geburtstag Lorenzi Hütte
     text: '{{< popup-button "/chronik-galerie/1996-geb-lorenzihuette/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1996_Geb_LorenziHütte/1989_1999_Geburtstage_119.jpg
   - date: "1996"
     headline: Pfadfinder Jubiläum 40
     text: '{{< popup-button "/chronik-galerie/1996-pfadi-jubilaeum40/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1996_Pfadi_Jubiläum40/1996_Pfadi_Jubiläum40_001.jpg
   - date: "1996"
     headline: Pfadfinder Sportverein Grümpelturnier
     text: '{{< popup-button "/chronik-galerie/1996-pfadi-sv-gruempelturnier/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1996_Pfadi_SV_Grümpelturnier/1995_JufiAusflug_010.jpg
   - date: "1996-05-04"
     headline: 40-jähriges Jubiläum
     text: |-
       Feier des 40-jährigen Jubiläums am 4. und 5. Mai mit einer großen Jurtenburg auf der Pfarrwiese.
 
       {{< popup-button "/chronik-galerie/1996-dpsg-jubilaeum40/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1996_DPSG_Jubiläum40/R_1996_0233.jpg
   - date: 1996-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1996-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1996_Fronleichnam/R_1996_0277.jpg
   - date: 1996-08
     headline: Jungpfadfinderlager Mägerkingen
     text: '{{< popup-button "/chronik-galerie/1996-jufilager-maegerkingen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1996_Jufilager_Mägerkingen/1996_Jufilager_Mägerkingen_010.jpg
   - date: "1997"
     headline: Geb Gorch Lorenzo
     text: '{{< popup-button "/chronik-galerie/1997-geb-gorchlorenzo/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1997_Geb_GorchLorenzo/1989_1999_Geburtstage_221.jpg
   - date: "1997"
     headline: Leiter Haus Reno
     text: '{{< popup-button "/chronik-galerie/1997-leiterhausreno/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1997_LeiterHausReno/1997_LeiterAktiv_023.jpg
   - date: "1997"
     headline: Leiter Aktiv
     text: '{{< popup-button "/chronik-galerie/1997-leiteraktiv/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1997_LeiterAktiv/1997_LeiterAktiv_001.jpg
   - date: "1997-04-18"
     headline: Innenrenovierung des Pfarrheims
     text: Vom 18. bis 20. April fand eine umfassende Innenrenovierung des Pfarrheims statt.
-    media: /img/banner_round.webp
   - date: 1997-06
     headline: 06 Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1997-06-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1997_06_Fronleichnam/R_1997_0209.jpg
   - date: "1997-06-21"
     headline: Jahresaktion für Rumänien
     text: |-
       Jahresaktion für ein Kinderheim in Rumänien, bei der Aktive vor Ort ein Gewächshaus und einen Spielplatz bauten.
 
       {{< popup-button "/chronik-galerie/1997-jahresaktion/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/1997_Jahresaktion/1997_LeiterAktiv_012.jpg
   - date: 1997-08
     headline: Jungpfadfinderlager Deggenhausertal
     text: '{{< popup-button "/chronik-galerie/1997-jufilager-deggenhausertal/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1997_Jufilager_Deggenhausertal/1997_Jufilager_Deggenhausertal_001.jpg
   - date: "1998"
     headline: Blues Brothers Bar
     text: An Fasnacht richtete die Leiterrunde eine „Blues Brothers Bar" zum Umzug ein.
   - date: "1998"
     headline: Laurentius Air
     text: '{{< popup-button "/chronik-galerie/1998-laurentiusair/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1998_LaurentiusAir/1989_1999_Geburtstage_272.jpg
   - date: 1998-08
     headline: Jungpfadfinderlager Eggenweiler
     text: '{{< popup-button "/chronik-galerie/1998-jufilager-eggenweiler/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1998_Jufilager_Eggenweiler/1998_Jufilager_Eggenweiler_001.jpg
   - date: "1999"
     headline: Jahresaktion für Tansania
     text: Sammlung von 2.000 DM für eine Missionsstation in Tansania im Rahmen der Jahresaktion.
   - date: "1999"
     headline: Geb Fondue
     text: '{{< popup-button "/chronik-galerie/1999-geb-fondue/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/1999_Geb_Fondue/1989_1999_Geburtstage_292.jpg
   - date: "2000"
     headline: Jahresaktion für Sicuani
     text: Die Jahresaktion wurde für Sicuani, die Partnergemeinde von Markelfingen, gestaltet.
   - date: "2000"
     headline: Geb Apres Ski
     text: '{{< popup-button "/chronik-galerie/2000-geb-apresski/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2000_Geb_ApresSki/2000_Urlaub_Uwe_Dolomiten_001.jpg
   - date: 2000-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/2000-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2000_Fronleichnam/R_2000_0451.jpg
   - date: 2000-08
     headline: Teilnahme am Diözesanlager Bluegate
     text: Die Jungpfadfindertrupps nahmen im Sommer am Diözesanlager „Bluegate" teil.
@@ -958,36 +951,36 @@ events:
   - date: "2001"
     headline: Geburtstag Märchen
     text: '{{< popup-button "/chronik-galerie/2001-geburtstag-maerchen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2001_Geburtstag_Märchen/Vermischtes_014.jpg
   - date: "2001"
     headline: Rover Knusperhaus
     text: '{{< popup-button "/chronik-galerie/2001-rover-knusperhaus/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2001_Rover_Knusperhaus/2001_2002_Spicki_029.jpg
   - date: "2001-04-27"
     headline: Stammeslager Asterix und Obelix
     text: Vom 27. April bis 1. Mai fand zum 45. Jubiläum ein Stammeslager unter dem Motto „Asterix und Obelix" statt.
   - date: 2001-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/2001-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2001_Fronleichnam/R_2001_0440.jpg
   - date: "2001-06-23"
     headline: Ehemaligentreffen und Jubiläumsgottesdienst
     text: |-
       Am 23. und 24. Juni wurden ein Ehemaligentreffen und ein Jubiläumsgottesdienst gefeiert.
 
       {{< popup-button "/chronik-galerie/2001-dpsg-45-jubilaeum/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2001_DPSG_45_Jubiläum/R_2001_0501.jpg
   - date: "2001-06-23"
     headline: Pfadfinder Jubiläum 45
     text: '{{< popup-button "/chronik-galerie/2001-pfadi-jubilaeum45/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2001_Pfadi_Jubiläum45/2001_Pfadi_Jubiläum45_001.jpg
   - date: "2002"
     headline: Zusammenlegung der Pfadfindertrupps
     text: Aufgrund von Leitermangel wurden die beiden Pfadfindertrupps aus Radolfzell und Markelfingen zusammengelegt.
   - date: 2002-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/2002-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2002_Fronleichnam/R_2002_0201.jpg
   - date: "2002-07-06"
     headline: Bezirksehemaligentreffen
     text: Am 6. Juli fand in Markelfingen das erste Bezirksehemaligentreffen statt.
@@ -999,7 +992,7 @@ events:
       {{< popup-button "/chronik-galerie/2002-dpsg-woelager/" "Solarkocher für Bangladesh Galerie" >}}
 
       {{< popup-button "/chronik-galerie/2002-pfadilager-bretagne/" "Solarkocher für Bangladesh Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2002_DPSG_WöLager/R_2002_0489.jpg
   - date: 2002-12
     headline: Marktstand für den Schutzwaldverein
     text: Im Advent wurde ein Marktstand zum Kauf von Schulbüchern für den Schutzwaldverein betrieben.
@@ -1009,23 +1002,23 @@ events:
       Die Jahresaktion stand unter dem Motto „Sauberes Wasser für Burkina Faso".
 
       {{< popup-button "/chronik-galerie/2003-dpsg-jahresaktion/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2003_DPSG_Jahresaktion/R_2003_0201.jpg
   - date: "2003"
     headline: Hochzeit Hannes Micha
     text: '{{< popup-button "/chronik-galerie/2003-hochzeithannesmicha/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2003_HochzeitHannesMicha/R_2003_0301.jpg
   - date: "2003"
     headline: Hochzeit Spick Nicks
     text: '{{< popup-button "/chronik-galerie/2003-hochzeitspicknicks/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2003_HochzeitSpickNicks/2003_09_Hochzeit_001.jpg
   - date: 2003-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/2003-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2003_Fronleichnam/R_2003_0236.jpg
   - date: 2003-08
     headline: Pfadfinderlager Kroatien
     text: '{{< popup-button "/chronik-galerie/2003-pfadilager-kroatien/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2003_Pfadilager_Kroatien/2003_Pfadilager_Auvergne_001.jpg
   - date: "2003-10-02"
     headline: Bezirkslager Scoutland
     text: Teilnahme am Bezirkslager „Scoutland" bei Markelfingen vom 2. bis 5. Oktober.
@@ -1038,109 +1031,108 @@ events:
   - date: "2005"
     headline: Unterstützung für den Schutzwaldverein
     text: Jahresaktion zugunsten des Radolfzeller Schutzwaldvereins und Hilfe beim Schulhausbau in Ecuador.
-    media: /img/banner_round.webp
   - date: "2005"
     headline: Hochzeit Uwe Tina
     text: '{{< popup-button "/chronik-galerie/2005-hochzeituwetina/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2005_HochzeitUweTina/019_16.JPG
   - date: "2005"
     headline: Jahresaktion
     text: '{{< popup-button "/chronik-galerie/2005-jahresaktion/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2005_Jahresaktion/011_8.JPG
   - date: "2005-12-11"
     headline: 40. Nachtwallfahrt
     text: |-
       Am 11. Dezember fand zum 40. Mal die Nachtwallfahrt auf die Insel Reichenau statt.
 
       {{< popup-button "/chronik-galerie/2005-nachtwallfahrt/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2005_Nachtwallfahrt/DSC00549.JPG
   - date: "2006"
     headline: 50 Jahre Pfadfinder Radolfzell
     text: '{{< popup-button "/chronik-galerie/2006-50jahrepfadiradolfzell/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2006_50JahrePfadiRadolfzell/DSC01240.JPG
   - date: "2006-04-30"
     headline: 50-jähriges Jubiläum
     text: Am 30. April wurde das 50. Jubiläum mit einer Stammesstafette und Jurtenburg gefeiert.
   - date: 2006-06
     headline: Sängerfest
     text: '{{< popup-button "/chronik-galerie/2006-saengerfescht/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2006_Sängerfescht/DSC01262.JPG
   - date: 2006-09
     headline: Jubiläums-Stammeslager
     text: Anfang September fand zum Abschluss des Jubiläumsjahres ein Stammeslager statt.
   - date: "2007"
     headline: Scoutings sunrise
     text: '{{< popup-button "/chronik-galerie/2007-scoutings-sunrise/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2007_Scoutings_sunrise/DSC03424.JPG
   - date: 2007-06
     headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/2007-fronleichnam/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2007_Fronleichnam/_DIB8979.JPG
   - date: 2007-12
     headline: Nachtwallfahrt
     text: '{{< popup-button "/chronik-galerie/2007-nachtwallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2007_Nachtwallfahrt/DSC04204.JPG
   - date: 2008-08
     headline: Sommerlager 2008
     text: |-
       {{< popup-button "/chronik-galerie/2008-fala-top50/" "Sommerlager 2008 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/2008-jufilager/" "Sommerlager 2008 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2008_FaLa_TOP50/DSC_4086.JPG
   - date: "2009"
     headline: 72 h Aktion
     text: '{{< popup-button "/chronik-galerie/2009-72haktion/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2009_72hAktion/BILD1262.JPG
   - date: "2009"
     headline: Hochzeit Uli Krissi
     text: '{{< popup-button "/chronik-galerie/2009-hochzeitulikrissi/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2009_HochzeitUliKrissi/DSC_2285.JPG
   - date: 2009-08
     headline: Sommerlager 2009
     text: |-
       {{< popup-button "/chronik-galerie/2009-fala-auswahl/" "Sommerlager 2009 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/2009-stammeslager/" "Sommerlager 2009 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2009_FaLa_Auswahl/2009 Familienzeltlager 001.jpg
   - date: 2009-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2009-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2009_Wallfahrt/DSC_6284.JPG
   - date: "2010"
     headline: Wir müssen den Turm verlassen
     text: Die Radolfzeller Wös und Jufis dürfen nicht mehr im Turm am Untertor die Gruppenstunden veranstalten und ziehen in den Hexenkeller bei der Hausherrenschule
   - date: "2010"
     headline: Hochzeit Fried Marlen
     text: '{{< popup-button "/chronik-galerie/2010-hochzeit-friedmarlen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2010_Hochzeit_FriedMarlen/2010- 28 Mai Trauung 014.jpg
   - date: 2010-08
     headline: Familienlager Auswahl
     text: '{{< popup-button "/chronik-galerie/2010-fala-auswahl/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2010_FaLa_Auswahl/FaLa2010-001.JPG
   - date: 2010-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2010-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2010_Wallfahrt/DSC_2574.JPG
   - date: "2011"
     headline: Ehemaligentreffen
     text: '{{< popup-button "/chronik-galerie/2011-ehemaligentreffen/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2011_Ehemaligentreffen/DSC_4271.JPG
   - date: 2011-08
     headline: Familienlager
     text: '{{< popup-button "/chronik-galerie/2011-fala/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2011_FaLa/DSC_8669.JPG
   - date: 2011-08
     headline: Roverlager Costa Brava, Spanien
     text: '{{< popup-button "/chronik-galerie/2011-roverlager-costa-brava-spanien/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2011_Roverlager_2011_Costa_Brava_Spanien/IMG_1870.jpeg
   - date: 2012-08
     headline: Familienlager Auswahl
     text: '{{< popup-button "/chronik-galerie/2012-fala-auswahl/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2012_FaLa_Auswahl/CSC_5244-1.jpg
   - date: 2012-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2012-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2012_Wallfahrt/DSC_0461.JPG
   - date: 2013-08
     headline: Diözesanlager "Scoutside" bei Sigmaringen
     text: |-
@@ -1148,30 +1140,30 @@ events:
       Mehrere schwere Unwetter suchen die Veranstaltung heim.
 
       {{< popup-button "/chronik-galerie/2013-fala-auswahl/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2013_FaLa_Auswahl/2013 August Familienzelten 002.jpg
   - date: 2013-08
     headline: Roverlager Costa Brava, Spanien
     text: '{{< popup-button "/chronik-galerie/2013-roverlager-costa-brava-spanien/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2013_Roverlager_2013_Costa_Brava_Spanien/IMG_8260.jpeg
   - date: "2014"
     headline: DPSG Aktion
     text: '{{< popup-button "/chronik-galerie/2014-dpsg-aktion/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2014_DPSG_Aktion/IMG_0952.JPG
   - date: 2014-10
     headline: Zusammenlegung der Jufis
     text: Die Jungpfadfindergruppe in Radolfzell wird aufgelöst.
   - date: 2014-08
     headline: Roverlager Mittelmeer (Italien bis Spanien)
     text: '{{< popup-button "/chronik-galerie/2014-roverlager-mittelmeer-italien-bis-spanien/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2014_Roverlager_2014_Mittelmeer_Italien_bis_Spanien/DSC_0174.jpeg
   - date: 2014-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2014-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2014_Wallfahrt/DSC_6362.JPG
   - date: "2015"
     headline: Jahresaktion
     text: '{{< popup-button "/chronik-galerie/2015-jahresaktion/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2015_Jahresaktion/DSC_0002.JPG
   - date: 2015-08
     headline: Sommerlager 2015
     text: |-
@@ -1182,15 +1174,15 @@ events:
       {{< popup-button "/chronik-galerie/2015-woelflingslager/" "Wölflingslager Galerie" >}}
       {{< popup-button "/chronik-galerie/2015-jufilager-muehlingen/" "Jungpfadfinderlager Galerie" >}}
       {{< popup-button "/chronik-galerie/2015-roverlager-korsika/" "Roverlager Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2015_FaLa_Auswahl/DSC_8917.JPG
   - date: 2015-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2015-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2015_Wallfahrt/DSC_2651.JPG
   - date: "2016"
     headline: DPSG 60
     text: '{{< popup-button "/chronik-galerie/2016-dpsg60/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2016_DPSG60/DSC_7234.JPG
   - date: 2016-08
     headline: Stammeslager zum 60-Jährigen Jubiläum
     text: |-
@@ -1199,22 +1191,22 @@ events:
 
       {{< popup-button "/chronik-galerie/2016-stammeslager/" "Stammeslager Galerie" >}}
       {{< popup-button "/chronik-galerie/2016-wanderlager-kandern-bis-wutachschlucht/" "Wanderlager Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2016_Stammeslager/1 (1).JPG
   - date: 2016-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2016-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2016_Wallfahrt/DSC_7976.JPG
   - date: 2017-06
     headline: Sängerfest
     text: '{{< popup-button "/chronik-galerie/2017-saefe/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2017_Säfe/IMG_3178.JPG
   - date: 2017-08
     headline: Sommerlager 2017
     text: |-
       {{< popup-button "/chronik-galerie/2017-fala/" "FaLa Galerie" >}}
       {{< popup-button "/chronik-galerie/2017-jufilager/" "Jungpfadfinderlager Galerie" >}}
       {{< popup-button "/chronik-galerie/2017-pfadilager-bretagne/" "Pfadilager Bretagne Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2017_FaLa/DSC_0002.JPG
   - date: "2017-10-27"
     headline: Helmut Haselberger wird Ehrenbürger
     text: |-
@@ -1226,19 +1218,19 @@ events:
   - date: 2017-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2017-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2017_Wallfahrt/DSC_2750.JPG
   - date: "2018"
     headline: 72 Stunden
     text: '{{< popup-button "/chronik-galerie/2018-72stunden/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2018_72Stunden/DSC_8963.JPG
   - date: "2018"
     headline: Ehrenbuerger
     text: '{{< popup-button "/chronik-galerie/2018-ehrenbuerger/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2018_Ehrenbuerger/DSC_3201_DxO.jpg
   - date: "2018"
     headline: Pfadiaktion
     text: '{{< popup-button "/chronik-galerie/2018-pfadiaktion/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2018_Pfadiaktion/DSC_4835.JPG
   - date: 2018-08
     headline: Stammeslager zum Motto Märchen
     text: |-
@@ -1249,11 +1241,11 @@ events:
       {{< popup-button "/chronik-galerie/2018-stala/" "Stammeslager Galerie" >}}
 
       {{< popup-button "/chronik-galerie/2018-fala/" "Stammeslager Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2018_Jufilager/P7305144_hd.JPG
   - date: 2018-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2018-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2018_Wallfahrt/DSC_7561.JPG
   - date: "2019-05-23"
     end: "2019-05-26"
     headline: 72 Stunden Aktion 2019
@@ -1270,15 +1262,15 @@ events:
       {{< popup-button "/chronik-galerie/2019-fala-auswahl/" "Sommerlager 2019 Galerie" >}}
 
       {{< popup-button "/chronik-galerie/2019-jufilager/" "Sommerlager 2019 Galerie" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2019_FaLa_Auswahl/DSC_1986.jpg
   - date: 2019-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2019-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2019_Wallfahrt/DSC_3367.JPG
   - date: "2020"
     headline: Hochzeit Felix Knaus
     text: '{{< popup-button "/chronik-galerie/2020-hochzeitfelixknaus/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2020_HochzeitFelixKnaus/20200808_135140.jpg
   - date: "2020-05-11"
     end: 2022-04-04
     headline: Online Gruppenstunden in der Pfadistufe
@@ -1293,15 +1285,15 @@ events:
       Großlager mit Teilnehmenden aus verschiedenen Pfadfinerverbänden in ganz Baden-Württemberg. **Musste aufgrund der Corona-Pandemie abgesagt werden**
 
       {{< popup-button "/chronik-galerie/2020-fala/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2020_FaLa/20200610_121609.jpg
   - date: 2020-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2020-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2020_Wallfahrt/DSC_7399.JPG
   - date: 2021-04
     headline: Georgstag
     text: '{{< popup-button "/chronik-galerie/2021-georgstag/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2021_Georgstag/DSC_8944.JPG
   - date: 2021-08
     headline: Familienlager 2021
     text: '{{< popup-button "/chronik-galerie/2021-fala/" "Galerie anzeigen" >}}'
@@ -1338,11 +1330,11 @@ events:
   - date: 2021-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2021-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2021_Wallfahrt/20211212_074438.jpg
   - date: "2022"
     headline: Stammesversammlung
     text: '{{< popup-button "/chronik-galerie/2022-stavers/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2022_StaVers/20221016_142353.jpg
   - date: "2022-04-10"
     end: 2022-04-18
     headline: "Bundesunternehmen: rover VOCO"
@@ -1381,15 +1373,15 @@ events:
   - date: 2022-12
     headline: Wallfahrt 56
     text: '{{< popup-button "/chronik-galerie/2022-wallfahrt-56/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2022_Wallfahrt_56/DSC_4398.JPG
   - date: "2023"
     headline: Track for Kidz
     text: '{{< popup-button "/chronik-galerie/2023-tfk/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2023_TfK/DJI_0001.JPG
   - date: 2023-04
     headline: Georgstag
     text: '{{< popup-button "/chronik-galerie/2023-georgstag/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2023_Georgstag/DSC_1278.JPG
   - date: "2023-05-13"
     headline: Spendenlauf - Jahresaktion 2023
     text: |-
@@ -1410,7 +1402,7 @@ events:
   - date: 2023-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2023-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2023_Wallfahrt/DSC_7143.JPG
   - date: "2024-04-18"
     end: "2024-04-21"
     headline: 72 Stunden Aktion 2024
@@ -1560,7 +1552,7 @@ events:
   - date: 2025-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2025-wallfahrt/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2025_Wallfahrt/DSZ_6823.JPG
   - date: "2025-12-05"
     end: "2025-12-07"
     headline: Friedenslicht Delegationsfahrt nach Linz 🕯️
@@ -1574,7 +1566,7 @@ events:
   - date: "2026"
     headline: Beerdigung Helmut
     text: '{{< popup-button "/chronik-galerie/2026-beerdigunghelmut/" "Galerie anzeigen" >}}'
-    media: /img/banner_round.webp
+    media: /images/chronik/2026_BeerdigungHelmut/DSZ_1969.JPG
   - date: "2026-05-13"
     end: "2026-05-17"
     headline: Stammeslager 2026
@@ -1591,4 +1583,4 @@ events:
       Der Stamm wird 70 Jahre alt. Von den Feierlichkeiten gerade gibt es natürlich noch keine Bilder, aber bereits vom Aufbau
 
       {{< popup-button "/chronik-galerie/2026-jubiläum70-aufbau/" "Galerie anzeigen" >}}
-    media: /img/banner_round.webp
+    media: /images/chronik/2026_Jubiläum70_Aufbau/DSZ_2600.JPG
