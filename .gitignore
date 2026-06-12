@@ -11,3 +11,4 @@ static/large
 assets/kalender/*.csv
 
 .env
+.cert
