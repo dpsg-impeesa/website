@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Thannenkirch Elsaß (1992)"
+title: "Jungpfadfinderlager Thannenkirch Elsaß (1992)"
 page: true
 ---
 

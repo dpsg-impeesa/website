@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Mägerkingen (1996)"
+title: "Jungpfadfinderlager Mägerkingen (1996)"
 page: true
 ---
 

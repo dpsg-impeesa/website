@@ -1,5 +1,5 @@
 ---
-title: "Sta La Klinge (1974)"
+title: "Stammeslager Klinge (1974)"
 page: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "WöLager Flums (1985)"
+title: "Wölflingslager Flums (1985)"
 page: true
 ---
 

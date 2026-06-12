@@ -1,5 +1,5 @@
 ---
-title: "Sta Lager Oberbuchsiten (1973)"
+title: "Stammeslager Oberbuchsiten (1973)"
 page: true
 ---
 

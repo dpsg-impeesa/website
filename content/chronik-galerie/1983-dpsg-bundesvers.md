@@ -1,5 +1,5 @@
 ---
-title: "DPSG Bundesvers (1983)"
+title: "DPSG Bundesversammlung (1983)"
 page: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Ju La Heggelbach (1976)"
+title: "Jungpfadfinderlager Heggelbach (1976)"
 page: true
 ---
 

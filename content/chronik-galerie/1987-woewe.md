@@ -1,5 +1,5 @@
 ---
-title: "WöWE (1987)"
+title: "Wölflingswochenende (1987)"
 page: true
 ---
 

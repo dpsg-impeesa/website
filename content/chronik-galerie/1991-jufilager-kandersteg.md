@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Kandersteg (1991)"
+title: "Jungpfadfinderlager Kandersteg (1991)"
 page: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "DPSG Sta Vers (1992)"
+title: "DPSG Stammesversammlung (1992)"
 page: true
 ---
 

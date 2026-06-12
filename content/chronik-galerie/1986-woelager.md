@@ -1,5 +1,5 @@
 ---
-title: "WöLager (1986)"
+title: "Wölflingslager (1986)"
 page: true
 ---
 

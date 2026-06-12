@@ -1,5 +1,5 @@
 ---
-title: "Stammes Versammlung (1990)"
+title: "Stammesversammlung (1990)"
 page: true
 ---
 

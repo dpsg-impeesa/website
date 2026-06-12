@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Rangendingen (1989)"
+title: "Jungpfadfinderlager Rangendingen (1989)"
 page: true
 ---
 

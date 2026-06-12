@@ -1,5 +1,5 @@
 ---
-title: "Fa La Auswahl (2012)"
+title: "Familienlager Auswahl (2012)"
 page: true
 ---
 

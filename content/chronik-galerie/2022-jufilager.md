@@ -1,5 +1,5 @@
 ---
-title: "Jufilager (2022)"
+title: "Jungpfadfinderlager (2022)"
 page: true
 ---
 

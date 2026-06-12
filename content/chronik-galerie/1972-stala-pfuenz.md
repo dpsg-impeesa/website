@@ -1,5 +1,5 @@
 ---
-title: "Sta La Pfünz (1972)"
+title: "Stammeslager Pfünz (1972)"
 page: true
 ---
 

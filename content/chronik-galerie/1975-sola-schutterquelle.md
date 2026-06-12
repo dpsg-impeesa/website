@@ -1,5 +1,5 @@
 ---
-title: "So La Schutterquelle (1975)"
+title: "Sommerlager Schutterquelle (1975)"
 page: true
 ---
 

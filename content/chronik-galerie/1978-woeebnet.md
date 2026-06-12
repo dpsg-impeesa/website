@@ -1,5 +1,5 @@
 ---
-title: "WöEbnet (1978)"
+title: "Wölflinge Ebnet (1978)"
 page: true
 ---
 

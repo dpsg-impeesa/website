@@ -1,5 +1,5 @@
 ---
-title: "WöBez Tag (1987)"
+title: "Wölflinge Bezirkstag (1987)"
 page: true
 ---
 

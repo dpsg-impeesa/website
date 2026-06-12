@@ -1,5 +1,5 @@
 ---
-title: "DPSG WöLager (2002)"
+title: "DPSG Wölflingslager (2002)"
 page: true
 ---
 

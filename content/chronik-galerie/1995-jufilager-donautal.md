@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Donautal (1995)"
+title: "Jungpfadfinderlager Donautal (1995)"
 page: true
 ---
 

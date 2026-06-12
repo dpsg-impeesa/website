@@ -1,5 +1,5 @@
 ---
-title: "Sta Wanderung (1978)"
+title: "Stammeswanderung (1978)"
 page: true
 ---
 

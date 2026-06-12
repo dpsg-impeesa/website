@@ -1,5 +1,5 @@
 ---
-title: "Sta Vers (2022)"
+title: "Stammesversammlung (2022)"
 page: true
 ---
 

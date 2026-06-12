@@ -1,5 +1,5 @@
 ---
-title: "JufiÜbergabe (1992)"
+title: "Jungpfadfinderübergabe (1992)"
 page: true
 ---
 

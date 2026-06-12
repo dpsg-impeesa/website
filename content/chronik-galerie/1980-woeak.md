@@ -1,5 +1,5 @@
 ---
-title: "WöAK (1980)"
+title: "Wölflingsarbeitskreis (1980)"
 page: true
 ---
 

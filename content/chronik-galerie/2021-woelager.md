@@ -1,5 +1,5 @@
 ---
-title: "WöLager (2021)"
+title: "Wölflingslager (2021)"
 page: true
 ---
 

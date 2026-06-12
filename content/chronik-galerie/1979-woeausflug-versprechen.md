@@ -1,5 +1,5 @@
 ---
-title: "WöAusflug Versprechen (1979)"
+title: "Wölflingsausflug Versprechen (1979)"
 page: true
 ---
 

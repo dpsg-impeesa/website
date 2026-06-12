@@ -1,5 +1,5 @@
 ---
-title: "Fronleichnahm (1986)"
+title: "Fronleichnam (1986)"
 page: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Eggenweiler (1998)"
+title: "Jungpfadfinderlager Eggenweiler (1998)"
 page: true
 ---
 

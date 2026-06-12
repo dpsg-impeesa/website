@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Mühlingen (2015)"
+title: "Jungpfadfinderlager Mühlingen (2015)"
 page: true
 ---
 

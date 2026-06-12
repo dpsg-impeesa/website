@@ -1,5 +1,5 @@
 ---
-title: "WöWE Stetten (1986)"
+title: "Wölflingswochenende Stetten (1986)"
 page: true
 ---
 

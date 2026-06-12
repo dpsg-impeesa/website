@@ -255,7 +255,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/1978-stawanderung/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1978"
-    headline: Wö Übergabe
+    headline: Wölflingsübergabe
     text: '{{< popup-button "/chronik-galerie/1978-woeuebergabe/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1978"
@@ -276,7 +276,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/1978-woela-ebnet-kw/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1979"
-    headline: WöAusflug Versprechen
+    headline: Wölflingsausflug Versprechen
     text: '{{< popup-button "/chronik-galerie/1979-woeausflug-versprechen/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1979-01-09"
@@ -342,8 +342,8 @@ events:
     text: '{{< popup-button "/chronik-galerie/1981-woe/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1982"
-    headline: 50 Jahre Diözesanesanverband
-    text: Teilnahme am 50-jährigen Bestehen des Diözesanesanverbandes in Freiburg.
+    headline: 50 Jahre Diözesanverband
+    text: Teilnahme am 50-jährigen Bestehen des Diözesanverbandes in Freiburg.
   - date: "1982"
     headline: Frühschoppen für die Kirche
     text: Veranstaltung eines Frühschoppens in Markelfingen, dessen Erlös von 1.894,45 DM der Kirchenrenovation zugute kam.
@@ -351,7 +351,7 @@ events:
     headline: Entwicklungsdienst in Kamerun
     text: Stammesmitglied Michael Stähler geht als Entwicklungshelfer nach Kamerun.
   - date: "1982"
-    headline: 50 J DPSG FR
+    headline: 50 Jahre DPSG Freiburg
     text: '{{< popup-button "/chronik-galerie/1982-50j-dpsg-fr/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1982"
@@ -359,7 +359,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/1982-james-wiese/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1982"
-    headline: WöBezÜberl
+    headline: Wölflinge Bezirk Überlingen
     text: '{{< popup-button "/chronik-galerie/1982-woebezueberl/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1982-04-25"
@@ -416,7 +416,7 @@ events:
     headline: Traktorschoppen für Michael Stähler
     text: Auch beim zweiten Traktorschoppen für Michael Stähler konnte ein Erlös von über 3.000 DM erzielt werden.
   - date: "1984"
-    headline: WöBez
+    headline: Wölflinge Bezirk
     text: '{{< popup-button "/chronik-galerie/1984-woebez/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1984"
@@ -455,7 +455,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/1985-traktorschoppen/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1985"
-    headline: Wö Bezirks-Tag Zirkus Pfiff
+    headline: Wölflinge Bezirkstag Zirkus Pfiff
     text: '{{< popup-button "/chronik-galerie/1985-woebeztagzirkuspfiff/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1985"
@@ -503,7 +503,7 @@ events:
       {{< popup-button "/chronik-galerie/1986-woewe-stetten/" "Sommerlager 1986 Galerie" >}}
     media: /img/banner_round.webp
   - date: 1986-06
-    headline: Fronleichnahm
+    headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1986-fronleichnahm/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1986-06-22"
@@ -533,7 +533,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/1987-leiterwe-natur-wutach/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1987"
-    headline: WöBez Tag
+    headline: Wölflinge Bezirk Tag
     text: '{{< popup-button "/chronik-galerie/1987-woebeztag/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1987"
@@ -611,7 +611,7 @@ events:
     headline: Bezirksgeorgstag in Singen
     text: Der Stamm nahm am Bezirksgeorgstag in Singen teil.
   - date: 1989-06
-    headline: Fronleichnahm
+    headline: Fronleichnam
     text: '{{< popup-button "/chronik-galerie/1989-fronleichnahm/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: "1989-07-02"
@@ -637,7 +637,7 @@ events:
       {{< popup-button "/chronik-galerie/1990-stammesversammlung/" "Sommerlager 1990 Galerie" >}}
     media: /img/banner_round.webp
   - date: 1990-06
-    headline: Sängerfescht
+    headline: Sängerfest
     text: '{{< popup-button "/chronik-galerie/1990-saengerfescht/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 1990-08
@@ -763,7 +763,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/1993-fronleichnam/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 1993-06
-    headline: Oldie Sängerfescht
+    headline: Oldie Sängerfest
     text: '{{< popup-button "/chronik-galerie/1993-oldiesaengerfescht/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 1993-08
@@ -950,8 +950,8 @@ events:
     text: '{{< popup-button "/chronik-galerie/2000-fronleichnam/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 2000-08
-    headline: Teilnahme am Diözesanesanlager Bluegate
-    text: Die Jungpfadfindertrupps nahmen im Sommer am Diözesanesanlager „Bluegate" teil.
+    headline: Teilnahme am Diözesanlager Bluegate
+    text: Die Jungpfadfindertrupps nahmen im Sommer am Diözesanlager „Bluegate" teil.
   - date: "2001"
     headline: Aktion Jede Münze hilft
     text: Teilnahme an der Aktion „Jede Münze hilft" mit der Sammlung von etwa 30 kg alten DM-Münzen.
@@ -1062,7 +1062,7 @@ events:
     headline: 50-jähriges Jubiläum
     text: Am 30. April wurde das 50. Jubiläum mit einer Stammesstafette und Jurtenburg gefeiert.
   - date: 2006-06
-    headline: Sängerfescht
+    headline: Sängerfest
     text: '{{< popup-button "/chronik-galerie/2006-saengerfescht/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 2006-09
@@ -1142,7 +1142,7 @@ events:
     text: '{{< popup-button "/chronik-galerie/2012-wallfahrt/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 2013-08
-    headline: Diöeszesanlager "Scoutside" bei Sigmaringen
+    headline: Diözesanlager "Scoutside" bei Sigmaringen
     text: |-
       2500 Pfadfinderinnen kommen auf dem ehemaligen Kasernengelände zusammen.
       Mehrere schwere Unwetter suchen die Veranstaltung heim.
@@ -1176,11 +1176,11 @@ events:
     headline: Sommerlager 2015
     text: |-
       Über den Splügenpass von der Schweiz nach Italien, entlang der Historischen Handelsroute aus der Römerzeit führte das Wanderlager der Pfadis in diesem Jahr.
-      Außerdem gab es ein Jufilager in Mühlingen und ein Roverlager auf Korsika.
+      Außerdem gab es ein Jungpfadfinderlager in Mühlingen und ein Roverlager auf Korsika.
 
       {{< popup-button "/chronik-galerie/2015-fala-auswahl/" "Wanderlager Galerie" >}}
-      {{< popup-button "/chronik-galerie/2015-woelflingslager/" "WöLa Galerie" >}}
-      {{< popup-button "/chronik-galerie/2015-jufilager-muehlingen/" "Jufilager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2015-woelflingslager/" "Wölflingslager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2015-jufilager-muehlingen/" "Jungpfadfinderlager Galerie" >}}
       {{< popup-button "/chronik-galerie/2015-roverlager-korsika/" "Roverlager Galerie" >}}
     media: /img/banner_round.webp
   - date: 2015-12
@@ -1212,7 +1212,7 @@ events:
     headline: Sommerlager 2017
     text: |-
       {{< popup-button "/chronik-galerie/2017-fala/" "FaLa Galerie" >}}
-      {{< popup-button "/chronik-galerie/2017-jufilager/" "Jufilager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2017-jufilager/" "Jungpfadfinderlager Galerie" >}}
       {{< popup-button "/chronik-galerie/2017-pfadilager-bretagne/" "Pfadilager Bretagne Galerie" >}}
     media: /img/banner_round.webp
   - date: "2017-10-27"
@@ -1221,7 +1221,7 @@ events:
       Helmut Haselberger, Mitbegründer des Stammes, wurde für seine kommunalpolitischen und gesellschaftlichen Verdienste zum 14. Ehrenbürger der Stadt Radolfzell ernannt.
       Er prägte den Stamm über Jahrzehnte als Stammesführer und Vorbild.
 
-      {{< popup-button "/news/ehrenbuerger-2017/" "Mehr infos" >}}
+      {{< popup-button "/news/ehrenbuerger-2017/" "Mehr Infos" >}}
     media: /images/upload/2017/ehrenbuerger/aktuell.webp
   - date: 2017-12
     headline: Wallfahrt
@@ -1262,7 +1262,7 @@ events:
       In kürzester Zeit bauten wir eine Schutzhütte auf dem Kohlplatz in Markelfingen.
       Vom 23.5.-26.5. hatten wir dafür Zeit.
 
-      {{< popup-button "/news/72h-aktion-2019/" "Mehr infos" >}}
+      {{< popup-button "/news/72h-aktion-2019/" "Mehr Infos" >}}
     media: /images/upload/2019/logo-72-stunden-aktion-datum-gruen.webp
   - date: 2019-08
     headline: Sommerlager 2019
@@ -1315,7 +1315,7 @@ events:
     text: |-
       Sommerlager in Prinzbach im Schwarzwald. Die Wölflinge verbrachten eine Woche voller Abenteuer, Workshops und einem feierlichen Versprechen auf der Burgruine Hohengeroldseck.
 
-      {{< popup-button "/news/woelflingslager-2021/" "Mehr infos" >}}
+      {{< popup-button "/news/woelflingslager-2021/" "Mehr Infos" >}}
 
       {{< popup-button "/chronik-galerie/2021-woelager/" "Galerie anzeigen" >}}
     media: /images/upload/2021/woelager/blaettle-019.webp
@@ -1333,7 +1333,7 @@ events:
     text: |-
       Ein abenteuerliches Kanulager der Pfadfinder und Rover. Von Lübbenau aus ging es die Spree entlang bis nach Berlin, mit anschließenden Sightseeing-Tagen in der Hauptstadt.
 
-      {{< popup-button "/news/kanulager-2021/"  "Mehr infos" >}}
+      {{< popup-button "/news/kanulager-2021/" "Mehr Infos" >}}
     media: /images/upload/2021/kanulager/blaettle-029.webp
   - date: 2021-12
     headline: Wallfahrt
@@ -1352,7 +1352,7 @@ events:
     text: |-
       Laufen für den guten Zweck: 93 Läufer bewältigten insgesamt 1017 Runden für unsere Partnergemeinde Sicuani in Peru. Dabei kam eine unglaubliche Summe von etwa 7000 Euro zusammen.
 
-      {{< popup-button "/news/spendenlauf-bericht-2022/" "Mehr infos" >}}
+      {{< popup-button "/news/spendenlauf-bericht-2022/" "Mehr Infos" >}}
     media: /images/upload/2022/spendenlauf/blaettle-11-044.webp
   - date: 2022-08
     headline: Sommerlager 2022
@@ -1366,7 +1366,7 @@ events:
     text: |-
       Sommerlager unter dem Motto „Harry Potter“. Die Jungpfadfinder bauten ihre eigenen Küchen, spielten Quidditch und bewiesen ihre Navigationsfähigkeiten beim Hike.
 
-      {{< popup-button "/news/jufi-sommerlager-2022/" "Mehr infos" >}}
+      {{< popup-button "/news/jufi-sommerlager-2022/" "Mehr Infos" >}}
 
       {{< popup-button "/chronik-galerie/2022-jufilager/" "Galerie anzeigen" >}}
     media: /images/upload/2022/jusola/blaettle-12-023.webp
@@ -1376,7 +1376,7 @@ events:
     text: |-
       Die Pfadfinderstufe radelte 420 Kilometer entlang der Donau bis nach Regensburg. Unterwegs wurde in Pfarrheimen und auf Bauernhöfen übernachtet.
 
-      {{< popup-button "/news/fahrradlager-2022/" "Mehr infos" >}}
+      {{< popup-button "/news/fahrradlager-2022/" "Mehr Infos" >}}
     media: /images/upload/2022/fahrradlager/blaettle-13-014.webp
   - date: 2022-12
     headline: Wallfahrt 56
@@ -1395,7 +1395,7 @@ events:
     text: |-
       126 Läufer sammelten 6800€ für den Bau einer Schule in Ghana. Mit 1796 gelaufenen Runden war der Tag ein voller Erfolg für den guten Zweck.
 
-      {{< popup-button "/news/spendenlauf-bericht-2023/" "Mehr infos" >}}
+      {{< popup-button "/news/spendenlauf-bericht-2023/" "Mehr Infos" >}}
     media: /images/upload/2023/spendenlauf/blaettle-18-013.webp
   - date: "2023-08-05"
     end: "2023-08-12"
@@ -1403,7 +1403,7 @@ events:
     text: |-
       Das Stammeslager am Bruderhof stand ganz im Zeichen der Gallier. Wölflinge, Jufis und Pfadis befreiten Miraculix und feierten gemeinsam am Lagerfeuer.
 
-      {{< popup-button "/news/stammeslager-2023/" "Mehr infos" >}}
+      {{< popup-button "/news/stammeslager-2023/" "Mehr Infos" >}}
 
       {{< popup-button "/chronik-galerie/2023-fala/" "Familienlager Galerie" >}}
     media: /images/upload/2023/stammeslager/blaettle-19-027.webp
@@ -1419,7 +1419,7 @@ events:
       Außerdem fertigen wir Sitzgelegenheiten für einen Grillplatz in Güttingen an.
       Der Römerplatz soll aus mehreren Bänken, Bäumen und 2 Mosaiken im Boden bestehen.
 
-      {{< popup-button "/news/72h-aktion-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/72h-aktion-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/72h/gruppenbild.jpg
   - date: 2024-05
     headline: Gewinn der Super-Rosskur
@@ -1432,7 +1432,7 @@ events:
       Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
       Wir freuen uns auf einen Tag voller Spaß und guter Laune!
 
-      {{< popup-button "/news/dorfgauditunier-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/dorfgauditunier-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/Dorfgauditurnier-Plakat.webp
   - date: "2024-07-06"
     headline: 1300 Jahr Feier
@@ -1442,7 +1442,7 @@ events:
       Auch wir werden mit unserem Stand ein Teil der Festmeile sein.
       Sowohl Kulinarik, als auch Entertainment kommt bei uns nicht zu kurz.
 
-      {{< popup-button "/news/1300-jahr-feier-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/1300-jahr-feier-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/1300-jahre-markelfingen.png
   - date: "2024-07-19"
     end: "2024-08-03"
@@ -1453,7 +1453,7 @@ events:
       Dieses Jahr waren insgesamt ca. 5500 Menschen dabei. Das Lager war für uns in drei verschiedenen Teile aufgeteilt: Die ersten drei Tage waren wir gemeinsam mit dem gesamten deutschen Kontingent (ca. 270 Personen) auf einem Zeltplatz in Fredrikstad im Süd-Osten von Norwegen.
       Dort hatten wir viel Zeit die anderen deutschen Teilnehmenden kennenzulernen und schon mal ein bisschen von Norwegen zu erkunden.
 
-      {{< popup-button "/news/roverway-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/roverway-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/Roverway24-2024-07-27_21-47-38_Freddy-Handy.webp
   - date: "2024-08-26"
     headline: Jungpfadfinderlager 2024
@@ -1463,7 +1463,7 @@ events:
       Angekommen am Lagerplatz erwartete uns eine Überraschung. Halva, ein echter Wikinger, begrüßte die Kinder und gab ihnen eine Einführung zu ihrem neuen Wikingerdorf,
       in dem wir gemeinsam die nächsten zwei Wochen verbringen würden. Und natürlich darf dabei das Einrichten nicht fehlen!
 
-      {{< popup-button "/news/jufi-sommerlager-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/jufi-sommerlager-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/P1050589.webp
   - date: "2024-08-27"
     end: "2024-09-07"
@@ -1474,7 +1474,7 @@ events:
       Zelte, Schlafsäcke und Isomatten, aber auch Essen, Töpfe und Geschirr.
       Außerdem musste sich jeden Abend erneut auf die suche nach einem Schlafplatz gemacht werden.
 
-      {{< popup-button "/news/wanderlager-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/wanderlager-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/2024-08-29_10-08-00_Best0fWanderlager.jpg
   - date: "2024-08-31"
     end: "2024-09-06"
@@ -1484,7 +1484,7 @@ events:
       Alle hatten erstmal Freizeit und durften spielen.
       Nach dem Essen und einer Abendrunde hörten wir noch eine Geschichte und gingen schlafen.
 
-      {{< popup-button "/news/woelflingslager-2024/" "Mehr infos" >}}
+      {{< popup-button "/news/woelflingslager-2024/" "Mehr Infos" >}}
     media: /images/upload/2024/image0.jpeg
   - date: "2024-12-08"
     headline: Rosskur Trailer
@@ -1492,7 +1492,7 @@ events:
       "Rover of the Carribean" ist das Motto der Rosskur, die dieses Jahr von uns organisiert wird.
       Doch wie kommt es dazu? Wer kann daran teilnehmen und was ist bitte eine Rosskur?
 
-      {{< popup-button "/news/rosskur-2025/" "Mehr infos" >}}
+      {{< popup-button "/news/rosskur-2025/" "Mehr Infos" >}}
     media: https://www.youtube.com/watch?v=c1hPXJ-CM34
   - date: "2025-05-16"
     end: "2025-05-18"
@@ -1501,7 +1501,7 @@ events:
       Wer am Wochenende vom 16. bis 18. Mai 2025 am Ortsausgang von Markelfingen in Richtung Allensbach vorbeikam, konnte einen ungewöhnlichen Anblick erleben Auf der Wiese standen zahlreiche Zelte und ein selbstgebautes Piratenboot.
       Es war der Start- und Zielbereich sowie Lagerplatz der Rosskur 2025, einem 24-Stunden-Stationenlauf für Pfadfinderinnen und Pfadfinder der ältesten Stufe in der DPSG, den sogenannten Rovern.
 
-      {{< popup-button "/news/rosskur-bericht-2025/" "Mehr infos" >}}
+      {{< popup-button "/news/rosskur-bericht-2025/" "Mehr Infos" >}}
       {{< popup-button "/galerie/rosskur/" "Galerie anzeigen" >}}
 
     media: /images/galerie/rosskur/IMG_7889.webp
@@ -1513,7 +1513,7 @@ events:
       Wir freuen uns auf einen Tag voller Spaß und guter Laune! Das Tunier get von 10:00 bis 17:00 Uhr und findet am Riedstadion in Markelfingen statt.
       Anschließend ist ab 18:00 Uhr Party mit Live Band.
 
-      {{< popup-button "/news/dorfgauditunier-2025/"  "Mehr infos" >}}
+      {{< popup-button "/news/dorfgauditunier-2025/" "Mehr Infos" >}}
     media: /images/upload/2025/gauditunier.webp
   - date: "2025-08-08"
     end: "2025-08-17"
@@ -1524,7 +1524,7 @@ events:
       Das Lager war das Abschlusslager eines Projekts, das im vergangenen Oktober mit einem Auftaktwochenende in Mannheim gestartet hatte und uns so in die Projektphase eingeführt hat.
       Das Ziel war es, während der Projektphase so viel CO2 einzusparen, dass das Abschlusslager im Endeffekt CO2-neutral war.
 
-      {{< popup-button "/news/crover-2025/"  "Mehr infos" >}}
+      {{< popup-button "/news/crover-2025/" "Mehr Infos" >}}
     media: /images/upload/2025/CroverGroup.webp
   - date: "2025-09-01"
     end: "2025-09-11"
@@ -1535,7 +1535,7 @@ events:
       Die Tour führte uns entlang des Rheins bis zur Niederländischen Grenze, weiter durch malerische Landschaften und historische Städte entlang der Ijsel und der Zuiderseen bis Nach Amsterdam.
       Insgesamt legten wir 370 Kilometer auf dem Fahrrad zurück.
 
-      {{< popup-button "/news/hanseradweg-2025/"  "Mehr infos" >}}
+      {{< popup-button "/news/hanseradweg-2025/" "Mehr Infos" >}}
     media: /images/upload/2025/hanseradweg_allee.webp
   - date: "2025-09-01"
     headline: Jungpfadfinderlager 2025 🇨🇭
@@ -1545,7 +1545,7 @@ events:
       Vollgepackt mit Vorfreude und Abenteuerlust starteten wir unsere Reise mit dem Zug nach Gonten und legten die letzte Etappe zu unserem Lagerplatz zu Fuß zurück.
       Kaum waren die Zelte und die Küche aufgebaut, wurden wir von einem heftigen Unwetter überrascht. Doch echte Pfadfinder lassen sich davon nicht unterkriegen!
 
-      {{< popup-button "/news/jufilager-2025/"  "Mehr infos" >}}
+      {{< popup-button "/news/jufilager-2025/" "Mehr Infos" >}}
     media: /images/upload/2025/JUFILAGER25Title.webp
   - date: "2025-09-06"
     headline: Wölflingslager 2025
@@ -1555,7 +1555,7 @@ events:
       Nach ein bisschen Freizeit und Erkundung der Gegend gab es dann auch schon Nudeln mit Tomatensoße zum Abendessen.
       Schließlich noch die Abendrunde und eine Gutenachtgeschichte und der erste Tag war auch wieder vorüber.
 
-      {{< popup-button "/news/woelflingslager-2025/"  "Mehr infos" >}}
+      {{< popup-button "/news/woelflingslager-2025/" "Mehr Infos" >}}
     media: /images/upload/2025/WöLa25-Gruppenbild.webp
   - date: 2025-12
     headline: Wallfahrt
@@ -1569,7 +1569,7 @@ events:
       Los ging es morgens am 5. mit dem Zug von Radolfzell bis nach Linz, wo wir abends ankamen. Nach der Ankunft gab es noch ein leckeres Abendessen in einem traditionell österreichischen Restaurant.
       Übernachtet haben wir in einer Turnhalle zusammen mit den anderen deutschen Teilnehmern.
 
-      {{< popup-button "/news/friedenslicht-2025/"  "Mehr infos">}}
+      {{< popup-button "/news/friedenslicht-2025/" "Mehr Infos" >}}
     media: /images/upload/2026/GroupPicture.webp
   - date: "2026"
     headline: Beerdigung Helmut
@@ -1583,7 +1583,7 @@ events:
       Kaum angekommen, wurde direkt mit dem Aufbau der Zelte begonnen. Nach der getanen Arbeit stärkten sich alle mit Spaghetti und Tomatensoße,
       bevor der Abend mit einer lustigen Runde „Mein Leiter kann“ gemütlich beendet wurde.
 
-      {{< popup-button "/news/stammeslager-2026/"  "Mehr infos" >}}
+      {{< popup-button "/news/stammeslager-2026/" "Mehr Infos" >}}
     media: /images/upload/2026/Gruppenbild_Stala.webp
   - date: "2026-06-13"
     headline: Jubiläum 70 Jahre

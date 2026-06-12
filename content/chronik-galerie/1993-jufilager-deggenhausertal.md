@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Deggenhausertal (1993)"
+title: "Jungpfadfinderlager Deggenhausertal (1993)"
 page: true
 ---
 

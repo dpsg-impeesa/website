@@ -1,5 +1,5 @@
 ---
-title: "Jufilager (2008)"
+title: "Jungpfadfinderlager (2008)"
 page: true
 ---
 

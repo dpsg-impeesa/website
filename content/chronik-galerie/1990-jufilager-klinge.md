@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Klinge (1990)"
+title: "Jungpfadfinderlager Klinge (1990)"
 page: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Fa La TOP 50 (2008)"
+title: "Familienlager TOP 50 (2008)"
 page: true
 ---
 

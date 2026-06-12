@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Kaiserstuhl (1986)"
+title: "Jungpfadfinderlager Kaiserstuhl (1986)"
 page: true
 ---
 

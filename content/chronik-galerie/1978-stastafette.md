@@ -1,5 +1,5 @@
 ---
-title: "Sta Stafette (1978)"
+title: "Stammesstafette (1978)"
 page: true
 ---
 

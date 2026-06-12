@@ -1,5 +1,5 @@
 ---
-title: "WöLager Grabs (1983)"
+title: "Wölflingslager Grabs (1983)"
 page: true
 ---
 

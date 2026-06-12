@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Wünschmichelbach (1994)"
+title: "Jungpfadfinderlager Wünschmichelbach (1994)"
 page: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Jufilager Hofstetten (1988)"
+title: "Jungpfadfinderlager Hofstetten (1988)"
 page: true
 ---
 

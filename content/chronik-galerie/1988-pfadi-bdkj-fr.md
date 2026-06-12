@@ -1,5 +1,5 @@
 ---
-title: "Pfadfinder BDKJ FR (1988)"
+title: "Pfadfinder BDKJ Freiburg (1988)"
 page: true
 ---
 

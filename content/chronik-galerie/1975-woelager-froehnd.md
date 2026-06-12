@@ -1,5 +1,5 @@
 ---
-title: "WöLager Fröhnd (1975)"
+title: "Wölflingslager Fröhnd (1975)"
 page: true
 ---
 

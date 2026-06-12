@@ -1,5 +1,5 @@
 ---
-title: "50 J DPSG FR (1982)"
+title: "50 Jahre DPSG Freiburg (1982)"
 page: true
 ---
 
