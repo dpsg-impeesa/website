@@ -1,0 +1,8 @@
+chronik.dpsg-radolfzell.de {
+	root * public
+	file_server
+	tls /root/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/chronik.dpsg-radolfzell.de/chronik.dpsg-radolfzell.de.crt /root/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/chronik.dpsg-radolfzell.de/chronik.dpsg-radolfzell.de.key
+    # tls {
+    # 	dns cloudflare {env.CF_API_TOKEN}
+    # }
+}

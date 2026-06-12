@@ -9,3 +9,5 @@ static/large
 *.ics
 
 assets/kalender/*.csv
+
+.env
