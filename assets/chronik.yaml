@@ -436,7 +436,9 @@ events:
     media: /img/banner_round.webp
   - date: 1984-08
     headline: Wölflingslager St Anton
-    text: '{{< popup-button "/chronik-galerie/1984-woela-stanton/" "Galerie anzeigen" >}}'
+    text: |-
+      {{< popup-button "/chronik-galerie/1984-woela-stanton/" "Galerie 1 anzeigen" >}}
+      {{< popup-button "/chronik-galerie/1984-woelager-stanton/" "Galerie 2 anzeigen" >}}
     media: /img/banner_round.webp
   - date: "1984-10-11"
     headline: Neuer Stammesvorsitzender Joachim Petrich
@@ -1127,6 +1129,10 @@ events:
     headline: Familienlager
     text: '{{< popup-button "/chronik-galerie/2011-fala/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
+  - date: 2011-08
+    headline: Roverlager Costa Brava, Spanien
+    text: '{{< popup-button "/chronik-galerie/2011-roverlager-costa-brava-spanien/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 2012-08
     headline: Familienlager Auswahl
     text: '{{< popup-button "/chronik-galerie/2012-fala-auswahl/" "Galerie anzeigen" >}}'
@@ -1143,6 +1149,10 @@ events:
 
       {{< popup-button "/chronik-galerie/2013-fala-auswahl/" "Galerie anzeigen" >}}
     media: /img/banner_round.webp
+  - date: 2013-08
+    headline: Roverlager Costa Brava, Spanien
+    text: '{{< popup-button "/chronik-galerie/2013-roverlager-costa-brava-spanien/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: "2014"
     headline: DPSG Aktion
     text: '{{< popup-button "/chronik-galerie/2014-dpsg-aktion/" "Galerie anzeigen" >}}'
@@ -1150,6 +1160,10 @@ events:
   - date: 2014-10
     headline: Zusammenlegung der Jufis
     text: Die Jungpfadfindergruppe in Radolfzell wird aufgelöst.
+  - date: 2014-08
+    headline: Roverlager Mittelmeer (Italien bis Spanien)
+    text: '{{< popup-button "/chronik-galerie/2014-roverlager-mittelmeer-italien-bis-spanien/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 2014-12
     headline: Wallfahrt
     text: '{{< popup-button "/chronik-galerie/2014-wallfahrt/" "Galerie anzeigen" >}}'
@@ -1159,13 +1173,15 @@ events:
     text: '{{< popup-button "/chronik-galerie/2015-jahresaktion/" "Galerie anzeigen" >}}'
     media: /img/banner_round.webp
   - date: 2015-08
-    headline: Wanderlager der Pfadis entlang des "Via Spluga"
+    headline: Sommerlager 2015
     text: |-
-      Über den Splügenpass von der Schweiz nach Italien, entlang der Historischen Handelsroute aus der Römerzeit führte das Wanderlager der Pfadis in diesem Jahr
+      Über den Splügenpass von der Schweiz nach Italien, entlang der Historischen Handelsroute aus der Römerzeit führte das Wanderlager der Pfadis in diesem Jahr.
+      Außerdem gab es ein Jufilager in Mühlingen und ein Roverlager auf Korsika.
 
-      {{< popup-button "/chronik-galerie/2015-fala-auswahl/" "Pfadfinderlager Galerie" >}}
-
-      {{< popup-button "/chronik-galerie/2015-woelflingslager/" "Pfadfinderlager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2015-fala-auswahl/" "Wanderlager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2015-woelflingslager/" "WöLa Galerie" >}}
+      {{< popup-button "/chronik-galerie/2015-jufilager-muehlingen/" "Jufilager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2015-roverlager-korsika/" "Roverlager Galerie" >}}
     media: /img/banner_round.webp
   - date: 2015-12
     headline: Wallfahrt
@@ -1178,9 +1194,11 @@ events:
   - date: 2016-08
     headline: Stammeslager zum 60-Jährigen Jubiläum
     text: |-
-      fand im Schwarzwalf auf dem Bruderhof statt
+      Stammeslager zum 60-Jährigen Jubiläum auf dem Bruderhof im Schwarzwald.
+      Zudem gab es ein Wanderlager von Kandern bis zur Wutachschlucht.
 
-      {{< popup-button "/chronik-galerie/2016-stammeslager/" "Galerie anzeigen" >}}
+      {{< popup-button "/chronik-galerie/2016-stammeslager/" "Stammeslager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2016-wanderlager-kandern-bis-wutachschlucht/" "Wanderlager Galerie" >}}
     media: /img/banner_round.webp
   - date: 2016-12
     headline: Wallfahrt
@@ -1193,9 +1211,9 @@ events:
   - date: 2017-08
     headline: Sommerlager 2017
     text: |-
-      {{< popup-button "/chronik-galerie/2017-fala/" "Sommerlager 2017 Galerie" >}}
-
-      {{< popup-button "/chronik-galerie/2017-jufilager/" "Sommerlager 2017 Galerie" >}}
+      {{< popup-button "/chronik-galerie/2017-fala/" "FaLa Galerie" >}}
+      {{< popup-button "/chronik-galerie/2017-jufilager/" "Jufilager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2017-pfadilager-bretagne/" "Pfadilager Bretagne Galerie" >}}
     media: /img/banner_round.webp
   - date: "2017-10-27"
     headline: Helmut Haselberger wird Ehrenbürger
