@@ -1,647 +1,1576 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/emhl/hugo-timelinejs/main/docs/schema.json
-# Chronik-Einträge
-#
-# Hier können historische Meilensteine und Ereignisse eingetragen werden,
-# die nicht als normaler Beitrag/News auf der Website existieren.
-#
-# Dokumentation für das Format findet sich unter: https://github.com/emhl/hugo-timelinejs/blob/main/docs/YAML_FORMAT.md
-
 title:
-  headline: "Chronik des Stammes"
-
+  headline: Chronik des Stammes
 events:
-  - date: 1956-04-03
-    headline: "Gründung des Stammes"
-    text: "Gründung am 3. April durch Winfried Enz, Reinhold Bartosch, Walter Kramer, Guido Moriell, Lothar Fischer und Helmut Haselberger als Siedlung Wiking."
-    caption: "Das traditionelle Logo des Stammes Impeesa"
-  - date: 1956-04-03
-    headline: "Erste Sippe Silbermöwe"
-    text: 'Die erste Sippe bestand aus sechs Jungen und hieß „Silbermöwe".'
-  - date: 1956-04-07
-    headline: "Erste Sippenstunde"
-    text: "Die erste Sippenstunde des Stammes fand am 7. April statt."
-  - date: 1956-04-28
-    headline: "Erstes Gaulager"
-    text: "Bereits kurz nach der Gründung nahm der Stamm am 28. April am ersten Gaulager teil."
-  - date: 1956-09-07
-    headline: "Erste Jungpfadfindersippe"
-    text: "Am 7. September wurde die erste Jungpfadfindersippe gegründet."
-  - date: 1956-09-21
-    headline: "Zweite Jungpfadfindersippe"
-    text: "Nur zwei Wochen nach der ersten wurde am 21. September bereits die zweite Jungpfadfindersippe gegründet."
-  - date: 1956
-    headline: "Erster Stammeskurat"
-    text: "Als erster Stammeskurat wurde dem Stamm Elmar Hettler zugeteilt."
+  - date: "1955"
+    headline: Album Bender
+    text: '{{< popup-button "/chronik-galerie/1950x-album-bender/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1956"
+    headline: Erster Stammeskurat
+    text: Als erster Stammeskurat wurde dem Stamm Elmar Hettler zugeteilt.
+  - date: "1956"
+    headline: Bilder aus dem Jahr 1956
+    text: '{{< popup-button "/chronik-galerie/1956/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1956-04-03"
+    headline: Gründung des Stammes
+    text: |
+      Gründung am 3. April durch Winfried Enz, Reinhold Bartosch, Walter Kramer, Guido Moriell, Lothar Fischer und Helmut Haselberger als Siedlung Wiking.
+      Die erste Sippe bestand aus sechs Jungen und hieß „Silbermöwe".
+  - date: "1956-04-07"
+    headline: Erste Sippenstunde
+    text: Die erste Sippenstunde des Stammes fand am 7. April statt.
+  - date: "1956-04-28"
+    headline: Erstes Gaulager
+    text: Bereits kurz nach der Gründung nahm der Stamm am 28. April am ersten Gaulager teil.
+  - date: "1956-09-07"
+    headline: Erste Jungpfadfindersippe
+    text: Am 7. September wurde die erste Jungpfadfindersippe gegründet.
+  - date: "1956-09-21"
+    headline: Zweite Jungpfadfindersippe
+    text: Nur zwei Wochen nach der ersten wurde am 21. September bereits die zweite Jungpfadfindersippe gegründet.
+  - date: "1957"
+    headline: Bilder aus dem Jahr 1957
+    text: '{{< popup-button "/chronik-galerie/1957/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 1957-01
-    headline: "Erstes Wölflingsrudel"
-    text: "Ende Januar entstand das erste Wölflingsrudel des Stammes."
-  - date: 1957-01-23
-    headline: "100. Geburtstag von Baden-Powell"
-    text: "Gemeinsame Feier am 23. Januar mit dem Stamm des BDP zum 100. Geburtstag des Pfadfindergründers Lord Baden-Powell."
-  - date: 1957-05-18
-    headline: "Erstes gemeinsames Lager mit dem BDP"
-    text: "Am 18. und 19. Mai fand das erste gemeinsame Lager mit dem Bund Deutscher Pfadfinder (BDP) statt."
-  - date: 1957-07-01
-    headline: "Anerkennung als Stamm St. Meinrad"
-    text: "Am 1. Juli wurde die Siedlung Wiking offiziell als Stamm St. Meinrad anerkannt und bestätigt."
-  - date: 1957-08-25
-    headline: "Erstes Stammeslager"
-    text: "Vom 25. bis 31. August wurde das erste Stammeslager durchgeführt."
-  - date: 1957-12-15
-    headline: "Erste Krippenausstellung"
-    text: "Am 15. Dezember fand die erste Krippenausstellung statt."
+    headline: Erstes Wölflingsrudel
+    text: Ende Januar entstand das erste Wölflingsrudel des Stammes.
+  - date: "1957-01-23"
+    headline: 100. Geburtstag von Baden-Powell
+    text: Gemeinsame Feier am 23. Januar mit dem Stamm des BDP zum 100. Geburtstag des Pfadfindergründers Lord Baden-Powell.
+  - date: "1957-05-18"
+    headline: Erstes gemeinsames Lager mit dem BDP
+    text: Am 18. und 19. Mai fand das erste gemeinsame Lager mit dem Bund Deutscher Pfadfinder (BDP) statt.
+  - date: "1957-07-01"
+    headline: Anerkennung als Stamm St. Meinrad
+    text: Am 1. Juli wurde die Siedlung Wiking offiziell als Stamm St. Meinrad anerkannt und bestätigt.
+  - date: "1957-08-25"
+    headline: Erstes Stammeslager
+    text: Vom 25. bis 31. August wurde das erste Stammeslager durchgeführt.
+  - date: "1957-12-15"
+    headline: Erste Krippenausstellung
+    text: Am 15. Dezember fand die erste Krippenausstellung statt.
+  - date: "1958"
+    headline: Bilder aus dem Jahr 1958
+    text: '{{< popup-button "/chronik-galerie/1958/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1958-01-28"
+    headline: Neuer Stammeskurat
+    text: Am 28. Januar wurde Vikar Christoph Burghardt als neuer Stammeskurat zugeteilt.
   - date: 1958-03
-    headline: "Erste Akela"
-    text: "Seit März 1958 hat der Stamm eine Akela für die Wölflingsstufe."
-  - date: 1958-01-28
-    headline: "Neuer Stammeskurat"
-    text: "Am 28. Januar wurde Vikar Christoph Burghardt als neuer Stammeskurat zugeteilt."
-  - date: 1959
-    headline: "Papstaudienz der Rittergruppe"
-    text: "Die Rittergruppe des Stammes hatte eine Audienz bei Papst Johannes XXIII."
-  - date: 1960-12-04
-    headline: "Altmaterialsammlung"
-    text: 'Vom 4. bis 10. Dezember fand eine Altmaterialsammlung zugunsten des „Speckpaters von Flandern" statt.'
-  - date: 1961-04-23
-    headline: "Sondermarke zum Georgstag"
-    text: "Zum Georgstag gab die Bundespost eine Sondermarke heraus, die St. Georg, den Schutzpatron der Pfadfinder, darstellt."
-  - date: 1961-06-08
-    headline: "Selbstständigkeit des Trupps St. Laurentius"
-    text: "Im Führerring vom 8. Juni wurde der Trupp St. Laurentius als selbstständige Truppgemeinschaft mit eigenem Trupprat erklärt."
-  - date: 1961-09-09
-    headline: "Erstausgabe der Stammeszeitung"
-    text: "Am 9. September erschien die erste Ausgabe der Stammeszeitung."
-  - date: 1962
-    headline: "Ernennung zum Hilfsfeldmeister"
-    text: "Dieter Schneller erhielt als erstes Mitglied des Stammes die Ernennung zum Hilfsfeldmeister der DPSG."
-  - date: 1962
+    headline: Erste Akela
+    text: Seit März 1958 hat der Stamm eine Akela für die Wölflingsstufe.
+  - date: "1959"
+    headline: Papstaudienz der Rittergruppe
+    text: Die Rittergruppe des Stammes hatte eine Audienz bei Papst Johannes XXIII.
+  - date: "1959"
+    headline: Bilder aus dem Jahr 1959
+    text: '{{< popup-button "/chronik-galerie/1959/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1960"
+    headline: Bilder aus dem Jahr 1960
+    text: '{{< popup-button "/chronik-galerie/1960/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1960-12-04"
+    headline: Altmaterialsammlung
+    text: Vom 4. bis 10. Dezember fand eine Altmaterialsammlung zugunsten des „Speckpaters von Flandern" statt.
+  - date: "1961-04-23"
+    headline: Sondermarke zum Georgstag
+    text: Zum Georgstag gab die Bundespost eine Sondermarke heraus, die St. Georg, den Schutzpatron der Pfadfinder, darstellt.
+  - date: "1961-06-08"
+    headline: Selbstständigkeit des Trupps St. Laurentius
+    text: Im Führerring vom 8. Juni wurde der Trupp St. Laurentius als selbstständige Truppgemeinschaft mit eigenem Trupprat erklärt.
+  - date: "1961-09-09"
+    headline: Erstausgabe der Stammeszeitung
+    text: Am 9. September erschien die erste Ausgabe der Stammeszeitung.
+  - date: "1962"
+    headline: Ernennung zum Hilfsfeldmeister
+    text: Dieter Schneller erhielt als erstes Mitglied des Stammes die Ernennung zum Hilfsfeldmeister der DPSG.
+  - date: "1962"
     headline: "Jahresaktion: Flinke Hände, flinke Füße"
     text: 'Teilnahme an der erstmals von der Bundesleitung durchgeführten Jahresaktion: „Flinke Hände, flinke Füße schaffen ein Werk für körperbehinderte Jugendliche".'
-  - date: 1963
-    headline: "Neuer Stammeskurat Klaus Schäfer"
-    text: "Als neuer Kurat für den Stamm wurde Klaus Schäfer zugeteilt."
-  - date: 1964-01-26
-    headline: "7. Stammesthing"
-    text: 'Am 26. Januar wurde das 7. Stammesthing im „Haus der Jugend" abgehalten.'
-  - date: 1964-03-24
-    headline: "Woodbadge-Rundenmeister Helmut Haselberger"
-    text: "Am 24. März wurde Helmut Haselberger zum Woodbadge-Rundenmeister ernannt."
-  - date: 1964-04-19
-    headline: "Neuer Stammesführer Siegfried Müller"
-    text: "Am 19. April wurde Siegfried Müller (Käppi) zum neuen Stammesführer gewählt."
-  - date: 1964
-    headline: "Priesterjubiläum von Pfarrer E. Schmid"
-    text: "40-jähriges Priesterjubiläum des Roverkuraten Pfarrer E. Schmid."
-  - date: 1965-02-15
-    headline: "Woodbadge-Feldmeister Siegfried Müller"
-    text: "Am 15. Februar wurde Siegfried Müller zum Woodbadge-Feldmeister ernannt."
-  - date: 1966
-    headline: "Entwicklungsdienst im Kongo"
-    text: "Stammesmitglied Kurt Fricker geht als Entwicklungshelfer in den Kongo."
-  - date: 1967-03-05
-    headline: "10-jähriges Bestehen"
-    text: "Begeisternder Elternabend am 5. März zum 10-jährigen Bestehen des Stammes Radolfzell im Scheffelhof."
-  - date: 1967-03-28
-    headline: "Aktion Flinke Hände, flinke Füße"
-    text: 'Vom 28. März bis 9. April wurde die Aktion „Flinke Hände, flinke Füße" erstmals gemeinsam mit der PSG durchgeführt.'
+  - date: "1963"
+    headline: Neuer Stammeskurat Klaus Schäfer
+    text: Als neuer Kurat für den Stamm wurde Klaus Schäfer zugeteilt.
+  - date: "1964"
+    headline: Priesterjubiläum von Pfarrer E. Schmid
+    text: 40-jähriges Priesterjubiläum des Roverkuraten Pfarrer E. Schmid.
+  - date: "1964-01-26"
+    headline: 7. Stammesthing
+    text: Am 26. Januar wurde das 7. Stammesthing im „Haus der Jugend" abgehalten.
+  - date: "1964-03-24"
+    headline: Woodbadge-Rundenmeister Helmut Haselberger
+    text: Am 24. März wurde Helmut Haselberger zum Woodbadge-Rundenmeister ernannt.
+  - date: "1964-04-19"
+    headline: Neuer Stammesführer Siegfried Müller
+    text: Am 19. April wurde Siegfried Müller (Käppi) zum neuen Stammesführer gewählt.
+  - date: "1965-02-15"
+    headline: Woodbadge-Feldmeister Siegfried Müller
+    text: Am 15. Februar wurde Siegfried Müller zum Woodbadge-Feldmeister ernannt.
+  - date: "1966"
+    headline: Entwicklungsdienst im Kongo
+    text: Stammesmitglied Kurt Fricker geht als Entwicklungshelfer in den Kongo.
+  - date: "1967-03-05"
+    headline: 10-jähriges Bestehen
+    text: Begeisternder Elternabend am 5. März zum 10-jährigen Bestehen des Stammes Radolfzell im Scheffelhof.
+  - date: "1967-03-28"
+    headline: Aktion Flinke Hände, flinke Füße
+    text: Vom 28. März bis 9. April wurde die Aktion „Flinke Hände, flinke Füße" erstmals gemeinsam mit der PSG durchgeführt.
   - date: 1967-09
-    headline: "Neuer Stammeskurat Wolfgang Oberschmidt"
-    text: "Im September wurde dem Stamm Wolfgang Oberschmidt als neuer Stammeskurat zugeteilt."
-  - date: 1968-01-28
-    headline: "Wahl des Stammesführers"
-    text: "Beim Stammesthing am 28. Januar wurde Helmut Haselberger erneut zum Stammesführer gewählt."
-  - date: 1968-03-30
-    headline: "Erstes Versprechen in Allensbach"
-    text: 'Am 30. März legten acht Pfadfinder der „Außenstelle" Allensbach ihr erstes Versprechen ab.'
-  - date: 1969
-    headline: "Unterstützung für Entwicklungshelfer Kurt Fricker"
-    text: 'An Ostern wurde die Aktion „Flinke Hände, flinke Füße" für den Entwicklungshelfer Kurt Fricker im Kongo durchgeführt.'
+    headline: Neuer Stammeskurat Wolfgang Oberschmidt
+    text: Im September wurde dem Stamm Wolfgang Oberschmidt als neuer Stammeskurat zugeteilt.
+  - date: "1968-01-28"
+    headline: Wahl des Stammesführers
+    text: Beim Stammesthing am 28. Januar wurde Helmut Haselberger erneut zum Stammesführer gewählt.
+  - date: "1968-03-30"
+    headline: Erstes Versprechen in Allensbach
+    text: Am 30. März legten acht Pfadfinder der „Außenstelle" Allensbach ihr erstes Versprechen ab.
+  - date: "1969"
+    headline: Unterstützung für Entwicklungshelfer Kurt Fricker
+    text: An Ostern wurde die Aktion „Flinke Hände, flinke Füße" für den Entwicklungshelfer Kurt Fricker im Kongo durchgeführt.
+  - date: "1970"
+    headline: Umbenennung in Stamm Impeesa
+    text: Der ursprüngliche Name 'Siedlung Wiking' wurde in 'Stamm Impeesa' geändert. _Impeesa_ war der Spitzname des Pfadfindergründers Lord Baden-Powell und bedeutet übersetzt 'der Wolf, der nie schläft'.
+  - date: "1970"
+    headline: Assineum Hütte
+    text: '{{< popup-button "/chronik-galerie/1970x-assineumhuette/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1970"
+    headline: Bilder aus dem Jahr 1970x
+    text: '{{< popup-button "/chronik-galerie/1970x/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 1970-01
-    headline: "Neuer Stammeskurat Vikar Weber"
-    text: "Im Januar wurde dem Stamm Vikar Weber als neuer Stammeskurat zugeteilt."
-  - date: 1970-01-18
-    headline: "Neuer Stammesvorsitzender Friedrich Liebsch"
-    text: "Am 18. Januar wurde Friedrich Liebsch zum neuen Stammesvorsitzenden gewählt."
+    headline: Neuer Stammeskurat Vikar Weber
+    text: Im Januar wurde dem Stamm Vikar Weber als neuer Stammeskurat zugeteilt.
+  - date: "1970-01-18"
+    headline: Neuer Stammesvorsitzender Friedrich Liebsch
+    text: Am 18. Januar wurde Friedrich Liebsch zum neuen Stammesvorsitzenden gewählt.
+  - date: "1970-08-13"
+    headline: Pfadfindergruppe in Markelfingen
+    text: Seit dem 13. August besteht in Markelfingen eine Pfadfindergruppe.
   - date: 1970-09
-    headline: "Neuer Stammeskurat Kaplan Endres"
-    text: "Im September erfolgte ein erneuter Wechsel des Stammeskuraten zu Kaplan Endres."
-  - date: 1970-08-13
-    headline: "Pfadfindergruppe in Markelfingen"
-    text: "Seit dem 13. August besteht in Markelfingen eine Pfadfindergruppe."
-  - date: 1970
-    headline: "Umbenennung in Stamm Impeesa"
-    text: "Der ursprüngliche Name 'Siedlung Wiking' wurde in 'Stamm Impeesa' geändert. _Impeesa_ war der Spitzname des Pfadfindergründers Lord Baden-Powell und bedeutet übersetzt 'der Wolf, der nie schläft'."
-  - date: 1971
-    headline: "Mädchen in der DPSG"
-    text: "Seit diesem Jahr werden auch Mädchen in die Deutsche Pfadfinderschaft Sankt Georg (DPSG) aufgenommen."
-  - date: 1971-08-14
-    headline: "Wölflingsmeute Markelfingen"
-    text: "Am 14. August wurde in Markelfingen eine gemischte Wölflingsmeute für Jungen und Mädchen gegründet."
-  - date: 1971-11-19
-    headline: "Mädchen-Jungtrupp Markelfingen"
-    text: "Am 19. November entstand ein Mädchen-Jungtrupp in Markelfingen."
-  - date: 1973
-    headline: "Stammeslager mit 110 Teilnehmern"
-    text: "Ein großes Stammeslager mit 110 Teilnehmern wurde durchgeführt."
-  - date: 1975
-    headline: "Wahl des Stammeskuraten Erwin Roser"
-    text: "Erstmals wurde Erwin Roser zum neuen Stammeskuraten gewählt."
-  - date: 1975-09
-    headline: "Renovierung des Pfadfinderturms"
-    text: "Im September und Oktober fand eine Renovierung des Pfadfinderturms statt."
-  - date: 1976-01-23
-    headline: "Ehrenmitgliedschaft und neuer Vorsitz"
-    text: "Friedrich Liebsch wurde zum Ehrenmitglied ernannt. Gleichzeitig wurde Karl Fischer zum neuen Stammesvorsitzenden gewählt."
-  - date: 1976-09
-    headline: "Erwin Roser wird Regionalseelsorger"
-    text: "Im September wurde Kurat Erwin Roser zum Regionalseelsorger gewählt."
-  - date: 1977-06-11
-    headline: "Erste Teilnahme am Sängerfest"
-    text: "Am 11. Juni nahm der Stamm erstmals am Sängerfest teil."
-  - date: 1977-10-20
-    headline: "Umbau des Pfarrheims Markelfingen"
-    text: "Beginn des Umbaus des historischen Pfarrheims in Markelfingen unter Mitwirkung des Stammes."
-  - date: 1978-06-04
-    headline: "Bezirks-Seifenkistenrennen"
-    text: "Am 4. Juni fand das erste Bezirks-Seifenkistenrennen der Jungpfadfinder in Liggeringen statt."
-  - date: 1979-01-09
-    headline: "Erste Truppstunde im neuen Pfarrgemeindehaus"
-    text: "Am 9. Januar fand die erste Truppstunde im neu renovierten Pfarrgemeindehaus statt."
-  - date: 1979-03-11
-    headline: "Hauseinweihung"
-    text: "Am 11. März folgte die offizielle Einweihung des renovierten Hauses."
-  - date: 1979-03-20
-    headline: "Neuer Stammesvorsitzender Joachim Schellhammer"
-    text: "Joachim Schellhammer wurde am 20. März zum neuen Stammesvorsitzenden gewählt."
-  - date: 1979-06-23
-    headline: "Erste grüne Halstücher"
-    text: "Am 23. Juni gab es erstmals grüne Halstücher für die Pfadfinderstufe im Stamm."
-  - date: 1979-09
-    headline: "Stadtranderholung Radolfzell"
-    text: "Im September gestaltete der Stamm ein Tagesprogramm für die erstmals in Radolfzell durchgeführte Stadtranderholung."
-  - date: 1981-06-14
-    headline: "25-jähriges Bestehen"
-    text: "Am 14. Juni wurde das Jubiläumsfest zum 25-jährigen Bestehen des Stammes Radolfzell gefeiert."
-  - date: 1982-04-25
-    headline: "Stammesstafette"
-    text: "Am 25. April fand eine Stammesstafette mit 180 Teilnehmern statt."
-  - date: 1982
-    headline: "50 Jahre Diözesanverband"
-    text: "Teilnahme am 50-jährigen Bestehen des Diözesanverbandes in Freiburg."
-  - date: 1982
-    headline: "Frühschoppen für die Kirche"
-    text: "Veranstaltung eines Frühschoppens in Markelfingen, dessen Erlös von 1.894,45 DM der Kirchenrenovation zugute kam."
-  - date: 1982-10
-    headline: "25. Jamboree on the air"
-    text: "Teilnahme am 25. Jamboree on the air im Oktober."
-  - date: 1982-08
-    headline: "Einweihung Spielplatz Im Lehen"
-    text: 'Im August wurde in Markelfingen der Spielplatz „Im Lehen" eingeweiht, dessen Holzspielgeräte vom Pfadfindertrupp selbst hergestellt wurden.'
-  - date: 1982
-    headline: "Entwicklungsdienst in Kamerun"
-    text: "Stammesmitglied Michael Stähler geht als Entwicklungshelfer nach Kamerun."
-  - date: 1983-03-18
-    headline: "Stufenloser Elternabend"
-    text: "Am 18. März fand ein stufenloser Elternabend statt."
-  - date: 1983
-    headline: "Besuch bei Agnus Dei"
-    text: "Die Leiterrunde besuchte die Gemeinschaft Agnus Dei auf dem Frauenberg."
-  - date: 1983-07-03
-    headline: "Erster Traktorschoppen"
-    text: "Am 3. Juli fand der erste Traktorschoppen zugunsten des Entwicklungshelfers Michael Stähler statt."
-  - date: 1984-05-26
-    headline: "Aktion Saatgut für Bolivien"
-    text: 'Die Aktion „Flinke Hände, flinke Füße – Saatgut für Bolivien" am 26. Mai in Radolfzell erbrachte über 3.000 DM.'
-  - date: 1984
-    headline: "Traktorschoppen für Michael Stähler"
-    text: "Auch beim zweiten Traktorschoppen für Michael Stähler konnte ein Erlös von über 3.000 DM erzielt werden."
-  - date: 1984-10-11
-    headline: "Neuer Stammesvorsitzender Joachim Petrich"
-    text: "Joachim Petrich wurde am 11. Oktober zum neuen Stammesvorsitzenden gewählt."
-  - date: 1985-01
-    headline: "Jugendschutz-Appell"
-    text: "Im Januar erfolgte ein Appell an die Wirte, keinen Alkohol an Jugendliche auszuschenken."
-  - date: 1985-05-22
-    headline: "Jugendempfang in Bonn"
-    text: "Am 22. Mai folgten 25 Pfadfinder einer Einladung des Bundespräsidenten Richard von Weizsäcker nach Bonn."
-  - date: 1985
-    headline: "Erlös für einen Pflug"
-    text: "Der Erlös des 3. Traktorschoppens wurde für die Anschaffung eines Pfluges verwendet."
-  - date: 1986-06-22
-    headline: "30-jähriges Jubiläum"
-    text: "Anlässlich des 30-jährigen Jubiläums wurde ein Fest mit buntem Jahrmarkt gefeiert."
-  - date: 1986-10-18
-    headline: "Jahresaktion für Almé"
-    text: "Am 18. Oktober wurden bei der Jahresaktion 4.000 DM für Almé in Kamerun gesammelt."
-  - date: 1986
-    headline: "Ehemaligentreffen"
-    text: "Das Ehemaligentreffen des Stammes fand im Bernhardshaus statt."
-  - date: 1987-09-12
-    headline: "Jahresaktion Viva Cochabamba"
-    text: 'Am 12. September fand die Jahresaktion „Viva Cochabamba" statt.'
-  - date: 1987-10-22
-    headline: "Film Im Tal der Knochen"
-    text: 'Uraufführung des auf dem Leiterwochenende gedrehten Films „Im Tal der Knochen" am 22. Oktober.'
-  - date: 1988-04-24
-    headline: "Stammeswanderung zum Georgstag"
-    text: "Zum Georgstag am 24. April fand eine gemeinsame Stammeswanderung statt."
-  - date: 1988-11-19
-    headline: "Kinderkleider-Jahresaktion"
-    text: "Bei der Jahresaktion am 19. November wurden Kinderkleider gesammelt und weiterverkauft."
-  - date: 1989
-    headline: "Bezirksgeorgstag in Singen"
-    text: "Der Stamm nahm am Bezirksgeorgstag in Singen teil."
-  - date: 1989-07-02
-    headline: "Stammestag"
-    text: "Am 2. Juli wurde ein Stammestag durchgeführt."
-  - date: 1990
-    headline: "Jahresaktion für Kinderdorf Klinge"
-    text: 'Die Jahresaktion wurde zugunsten des Kinder- und Jugenddorfs „Klinge" gestaltet.'
-  - date: 1991
-    headline: "Gottesdienst für Caps"
-    text: "Mit einem von den Jungpfadfindern vorbereiteten Gottesdienst für Caps wurden 4.500 DM für einen VW-Bus eingenommen."
-  - date: 1991
-    headline: "Rover-Projekt Einbaum"
-    text: 'Das Rover-Projekt „Einbaum – das Boot unserer Vorfahren" sorgte für regionale Schlagzeilen.'
-  - date: 1991-04-28
-    headline: "Stammesstafette zum 35. Jubiläum"
-    text: "Am 28. April fand zum 35-jährigen Jubiläum eine große Stammesstafette mit Kindern und Eltern statt."
-  - date: 1991-12
-    headline: "Ehemaligentreffen zur Nachtwallfahrt"
-    text: "Zum Ehemaligentreffen wurde am 3. Advent im Rahmen der Nachtwallfahrt eingeladen."
-  - date: 1992
-    headline: "Erste Stammesvorsitzende Sibylle Schmidt"
-    text: "Als erste weibliche Stammesvorsitzende wurde Sibylle Schmidt gewählt."
-  - date: 1992
-    headline: "Neue Stammes-T-Shirts"
-    text: "Einführung der neuen lila Stammes-T-Shirts, entworfen vom Pfadfindertrupp Radolfzell."
-  - date: 1992
-    headline: "Stammeslager Hexen"
-    text: 'Großes Stammeslager unter dem Motto „Hexen".'
-  - date: 1992
-    headline: "Renovierung des Radolfzeller Turms"
-    text: "Der Pfadfinderturm in Radolfzell wurde mit großer Unterstützung renoviert."
-  - date: 1992
-    headline: "Jahresaktion für Caps"
-    text: "Die diesjährige Jahresaktion wurde erneut für Caps gestaltet."
-  - date: 1993
-    headline: "Erste Laienkuratin Angela Wolf"
-    text: 'In der Stammesversammlung wurde Angela Wolf als erste „Laienkuratin" gewählt.'
-  - date: 1994
-    headline: "Abschied von Kurat Erwin Roser"
-    text: "Mit einem Gottesdienst und Fest in der Markolfhalle wurde Pfarrer und Langzeitkurat Erwin Roser verabschiedet."
-  - date: 1994
-    headline: "Stadtspiel zum Georgstag"
-    text: "Großes Stadtspiel in Konstanz mit über 500 Pfadfindern aus dem Bezirk."
-  - date: 1994
-    headline: "Umzug des Materiallagers"
-    text: "Das Materiallager wurde in den Speicher des Pfarrheims verlegt."
-  - date: 1994
-    headline: "Spielefest für Asylbewerberkinder"
-    text: "Veranstaltung eines Spielefests für Kinder von Asylbewerbern."
-  - date: 1994
-    headline: "Baumpflanzaktion für Rwanda"
-    text: "Teilnahme an einer Flurbereinigungsaktion, deren Erlös für Rwanda gespendet wurde."
-  - date: 1995-05-25
-    headline: "Stammeslager Mittelalter"
-    text: 'Vom 25. bis 28. Mai fand ein Stammeslager unter dem Motto „Mittelalter" im Deggenhausertal mit Gästen aus Rwanda statt.'
-  - date: 1995
-    headline: "Jahresaktion für Rwandesen"
-    text: "Die Jahresaktion wurde für und mit den Gästen aus Rwanda durchgeführt."
-  - date: 1996-05-04
-    headline: "40-jähriges Jubiläum"
-    text: "Feier des 40-jährigen Jubiläums am 4. und 5. Mai mit einer großen Jurtenburg auf der Pfarrwiese."
-  - date: 1997-04-18
-    headline: "Innenrenovierung des Pfarrheims"
-    text: "Vom 18. bis 20. April fand eine umfassende Innenrenovierung des Pfarrheims statt."
-  - date: 1997-06-21
-    headline: "Jahresaktion für Rumänien"
-    text: "Jahresaktion für ein Kinderheim in Rumänien, bei der Aktive vor Ort ein Gewächshaus und einen Spielplatz bauten."
-  - date: 1998
-    headline: "Blues Brothers Bar"
-    text: 'An Fasnacht richtete die Leiterrunde eine „Blues Brothers Bar" zum Umzug ein.'
-  - date: 1999
-    headline: "Jahresaktion für Tansania"
-    text: "Sammlung von 2.000 DM für eine Missionsstation in Tansania im Rahmen der Jahresaktion."
-  - date: 2000
-    headline: "Teilnahme am Diözesanlager Bluegate"
-    text: 'Die Jungpfadfindertrupps nahmen im Sommer am Diözesanlager „Bluegate" teil.'
-  - date: 2000
-    headline: "Jahresaktion für Sicuani"
-    text: "Die Jahresaktion wurde für Sicuani, die Partnergemeinde von Markelfingen, gestaltet."
-  - date: 2001-04-27
-    headline: "Stammeslager Asterix und Obelix"
-    text: 'Vom 27. April bis 1. Mai fand zum 45. Jubiläum ein Stammeslager unter dem Motto „Asterix und Obelix" statt.'
-  - date: 2001-06-23
-    headline: "Ehemaligentreffen und Jubiläumsgottesdienst"
-    text: "Am 23. und 24. Juni wurden ein Ehemaligentreffen und ein Jubiläumsgottesdienst gefeiert."
-  - date: 2001
-    headline: "Aktion Jede Münze hilft"
-    text: 'Teilnahme an der Aktion „Jede Münze hilft" mit der Sammlung von etwa 30 kg alten DM-Münzen.'
-  - date: 2002
-    headline: "Zusammenlegung der Pfadfindertrupps"
-    text: "Aufgrund von Leitermangel wurden die beiden Pfadfindertrupps aus Radolfzell und Markelfingen zusammengelegt."
-  - date: 2002-07-06
-    headline: "Bezirksehemaligentreffen"
-    text: "Am 6. Juli fand in Markelfingen das erste Bezirksehemaligentreffen statt."
-  - date: 2002
-    headline: "Solarkocher für Bangladesh"
-    text: 'Jahresaktion in der Fußgängerzone für das Projekt „Solarkocher für Bangladesh".'
-  - date: 2002-12
-    headline: "Marktstand für den Schutzwaldverein"
-    text: "Im Advent wurde ein Marktstand zum Kauf von Schulbüchern für den Schutzwaldverein betrieben."
-  - date: 2003-10-02
-    headline: "Bezirkslager Scoutland"
-    text: 'Teilnahme am Bezirkslager „Scoutland" bei Markelfingen vom 2. bis 5. Oktober.'
-  - date: 2003
-    headline: "Jahresaktion Sauberes Wasser"
-    text: 'Die Jahresaktion stand unter dem Motto „Sauberes Wasser für Burkina Faso".'
-  - date: 2004-10-03
-    headline: "72 Stunden Aktion"
-    text: "Teilnahme an der 72-Stunden-Aktion mit Arbeiten am Mindelsee und der Entrümpelung eines Grundstücks."
-  - date: 2005-12-11
-    headline: "40. Nachtwallfahrt"
-    text: "Am 11. Dezember fand zum 40. Mal die Nachtwallfahrt auf die Insel Reichenau statt."
-  - date: 2005
-    headline: "Renovierung des Roverzimmers"
-    text: "Die Rover erweiterten und renovierten ihr Roverzimmer in Eigenarbeit."
-  - date: 2005
-    headline: "Unterstützung für den Schutzwaldverein"
-    text: "Jahresaktion zugunsten des Radolfzeller Schutzwaldvereins und Hilfe beim Schulhausbau in Ecuador."
-  - date: 2006-04-30
-    headline: "50-jähriges Jubiläum"
-    text: "Am 30. April wurde das 50. Jubiläum mit einer Stammesstafette und Jurtenburg gefeiert."
-  - date: 2006-09
-    headline: "Jubiläums-Stammeslager"
-    text: "Anfang September fand zum Abschluss des Jubiläumsjahres ein Stammeslager statt."
+    headline: Neuer Stammeskurat Kaplan Endres
+    text: Im September erfolgte ein erneuter Wechsel des Stammeskuraten zu Kaplan Endres.
+  - date: "1971"
+    headline: Mädchen in der DPSG
+    text: Seit diesem Jahr werden auch Mädchen in die Deutsche Pfadfinderschaft Sankt Georg (DPSG) aufgenommen.
+  - date: 1971-08
+    headline: Sommerlager 1971
+    text: |-
+      {{< popup-button "/chronik-galerie/1971-lager-fuerstenberg/" "Sommerlager 1971 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1971-woe-lochwiese/" "Sommerlager 1971 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1971-08-14"
+    headline: Wölflingsmeute Markelfingen
+    text: Am 14. August wurde in Markelfingen eine gemischte Wölflingsmeute für Jungen und Mädchen gegründet.
+  - date: "1971-11-19"
+    headline: Mädchen-Jungtrupp Markelfingen
+    text: Am 19. November entstand ein Mädchen-Jungtrupp in Markelfingen.
+  - date: 1972-08
+    headline: Sommerlager 1972
+    text: |-
+      {{< popup-button "/chronik-galerie/1972-stala-pfuenz/" "Sommerlager 1972 Galerie" >}}
 
-  # Daten aus Emil's Kopf
-  - date: 2010 # vielleicht auch 2009 oder 2011
-    headline: "Wir müssen den Turm verlassen"
-    text: "Die Radolfzeller Wös und Jufis dürfen nicht mehr im Turm am Untertor die Gruppenstunden veranstalten und ziehen in den Hexenkeller bei der Hausherrenschule"
-  - date: 2013
-    headline: 'Diöeszesanlager "Scoutside" bei Sigmaringen'
-    text: |
+      {{< popup-button "/chronik-galerie/1972-woe-hofstetten/" "Sommerlager 1972 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1973-08
+    headline: Stammeslager mit 110 Teilnehmern
+    text: |-
+      Ein großes Stammeslager mit 110 Teilnehmern wurde durchgeführt.
+
+      {{< popup-button "/chronik-galerie/1973-stalager-oberbuchsiten/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1974-08
+    headline: Sommerlager 1974
+    text: |-
+      {{< popup-button "/chronik-galerie/1974-stala-klinge/" "Sommerlager 1974 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1974-woe-bichtlingen/" "Sommerlager 1974 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1975"
+    headline: Wahl des Stammeskuraten Erwin Roser
+    text: Erstmals wurde Erwin Roser zum neuen Stammeskuraten gewählt.
+  - date: 1975-08
+    headline: Sommerlager 1975
+    text: |-
+      {{< popup-button "/chronik-galerie/1975-sola-schutterquelle/" "Sommerlager 1975 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1975-woelager-froehnd/" "Sommerlager 1975 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1975-09
+    headline: Renovierung des Pfadfinderturms
+    text: Im September und Oktober fand eine Renovierung des Pfadfinderturms statt.
+  - date: "1976"
+    headline: Trupparbeit
+    text: '{{< popup-button "/chronik-galerie/1976-trupparbeit/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1976"
+    headline: Winterzelten
+    text: '{{< popup-button "/chronik-galerie/1976-winterzelten/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1976-01-23"
+    headline: Ehrenmitgliedschaft und neuer Vorsitz
+    text: Friedrich Liebsch wurde zum Ehrenmitglied ernannt. Gleichzeitig wurde Karl Fischer zum neuen Stammesvorsitzenden gewählt.
+  - date: 1976-02
+    headline: Wölflingsfasnet
+    text: '{{< popup-button "/chronik-galerie/1976-woefasnet/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1976-05-01"
+    headline: 1 Mai
+    text: '{{< popup-button "/chronik-galerie/1976-1mai/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1976-08
+    headline: Sommerlager 1976
+    text: |-
+      {{< popup-button "/chronik-galerie/1976-jula-heggelbach/" "Sommerlager 1976 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1976-radlager/" "Sommerlager 1976 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1976-woela-huefingen/" "Sommerlager 1976 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1976-09
+    headline: Erwin Roser wird Regionalseelsorger
+    text: Im September wurde Kurat Erwin Roser zum Regionalseelsorger gewählt.
+  - date: "1977-06-11"
+    headline: Erste Teilnahme am Sängerfest
+    text: Am 11. Juni nahm der Stamm erstmals am Sängerfest teil.
+  - date: 1977-08
+    headline: Wölflingslager Hischwil
+    text: '{{< popup-button "/chronik-galerie/1977-woela-hischwil/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1977-10-20"
+    headline: Umbau des Pfarrheims Markelfingen
+    text: Beginn des Umbaus des historischen Pfarrheims in Markelfingen unter Mitwirkung des Stammes.
+  - date: "1978"
+    headline: Spanferkel
+    text: '{{< popup-button "/chronik-galerie/1978-spanferkel/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1978"
+    headline: Stammes-Stafette
+    text: '{{< popup-button "/chronik-galerie/1978-stastafette/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1978"
+    headline: Stammes-Wanderung
+    text: '{{< popup-button "/chronik-galerie/1978-stawanderung/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1978"
+    headline: Wö Übergabe
+    text: '{{< popup-button "/chronik-galerie/1978-woeuebergabe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1978"
+    headline: TS
+    text: '{{< popup-button "/chronik-galerie/1978-ebnet-ts/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1978"
+    headline: Sommerlager 1978
+    text: |-
+      {{< popup-button "/chronik-galerie/1978-jufimaedeberg/" "Sommerlager 1978 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1978-woeebnet/" "Sommerlager 1978 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1978-06-04"
+    headline: Bezirks-Seifenkistenrennen
+    text: Am 4. Juni fand das erste Bezirks-Seifenkistenrennen der Jungpfadfinder in Liggeringen statt.
+  - date: 1978-08
+    headline: Wölflingslager
+    text: '{{< popup-button "/chronik-galerie/1978-woela-ebnet-kw/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1979"
+    headline: WöAusflug Versprechen
+    text: '{{< popup-button "/chronik-galerie/1979-woeausflug-versprechen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1979-01-09"
+    headline: Erste Truppstunde im neuen Pfarrgemeindehaus
+    text: Am 9. Januar fand die erste Truppstunde im neu renovierten Pfarrgemeindehaus statt.
+  - date: "1979-03-11"
+    headline: Hauseinweihung
+    text: |-
+      Am 11. März folgte die offizielle Einweihung des renovierten Hauses.
+
+      {{< popup-button "/chronik-galerie/1979-einweihungpfarrheim/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "1979-03-20"
+    headline: Neuer Stammesvorsitzender Joachim Schellhammer
+    text: Joachim Schellhammer wurde am 20. März zum neuen Stammesvorsitzenden gewählt.
+  - date: 1979-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1979-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1979-06-23"
+    headline: Erste grüne Halstücher
+    text: Am 23. Juni gab es erstmals grüne Halstücher für die Pfadfinderstufe im Stamm.
+  - date: 1979-08
+    headline: Wölflingslager Mistelbrunn
+    text: '{{< popup-button "/chronik-galerie/1979-woela-mistelbrunn/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1979-09
+    headline: Stadtranderholung Radolfzell
+    text: Im September gestaltete der Stamm ein Tagesprogramm für die erstmals in Radolfzell durchgeführte Stadtranderholung.
+  - date: "1980"
+    headline: Pfadfinder Bayer Wald
+    text: '{{< popup-button "/chronik-galerie/1980-pfadibayerwald/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1980"
+    headline: Bilder aus dem Jahr 1980x
+    text: '{{< popup-button "/chronik-galerie/1980x/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1980"
+    headline: Wölflingsarbeitskreis
+    text: '{{< popup-button "/chronik-galerie/1980-woeak/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1980-08
+    headline: Pfadfinderlager Serie
+    text: '{{< popup-button "/chronik-galerie/1980-pfadiserie/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1981"
+    headline: Pfadfinder Tschagguns
+    text: '{{< popup-button "/chronik-galerie/1981-pfadi-tschagguns/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1981"
+    headline: Wölflingsarbeitskreis
+    text: '{{< popup-button "/chronik-galerie/1981-woeak/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1981-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1981-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1981-06-14"
+    headline: 25-jähriges Bestehen
+    text: Am 14. Juni wurde das Jubiläumsfest zum 25-jährigen Bestehen des Stammes Radolfzell gefeiert.
+  - date: 1981-08
+    headline: Wölflingslager
+    text: '{{< popup-button "/chronik-galerie/1981-woe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1982"
+    headline: 50 Jahre Diözesanesanverband
+    text: Teilnahme am 50-jährigen Bestehen des Diözesanesanverbandes in Freiburg.
+  - date: "1982"
+    headline: Frühschoppen für die Kirche
+    text: Veranstaltung eines Frühschoppens in Markelfingen, dessen Erlös von 1.894,45 DM der Kirchenrenovation zugute kam.
+  - date: "1982"
+    headline: Entwicklungsdienst in Kamerun
+    text: Stammesmitglied Michael Stähler geht als Entwicklungshelfer nach Kamerun.
+  - date: "1982"
+    headline: 50 J DPSG FR
+    text: '{{< popup-button "/chronik-galerie/1982-50j-dpsg-fr/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1982"
+    headline: James Wiese
+    text: '{{< popup-button "/chronik-galerie/1982-james-wiese/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1982"
+    headline: WöBezÜberl
+    text: '{{< popup-button "/chronik-galerie/1982-woebezueberl/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1982-04-25"
+    headline: Stammesstafette
+    text: |-
+      Am 25. April fand eine Stammesstafette mit 180 Teilnehmern statt.
+
+      {{< popup-button "/chronik-galerie/1982-stammesstafette/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1982-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1982-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1982-08
+    headline: Einweihung Spielplatz Im Lehen
+    text: Im August wurde in Markelfingen der Spielplatz „Im Lehen" eingeweiht, dessen Holzspielgeräte vom Pfadfindertrupp selbst hergestellt wurden.
+  - date: 1982-08
+    headline: Wölflingslager
+    text: '{{< popup-button "/chronik-galerie/1982-woelager/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1982-10
+    headline: 25. Jamboree on the air
+    text: Teilnahme am 25. Jamboree on the air im Oktober.
+  - date: "1983"
+    headline: Besuch bei Agnus Dei
+    text: Die Leiterrunde besuchte die Gemeinschaft Agnus Dei auf dem Frauenberg.
+  - date: "1983"
+    headline: DPSG Bundesvers
+    text: '{{< popup-button "/chronik-galerie/1983-dpsg-bundesvers/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1983"
+    headline: Hochzeit Anne und Wolfgang Uhl
+    text: '{{< popup-button "/chronik-galerie/1983-hochzeit-anne-und-wolfgang-uhl/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1983-03-18"
+    headline: Stufenloser Elternabend
+    text: Am 18. März fand ein stufenloser Elternabend statt.
+  - date: 1983-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1983-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1983-07-03"
+    headline: Erster Traktorschoppen
+    text: |-
+      Am 3. Juli fand der erste Traktorschoppen zugunsten des Entwicklungshelfers Michael Stähler statt.
+
+      {{< popup-button "/chronik-galerie/1983-traktorschoppen/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1983-08
+    headline: Wölflingslager Grabs
+    text: '{{< popup-button "/chronik-galerie/1983-woelager-grabs/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1984"
+    headline: Traktorschoppen für Michael Stähler
+    text: Auch beim zweiten Traktorschoppen für Michael Stähler konnte ein Erlös von über 3.000 DM erzielt werden.
+  - date: "1984"
+    headline: WöBez
+    text: '{{< popup-button "/chronik-galerie/1984-woebez/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1984"
+    headline: Wölflingswochenende
+    text: '{{< popup-button "/chronik-galerie/1984-woewe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1984-02
+    headline: Wölflingsfasnet
+    text: '{{< popup-button "/chronik-galerie/1984-woefasnet/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1984-05-26"
+    headline: Aktion Saatgut für Bolivien
+    text: Die Aktion „Flinke Hände, flinke Füße – Saatgut für Bolivien" am 26. Mai in Radolfzell erbrachte über 3.000 DM.
+  - date: 1984-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1984-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1984-08
+    headline: Wölflingslager St Anton
+    text: '{{< popup-button "/chronik-galerie/1984-woela-stanton/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1984-10-11"
+    headline: Neuer Stammesvorsitzender Joachim Petrich
+    text: Joachim Petrich wurde am 11. Oktober zum neuen Stammesvorsitzenden gewählt.
+  - date: "1985"
+    headline: Erlös für einen Pflug
+    text: Der Erlös des 3. Traktorschoppens wurde für die Anschaffung eines Pfluges verwendet.
+  - date: "1985"
+    headline: Pfadfinder Juze Open Air
+    text: '{{< popup-button "/chronik-galerie/1985-pfadi-juzeopenair/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1985"
+    headline: Traktorschoppen
+    text: '{{< popup-button "/chronik-galerie/1985-traktorschoppen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1985"
+    headline: Wö Bezirks-Tag Zirkus Pfiff
+    text: '{{< popup-button "/chronik-galerie/1985-woebeztagzirkuspfiff/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1985"
+    headline: Wölflinge Versprechen
+    text: '{{< popup-button "/chronik-galerie/1985-woe-versprechen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1985-01
+    headline: Jugendschutz-Appell
+    text: Im Januar erfolgte ein Appell an die Wirte, keinen Alkohol an Jugendliche auszuschenken.
+  - date: 1985-04
+    headline: Bezirk Georgstag
+    text: '{{< popup-button "/chronik-galerie/1985-bezgeorgstag/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1985-05-22"
+    headline: Jugendempfang in Bonn
+    text: |-
+      Am 22. Mai folgten 25 Pfadfinder einer Einladung des Bundespräsidenten Richard von Weizsäcker nach Bonn.
+
+      {{< popup-button "/chronik-galerie/1985-pfadi-bonn/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1985-08
+    headline: Sommerlager 1985
+    text: |-
+      {{< popup-button "/chronik-galerie/1985-roverlager-schweden/" "Roverlager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1985-woelager-flums/" "Wö Lager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1985-woe-hurrican/" "Wö Hurrican Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1986"
+    headline: Ehemaligentreffen
+    text: Das Ehemaligentreffen des Stammes fand im Bernhardshaus statt.
+  - date: "1986"
+    headline: Pfadfinder Deutschsprachige Konferenz
+    text: '{{< popup-button "/chronik-galerie/1986-pfadi-deutschsprachkonf/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1986"
+    headline: Pfadfinder Jubiläum 30
+    text: '{{< popup-button "/chronik-galerie/1986-pfadi-jubilaeum30/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1986"
+    headline: Sommerlager 1986
+    text: |-
+      {{< popup-button "/chronik-galerie/1986-roverwe-rhein/" "Sommerlager 1986 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1986-woewe-stetten/" "Sommerlager 1986 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1986-06
+    headline: Fronleichnahm
+    text: '{{< popup-button "/chronik-galerie/1986-fronleichnahm/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1986-06-22"
+    headline: 30-jähriges Jubiläum
+    text: Anlässlich des 30-jährigen Jubiläums wurde ein Fest mit buntem Jahrmarkt gefeiert.
+    media: /img/banner_round.webp
+  - date: 1986-08
+    headline: Sommerlager 1986
+    text: |-
+      {{< popup-button "/chronik-galerie/1986-jufilager-kaiserstuhl/" "Sommerlager 1986 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1986-roverlager-loire-allier/" "Sommerlager 1986 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1986-woelager/" "Sommerlager 1986 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1986-woelflingslager/" "Sommerlager 1986 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1986-10-18"
+    headline: Jahresaktion für Almé
+    text: Am 18. Oktober wurden bei der Jahresaktion 4.000 DM für Almé in Kamerun gesammelt.
+  - date: "1987"
+    headline: Leiter Wochenende Höhle
+    text: '{{< popup-button "/chronik-galerie/1987-leiterwe-hoehle/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1987"
+    headline: Leiter Wochenende Natur Wutach
+    text: '{{< popup-button "/chronik-galerie/1987-leiterwe-natur-wutach/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1987"
+    headline: WöBez Tag
+    text: '{{< popup-button "/chronik-galerie/1987-woebeztag/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1987"
+    headline: Wölflingswochenende
+    text: '{{< popup-button "/chronik-galerie/1987-woewe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1987-09-12"
+    headline: Jahresaktion Viva Cochabamba
+    text: |-
+      Am 12. September fand die Jahresaktion „Viva Cochabamba" statt.
+
+      {{< popup-button "/chronik-galerie/1987-jahresaktion/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "1987-10-22"
+    headline: Film Im Tal der Knochen
+    text: Uraufführung des auf dem Leiterwochenende gedrehten Films „Im Tal der Knochen" am 22. Oktober.
+  - date: "1988"
+    headline: Leiter Wochenende
+    text: '{{< popup-button "/chronik-galerie/1988-leiter-we/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1988"
+    headline: Sommerlager 1988
+    text: |-
+      {{< popup-button "/chronik-galerie/1988-jufi-flosscrash/" "Sommerlager 1988 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1988-jufi-we-kraehen/" "Sommerlager 1988 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1988-04-24"
+    headline: Stammeswanderung zum Georgstag
+    text: Zum Georgstag am 24. April fand eine gemeinsame Stammeswanderung statt.
+  - date: 1988-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1988-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1988-06
+    headline: Jungpfadfinder Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1988-jufi-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1988-08
+    headline: Sommerlager 1988
+    text: |-
+      {{< popup-button "/chronik-galerie/1988-jufilager-hofstetten/" "Sommerlager 1988 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1988-pfadi-bdkj-fr/" "Sommerlager 1988 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1988-11-19"
+    headline: Kinderkleider-Jahresaktion
+    text: |-
+      Bei der Jahresaktion am 19. November wurden Kinderkleider gesammelt und weiterverkauft.
+
+      {{< popup-button "/chronik-galerie/1988-jahresaktion-slums/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "1989"
+    headline: DPSG Wochenende Höchsten
+    text: '{{< popup-button "/chronik-galerie/1989-dpsg-we-hoechsten/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1989"
+    headline: Geb Beach Party
+    text: '{{< popup-button "/chronik-galerie/1989-geb-beachparty/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1989"
+    headline: Leiter Aktiv Wochenende Braunarlspitze
+    text: '{{< popup-button "/chronik-galerie/1989-leiteraktivwe-braunarlspitze/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1989"
+    headline: Leiter Urlaub Spanien
+    text: '{{< popup-button "/chronik-galerie/1989-leiterurlaub-spanien/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1989"
+    headline: Sommerlager 1989
+    text: |-
+      {{< popup-button "/chronik-galerie/1989-dpsg-stavers/" "Sommerlager 1989 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1989-juifiwe-japan/" "Sommerlager 1989 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1989-04
+    headline: Bezirksgeorgstag in Singen
+    text: Der Stamm nahm am Bezirksgeorgstag in Singen teil.
+  - date: 1989-06
+    headline: Fronleichnahm
+    text: '{{< popup-button "/chronik-galerie/1989-fronleichnahm/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1989-07-02"
+    headline: Stammestag
+    text: Am 2. Juli wurde ein Stammestag durchgeführt.
+  - date: 1989-08
+    headline: Jungpfadfinderlager Rangendingen
+    text: '{{< popup-button "/chronik-galerie/1989-jufilager-rangendingen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1989-12
+    headline: Nachtwallfahrt
+    text: '{{< popup-button "/chronik-galerie/1989-nachtwallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1990"
+    headline: Geb Beduinen
+    text: '{{< popup-button "/chronik-galerie/1990-geb-beduinen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1990"
+    headline: Sommerlager 1990
+    text: |-
+      {{< popup-button "/chronik-galerie/1990-jufiwe-umwelt-rorgenwies/" "Sommerlager 1990 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1990-pfadiband/" "Sommerlager 1990 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1990-stammesversammlung/" "Sommerlager 1990 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1990-06
+    headline: Sängerfescht
+    text: '{{< popup-button "/chronik-galerie/1990-saengerfescht/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1990-08
+    headline: Jahresaktion für Kinderdorf Klinge
+    text: |-
+      Die Jahresaktion wurde zugunsten des Kinder- und Jugenddorfs „Klinge" gestaltet.
+
+      {{< popup-button "/chronik-galerie/1990-jufilager-klinge/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "1991"
+    headline: Gottesdienst für Caps
+    text: Mit einem von den Jungpfadfindern vorbereiteten Gottesdienst für Caps wurden 4.500 DM für einen VW-Bus eingenommen.
+  - date: "1991"
+    headline: Rover-Projekt Einbaum
+    text: Das Rover-Projekt „Einbaum – das Boot unserer Vorfahren" sorgte für regionale Schlagzeilen.
+  - date: "1991"
+    headline: 10 Polterabend Andi Patone
+    text: '{{< popup-button "/chronik-galerie/1991-10-polterabend-andipatone/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1991"
+    headline: Geb Scotish Celebration
+    text: '{{< popup-button "/chronik-galerie/1991-geb-scotishcelebration/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1991"
+    headline: Stammestafette
+    text: '{{< popup-button "/chronik-galerie/1991-stammestafette/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1991-04-28"
+    headline: Stammesstafette zum 35. Jubiläum
+    text: Am 28. April fand zum 35-jährigen Jubiläum eine große Stammesstafette mit Kindern und Eltern statt.
+  - date: 1991-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1991-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1991-08
+    headline: Jungpfadfinderlager Kandersteg
+    text: '{{< popup-button "/chronik-galerie/1991-jufilager-kandersteg/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1991-09
+    headline: Stadtranderholung
+    text: '{{< popup-button "/chronik-galerie/1991-stadtranderholung/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1991-12
+    headline: Ehemaligentreffen zur Nachtwallfahrt
+    text: Zum Ehemaligentreffen wurde am 3. Advent im Rahmen der Nachtwallfahrt eingeladen.
+  - date: "1992"
+    headline: Erste Stammesvorsitzende Sibylle Schmidt
+    text: Als erste weibliche Stammesvorsitzende wurde Sibylle Schmidt gewählt.
+  - date: "1992"
+    headline: Neue Stammes-T-Shirts
+    text: Einführung der neuen lila Stammes-T-Shirts, entworfen vom Pfadfindertrupp Radolfzell.
+  - date: "1992"
+    headline: Renovierung des Radolfzeller Turms
+    text: Der Pfadfinderturm in Radolfzell wurde mit großer Unterstützung renoviert.
+  - date: "1992"
+    headline: Jahresaktion für Caps
+    text: |-
+      Die diesjährige Jahresaktion wurde erneut für Caps gestaltet.
+
+      {{< popup-button "/chronik-galerie/1992-jahresaktion-semtrarra/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "1992"
+    headline: Leiter Wochenende Behinderte
+    text: '{{< popup-button "/chronik-galerie/1992-leiterwe-behinderte/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1992"
+    headline: Leiter Wochenende Ritter
+    text: '{{< popup-button "/chronik-galerie/1992-leiterwe-ritter/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1992"
+    headline: Ski Wochenende
+    text: '{{< popup-button "/chronik-galerie/1992-skiwe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1992"
+    headline: Sommerlager 1992
+    text: |-
+      {{< popup-button "/chronik-galerie/1992-dpsg-stavers/" "Sommerlager 1992 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1992-stammesversammlung/" "Sommerlager 1992 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1992-jufidisco/" "Sommerlager 1992 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1992-jufiwe-kraehen/" "Sommerlager 1992 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1992-jufi-bezwe/" "Sommerlager 1992 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1992-jufiuebergabe/" "Sommerlager 1992 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1992-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1992-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1992-08
+    headline: Stammeslager Hexen
+    text: |-
+      Großes Stammeslager unter dem Motto „Hexen".
+
+      {{< popup-button "/chronik-galerie/1992-stammeslager-wutach-babsi/" "Stammeslager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1992-jufilager-thannenkirch-elsass/" "Stammeslager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1992-pfadi-dankeessenhubi/" "Stammeslager Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1992-09
+    headline: Stadtranderholung
+    text: '{{< popup-button "/chronik-galerie/1992-stadtranderholung/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1993"
+    headline: Erste Laienkuratin Angela Wolf
+    text: In der Stammesversammlung wurde Angela Wolf als erste „Laienkuratin" gewählt.
+  - date: "1993"
+    headline: Patrozinium
+    text: '{{< popup-button "/chronik-galerie/1993-patrozinium/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1993"
+    headline: Rwandesen
+    text: '{{< popup-button "/chronik-galerie/1993-rwandesen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1993"
+    headline: Sommerlager 1993
+    text: |-
+      {{< popup-button "/chronik-galerie/1993-leiterwe-neckar/" "Sommerlager 1993 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1993-jufileiterbezirkswe-riverrafting/" "Sommerlager 1993 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1993-stammesstafette/" "Sommerlager 1993 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1993-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1993-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1993-06
+    headline: Oldie Sängerfescht
+    text: '{{< popup-button "/chronik-galerie/1993-oldiesaengerfescht/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1993-08
+    headline: Sommerlager 1993
+    text: |-
+      {{< popup-button "/chronik-galerie/1993-jufilager-deggenhausertal/" "Sommerlager 1993 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1993-jufi-weilerhuettle/" "Sommerlager 1993 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Abschied von Kurat Erwin Roser
+    text: |-
+      Mit einem Gottesdienst und Fest in der Markolfhalle wurde Pfarrer und Langzeitkurat Erwin Roser verabschiedet.
+
+      {{< popup-button "/chronik-galerie/1994-01-verabschiedungerwin/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Spielefest für Asylbewerberkinder
+    text: Veranstaltung eines Spielefests für Kinder von Asylbewerbern.
+  - date: "1994"
+    headline: Baumpflanzaktion für Rwanda
+    text: Teilnahme an einer Flurbereinigungsaktion, deren Erlös für Rwanda gespendet wurde.
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: 08 Patrozinium
+    text: '{{< popup-button "/chronik-galerie/1994-08-patrozinium/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Geb Weinkeller
+    text: '{{< popup-button "/chronik-galerie/1994-geb-weinkeller/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Pfadfinder Aktion Rwanda
+    text: '{{< popup-button "/chronik-galerie/1994-pfadiaktion-rwanda/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Leiter Aktiv Wochenende Leggler Hütte
+    text: '{{< popup-button "/chronik-galerie/1994-leiteraktivwe-legglerhuette/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Leiter Aktiv Vogesen
+    text: '{{< popup-button "/chronik-galerie/1994-leiteraktiv-vogesen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1994"
+    headline: Sommerlager 1994
+    text: |-
+      {{< popup-button "/chronik-galerie/1994-jufianimation-koenigvondeutschland/" "Sommerlager 1994 Galerie" >}}
+      {{< popup-button "/chronik-galerie/1994-woelflingsmeute/" "Sommerlager 1994 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 1994-04
+    headline: Stadtspiel zum Georgstag
+    text: Großes Stadtspiel in Konstanz mit über 500 Pfadfindern aus dem Bezirk.
+  - date: 1994-08
+    headline: Umzug des Materiallagers
+    text: |-
+      Das Materiallager wurde in den Speicher des Pfarrheims verlegt.
+
+      {{< popup-button "/chronik-galerie/1994-jufilager-wuenschmichelbach/" "Umzug des Materiallagers Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1994-stammeslager/" "Umzug des Materiallagers Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1995"
+    headline: Jahresaktion für Rwandesen
+    text: Die Jahresaktion wurde für und mit den Gästen aus Rwanda durchgeführt.
+  - date: "1995"
+    headline: 03 t shirt Winni Fiedler
+    text: '{{< popup-button "/chronik-galerie/1995-03-t-shirt-winnifiedler/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1995"
+    headline: Geb Laurenty Ranch
+    text: '{{< popup-button "/chronik-galerie/1995-geb-laurentyranch/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1995"
+    headline: Jungpfadfinder Ausflug
+    text: ""
+    media: /img/banner_round.webp
+  - date: "1995"
+    headline: Leiter Wochenende
+    text: '{{< popup-button "/chronik-galerie/1995-leiterwe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1995"
+    headline: Jungpfadfinder Ausflug
+    text: '{{< popup-button "/chronik-galerie/1995-jufiausflug/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1995-05-25"
+    headline: Stammeslager Mittelalter
+    text: |-
+      Vom 25. bis 28. Mai fand ein Stammeslager unter dem Motto „Mittelalter" im Deggenhausertal mit Gästen aus Rwanda statt.
+
+      {{< popup-button "/chronik-galerie/1995-stammeslager/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1995-08
+    headline: Sommerlager 1995
+    text: |-
+      {{< popup-button "/chronik-galerie/1995-jufilager-donautal/" "Sommerlager 1995 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/1995-dioezjufilager-peaceloveaction/" "Sommerlager 1995 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "1996"
+    headline: Geburtstag Lorenzi Hütte
+    text: '{{< popup-button "/chronik-galerie/1996-geb-lorenzihuette/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1996"
+    headline: Pfadfinder Jubiläum 40
+    text: '{{< popup-button "/chronik-galerie/1996-pfadi-jubilaeum40/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1996"
+    headline: Pfadfinder Sportverein Grümpelturnier
+    text: '{{< popup-button "/chronik-galerie/1996-pfadi-sv-gruempelturnier/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1996-05-04"
+    headline: 40-jähriges Jubiläum
+    text: |-
+      Feier des 40-jährigen Jubiläums am 4. und 5. Mai mit einer großen Jurtenburg auf der Pfarrwiese.
+
+      {{< popup-button "/chronik-galerie/1996-dpsg-jubilaeum40/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1996-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1996-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1996-08
+    headline: Jungpfadfinderlager Mägerkingen
+    text: '{{< popup-button "/chronik-galerie/1996-jufilager-maegerkingen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1997"
+    headline: Geb Gorch Lorenzo
+    text: '{{< popup-button "/chronik-galerie/1997-geb-gorchlorenzo/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1997"
+    headline: Leiter Haus Reno
+    text: '{{< popup-button "/chronik-galerie/1997-leiterhausreno/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1997"
+    headline: Leiter Aktiv
+    text: '{{< popup-button "/chronik-galerie/1997-leiteraktiv/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1997-04-18"
+    headline: Innenrenovierung des Pfarrheims
+    text: Vom 18. bis 20. April fand eine umfassende Innenrenovierung des Pfarrheims statt.
+    media: /img/banner_round.webp
+  - date: 1997-06
+    headline: 06 Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/1997-06-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1997-06-21"
+    headline: Jahresaktion für Rumänien
+    text: |-
+      Jahresaktion für ein Kinderheim in Rumänien, bei der Aktive vor Ort ein Gewächshaus und einen Spielplatz bauten.
+
+      {{< popup-button "/chronik-galerie/1997-jahresaktion/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 1997-08
+    headline: Jungpfadfinderlager Deggenhausertal
+    text: '{{< popup-button "/chronik-galerie/1997-jufilager-deggenhausertal/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1998"
+    headline: Blues Brothers Bar
+    text: An Fasnacht richtete die Leiterrunde eine „Blues Brothers Bar" zum Umzug ein.
+  - date: "1998"
+    headline: Laurentius Air
+    text: '{{< popup-button "/chronik-galerie/1998-laurentiusair/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 1998-08
+    headline: Jungpfadfinderlager Eggenweiler
+    text: '{{< popup-button "/chronik-galerie/1998-jufilager-eggenweiler/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "1999"
+    headline: Jahresaktion für Tansania
+    text: Sammlung von 2.000 DM für eine Missionsstation in Tansania im Rahmen der Jahresaktion.
+  - date: "1999"
+    headline: Geb Fondue
+    text: '{{< popup-button "/chronik-galerie/1999-geb-fondue/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2000"
+    headline: Jahresaktion für Sicuani
+    text: Die Jahresaktion wurde für Sicuani, die Partnergemeinde von Markelfingen, gestaltet.
+  - date: "2000"
+    headline: Geb Apres Ski
+    text: '{{< popup-button "/chronik-galerie/2000-geb-apresski/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2000-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/2000-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2000-08
+    headline: Teilnahme am Diözesanesanlager Bluegate
+    text: Die Jungpfadfindertrupps nahmen im Sommer am Diözesanesanlager „Bluegate" teil.
+  - date: "2001"
+    headline: Aktion Jede Münze hilft
+    text: Teilnahme an der Aktion „Jede Münze hilft" mit der Sammlung von etwa 30 kg alten DM-Münzen.
+  - date: "2001"
+    headline: Geburtstag Märchen
+    text: '{{< popup-button "/chronik-galerie/2001-geburtstag-maerchen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2001"
+    headline: Rover Knusperhaus
+    text: '{{< popup-button "/chronik-galerie/2001-rover-knusperhaus/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2001-04-27"
+    headline: Stammeslager Asterix und Obelix
+    text: Vom 27. April bis 1. Mai fand zum 45. Jubiläum ein Stammeslager unter dem Motto „Asterix und Obelix" statt.
+  - date: 2001-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/2001-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2001-06-23"
+    headline: Ehemaligentreffen und Jubiläumsgottesdienst
+    text: |-
+      Am 23. und 24. Juni wurden ein Ehemaligentreffen und ein Jubiläumsgottesdienst gefeiert.
+
+      {{< popup-button "/chronik-galerie/2001-dpsg-45-jubilaeum/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "2001-06-23"
+    headline: Pfadfinder Jubiläum 45
+    text: '{{< popup-button "/chronik-galerie/2001-pfadi-jubilaeum45/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2002"
+    headline: Zusammenlegung der Pfadfindertrupps
+    text: Aufgrund von Leitermangel wurden die beiden Pfadfindertrupps aus Radolfzell und Markelfingen zusammengelegt.
+  - date: 2002-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/2002-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2002-07-06"
+    headline: Bezirksehemaligentreffen
+    text: Am 6. Juli fand in Markelfingen das erste Bezirksehemaligentreffen statt.
+  - date: 2002-08
+    headline: Solarkocher für Bangladesh
+    text: |-
+      Jahresaktion in der Fußgängerzone für das Projekt „Solarkocher für Bangladesh".
+
+      {{< popup-button "/chronik-galerie/2002-dpsg-woelager/" "Solarkocher für Bangladesh Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2002-pfadilager-bretagne/" "Solarkocher für Bangladesh Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 2002-12
+    headline: Marktstand für den Schutzwaldverein
+    text: Im Advent wurde ein Marktstand zum Kauf von Schulbüchern für den Schutzwaldverein betrieben.
+  - date: "2003"
+    headline: Jahresaktion Sauberes Wasser
+    text: |-
+      Die Jahresaktion stand unter dem Motto „Sauberes Wasser für Burkina Faso".
+
+      {{< popup-button "/chronik-galerie/2003-dpsg-jahresaktion/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "2003"
+    headline: Hochzeit Hannes Micha
+    text: '{{< popup-button "/chronik-galerie/2003-hochzeithannesmicha/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2003"
+    headline: Hochzeit Spick Nicks
+    text: '{{< popup-button "/chronik-galerie/2003-hochzeitspicknicks/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2003-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/2003-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2003-08
+    headline: Pfadfinderlager Kroatien
+    text: '{{< popup-button "/chronik-galerie/2003-pfadilager-kroatien/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2003-10-02"
+    headline: Bezirkslager Scoutland
+    text: Teilnahme am Bezirkslager „Scoutland" bei Markelfingen vom 2. bis 5. Oktober.
+  - date: "2004-10-03"
+    headline: 72 Stunden Aktion
+    text: Teilnahme an der 72-Stunden-Aktion mit Arbeiten am Mindelsee und der Entrümpelung eines Grundstücks.
+  - date: "2005"
+    headline: Renovierung des Roverzimmers
+    text: Die Rover erweiterten und renovierten ihr Roverzimmer in Eigenarbeit.
+  - date: "2005"
+    headline: Unterstützung für den Schutzwaldverein
+    text: Jahresaktion zugunsten des Radolfzeller Schutzwaldvereins und Hilfe beim Schulhausbau in Ecuador.
+    media: /img/banner_round.webp
+  - date: "2005"
+    headline: Hochzeit Uwe Tina
+    text: '{{< popup-button "/chronik-galerie/2005-hochzeituwetina/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2005"
+    headline: Jahresaktion
+    text: '{{< popup-button "/chronik-galerie/2005-jahresaktion/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2005-12-11"
+    headline: 40. Nachtwallfahrt
+    text: |-
+      Am 11. Dezember fand zum 40. Mal die Nachtwallfahrt auf die Insel Reichenau statt.
+
+      {{< popup-button "/chronik-galerie/2005-nachtwallfahrt/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "2006"
+    headline: 50 Jahre Pfadfinder Radolfzell
+    text: '{{< popup-button "/chronik-galerie/2006-50jahrepfadiradolfzell/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2006-04-30"
+    headline: 50-jähriges Jubiläum
+    text: Am 30. April wurde das 50. Jubiläum mit einer Stammesstafette und Jurtenburg gefeiert.
+  - date: 2006-06
+    headline: Sängerfescht
+    text: '{{< popup-button "/chronik-galerie/2006-saengerfescht/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2006-09
+    headline: Jubiläums-Stammeslager
+    text: Anfang September fand zum Abschluss des Jubiläumsjahres ein Stammeslager statt.
+  - date: "2007"
+    headline: Scoutings sunrise
+    text: '{{< popup-button "/chronik-galerie/2007-scoutings-sunrise/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2007-06
+    headline: Fronleichnam
+    text: '{{< popup-button "/chronik-galerie/2007-fronleichnam/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2007-12
+    headline: Nachtwallfahrt
+    text: '{{< popup-button "/chronik-galerie/2007-nachtwallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2008-08
+    headline: Sommerlager 2008
+    text: |-
+      {{< popup-button "/chronik-galerie/2008-fala-top50/" "Sommerlager 2008 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2008-jufilager/" "Sommerlager 2008 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "2009"
+    headline: 72 h Aktion
+    text: '{{< popup-button "/chronik-galerie/2009-72haktion/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2009"
+    headline: Hochzeit Uli Krissi
+    text: '{{< popup-button "/chronik-galerie/2009-hochzeitulikrissi/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2009-08
+    headline: Sommerlager 2009
+    text: |-
+      {{< popup-button "/chronik-galerie/2009-fala-auswahl/" "Sommerlager 2009 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2009-stammeslager/" "Sommerlager 2009 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 2009-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2009-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2010"
+    headline: Wir müssen den Turm verlassen
+    text: Die Radolfzeller Wös und Jufis dürfen nicht mehr im Turm am Untertor die Gruppenstunden veranstalten und ziehen in den Hexenkeller bei der Hausherrenschule
+  - date: "2010"
+    headline: Hochzeit Fried Marlen
+    text: '{{< popup-button "/chronik-galerie/2010-hochzeit-friedmarlen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2010-08
+    headline: Familienlager Auswahl
+    text: '{{< popup-button "/chronik-galerie/2010-fala-auswahl/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2010-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2010-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2011"
+    headline: Ehemaligentreffen
+    text: '{{< popup-button "/chronik-galerie/2011-ehemaligentreffen/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2011-08
+    headline: Familienlager
+    text: '{{< popup-button "/chronik-galerie/2011-fala/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2012-08
+    headline: Familienlager Auswahl
+    text: '{{< popup-button "/chronik-galerie/2012-fala-auswahl/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2012-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2012-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2013-08
+    headline: Diöeszesanlager "Scoutside" bei Sigmaringen
+    text: |-
       2500 Pfadfinderinnen kommen auf dem ehemaligen Kasernengelände zusammen.
       Mehrere schwere Unwetter suchen die Veranstaltung heim.
-  - date: 2014-10 # oder war's doch erst 2015?
-    headline: "Zusammenlegung der Jufis"
-    text: "Die Jungpfadfindergruppe in Radolfzell wird aufgelöst."
+
+      {{< popup-button "/chronik-galerie/2013-fala-auswahl/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: "2014"
+    headline: DPSG Aktion
+    text: '{{< popup-button "/chronik-galerie/2014-dpsg-aktion/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2014-10
+    headline: Zusammenlegung der Jufis
+    text: Die Jungpfadfindergruppe in Radolfzell wird aufgelöst.
+  - date: 2014-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2014-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2015"
+    headline: Jahresaktion
+    text: '{{< popup-button "/chronik-galerie/2015-jahresaktion/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 2015-08
-    headline: 'Wanderlager der Pfadis entlang des "Via Spluga"'
-    text: "Über den Splügenpass von der Schweiz nach Italien, entlang der Historischen Handelsroute aus der Römerzeit führte das Wanderlager der Pfadis in diesem Jahr"
+    headline: Wanderlager der Pfadis entlang des "Via Spluga"
+    text: |-
+      Über den Splügenpass von der Schweiz nach Italien, entlang der Historischen Handelsroute aus der Römerzeit führte das Wanderlager der Pfadis in diesem Jahr
+
+      {{< popup-button "/chronik-galerie/2015-fala-auswahl/" "Pfadfinderlager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2015-woelflingslager/" "Pfadfinderlager Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 2015-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2015-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2016"
+    headline: DPSG 60
+    text: '{{< popup-button "/chronik-galerie/2016-dpsg60/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 2016-08
-    headline: "Stammeslager zum 60-Jährigen Jubiläum"
-    text: "fand im Schwarzwalf auf dem Bruderhof statt"
+    headline: Stammeslager zum 60-Jährigen Jubiläum
+    text: |-
+      fand im Schwarzwalf auf dem Bruderhof statt
+
+      {{< popup-button "/chronik-galerie/2016-stammeslager/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 2016-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2016-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2017-06
+    headline: Sängerfest
+    text: '{{< popup-button "/chronik-galerie/2017-saefe/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 2017-08
-    headline: "Wanderlager der Pfadis in der Bretagne"
-    text: ""
+    headline: Sommerlager 2017
+    text: |-
+      {{< popup-button "/chronik-galerie/2017-fala/" "Sommerlager 2017 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2017-jufilager/" "Sommerlager 2017 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: "2017-10-27"
+    headline: Helmut Haselberger wird Ehrenbürger
+    text: |-
+      Helmut Haselberger, Mitbegründer des Stammes, wurde für seine kommunalpolitischen und gesellschaftlichen Verdienste zum 14. Ehrenbürger der Stadt Radolfzell ernannt.
+      Er prägte den Stamm über Jahrzehnte als Stammesführer und Vorbild.
+
+      {{< popup-button "/news/ehrenbuerger-2017/" "Mehr infos" >}}
+    media: /images/upload/2017/ehrenbuerger/aktuell.webp
+  - date: 2017-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2017-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2018"
+    headline: 72 Stunden
+    text: '{{< popup-button "/chronik-galerie/2018-72stunden/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2018"
+    headline: Ehrenbuerger
+    text: '{{< popup-button "/chronik-galerie/2018-ehrenbuerger/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2018"
+    headline: Pfadiaktion
+    text: '{{< popup-button "/chronik-galerie/2018-pfadiaktion/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
   - date: 2018-08
-    headline: "Stammeslager zum Motto Märchen"
-    text: "Auf dem Zeltplatz in Öttiswald"
+    headline: Stammeslager zum Motto Märchen
+    text: |-
+      Auf dem Zeltplatz in Öttiswald
+
+      {{< popup-button "/chronik-galerie/2018-jufilager/" "Stammeslager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2018-stala/" "Stammeslager Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2018-fala/" "Stammeslager Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 2018-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2018-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2019-05-23"
+    end: "2019-05-26"
+    headline: 72 Stunden Aktion 2019
+    text: |-
+      Die Diesjährige 72 Stunden Aktion war ein voller Erfolg.
+      In kürzester Zeit bauten wir eine Schutzhütte auf dem Kohlplatz in Markelfingen.
+      Vom 23.5.-26.5. hatten wir dafür Zeit.
+
+      {{< popup-button "/news/72h-aktion-2019/" "Mehr infos" >}}
+    media: /images/upload/2019/logo-72-stunden-aktion-datum-gruen.webp
   - date: 2019-08
-    headline: "Wanderlager der Pfadis auf dem Lech-Weg"
-    text: ""
-  - date: 2019-08
-    headline: "Sommerlager der Jungpfadfinder in Schönwald"
-    text: ""
-  - date: 2020-05-11 # erste Online-Gruppenstunde
-    end: 2022-04-04 # letzte Online-Gruppenstunde
-    headline: "Online Gruppenstunden in der Pfadistufe"
-    text: |
+    headline: Sommerlager 2019
+    text: |-
+      {{< popup-button "/chronik-galerie/2019-fala-auswahl/" "Sommerlager 2019 Galerie" >}}
+
+      {{< popup-button "/chronik-galerie/2019-jufilager/" "Sommerlager 2019 Galerie" >}}
+    media: /img/banner_round.webp
+  - date: 2019-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2019-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2020"
+    headline: Hochzeit Felix Knaus
+    text: '{{< popup-button "/chronik-galerie/2020-hochzeitfelixknaus/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2020-05-11"
+    end: 2022-04-04
+    headline: Online Gruppenstunden in der Pfadistufe
+    text: |-
       Aufgrund der Kontaktbeschränkungen konnten keine normalen Gruppenstunden mehr stattfinden.
       Daher wurde in der Pfadistufe die online Gruppenstunde eingeführt.
       Zur sicheren Durchführung wurde auch der Discord-Server immer gut gelüftet.
       Präsenzgruppenstunden konnten in dem Zeitraum teilweise (idr. im Sommer) auch durchgeführt werden, so lange bis die Beschränkungen wieder verschärft wurden.
   - date: 2020-08
-    headline: "Ringelager FarbenmEEHr 2020"
-    text: "Großlager mit Teilnehmenden aus verschiedenen Pfadfinerverbänden in ganz Baden-Württemberg. **Musste aufgrund der Corona-Pandemie abgesagt werden**"
-  - date: 2020-08
-    headline: "Wanderlager der Pfadis durch den Schwarzwald"
-    text: "Auf dem Westweg war die Pfadistufe für 5 Tage unterwegs"
-  - date: 2022-04-10
+    headline: Ringelager Farbenm EEHr 2020
+    text: |-
+      Großlager mit Teilnehmenden aus verschiedenen Pfadfinerverbänden in ganz Baden-Württemberg. **Musste aufgrund der Corona-Pandemie abgesagt werden**
+
+      {{< popup-button "/chronik-galerie/2020-fala/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp
+  - date: 2020-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2020-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2021-04
+    headline: Georgstag
+    text: '{{< popup-button "/chronik-galerie/2021-georgstag/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2021-08
+    headline: Familienlager 2021
+    text: '{{< popup-button "/chronik-galerie/2021-fala/" "Galerie anzeigen" >}}'
+
+  - date: 2021-08
+    headline: Lagergottesdienst 2021
+    text: '{{< popup-button "/chronik-galerie/2021-lagergodie/" "Galerie anzeigen" >}}'
+  - date: "2021-08-01"
+    end: "2021-08-07"
+    headline: Wölflingslager 2021 in Prinzbach
+    text: |-
+      Sommerlager in Prinzbach im Schwarzwald. Die Wölflinge verbrachten eine Woche voller Abenteuer, Workshops und einem feierlichen Versprechen auf der Burgruine Hohengeroldseck.
+
+      {{< popup-button "/news/woelflingslager-2021/" "Mehr infos" >}}
+
+      {{< popup-button "/chronik-galerie/2021-woelager/" "Galerie anzeigen" >}}
+    media: /images/upload/2021/woelager/blaettle-019.webp
+  - date: "2021-08-02"
+    end: "2021-08-13"
+    headline: Jungpfadfinderlager 2021 in Bonndorf
+    text: |-
+      Zeltlager der Jungpfadfinder unter dem Motto „Vergangenheit“. Mit Lagerbauten, Geländespielen, einem Hike zum Turm Hohenbodmann und einem feierlichen Versprechen im Wald.
+
+      {{< popup-button "/news/jufi-sommerlager-2021/" "Galerie anzeigen" >}}
+    media: /images/upload/2021/jusola/blaettle-023.webp
+  - date: "2021-08-10"
+    end: "2021-08-18"
+    headline: Kanulager 2021 von Lübbenau nach Berlin
+    text: |-
+      Ein abenteuerliches Kanulager der Pfadfinder und Rover. Von Lübbenau aus ging es die Spree entlang bis nach Berlin, mit anschließenden Sightseeing-Tagen in der Hauptstadt.
+
+      {{< popup-button "/news/kanulager-2021/"  "Mehr infos" >}}
+    media: /images/upload/2021/kanulager/blaettle-029.webp
+  - date: 2021-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2021-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2022"
+    headline: Stammesversammlung
+    text: '{{< popup-button "/chronik-galerie/2022-stavers/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2022-04-10"
     end: 2022-04-18
-    headline: "Bundesunternehmen: roverVOCO"
-    text: "Auftakt mit der Region Mitte in Heidelberg. Projektphase in Duisburg. Gemeinsames Absschlusslager mit allen Teilnehmenden auf dem Gelände des Ziegeleipark Mildenberg in Brandenburg"
+    headline: "Bundesunternehmen: rover VOCO"
+    text: Auftakt mit der Region Mitte in Heidelberg. Projektphase in Duisburg. Gemeinsames Absschlusslager mit allen Teilnehmenden auf dem Gelände des Ziegeleipark Mildenberg in Brandenburg
+  - date: "2022-06-25"
+    headline: Spendenlauf - Jahresaktion 2022
+    text: |-
+      Laufen für den guten Zweck: 93 Läufer bewältigten insgesamt 1017 Runden für unsere Partnergemeinde Sicuani in Peru. Dabei kam eine unglaubliche Summe von etwa 7000 Euro zusammen.
+
+      {{< popup-button "/news/spendenlauf-bericht-2022/" "Mehr infos" >}}
+    media: /images/upload/2022/spendenlauf/blaettle-11-044.webp
+  - date: 2022-08
+    headline: Sommerlager 2022
+    text: |
+      {{< popup-button "/chronik-galerie/2022-lagergodi/" "Lagergottesdienst Galerie" >}}
+      {{< popup-button "/chronik-galerie/2022-pfadilager/" "Pfadfinderlager Galerie" >}}
+      {{< popup-button "/chronik-galerie/2022-fala/" "Familienlager Galerie" >}}
+  - date: "2022-08-01"
+    end: "2022-08-12"
+    headline: Jungpfadfinderlager 2022 in Mühlingen
+    text: |-
+      Sommerlager unter dem Motto „Harry Potter“. Die Jungpfadfinder bauten ihre eigenen Küchen, spielten Quidditch und bewiesen ihre Navigationsfähigkeiten beim Hike.
+
+      {{< popup-button "/news/jufi-sommerlager-2022/" "Mehr infos" >}}
+
+      {{< popup-button "/chronik-galerie/2022-jufilager/" "Galerie anzeigen" >}}
+    media: /images/upload/2022/jusola/blaettle-12-023.webp
+  - date: "2022-08-15"
+    end: "2022-08-25"
+    headline: Fahrradlager 2022 von Markelfingen nach Regensburg
+    text: |-
+      Die Pfadfinderstufe radelte 420 Kilometer entlang der Donau bis nach Regensburg. Unterwegs wurde in Pfarrheimen und auf Bauernhöfen übernachtet.
+
+      {{< popup-button "/news/fahrradlager-2022/" "Mehr infos" >}}
+    media: /images/upload/2022/fahrradlager/blaettle-13-014.webp
+  - date: 2022-12
+    headline: Wallfahrt 56
+    text: '{{< popup-button "/chronik-galerie/2022-wallfahrt-56/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2023"
+    headline: Track for Kidz
+    text: '{{< popup-button "/chronik-galerie/2023-tfk/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: 2023-04
+    headline: Georgstag
+    text: '{{< popup-button "/chronik-galerie/2023-georgstag/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2023-05-13"
+    headline: Spendenlauf - Jahresaktion 2023
+    text: |-
+      126 Läufer sammelten 6800€ für den Bau einer Schule in Ghana. Mit 1796 gelaufenen Runden war der Tag ein voller Erfolg für den guten Zweck.
+
+      {{< popup-button "/news/spendenlauf-bericht-2023/" "Mehr infos" >}}
+    media: /images/upload/2023/spendenlauf/blaettle-18-013.webp
+  - date: "2023-08-05"
+    end: "2023-08-12"
+    headline: "Stammeslager 2023: Asterix und Obelix"
+    text: |-
+      Das Stammeslager am Bruderhof stand ganz im Zeichen der Gallier. Wölflinge, Jufis und Pfadis befreiten Miraculix und feierten gemeinsam am Lagerfeuer.
+
+      {{< popup-button "/news/stammeslager-2023/" "Mehr infos" >}}
+
+      {{< popup-button "/chronik-galerie/2023-fala/" "Familienlager Galerie" >}}
+    media: /images/upload/2023/stammeslager/blaettle-19-027.webp
+  - date: 2023-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2023-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2024-04-18"
+    end: "2024-04-21"
+    headline: 72 Stunden Aktion 2024
+    text: |-
+      Einen schönen Platz im Römerstil mit etwas Natur in Markelfingen zu schaffen, ist unser Ziel der 72 Stunden Aktion.
+      Außerdem fertigen wir Sitzgelegenheiten für einen Grillplatz in Güttingen an.
+      Der Römerplatz soll aus mehreren Bänken, Bäumen und 2 Mosaiken im Boden bestehen.
+
+      {{< popup-button "/news/72h-aktion-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/72h/gruppenbild.jpg
   - date: 2024-05
-    headline: "Gewinn der Super-Rosskur"
-    text: 'Bei der Rosskur in Bruchsal erzielte das Team aus Markelfingen die meisten Punkte. Daher findet die Rosskur 2025 bei uns statt. Die Rosskur 2024 war unter dem Motto "Super Mario"'
-  # exported news posts
-  - date: "2026-05-13"
-    end: "2026-05-17"
-    headline: "Stammeslager 2026"
-    text: |
-      Am Mittwochnachmittag starteten die Wölflinge per Zug, während die Jufis bis Rover sich mit dem Fahrrad auf den Weg zum Lagerplatz nach Litzelstetten machten.
-      Kaum angekommen, wurde direkt mit dem Aufbau der Zelte begonnen. Nach der getanen Arbeit stärkten sich alle mit Spaghetti und Tomatensoße,
-      bevor der Abend mit einer lustigen Runde „Mein Leiter kann“ gemütlich beendet wurde. {{< popup-button "/news/stammeslager-2026/" "Mehr erfahren" >}}
-    media: "/images/upload/2026/Gruppenbild_Stala.webp"
-  - date: "2025-12-05"
-    end: "2025-12-07"
-    headline: "Friedenslicht Delegationsfahrt nach Linz 🕯️"
-    text: |
-      Letztes Jahr ging es für 3 von uns Leitern zur Internationalen Friedenslicht Aussendungsfeier nach Linz, die am 6.12.2025 im Mariendom stattfand.
-      Los ging es morgens am 5. mit dem Zug von Radolfzell bis nach Linz, wo wir abends ankamen. Nach der Ankunft gab es noch ein leckeres Abendessen in einem traditionell österreichischen Restaurant.
-      Übernachtet haben wir in einer Turnhalle zusammen mit den anderen deutschen Teilnehmern.  {{< popup-button "/news/friedenslicht-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2026/GroupPicture.webp"
-  - date: "2025-09-01"
-    end: "2025-09-11"
-    headline: "Pfadilager Hanseradweg 2025 🇳🇱"
-    text: |
-      Unser Pfadilager 2025 war eine unvergessliche Fahrradtour von Duisburg bis Amsterdam.
-      Über elf ereignisreiche Tage erlebten wir - eine Gruppe von zwölf Personen, darunter zehn Pfadis und zwei Leiter - ein Abenteuer voller Herausforderungen, Gemeinschaftserlebnisse und kultureller Entdeckungen.
-      Die Tour führte uns entlang des Rheins bis zur Niederländischen Grenze, weiter durch malerische Landschaften und historische Städte entlang der Ijsel und der Zuiderseen bis Nach Amsterdam.
-      Insgesamt legten wir 370 Kilometer auf dem Fahrrad zurück.  {{< popup-button "/news/hanseradweg-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2025/hanseradweg_allee.webp"
-  - date: "2025-09-06"
-    headline: "Wölflingslager 2025"
-    text: |
-      Am Samstag den 6.9. haben wir uns am Vormittag getroffen und schon ging es los Richtung St. Georgen in den Schwarzwald.
-      Kaum angekommen und schnell wurde fleißig fürs Mittagessen geschnippelt. Es folgten ein paar organisatorische Dinge wie zB. die Zimmeraufteilung oder die Regeln.
-      Nach ein bisschen Freizeit und Erkundung der Gegend gab es dann auch schon Nudeln mit Tomatensoße zum Abendessen.
-      Schließlich noch die Abendrunde und eine Gutenachtgeschichte und der erste Tag war auch wieder vorüber.
-      {{< popup-button "/news/woelflingslager-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2025/WöLa25-Gruppenbild.webp"
-  - date: "2025-09-01"
-    headline: "Jufilager 2025 🇨🇭"
-    text: |
-      Sommerlager 2025 in der Schweiz 12 Tage voller Abenteuer, Schlümpfe und Lagerfeuer!
-      Endlich war es so weit! Unser diesjähriges Sommerlager führte uns für 12 unvergessliche Tage in die wunderschöne Schweiz.
-      Vollgepackt mit Vorfreude und Abenteuerlust starteten wir unsere Reise mit dem Zug nach Gonten und legten die letzte Etappe zu unserem Lagerplatz zu Fuß zurück.
-      Kaum waren die Zelte und die Küche aufgebaut, wurden wir von einem heftigen Unwetter überrascht. Doch echte Pfadfinder lassen sich davon nicht unterkriegen!  {{< popup-button "/news/jufilager-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2025/JUFILAGER25Title.webp"
-  - date: "2025-08-08"
-    end: "2025-08-17"
-    headline: "CrOver 2025 🇸🇰"
-    text: |
-      Ein großer Teil unserer Roverrunde war vom 8. bis 17. August 2025 auf dem „CrOver“ in der Slowakei.
-      Das war ein Lager für alle Rover und Roverinnen aus der Region Mitte, zusätzlich haben uns auf dem Lagerplatz aber auch einige slowakische PfadfinderInnen besucht.
-      Das Lager war das Abschlusslager eines Projekts, das im vergangenen Oktober mit einem Auftaktwochenende in Mannheim gestartet hatte und uns so in die Projektphase eingeführt hat.
-      Das Ziel war es, während der Projektphase so viel CO2 einzusparen, dass das Abschlusslager im Endeffekt CO2-neutral war.
-      {{< popup-button "/news/crover-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2025/CroverGroup.webp"
-  - date: "2025-06-28"
-    headline: "Dorfgauditunier 2025"
-    text: |
-      Am Samstag, 28. Juni 2025 findet in Markelfingen das diesjjhrige Dorfgauditurnier statt.
-      Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
-      Wir freuen uns auf einen Tag voller Spaß und guter Laune! Das Tunier get von 10:00 bis 17:00 Uhr und findet am Riedstadion in Markelfingen statt.
-      Anschließend ist ab 18:00 Uhr Party mit Live Band.   {{< popup-button "/news/dorfgauditunier-2025/" "Mehr erfahren" >}}
-    media: "/images/upload/2025/gauditunier.webp"
-  - date: "2025-05-16"
-    end: "2025-05-18"
-    headline: "So war die Rosskur"
-    text: |
-      Wer am Wochenende vom 16. bis 18. Mai 2025 am Ortsausgang von Markelfingen in Richtung Allensbach vorbeikam, konnte einen ungewöhnlichen Anblick erleben Auf der Wiese standen zahlreiche Zelte und ein selbstgebautes Piratenboot.
-      Es war der Start- und Zielbereich sowie Lagerplatz der Rosskur 2025, einem 24-Stunden-Stationenlauf für Pfadfinderinnen und Pfadfinder der ältesten Stufe in der DPSG, den sogenannten Rovern.
-      {{< popup-button "/news/rosskur-bericht-2025/" "Mehr erfahren" >}}
-    media: "/images/galerie/rosskur/IMG_7889.webp"
-  - date: "2024-12-08"
-    headline: "Rosskur Trailer"
-    text: |
-      "Rover of the Carribean" ist das Motto der Rosskur, die dieses Jahr von uns organisiert wird.
-      Doch wie kommt es dazu? Wer kann daran teilnehmen und was ist bitte eine Rosskur?
-      {{< popup-button "/news/rosskur-2025/" "Mehr erfahren" >}}
-    media: https://www.youtube.com/watch?v=c1hPXJ-CM34
-  - date: "2024-08-31"
-    end: "2024-09-06"
-    headline: "Wölflingslager 2024"
-    text: |
-      Am Samstag, den 31. August sind wir in Nöggenschwiel im Pfadiheim angekommen und haben unser Gepäck in die Zimmer gebracht.
-      Alle hatten erstmal Freizeit und durften spielen.
-      Nach dem Essen und einer Abendrunde hörten wir noch eine Geschichte und gingen schlafen.
-      {{< popup-button "/news/woelflingslager-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/image0.jpeg"
-  - date: "2024-08-27"
-    end: "2024-09-07"
-    headline: "Wanderlager der Pfadis 2024"
-    text: |
-      Die Gruppe der Pfadistufe war diese Sommerferien auf einem Wanderlager in der Bretagne.
-      Das heißt, alles was täglich benötigt wird muss in Wanderrucksäcken mit sich getragen werden.
-      Zelte, Schlafsäcke und Isomatten, aber auch Essen, Töpfe und Geschirr.
-      Außerdem musste sich jeden Abend erneut auf die suche nach einem Schlafplatz gemacht werden.
-      {{< popup-button "/news/wanderlager-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/2024-08-29_10-08-00_Best0fWanderlager.jpg"
-  - date: "2024-08-26"
-    headline: "Jungpfadfinderlager 2024"
-    text: |
-      Am Montag, den 26. August, machten sich die Jungpfadfinder aus Markelfingen auf den Weg zum diesjährigen Sommerlager.
-      Voller Vorfreude ging es morgens um 8 Uhr mit der Bahn los zum Lagerplatz. Und welch ein Glück, ohne Verspätungen erreichten alle pünktlich zum Mittagessen Gutenstein an der Donau.
-      Angekommen am Lagerplatz erwartete uns eine Überraschung. Halva, ein echter Wikinger, begrüßte die Kinder und gab ihnen eine Einführung zu ihrem neuen Wikingerdorf,
-      in dem wir gemeinsam die nächsten zwei Wochen verbringen würden. Und natürlich darf dabei das Einrichten nicht fehlen!  {{< popup-button "/news/jufi-sommerlager-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/P1050589.webp"
-  - date: "2024-08-31"
-    end: "2024-09-06"
-    headline: "Wölflingslager 2024"
-    text: |
-      Am Samstag, den 31. August sind wir in Nöggenschwiel im Pfadiheim angekommen und haben unser Gepäck in die Zimmer gebracht.
-      Alle hatten erstmal Freizeit und durften spielen.
-      Nach dem Essen und einer Abendrunde hörten wir noch eine Geschichte und gingen schlafen.
-      {{< popup-button "/news/woelflingslager-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/image0.jpeg"
-  - date: "2024-07-19"
-    end: "2024-08-03"
-    headline: "Roverway 2024 🇳🇴"
-    text: |
-      Vom 19.07. bis zum 03.08.2024 war ein Teil unserer Roverrunde auf dem diesjährigen Roverway in Norwegen.
-      Das Roverway ist ein internationales Pfadfinderlager, das in der Regel alle 4 Jahre stattfindet, bei dem Pfadfinder und Pfadfinderinnen aus ganz Europa aber auch den anderen Teilen der Welt zusammenkommen.
-      Dieses Jahr waren insgesamt ca. 5500 Menschen dabei. Das Lager war für uns in drei verschiedenen Teile aufgeteilt: Die ersten drei Tage waren wir gemeinsam mit dem gesamten deutschen Kontingent (ca. 270 Personen) auf einem Zeltplatz in Fredrikstad im Süd-Osten von Norwegen.
-      Dort hatten wir viel Zeit die anderen deutschen Teilnehmenden kennenzulernen und schon mal ein bisschen von Norwegen zu erkunden.   {{< popup-button "/news/roverway-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/Roverway24-2024-07-27_21-47-38_Freddy-Handy.webp"
+    headline: Gewinn der Super-Rosskur
+    text: Bei der Rosskur in Bruchsal erzielte das Team aus Markelfingen die meisten Punkte. Daher findet die Rosskur 2025 bei uns statt. Die Rosskur 2024 war unter dem Motto "Super Mario"
+  - date: "2024-06-29"
+    headline: Dorfgauditunier
+    text: |-
+      Am 29. Juni 2024 findet in Markelfingen das Dorfgauditurnier statt.
+      Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen
+      Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
+      Wir freuen uns auf einen Tag voller Spaß und guter Laune!
+
+      {{< popup-button "/news/dorfgauditunier-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/Dorfgauditurnier-Plakat.webp
   - date: "2024-07-06"
-    headline: "1300 Jahr Feier"
-    text: |
+    headline: 1300 Jahr Feier
+    text: |-
       Am 06. und 07.07 findet in Markelfingen ein Festwochenende im Rahmen des 1300-jährigen Dorfjubiläums, statt.
       Neben viel Programm, dass sich thematisch rund um Markelfingen dreht, gibt es auch eine Festmeile mit verschiedenen Ständen.
       Auch wir werden mit unserem Stand ein Teil der Festmeile sein.
       Sowohl Kulinarik, als auch Entertainment kommt bei uns nicht zu kurz.
-      {{< popup-button "/news/1300-jahr-feier-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/1300-jahre-markelfingen.png"
-  - date: "2024-06-29"
-    headline: "Dorfgauditunier"
-    text: |
-      Am 29. Juni 2024 findet in Markelfingen das Dorfgauditurnier statt.
-      Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen
-      Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
-      Wir freuen uns auf einen Tag voller Spaß und guter Laune!   {{< popup-button "/news/dorfgauditunier-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/Dorfgauditurnier-Plakat.webp"
-  - date: "2024-04-18"
-    end: "2024-04-21"
-    headline: "72 Stunden Aktion 2024"
-    text: |
-      Einen schönen Platz im Römerstil mit etwas Natur in Markelfingen zu schaffen, ist unser Ziel der 72 Stunden Aktion.
-      Außerdem fertigen wir Sitzgelegenheiten für einen Grillplatz in Güttingen an.
-      Der Römerplatz soll aus mehreren Bänken, Bäumen und 2 Mosaiken im Boden bestehen.
-      {{< popup-button "/news/72h-aktion-2024/" "Mehr erfahren" >}}
-    media: "/images/upload/2024/72h/gruppenbild.jpg"
-  - date: "2023-08-05"
-    end: "2023-08-12"
-    headline: "Stammeslager 2023: Asterix und Obelix"
-    text: |
-      Das Stammeslager am Bruderhof stand ganz im Zeichen der Gallier. Wölflinge, Jufis und Pfadis befreiten Miraculix und feierten gemeinsam am Lagerfeuer. {{< popup-button "/news/stammeslager-2023/" "Mehr erfahren" >}}
-    media: "/images/upload/2023/stammeslager/blaettle-19-027.webp"
-  - date: "2023-05-13"
-    headline: "Spendenlauf - Jahresaktion 2023"
-    text: |
-      126 Läufer sammelten 6800€ für den Bau einer Schule in Ghana. Mit 1796 gelaufenen Runden war der Tag ein voller Erfolg für den guten Zweck. {{< popup-button "/news/spendenlauf-bericht-2023/" "Mehr erfahren" >}}
-    media: "/images/upload/2023/spendenlauf/blaettle-18-013.webp"
-  - date: "2022-08-15"
-    end: "2022-08-25"
-    headline: "Fahrradlager 2022 von Markelfingen nach Regensburg"
-    text: |
-      Die Pfadfinderstufe radelte 420 Kilometer entlang der Donau bis nach Regensburg. Unterwegs wurde in Pfarrheimen und auf Bauernhöfen übernachtet. {{< popup-button "/news/fahrradlager-2022/" "Mehr erfahren" >}}
-    media: "/images/upload/2022/fahrradlager/blaettle-13-014.webp"
-  - date: "2022-08-01"
-    end: "2022-08-12"
-    headline: "Jufilager 2022 in Mühlingen"
-    text: |
-      Sommerlager unter dem Motto „Harry Potter“. Die Jungpfadfinder bauten ihre eigenen Küchen, spielten Quidditch und bewiesen ihre Navigationsfähigkeiten beim Hike. {{< popup-button "/news/jufi-sommerlager-2022/" "Mehr erfahren" >}}
-    media: "/images/upload/2022/jusola/blaettle-12-023.webp"
-  - date: "2022-08-01"
-    end: "2022-08-07"
-    headline: "Wölflingslager 2022 in Bischofszell 🇨🇭"
-    text: |
-      Hauslager auf einem Bauernhof in der Schweiz. Als Piraten verkleidet suchten die Wölflinge nach Schätzen und feierten ihr Versprechen am Fluss. {{< popup-button "/news/woelflingslager-2022/" "Mehr erfahren" >}}
-    media: "/images/upload/2022/woelager/blaettle-12-017.webp"
-  - date: "2022-06-25"
-    headline: "Spendenlauf - Jahresaktion 2022"
-    text: |
-      Laufen für den guten Zweck: 93 Läufer bewältigten insgesamt 1017 Runden für unsere Partnergemeinde Sicuani in Peru. Dabei kam eine unglaubliche Summe von etwa 7000 Euro zusammen. {{< popup-button "/news/spendenlauf-bericht-2022/" "Mehr erfahren" >}}
-    media: "/images/upload/2022/spendenlauf/blaettle-11-044.webp"
-  - date: "2021-08-10"
-    end: "2021-08-18"
-    headline: "Kanulager 2021 von Lübbenau nach Berlin"
-    text: |
-      Ein abenteuerliches Kanulager der Pfadfinder und Rover. Von Lübbenau aus ging es die Spree entlang bis nach Berlin, mit anschließenden Sightseeing-Tagen in der Hauptstadt. {{< popup-button "/news/kanulager-2021/" "Mehr erfahren" >}}
-    media: "/images/upload/2021/kanulager/blaettle-029.webp"
-  - date: "2021-08-02"
-    end: "2021-08-13"
-    headline: "Jufilager 2021 in Bonndorf"
-    text: |
-      Zeltlager der Jungpfadfinder unter dem Motto „Vergangenheit“. Mit Lagerbauten, Geländespielen, einem Hike zum Turm Hohenbodmann und einem feierlichen Versprechen im Wald. {{< popup-button "/news/jufi-sommerlager-2021/" "Mehr erfahren" >}}
-    media: "/images/upload/2021/jusola/blaettle-023.webp"
-  - date: "2021-08-01"
-    end: "2021-08-07"
-    headline: "Wölflingslager 2021 in Prinzbach"
-    text: |
-      Sommerlager in Prinzbach im Schwarzwald. Die Wölflinge verbrachten eine Woche voller Abenteuer, Workshops und einem feierlichen Versprechen auf der Burgruine Hohengeroldseck. {{< popup-button "/news/woelflingslager-2021/" "Mehr erfahren" >}}
-    media: "/images/upload/2021/woelager/blaettle-019.webp"
-  - date: "2020-06-14"
-    headline: "Halstuchchallenge 2020"
-    text: |
-      Im Jahr 2020 nahmen wir an der Halstuchchallenge teil. Dabei nominierten wir andere Stämme aus der Umgebung. {{< popup-button "/news/halstuchchallenge-2020/" "Mehr erfahren" >}}
-    media: "https://cloud.dpsg-radolfzell.de/public.php/dav/files/halstuchchallenge/"
-  - date: "2019-05-23"
-    end: "2019-05-26"
-    headline: "72 Stunden Aktion 2019"
-    text: |
-      Die Diesjährige 72 Stunden Aktion war ein voller Erfolg.
-      In kürzester Zeit bauten wir eine Schutzhütte auf dem Kohlplatz in Markelfingen.
-      Vom 23.5.-26.5. hatten wir dafür Zeit.
-      {{< popup-button "/news/72h-aktion-2019/" "Mehr erfahren" >}}
-    media: "/images/upload/2019/logo-72-stunden-aktion-datum-gruen.webp"
-  - date: "2017-10-27"
-    headline: "Helmut Haselberger wird Ehrenbürger"
-    text: |
-      Helmut Haselberger, Mitbegründer des Stammes, wurde für seine kommunalpolitischen und gesellschaftlichen Verdienste zum 14. Ehrenbürger der Stadt Radolfzell ernannt.
-      Er prägte den Stamm über Jahrzehnte als Stammesführer und Vorbild. {{< popup-button "/news/ehrenbuerger-2017/" "Mehr erfahren" >}}
-    media: "/images/upload/2017/ehrenbuerger/aktuell.webp"
+
+      {{< popup-button "/news/1300-jahr-feier-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/1300-jahre-markelfingen.png
+  - date: "2024-07-19"
+    end: "2024-08-03"
+    headline: Roverway 2024 🇳🇴
+    text: |-
+      Vom 19.07. bis zum 03.08.2024 war ein Teil unserer Roverrunde auf dem diesjährigen Roverway in Norwegen.
+      Das Roverway ist ein internationales Pfadfinderlager, das in der Regel alle 4 Jahre stattfindet, bei dem Pfadfinder und Pfadfinderinnen aus ganz Europa aber auch den anderen Teilen der Welt zusammenkommen.
+      Dieses Jahr waren insgesamt ca. 5500 Menschen dabei. Das Lager war für uns in drei verschiedenen Teile aufgeteilt: Die ersten drei Tage waren wir gemeinsam mit dem gesamten deutschen Kontingent (ca. 270 Personen) auf einem Zeltplatz in Fredrikstad im Süd-Osten von Norwegen.
+      Dort hatten wir viel Zeit die anderen deutschen Teilnehmenden kennenzulernen und schon mal ein bisschen von Norwegen zu erkunden.
+
+      {{< popup-button "/news/roverway-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/Roverway24-2024-07-27_21-47-38_Freddy-Handy.webp
+  - date: "2024-08-26"
+    headline: Jungpfadfinderlager 2024
+    text: |-
+      Am Montag, den 26. August, machten sich die Jungpfadfinder aus Markelfingen auf den Weg zum diesjährigen Sommerlager.
+      Voller Vorfreude ging es morgens um 8 Uhr mit der Bahn los zum Lagerplatz. Und welch ein Glück, ohne Verspätungen erreichten alle pünktlich zum Mittagessen Gutenstein an der Donau.
+      Angekommen am Lagerplatz erwartete uns eine Überraschung. Halva, ein echter Wikinger, begrüßte die Kinder und gab ihnen eine Einführung zu ihrem neuen Wikingerdorf,
+      in dem wir gemeinsam die nächsten zwei Wochen verbringen würden. Und natürlich darf dabei das Einrichten nicht fehlen!
+
+      {{< popup-button "/news/jufi-sommerlager-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/P1050589.webp
+  - date: "2024-08-27"
+    end: "2024-09-07"
+    headline: Wanderlager der Pfadis 2024
+    text: |-
+      Die Gruppe der Pfadistufe war diese Sommerferien auf einem Wanderlager in der Bretagne.
+      Das heißt, alles war täglich benötigt wird muss in Wanderrucksäcken mit sich getragen werden.
+      Zelte, Schlafsäcke und Isomatten, aber auch Essen, Töpfe und Geschirr.
+      Außerdem musste sich jeden Abend erneut auf die suche nach einem Schlafplatz gemacht werden.
+
+      {{< popup-button "/news/wanderlager-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/2024-08-29_10-08-00_Best0fWanderlager.jpg
+  - date: "2024-08-31"
+    end: "2024-09-06"
+    headline: Wölflingslager 2024
+    text: |-
+      Am Samstag, den 31. August sind wir in Nöggenschwiel im Pfadiheim angekommen und haben unser Gepäck in die Zimmer gebracht.
+      Alle hatten erstmal Freizeit und durften spielen.
+      Nach dem Essen und einer Abendrunde hörten wir noch eine Geschichte und gingen schlafen.
+
+      {{< popup-button "/news/woelflingslager-2024/" "Mehr infos" >}}
+    media: /images/upload/2024/image0.jpeg
+  - date: "2024-12-08"
+    headline: Rosskur Trailer
+    text: |-
+      "Rover of the Carribean" ist das Motto der Rosskur, die dieses Jahr von uns organisiert wird.
+      Doch wie kommt es dazu? Wer kann daran teilnehmen und was ist bitte eine Rosskur?
+
+      {{< popup-button "/news/rosskur-2025/" "Mehr infos" >}}
+    media: https://www.youtube.com/watch?v=c1hPXJ-CM34
+  - date: "2025-05-16"
+    end: "2025-05-18"
+    headline: So war die Rosskur
+    text: |-
+      Wer am Wochenende vom 16. bis 18. Mai 2025 am Ortsausgang von Markelfingen in Richtung Allensbach vorbeikam, konnte einen ungewöhnlichen Anblick erleben Auf der Wiese standen zahlreiche Zelte und ein selbstgebautes Piratenboot.
+      Es war der Start- und Zielbereich sowie Lagerplatz der Rosskur 2025, einem 24-Stunden-Stationenlauf für Pfadfinderinnen und Pfadfinder der ältesten Stufe in der DPSG, den sogenannten Rovern.
+
+      {{< popup-button "/news/rosskur-bericht-2025/" "Mehr infos" >}}
+      {{< popup-button "/galerie/rosskur/" "Galerie anzeigen" >}}
+
+    media: /images/galerie/rosskur/IMG_7889.webp
+  - date: "2025-06-28"
+    headline: Dorfgauditunier 2025
+    text: |-
+      Am Samstag, 28. Juni 2025 findet in Markelfingen das diesjjhrige Dorfgauditurnier statt.
+      Gemeinsam mit dem SV Markelfingen sorgen wir als Pfadfinder dort für ein unterhaltsames Turnier in dem Teams in den Disziplinen Wasserbomben-Volleyball, menschliches Tischkicker und Bubble-Fußball gegeneinander antreten werden.
+      Wir freuen uns auf einen Tag voller Spaß und guter Laune! Das Tunier get von 10:00 bis 17:00 Uhr und findet am Riedstadion in Markelfingen statt.
+      Anschließend ist ab 18:00 Uhr Party mit Live Band.
+
+      {{< popup-button "/news/dorfgauditunier-2025/"  "Mehr infos" >}}
+    media: /images/upload/2025/gauditunier.webp
+  - date: "2025-08-08"
+    end: "2025-08-17"
+    headline: CrOver 2025 🇸🇰
+    text: |-
+      Ein großer Teil unserer Roverrunde war vom 8. bis 17. August 2025 auf dem „CrOver“ in der Slowakei.
+      Das war ein Lager für alle Rover und Roverinnen aus der Region Mitte, zusätzlich haben uns auf dem Lagerplatz aber auch einige slowakische PfadfinderInnen besucht.
+      Das Lager war das Abschlusslager eines Projekts, das im vergangenen Oktober mit einem Auftaktwochenende in Mannheim gestartet hatte und uns so in die Projektphase eingeführt hat.
+      Das Ziel war es, während der Projektphase so viel CO2 einzusparen, dass das Abschlusslager im Endeffekt CO2-neutral war.
+
+      {{< popup-button "/news/crover-2025/"  "Mehr infos" >}}
+    media: /images/upload/2025/CroverGroup.webp
+  - date: "2025-09-01"
+    end: "2025-09-11"
+    headline: Pfadfinderlager Hanseradweg 2025 🇳🇱
+    text: |-
+      Unser Pfadfinderlager 2025 war eine unvergessliche Fahrradtour von Duisburg bis Amsterdam.
+      Über elf ereignisreiche Tage erlebten wir - eine Gruppe von zwölf Personen, darunter zehn Pfadis und zwei Leiter - ein Abenteuer voller Herausforderungen, Gemeinschaftserlebnisse und kultureller Entdeckungen.
+      Die Tour führte uns entlang des Rheins bis zur Niederländischen Grenze, weiter durch malerische Landschaften und historische Städte entlang der Ijsel und der Zuiderseen bis Nach Amsterdam.
+      Insgesamt legten wir 370 Kilometer auf dem Fahrrad zurück.
+
+      {{< popup-button "/news/hanseradweg-2025/"  "Mehr infos" >}}
+    media: /images/upload/2025/hanseradweg_allee.webp
+  - date: "2025-09-01"
+    headline: Jungpfadfinderlager 2025 🇨🇭
+    text: |-
+      Sommerlager 2025 in der Schweiz 12 Tage voller Abenteuer, Schlümpfe und Lagerfeuer!
+      Endlich war es so weit! Unser diesjähriges Sommerlager führte uns für 12 unvergessliche Tage in die wunderschöne Schweiz.
+      Vollgepackt mit Vorfreude und Abenteuerlust starteten wir unsere Reise mit dem Zug nach Gonten und legten die letzte Etappe zu unserem Lagerplatz zu Fuß zurück.
+      Kaum waren die Zelte und die Küche aufgebaut, wurden wir von einem heftigen Unwetter überrascht. Doch echte Pfadfinder lassen sich davon nicht unterkriegen!
+
+      {{< popup-button "/news/jufilager-2025/"  "Mehr infos" >}}
+    media: /images/upload/2025/JUFILAGER25Title.webp
+  - date: "2025-09-06"
+    headline: Wölflingslager 2025
+    text: |-
+      Am Samstag den 6.9. haben wir uns am Vormittag getroffen und schon ging es los Richtung St. Georgen in den Schwarzwald.
+      Kaum angekommen und schnell wurde fleißig fürs Mittagessen geschnippelt. Es folgten ein paar organisatorische Dinge wie zB. die Zimmeraufteilung oder die Regeln.
+      Nach ein bisschen Freizeit und Erkundung der Gegend gab es dann auch schon Nudeln mit Tomatensoße zum Abendessen.
+      Schließlich noch die Abendrunde und eine Gutenachtgeschichte und der erste Tag war auch wieder vorüber.
+
+      {{< popup-button "/news/woelflingslager-2025/"  "Mehr infos" >}}
+    media: /images/upload/2025/WöLa25-Gruppenbild.webp
+  - date: 2025-12
+    headline: Wallfahrt
+    text: '{{< popup-button "/chronik-galerie/2025-wallfahrt/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2025-12-05"
+    end: "2025-12-07"
+    headline: Friedenslicht Delegationsfahrt nach Linz 🕯️
+    text: |-
+      Letztes Jahr ging es für 3 von uns Leitern zur Internationalen Friedenslicht Aussendungsfeier nach Linz, die am 6.12.2025 im Mariendom stattfand.
+      Los ging es morgens am 5. mit dem Zug von Radolfzell bis nach Linz, wo wir abends ankamen. Nach der Ankunft gab es noch ein leckeres Abendessen in einem traditionell österreichischen Restaurant.
+      Übernachtet haben wir in einer Turnhalle zusammen mit den anderen deutschen Teilnehmern.
+
+      {{< popup-button "/news/friedenslicht-2025/"  "Mehr infos">}}
+    media: /images/upload/2026/GroupPicture.webp
+  - date: "2026"
+    headline: Beerdigung Helmut
+    text: '{{< popup-button "/chronik-galerie/2026-beerdigunghelmut/" "Galerie anzeigen" >}}'
+    media: /img/banner_round.webp
+  - date: "2026-05-13"
+    end: "2026-05-17"
+    headline: Stammeslager 2026
+    text: |-
+      Am Mittwochnachmittag starteten die Wölflinge per Zug, während die Jufis bis Rover sich mit dem Fahrrad auf den Weg zum Lagerplatz nach Litzelstetten machten.
+      Kaum angekommen, wurde direkt mit dem Aufbau der Zelte begonnen. Nach der getanen Arbeit stärkten sich alle mit Spaghetti und Tomatensoße,
+      bevor der Abend mit einer lustigen Runde „Mein Leiter kann“ gemütlich beendet wurde.
+
+      {{< popup-button "/news/stammeslager-2026/"  "Mehr infos" >}}
+    media: /images/upload/2026/Gruppenbild_Stala.webp
+  - date: "2026-06-13"
+    headline: Jubiläum 70 Jahre
+    text: |-
+      Der Stamm wird 70 Jahre alt. Von den Feierlichkeiten gerade gibt es natürlich noch keine Bilder, aber bereits vom Aufbau
+
+      {{< popup-button "/chronik-galerie/2026-jubiläum70-aufbau/" "Galerie anzeigen" >}}
+    media: /img/banner_round.webp

@@ -1,0 +1,8 @@
+---
+title: "Jahresaktion Sem Trarra (1992)"
+page: true
+---
+
+{{< load-photoswipe >}}
+
+{{< gallery dir="images/chronik/1992_Jahresaktion_SemTrarra" caption-position="none" />}}
