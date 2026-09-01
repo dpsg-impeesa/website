@@ -3,7 +3,7 @@ date: 2026-08-06 12:00:00
 tags:
   - jungpfadfinder
   - sommerlager
-title: Jufibundesuternehmen 2026
+title: Jufi-Bundesunternehmen 2026
 type: post
 slug: jufilager
 thumbnail: /images/upload/2026/KuBlau_GroupPicKobold.webp
